@@ -1,25 +1,16 @@
-CLASS arv net/minecraft/entity/passive/LlamaEntity
-	CLASS arv$a ChaseWolvesGoal
-		METHOD <init> (Larv;)V
-			ARG 1 llama
-	FIELD bJ ATTR_STRENGTH Lqh;
-	FIELD bK CARPET_COLOR Lqh;
-	FIELD bL ATTR_VARIANT Lqh;
-	METHOD a setCarpetColor (Lbax;)V
-		ARG 1 color
-	METHOD eB isTrader ()Z
-	METHOD eC getStrength ()I
-	METHOD eD getVariant ()I
-	METHOD eE getCarpetColor ()Lbax;
-	METHOD eF createChild ()Larv;
-	METHOD eI isFollowing ()Z
-	METHOD eJ getFollowing ()Larv;
-	METHOD eK initializeStrength ()V
-	METHOD k getColorFromCarpet (Lbca;)Lbax;
-		ARG 0 color
-	METHOD u setVariant (I)V
-	METHOD v setStrength (I)V
-	METHOD h spitAt (Laio;)V
-		ARG 1 target
-	METHOD a breedWith (Laid;)Larv;
-		ARG 1 mate
+CLASS aks net/minecraft/entity/passive/LlamaEntity
+	CLASS aks$a ChaseWolvesGoal
+	FIELD bM ATTR_STRENGTH Lor;
+	FIELD bN CARPET_COLOR Lor;
+	FIELD bO ATTR_VARIANT Lor;
+	METHOD a setCarpetColor (Lasc;)V
+	METHOD eg getStrength ()I
+	METHOD eh getVariant ()I
+	METHOD ej getCarpetColor ()Lasc;
+	METHOD em isFollowing ()Z
+	METHOD en getFollowing ()Laks;
+	METHOD eo initializeStrength ()V
+	METHOD f spitAt (Lafa;)V
+	METHOD h getColorFromCarpet (Late;)Lasc;
+	METHOD s setVariant (I)V
+	METHOD t setStrength (I)V
