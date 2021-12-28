@@ -1,6 +1,4 @@
 CLASS dfe net/minecraft/client/model/Model
-	FIELD q cuboidList Ljava/util/List;
-	FIELD r textureWidth I
-	FIELD s textureHeight I
-	METHOD a getRandomCuboid (Ljava/util/Random;)Ldhb;
-		ARG 1 rand
+	FIELD c variant Ljava/lang/String;
+	METHOD b splitWithVariant (Ljava/lang/String;)[Ljava/lang/String;
+	METHOD c getVariant ()Ljava/lang/String;

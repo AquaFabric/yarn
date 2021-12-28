@@ -1,0 +1,4 @@
+CLASS blf
+	METHOD a with (Lbmm;Ljava/lang/Comparable;)Ljava/lang/Object;
+	METHOD b getEntries ()Lcom/google/common/collect/ImmutableMap;
+	METHOD c get (Lbmm;)Ljava/lang/Comparable;

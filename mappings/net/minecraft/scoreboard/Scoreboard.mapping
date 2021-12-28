@@ -1,68 +1,56 @@
-CLASS csv net/minecraft/scoreboard/Scoreboard
+CLASS cfc net/minecraft/scoreboard/Scoreboard
 	FIELD a objectives Ljava/util/Map;
 	FIELD b objectivesByCriterion Ljava/util/Map;
 	FIELD c playerObjectives Ljava/util/Map;
-	FIELD d objectiveSlots [Lcss;
+	FIELD d objectiveSlots [Lcez;
 	FIELD e teams Ljava/util/Map;
 	FIELD f teamsByPlayer Ljava/util/Map;
 	FIELD g displaySlotNames [Ljava/lang/String;
-	METHOD a getObjectiveForSlot (I)Lcss;
-	METHOD a setObjectiveSlot (ILcss;)V
-		ARG 1 slot
-	METHOD a resetEntityScore (Laif;)V
-	METHOD a updateObjective (Lcss;)V
-	METHOD a updateScoreboardTeamAndPlayers (Lcst;)V
-	METHOD a updateScore (Lcsu;)V
-		ARG 1 score
-	METHOD a forEachScore (Lcsy;Ljava/lang/String;Ljava/util/function/Consumer;)V
-		ARG 1 criterion
-		ARG 2 player
-		ARG 3 action
-	METHOD a fromTag (Lii;)V
+	METHOD <init> (IIIILcfi$a;)V
+		ARG 1 sourceX
+		ARG 2 sourceGroundY
+		ARG 3 sourceZ
+		ARG 4 deltaY
+		ARG 5 destProjection
+	METHOD a getObjectiveForSlot (I)Lcez;
+	METHOD a setObjectiveSlot (ILcez;)V
+	METHOD a resetEntityScore (Laer;)V
+	METHOD a updateObjective (Lcez;)V
+	METHOD a updateScoreboardTeamAndPlayers (Lcfa;)V
+	METHOD a updateScore (Lcfb;)V
+	METHOD a forEachScore (Lcff;Ljava/lang/String;Ljava/util/function/Consumer;)V
+	METHOD a fromTag (Lhe;)V
 	METHOD a updatePlayerScore (Ljava/lang/String;)V
-	METHOD a updatePlayerScore (Ljava/lang/String;Lcss;)V
-		ARG 1 playerName
-	METHOD a addPlayerToTeam (Ljava/lang/String;Lcst;)Z
-		ARG 1 playerName
-	METHOD a addObjective (Ljava/lang/String;Lcsy;Ljm;Lcsy$a;)Lcss;
-		ARG 1 name
-		ARG 2 criterion
-		ARG 3 displayName
-		ARG 4 renderType
+	METHOD a updatePlayerScore (Ljava/lang/String;Lcez;)V
+	METHOD a addPlayerToTeam (Ljava/lang/String;Lcfa;)Z
+	METHOD a addObjective (Ljava/lang/String;Lcff;Lij;Lcff$a;)Lcez;
 	METHOD b getDisplaySlotName (I)Ljava/lang/String;
-		ARG 0 slotId
-	METHOD b updateExistingObjective (Lcss;)V
-	METHOD b updateScoreboardTeam (Lcst;)V
+	METHOD b updateExistingObjective (Lcez;)V
+	METHOD b updateScoreboardTeam (Lcfa;)V
 	METHOD b containsObjective (Ljava/lang/String;)Z
-		ARG 1 name
-	METHOD b playerHasObjective (Ljava/lang/String;Lcss;)Z
-		ARG 1 playerName
-	METHOD b removePlayerFromTeam (Ljava/lang/String;Lcst;)V
-		ARG 1 playerName
+	METHOD b playerHasObjective (Ljava/lang/String;Lcez;)Z
+	METHOD b removePlayerFromTeam (Ljava/lang/String;Lcfa;)V
 	METHOD c getObjectives ()Ljava/util/Collection;
-	METHOD c updateRemovedObjective (Lcss;)V
-	METHOD c updateRemovedTeam (Lcst;)V
-	METHOD c getObjective (Ljava/lang/String;)Lcss;
-		ARG 1 name
-	METHOD c getPlayerScore (Ljava/lang/String;Lcss;)Lcsu;
-		ARG 1 player
+	METHOD c updateRemovedObjective (Lcez;)V
+	METHOD c updateRemovedTeam (Lcfa;)V
+	METHOD c getObjective (Ljava/lang/String;)Lcez;
+	METHOD c getPlayerScore (Ljava/lang/String;Lcez;)Lcfb;
 	METHOD d getObjectiveNames ()Ljava/util/Collection;
-	METHOD d removeTeam (Lcst;)V
-	METHOD d getNullableObjective (Ljava/lang/String;)Lcss;
-		ARG 1 name
-	METHOD d resetPlayerScore (Ljava/lang/String;Lcss;)V
-		ARG 1 playerName
+	METHOD d removeTeam (Lcfa;)V
+	METHOD d getNullableObjective (Ljava/lang/String;)Lcez;
+	METHOD d resetPlayerScore (Ljava/lang/String;Lcez;)V
 	METHOD e getKnownPlayers ()Ljava/util/Collection;
 	METHOD e getPlayerObjectives (Ljava/lang/String;)Ljava/util/Map;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
 	METHOD f getTeamNames ()Ljava/util/Collection;
-	METHOD f getTeam (Ljava/lang/String;)Lcst;
+	METHOD f getTeam (Ljava/lang/String;)Lcfa;
 	METHOD g getTeams ()Ljava/util/Collection;
-	METHOD g addTeam (Ljava/lang/String;)Lcst;
+	METHOD g addTeam (Ljava/lang/String;)Lcfa;
 	METHOD h getDisplaySlotNames ()[Ljava/lang/String;
 	METHOD h clearPlayerTeam (Ljava/lang/String;)Z
-	METHOD i toTag ()Lii;
-	METHOD i getAllPlayerScores (Lcss;)Ljava/util/Collection;
-	METHOD i getPlayerTeam (Ljava/lang/String;)Lcst;
-	METHOD j removeObjective (Lcss;)V
+	METHOD i toTag ()Lhe;
+	METHOD i getAllPlayerScores (Lcez;)Ljava/util/Collection;
+	METHOD i getPlayerTeam (Ljava/lang/String;)Lcfa;
+	METHOD j removeObjective (Lcez;)V
 	METHOD j getDisplaySlotId (Ljava/lang/String;)I
-		ARG 0 slotName

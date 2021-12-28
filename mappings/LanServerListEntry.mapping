@@ -1,0 +1,6 @@
+CLASS clz LanServerListEntry
+	FIELD c client Lcft;
+	FIELD d server Ldgi;
+	FIELD e screen Lclx;
+	FIELD f time J
+	METHOD e getLanServerEntry ()Ldgi;

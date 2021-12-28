@@ -1,0 +1,12 @@
+CLASS ddj
+	CLASS ddj$b Slot
+		FIELD a x I
+		FIELD b y I
+		FIELD c width I
+		FIELD d height I
+		FIELD e subSlots Ljava/util/List;
+		FIELD f texture Lddj$a;
+		METHOD a getTexture ()Lddj$a;
+		METHOD a tryFit (Lddj$a;)Z
+		METHOD b getX ()I
+		METHOD c getY ()I

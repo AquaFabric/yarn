@@ -1,2 +1,2 @@
-CLASS gg net/minecraft/particle/DefaultParticleType
-	FIELD a PARAMETER_FACTORY Lgd$a;
+CLASS fn net/minecraft/particle/DefaultParticleType
+	FIELD a PARAMETER_FACTORY Lfk$a;

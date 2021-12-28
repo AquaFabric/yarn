@@ -1,3 +1,8 @@
-CLASS dgi net/minecraft/client/render/entity/model/TridentEntityModel
-	FIELD a TEXTURE Lqs;
+CLASS cqd net/minecraft/client/render/entity/model/TridentEntityModel
+	FIELD a TEXTURE Lpc;
+	METHOD <init> ([Lcqy;ZLjava/util/List;Lcol$c;)V
+		ARG 1 conditions
+		ARG 2 replace
+		ARG 3 lore
+		ARG 4 entity
 	METHOD a renderItem ()V

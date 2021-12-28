@@ -1,15 +1,14 @@
-CLASS bo net/minecraft/advancement/criterion/RecipeUnlockedCriterion
-	CLASS bo$a Handler
-		FIELD a manager Lrb;
+CLASS bg net/minecraft/advancement/criterion/RecipeUnlockedCriterion
+	CLASS bg$a Handler
+		FIELD a manager Lpm;
 		FIELD b conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lbei;)V
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS bo$b Conditions
-		FIELD a recipe Lqs;
-		METHOD a matches (Lbei;)Z
-	FIELD a ID Lqs;
+		METHOD a handle (Lavk;)V
+		METHOD a addCondition (Ls$a;)V
+		METHOD b removeCondition (Ls$a;)V
+	CLASS bg$b Conditions
+		FIELD a recipe Lpc;
+		METHOD a matches (Lavk;)Z
+	FIELD a ID Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvh;Lbei;)V
-		ARG 1 player
+	METHOD a handle (Ltf;Lavk;)V

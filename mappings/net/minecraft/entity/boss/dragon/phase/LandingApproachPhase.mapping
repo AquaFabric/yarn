@@ -1,4 +1,1 @@
-CLASS aso net/minecraft/entity/boss/dragon/phase/LandingApproachPhase
-	FIELD b PLAYERS_IN_RANGE_PREDICATE Lapz;
-	METHOD <init> (Lasg;)V
-		ARG 1 dragon
+CLASS all net/minecraft/entity/boss/dragon/phase/LandingApproachPhase

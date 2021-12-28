@@ -1,8 +1,9 @@
-CLASS amm net/minecraft/entity/ai/goal/EatGrassGoal
+CLASS agk net/minecraft/entity/ai/goal/EatGrassGoal
 	FIELD a GRASS_PREDICATE Ljava/util/function/Predicate;
-	FIELD b mob Laip;
-	FIELD c world Lbhh;
+	FIELD b mob Lafb;
+	FIELD c world Laxy;
 	FIELD d timer I
-	METHOD <init> (Laip;)V
-		ARG 1 mob
+	METHOD <init> (Lagm;Ljava/util/concurrent/Executor;Ljava/lang/String;)V
+		ARG 1 mailbox
+		ARG 3 name
 	METHOD g getTimer ()I

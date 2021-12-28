@@ -1,1 +1,6 @@
-CLASS dfy net/minecraft/client/render/entity/model/ShulkerBulletEntityModel
+CLASS cpt net/minecraft/client/render/entity/model/ShulkerBulletEntityModel
+	METHOD <init> ([Lcqy;Lcok;)V
+		ARG 1 conditions
+		ARG 2 limit
+	METHOD a (Lcok;[Lcqy;)Lcpv;
+		ARG 1 conditions

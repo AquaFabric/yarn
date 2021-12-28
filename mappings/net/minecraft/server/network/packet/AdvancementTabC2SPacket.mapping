@@ -1,11 +1,8 @@
-CLASS ov net/minecraft/server/network/packet/AdvancementTabC2SPacket
-	CLASS ov$a Action
-	FIELD a action Lov$a;
-	FIELD b tabToOpen Lqs;
-	METHOD <init> (Lov$a;Lqs;)V
-		ARG 1 action
-		ARG 2 tab
-	METHOD a open (Lq;)Lov;
-	METHOD b close ()Lov;
-	METHOD c getAction ()Lov$a;
-	METHOD d getTabToOpen ()Lqs;
+CLASS ng net/minecraft/server/network/packet/AdvancementTabC2SPacket
+	CLASS ng$a Action
+	FIELD a action Lng$a;
+	FIELD b tabToOpen Lpc;
+	METHOD a open (Ll;)Lng;
+	METHOD b close ()Lng;
+	METHOD c getAction ()Lng$a;
+	METHOD d getTabToOpen ()Lpc;

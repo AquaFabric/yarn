@@ -1,2 +1,2 @@
-CLASS aty net/minecraft/entity/mob/ElderGuardianEntity
-	METHOD dW straightenTail ()V
+CLASS amv net/minecraft/entity/mob/ElderGuardianEntity
+	METHOD dz straightenTail ()V

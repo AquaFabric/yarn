@@ -1,48 +1,36 @@
-CLASS qk net/minecraft/entity/data/DataTracker
-	CLASS qk$a Entry
-		FIELD a data Lqh;
+CLASS ou net/minecraft/entity/data/DataTracker
+	CLASS ou$a Entry
+		FIELD a data Lor;
 		FIELD b value Ljava/lang/Object;
 		FIELD c dirty Z
-		METHOD <init> (Lqh;Ljava/lang/Object;)V
-			ARG 1 data
-			ARG 2 value
-		METHOD a getData ()Lqh;
+		METHOD a getData ()Lor;
 		METHOD a set (Ljava/lang/Object;)V
-			ARG 1 value
 		METHOD a setDirty (Z)V
-			ARG 1 dirty
 		METHOD b get ()Ljava/lang/Object;
 		METHOD c isDirty ()Z
-		METHOD d copy ()Lqk$a;
+		METHOD d copy ()Lou$a;
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b trackedEntities Ljava/util/Map;
-	FIELD c trackedEntity Laif;
+	FIELD c trackedEntity Laer;
 	FIELD d entries Ljava/util/Map;
 	FIELD e lock Ljava/util/concurrent/locks/ReadWriteLock;
 	FIELD f empty Z
 	FIELD g dirty Z
 	METHOD a isDirty ()Z
-	METHOD a registerData (Ljava/lang/Class;Lqi;)Lqh;
-		ARG 0 entityClass
-		ARG 1 dataHandler
+	METHOD a toPacketByteBuf (Lhy;)V
+	METHOD a entryFromPacket (Lhy;ILos;)Lou$a;
+	METHOD a writeEntryToPacket (Lhy;Lou$a;)V
+	METHOD a registerData (Ljava/lang/Class;Los;)Lor;
 	METHOD a writeUpdatedEntries (Ljava/util/List;)V
-	METHOD a entriesToPacket (Ljava/util/List;Ljc;)V
-	METHOD a toPacketByteBuf (Ljc;)V
-	METHOD a entryFromPacket (Ljc;ILqi;)Lqk$a;
-	METHOD a writeEntryToPacket (Ljc;Lqk$a;)V
-	METHOD a get (Lqh;)Ljava/lang/Object;
-	METHOD a startTracking (Lqh;Ljava/lang/Object;)V
-		ARG 1 key
-		ARG 2 initialValue
-	METHOD a copyToFrom (Lqk$a;Lqk$a;)V
-		ARG 1 destination
-		ARG 2 origin
+	METHOD a entriesToPacket (Ljava/util/List;Lhy;)V
+	METHOD a get (Lor;)Ljava/lang/Object;
+	METHOD a startTracking (Lor;Ljava/lang/Object;)V
+	METHOD a copyToFrom (Lou$a;Lou$a;)V
 	METHOD b getDirtyEntries ()Ljava/util/List;
-	METHOD b deserializePacket (Ljc;)Ljava/util/List;
-	METHOD b getEntry (Lqh;)Lqk$a;
-	METHOD b set (Lqh;Ljava/lang/Object;)V
-		ARG 1 key
+	METHOD b deserializePacket (Lhy;)Ljava/util/List;
+	METHOD b getEntry (Lor;)Lou$a;
+	METHOD b set (Lor;Ljava/lang/Object;)V
 	METHOD c getAllEntries ()Ljava/util/List;
-	METHOD c addTrackedData (Lqh;Ljava/lang/Object;)V
+	METHOD c addTrackedData (Lor;Ljava/lang/Object;)V
 	METHOD d isEmpty ()Z
 	METHOD e clearDirty ()V

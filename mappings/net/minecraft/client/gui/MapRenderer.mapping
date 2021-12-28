@@ -1,19 +1,21 @@
-CLASS cwd net/minecraft/client/gui/MapRenderer
-	CLASS cwd$a MapTexture
-		FIELD b mapState Lcnv;
-		FIELD c texture Ldtw;
-		FIELD d id Lqs;
+CLASS cgn net/minecraft/client/gui/MapRenderer
+	CLASS cgn$a MapTexture
+		FIELD b mapState Lcbs;
+		FIELD c texture Lddb;
+		FIELD d id Lpc;
 		METHOD a updateTexture ()V
 		METHOD a draw (Z)V
-			ARG 1 hidePlayerSpecific
-	FIELD a MAP_ICONS_TEXTURE Lqs;
-	FIELD b textureManager Lduh;
+	FIELD a MAP_ICONS_TEXTURE Lpc;
+	FIELD b textureManager Lddn;
 	FIELD c mapTextures Ljava/util/Map;
+	METHOD <init> (IDDLbyq$a;)V
+		ARG 1 noiseToCountRatio
+		ARG 2 noiseFactor
+		ARG 4 noiseOffset
+		ARG 6 heightmap
 	METHOD a clearStateTextures ()V
-	METHOD a updateTexture (Lcnv;)V
-	METHOD a draw (Lcnv;Z)V
-		ARG 2 hidePlayerSpecific
-	METHOD a getState (Lcwd$a;)Lcnv;
-		ARG 1 texture
-	METHOD a getTexture (Ljava/lang/String;)Lcwd$a;
-	METHOD b getMapTexture (Lcnv;)Lcwd$a;
+	METHOD a updateTexture (Lcbs;)V
+	METHOD a draw (Lcbs;Z)V
+	METHOD a getState (Lcgn$a;)Lcbs;
+	METHOD a getTexture (Ljava/lang/String;)Lcgn$a;
+	METHOD b getMapTexture (Lcbs;)Lcgn$a;

@@ -1,4 +1,5 @@
-CLASS cwe net/minecraft/client/gui/ClientChatListener
-	METHOD a onChatMessage (Ljk;Ljm;)V
-		ARG 1 messageType
-		ARG 2 message
+CLASS cgo net/minecraft/client/gui/ClientChatListener
+	METHOD <init> (II)V
+		ARG 1 min
+		ARG 2 max
+	METHOD a onChatMessage (Lih;Lij;)V

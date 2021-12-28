@@ -1,8 +1,12 @@
 CLASS ccy net/minecraft/world/gen/feature/PillagerOutpostFeature
 	CLASS ccy$a Start
+		FIELD a id Lpc;
+		FIELD b type Ljava/lang/Class;
 		METHOD <init> (Lcej;IILbie;Lchr;IJ)V
 			ARG 2 chunkX
 			ARG 3 chunkZ
-	FIELD a MONSTER_SPAWNS Ljava/util/List;
+		METHOD a getIdentifier ()Lpc;
+		METHOD b getType ()Ljava/lang/Class;
 	METHOD <init> (Ljava/util/function/Function;)V
 		ARG 1 configFactory
+	METHOD a process (Late;Ljava/util/Random;Lccr;)Late;

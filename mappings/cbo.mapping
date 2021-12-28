@@ -1,0 +1,3 @@
+CLASS cbo
+	METHOD a fromTag (Lgy;)V
+	METHOD b toTag (Lgy;)Lgy;

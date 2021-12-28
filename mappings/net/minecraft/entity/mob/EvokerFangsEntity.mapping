@@ -1,20 +1,10 @@
-CLASS awf net/minecraft/entity/mob/EvokerFangsEntity
-	FIELD b warmup I
-	FIELD d ticksLeft I
-	FIELD e hasAttacked Z
-	FIELD f owner Laio;
-	FIELD g ownerUuid Ljava/util/UUID;
-	METHOD <init> (Lbhh;DDDFILaio;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 9 warmup
-		ARG 10 owner
+CLASS aoo net/minecraft/entity/mob/EvokerFangsEntity
+	FIELD a warmup I
+	FIELD c ticksLeft I
+	FIELD d hasAttacked Z
+	FIELD e owner Lafa;
+	FIELD f ownerUuid Ljava/util/UUID;
 	METHOD a getAnimationProgress (F)F
-		ARG 1 tickDelta
-	METHOD a setOwner (Laio;)V
-		ARG 1 owner
-	METHOD c damage (Laio;)V
-		ARG 1 target
-	METHOD f getOwner ()Laio;
+	METHOD a setOwner (Lafa;)V
+	METHOD c damage (Lafa;)V
+	METHOD f getOwner ()Lafa;

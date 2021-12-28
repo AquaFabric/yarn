@@ -1,2 +1,1 @@
-CLASS ber net/minecraft/recipe/SpecialRecipeSerializer
-	FIELD t id Ljava/util/function/Function;
+CLASS tj net/minecraft/recipe/SpecialRecipeSerializer

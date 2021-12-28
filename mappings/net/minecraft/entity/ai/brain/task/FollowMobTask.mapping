@@ -1,6 +1,8 @@
 CLASS aku net/minecraft/entity/ai/brain/task/FollowMobTask
-	FIELD a mobType Ljava/util/function/Predicate;
-	FIELD b maxDistanceSquared F
+	FIELD bN trapped Z
+	FIELD bO trapTime I
 	METHOD <init> (Laij;F)V
 		ARG 1 mobType
 		ARG 2 maxDistanceSquared
+	METHOD dy isTrapped ()Z
+	METHOD s setTrapped (Z)V

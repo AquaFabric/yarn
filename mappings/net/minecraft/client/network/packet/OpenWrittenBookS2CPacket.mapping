@@ -1,3 +1,5 @@
 CLASS lu net/minecraft/client/network/packet/OpenWrittenBookS2CPacket
-	FIELD a hand Lagz;
-	METHOD b getHand ()Lagz;
+	FIELD a soundId Lpc;
+	FIELD b category Lwk;
+	METHOD b getSoundId ()Lpc;
+	METHOD c getCategory ()Lwk;

@@ -1,2 +1,10 @@
-CLASS cmm net/minecraft/world/biome/layer/ScaleLayer
-	FIELD b FUZZY Lcmm;
+CLASS cak net/minecraft/world/biome/layer/ScaleLayer
+	FIELD b FUZZY Lcak;
+	METHOD <init> (Lcab;Lcfv;)V
+		ARG 1 feature
+		ARG 2 decorator
+	METHOD <init> (Lcbd;Lcbe;Lcgt;Lcan;)V
+		ARG 1 feature
+		ARG 2 featureConfig
+		ARG 3 decorator
+		ARG 4 decoratorConfig

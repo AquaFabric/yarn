@@ -1,11 +1,9 @@
-CLASS bk net/minecraft/predicate/NbtPredicate
-	FIELD a ANY Lbk;
-	FIELD b tag Lib;
+CLASS bc net/minecraft/predicate/NbtPredicate
+	FIELD a ANY Lbc;
+	FIELD b tag Lgy;
 	METHOD a serialize ()Lcom/google/gson/JsonElement;
-	METHOD a test (Laif;)Z
-	METHOD a test (Lbca;)Z
-	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lbk;
-		ARG 0 element
-	METHOD a test (Lis;)Z
-	METHOD b entityToTag (Laif;)Lib;
-		ARG 0 entity
+	METHOD a test (Laer;)Z
+	METHOD a test (Late;)Z
+	METHOD a deserialize (Lcom/google/gson/JsonElement;)Lbc;
+	METHOD a test (Lho;)Z
+	METHOD b entityToTag (Laer;)Lgy;

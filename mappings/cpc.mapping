@@ -1,0 +1,3 @@
+CLASS cpc
+	METHOD a setAngles (FFFFFFLaer;)V
+	METHOD a render (Laer;FFFFFF)V

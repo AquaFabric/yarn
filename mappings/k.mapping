@@ -1,0 +1,10 @@
+CLASS k
+	CLASS k$a IdentityHashStrategy
+	CLASS k$b OperatingSystem
+		FIELD c WINDOWS Lk$b;
+		FIELD d MAC Lk$b;
+		METHOD a open (Ljava/io/File;)V
+		METHOD a open (Ljava/lang/String;)V
+		METHOD a open (Ljava/net/URI;)V
+		METHOD a open (Ljava/net/URL;)V
+		METHOD b getURLOpenCommand (Ljava/net/URL;)[Ljava/lang/String;

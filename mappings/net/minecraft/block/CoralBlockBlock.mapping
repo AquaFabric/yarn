@@ -1,8 +1,3 @@
-CLASS bnj net/minecraft/block/CoralBlockBlock
-	FIELD a deadCoralBlock Lbml;
-	METHOD <init> (Lbml;Lbml$c;)V
-		ARG 1 deadCoralBlock
-		ARG 2 settings
-	METHOD a isInWater (Lbgr;Lev;)Z
-		ARG 1 world
-		ARG 2 pos
+CLASS bdq net/minecraft/block/CoralBlockBlock
+	FIELD a deadCoralBlock Lbcs;
+	METHOD a isInWater (Laxk;Lel;)Z

@@ -1,44 +1,31 @@
-CLASS ddn net/minecraft/client/RunArgs
-	CLASS ddn$a Directories
+CLASS cnq net/minecraft/client/RunArgs
+	CLASS cnq$a WindowSettings
+		FIELD a width I
+		FIELD b height I
+		FIELD c fullscreenWidth Ljava/util/Optional;
+		FIELD d fullscreenHeight Ljava/util/Optional;
+		FIELD e fullscreen Z
+	CLASS cnq$b Directories
 		FIELD a runDir Ljava/io/File;
 		FIELD b resourcePackDir Ljava/io/File;
 		FIELD c assetDir Ljava/io/File;
 		FIELD d assetIndex Ljava/lang/String;
-		METHOD <init> (Ljava/io/File;Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
-			ARG 1 runDir
-			ARG 2 resPackDir
-			ARG 3 assetDir
-			ARG 4 assetIndex
-		METHOD a getResourceIndex ()Ldun;
-	CLASS ddn$b Game
+		METHOD a getResourceIndex ()Lddz;
+	CLASS cnq$c Game
 		FIELD a demo Z
 		FIELD b version Ljava/lang/String;
 		FIELD c versionType Ljava/lang/String;
-		METHOD <init> (ZLjava/lang/String;Ljava/lang/String;)V
-			ARG 1 demo
-			ARG 2 version
-			ARG 3 versionType
-	CLASS ddn$c AutoConnect
+	CLASS cnq$d AutoConnect
 		FIELD a serverIP Ljava/lang/String;
 		FIELD b serverPort I
-		METHOD <init> (Ljava/lang/String;I)V
-			ARG 1 serverIP
-			ARG 2 serverPort
-	CLASS ddn$d Network
-		FIELD a session Lcvt;
+	CLASS cnq$e Network
+		FIELD a session Lcga;
 		FIELD c profileProperties Lcom/mojang/authlib/properties/PropertyMap;
 		FIELD d netProxy Ljava/net/Proxy;
-		METHOD <init> (Lcvt;Lcom/mojang/authlib/properties/PropertyMap;Lcom/mojang/authlib/properties/PropertyMap;Ljava/net/Proxy;)V
-			ARG 1 session
-			ARG 4 proxy
-	FIELD a network Lddn$d;
-	FIELD b windowSettings Lctp;
-	FIELD c directories Lddn$a;
-	FIELD d game Lddn$b;
-	FIELD e autoConnect Lddn$c;
-	METHOD <init> (Lddn$d;Lctp;Lddn$a;Lddn$b;Lddn$c;)V
-		ARG 1 network
-		ARG 2 windowSettings
-		ARG 3 dirs
-		ARG 4 game
-		ARG 5 autoConnect
+	FIELD a network Lcnq$e;
+	FIELD b windowSettings Lcnq$a;
+	FIELD c directories Lcnq$b;
+	FIELD d game Lcnq$c;
+	FIELD e autoConnect Lcnq$d;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 key

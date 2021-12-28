@@ -1,1 +1,12 @@
-CLASS dfd net/minecraft/client/render/entity/model/MinecartEntityModel
+CLASS cpb net/minecraft/client/render/entity/model/MinecartEntityModel
+	METHOD <init> (Lbbv;II[Lcqy;[Lcpv;)V
+		ARG 1 item
+		ARG 2 weight
+		ARG 3 quality
+		ARG 4 conditions
+		ARG 5 functions
+	METHOD a (Lbhg;II[Lcqy;[Lcpv;)Lcpf;
+		ARG 1 weight
+		ARG 2 quality
+		ARG 3 conditions
+		ARG 4 functions

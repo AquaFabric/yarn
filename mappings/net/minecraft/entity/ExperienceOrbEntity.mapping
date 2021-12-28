@@ -1,22 +1,12 @@
-CLASS ail net/minecraft/entity/ExperienceOrbEntity
-	FIELD b renderTicks I
-	FIELD c orbAge I
-	FIELD d pickupDelay I
-	FIELD e health I
-	FIELD f amount I
-	FIELD g target Lavx;
-	METHOD <init> (Lbhh;DDDI)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 amount
+CLASS aex net/minecraft/entity/ExperienceOrbEntity
+	FIELD a renderTicks I
+	FIELD b orbAge I
+	FIELD c pickupDelay I
+	FIELD d health I
+	FIELD e amount I
+	FIELD f target Laog;
 	METHOD a roundToOrbSize (I)I
-		ARG 0 value
 	METHOD b getMendingRepairCost (I)I
-		ARG 1 repairAmount
 	METHOD c getMendingRepairAmount (I)I
-		ARG 1 experienceAmount
 	METHOD f getExperienceAmount ()I
 	METHOD i getOrbSize ()I
-	METHOD k applyWaterMovement ()V

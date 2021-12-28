@@ -1,10 +1,7 @@
-CLASS dl net/minecraft/command/arguments/PosArgument
+CLASS da net/minecraft/command/arguments/PosArgument
 	METHOD a isXRelative ()Z
-	METHOD a toAbsolutePos (Lcd;)Lcrv;
-		ARG 1 source
+	METHOD a toAbsolutePos (Lbu;)Lcee;
 	METHOD b isYRelative ()Z
-	METHOD b toAbsoluteRotation (Lcd;)Lcru;
-		ARG 1 source
+	METHOD b toAbsoluteRotation (Lbu;)Lced;
 	METHOD c isZRelative ()Z
-	METHOD c toAbsoluteBlockPos (Lcd;)Lev;
-		ARG 1 source
+	METHOD c toAbsoluteBlockPos (Lbu;)Lel;

@@ -1,4 +1,4 @@
-CLASS bud net/minecraft/block/entity/JukeboxBlockEntity
-	FIELD a record Lbca;
-	METHOD a setRecord (Lbca;)V
-	METHOD c getRecord ()Lbca;
+CLASS bjx net/minecraft/block/entity/JukeboxBlockEntity
+	FIELD a record Late;
+	METHOD a setRecord (Late;)V
+	METHOD c getRecord ()Late;

@@ -1,3 +1,7 @@
 CLASS dgv net/minecraft/client/render/entity/model/DragonHeadEntityModel
-	FIELD b head Ldhb;
-	FIELD c jaw Ldhb;
+	FIELD a sounds Ljava/util/List;
+	FIELD b random Ljava/util/Random;
+	FIELD c id Lpc;
+	FIELD d subtitle Lij;
+	METHOD a add (Ldgw;)V
+	METHOD c getSubtitle ()Lij;

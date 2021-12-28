@@ -1,5 +1,5 @@
-CLASS ahb net/minecraft/util/TypedActionResult
-	FIELD a result Laha;
+CLASS adn net/minecraft/util/TypedActionResult
+	FIELD a result Ladm;
 	FIELD b value Ljava/lang/Object;
-	METHOD a getResult ()Laha;
+	METHOD a getResult ()Ladm;
 	METHOD b getValue ()Ljava/lang/Object;

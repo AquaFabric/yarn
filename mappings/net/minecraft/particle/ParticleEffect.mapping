@@ -1,12 +1,7 @@
-CLASS gd net/minecraft/particle/ParticleEffect
-	CLASS gd$a Factory
-		METHOD b read (Lge;Lcom/mojang/brigadier/StringReader;)Lgd;
-			ARG 1 type
-			ARG 2 reader
-		METHOD b read (Lge;Ljc;)Lgd;
-			ARG 1 type
-			ARG 2 buf
+CLASS fk net/minecraft/particle/ParticleEffect
+	CLASS fk$a Factory
+		METHOD b read (Lfl;Lcom/mojang/brigadier/StringReader;)Lfk;
+		METHOD b read (Lfl;Lhy;)Lfk;
 	METHOD a asString ()Ljava/lang/String;
-	METHOD a write (Ljc;)V
-		ARG 1 buf
-	METHOD b getType ()Lge;
+	METHOD a write (Lhy;)V
+	METHOD b getType ()Lfl;

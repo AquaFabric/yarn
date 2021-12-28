@@ -1,7 +1,4 @@
 CLASS dam net/minecraft/client/gui/container/AbstractFurnaceScreen
-	FIELD k recipeBook Ldca;
-	FIELD l RECIPE_BUTTON_TEXTURE Lqs;
-	FIELD m narrow Z
 	METHOD charTyped (CI)Z
 		ARG 1 chr
 		ARG 2 keyCode

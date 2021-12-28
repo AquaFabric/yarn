@@ -1,13 +1,5 @@
-CLASS blz net/minecraft/block/CoralParentBlock
-	FIELD a SHAPE Lcsp;
-	FIELD b WATERLOGGED Lbwb;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a checkLivingConditions (Lbvj;Lbhi;Lev;)V
-		ARG 1 state
-		ARG 2 world
-		ARG 3 pos
-	METHOD b_ isInWater (Lbvj;Lbgr;Lev;)Z
-		ARG 0 state
-		ARG 1 world
-		ARG 2 pos
+CLASS bck net/minecraft/block/CoralParentBlock
+	FIELD a SHAPE Lcew;
+	FIELD b WATERLOGGED Lbmb;
+	METHOD a checkLivingConditions (Lblc;Laxz;Lel;)V
+	METHOD b_ isInWater (Lblc;Laxk;Lel;)Z

@@ -1,12 +1,11 @@
-CLASS btn net/minecraft/block/entity/BlockEntityType
-	CLASS btn$a Builder
+CLASS bjj net/minecraft/block/entity/BlockEntityType
+	CLASS bjj$a Builder
 		FIELD a supplier Ljava/util/function/Supplier;
-		METHOD a build (Lcom/mojang/datafixers/types/Type;)Lbtn;
-		METHOD a create (Ljava/util/function/Supplier;)Lbtn$a;
-			ARG 0 supplier
-	FIELD G LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD H supplier Ljava/util/function/Supplier;
-	FIELD I type Lcom/mojang/datafixers/types/Type;
-	METHOD a instantiate ()Lbtm;
-	METHOD a getId (Lbtn;)Lqs;
-	METHOD a create (Ljava/lang/String;Lbtn$a;)Lbtn;
+		METHOD a build (Lcom/mojang/datafixers/types/Type;)Lbjj;
+		METHOD a create (Ljava/util/function/Supplier;)Lbjj$a;
+	FIELD A supplier Ljava/util/function/Supplier;
+	FIELD B type Lcom/mojang/datafixers/types/Type;
+	FIELD z LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD a getId (Lbjj;)Lpc;
+	METHOD a create (Ljava/lang/String;Lbjj$a;)Lbjj;
+	METHOD b instantiate ()Lbji;

@@ -1,5 +1,2 @@
-CLASS arp net/minecraft/entity/WaterCreatureEntity
-	METHOD <init> (Laij;Lbhh;)V
-		ARG 1 type
+CLASS akl net/minecraft/entity/WaterCreatureEntity
 	METHOD a tickBreath (I)V
-		ARG 1 breath

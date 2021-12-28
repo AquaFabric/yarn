@@ -1,21 +1,15 @@
-CLASS jb net/minecraft/network/NetworkState
-	FIELD a HANDSHAKING Ljb;
-	FIELD b PLAY Ljb;
-	FIELD c STATUS Ljb;
-	FIELD d LOGIN Ljb;
-	FIELD e STATES [Ljb;
+CLASS hx net/minecraft/network/NetworkState
+	FIELD a HANDSHAKING Lhx;
+	FIELD b PLAY Lhx;
+	FIELD c STATUS Lhx;
+	FIELD d LOGIN Lhx;
+	FIELD e STATES [Lhx;
 	FIELD f HANDLER_STATE_MAP Ljava/util/Map;
 	FIELD g id I
 	FIELD h packetHandlerMap Ljava/util/Map;
 	METHOD a getId ()I
-	METHOD a byId (I)Ljb;
-		ARG 0 id
-	METHOD a getPacketHandlerState (Lka;)Ljb;
-		ARG 0 handler
-	METHOD a getPacketHandler (Lkb;I)Lka;
-		ARG 1 side
-	METHOD a addPacket (Lkb;Ljava/lang/Class;)Ljb;
-		ARG 1 receivingSide
-		ARG 2 packetClass
-	METHOD a getPacketId (Lkb;Lka;)Ljava/lang/Integer;
-		ARG 1 side
+	METHOD a byId (I)Lhx;
+	METHOD a getPacketHandlerState (Liv;)Lhx;
+	METHOD a getPacketHandler (Liw;I)Liv;
+	METHOD a getPacketId (Liw;Liv;)Ljava/lang/Integer;
+	METHOD a addPacket (Liw;Ljava/lang/Class;)Lhx;

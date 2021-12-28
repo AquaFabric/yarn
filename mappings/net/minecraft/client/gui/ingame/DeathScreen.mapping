@@ -1,6 +1,4 @@
 CLASS cyx net/minecraft/client/gui/ingame/DeathScreen
-	FIELD a ticksSinceDeath I
-	FIELD b message Ljm;
 	METHOD <init> (Ljm;Z)V
 		ARG 1 message
 	METHOD mouseClicked (DDI)Z

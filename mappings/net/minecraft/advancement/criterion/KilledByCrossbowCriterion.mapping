@@ -1,17 +1,17 @@
 CLASS bd net/minecraft/advancement/criterion/KilledByCrossbowCriterion
 	CLASS bd$a Handler
-		FIELD a tracker Lrb;
+		FIELD a manager Lpm;
 		FIELD b conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
-		METHOD a trigger (Lvh;Ljava/util/Collection;I)V
-		METHOD a add (Lx$a;)V
-		METHOD b remove (Lx$a;)V
+		METHOD a addCondition (Ls$a;)V
+		METHOD a handle (Ltd;Lcee;DDD)V
+		METHOD b removeCondition (Ls$a;)V
 	CLASS bd$b Conditions
-		FIELD a victims [Lav;
-		FIELD b uniqueEntityTypes Lbi$d;
-		METHOD a create (Lbi$d;)Lbd$b;
-		METHOD a matches (Lvh;Ljava/util/Collection;I)Z
-		METHOD a create ([Lav$a;)Lbd$b;
-	FIELD a ID Lqs;
+		FIELD a entered Lay;
+		FIELD b exited Lay;
+		FIELD c distance Lai;
+		METHOD a distance (Lai;)Lbd$b;
+		METHOD a matches (Ltd;Lcee;DDD)Z
+	FIELD a ID Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a trigger (Lvh;Ljava/util/Collection;I)V
+	METHOD a handle (Ltf;Lcee;)V

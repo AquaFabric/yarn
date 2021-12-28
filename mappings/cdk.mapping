@@ -1,0 +1,8 @@
+CLASS cdk
+	CLASS cdk$a Factory
+		FIELD a id Lpc;
+		FIELD b conditionClass Ljava/lang/Class;
+		METHOD a getId ()Lpc;
+		METHOD a toJson (Lcom/google/gson/JsonObject;Lcdk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getConditionClass ()Ljava/lang/Class;
+		METHOD b fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcdk;

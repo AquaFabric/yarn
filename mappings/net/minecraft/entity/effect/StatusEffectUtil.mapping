@@ -1,7 +1,5 @@
-CLASS aia net/minecraft/entity/effect/StatusEffectUtil
-	METHOD a durationToString (Lahz;F)Ljava/lang/String;
-		ARG 0 effect
-		ARG 1 multiplier
-	METHOD a hasHaste (Laio;)Z
-	METHOD b getHasteAmplifier (Laio;)I
-	METHOD c hasWaterBreathing (Laio;)Z
+CLASS ael net/minecraft/entity/effect/StatusEffectUtil
+	METHOD a durationToString (Laek;F)Ljava/lang/String;
+	METHOD a hasHaste (Lafa;)Z
+	METHOD b getHasteAmplifier (Lafa;)I
+	METHOD c hasWaterBreathing (Lafa;)Z

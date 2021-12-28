@@ -1,4 +1,4 @@
-CLASS dmx net/minecraft/client/render/block/entity/EndPortalBlockEntityRenderer
-	FIELD c SKY_TEX Lqs;
-	FIELD d PORTAL_TEX Lqs;
+CLASS cwm net/minecraft/client/render/block/entity/EndPortalBlockEntityRenderer
+	FIELD c SKY_TEX Lpc;
+	FIELD d PORTAL_TEX Lpc;
 	FIELD e RANDOM Ljava/util/Random;

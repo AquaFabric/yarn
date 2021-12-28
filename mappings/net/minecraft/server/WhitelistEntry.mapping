@@ -1,3 +1,2 @@
-CLASS xy net/minecraft/server/WhitelistEntry
+CLASS vx net/minecraft/server/WhitelistEntry
 	METHOD b deserializeProfile (Lcom/google/gson/JsonObject;)Lcom/mojang/authlib/GameProfile;
-		ARG 0 json

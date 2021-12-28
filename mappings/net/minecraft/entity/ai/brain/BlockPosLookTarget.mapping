@@ -1,5 +1,8 @@
 CLASS ajr net/minecraft/entity/ai/brain/BlockPosLookTarget
-	FIELD a blockPos Lev;
-	FIELD b pos Lcrv;
+	FIELD bI eggLayTime I
+	FIELD bJ jockey Z
+	FIELD bK BREEDING_INGREDIENT Lavh;
 	METHOD <init> (Lev;)V
 		ARG 1 blockPos
+	METHOD dy hasJockey ()Z
+	METHOD s setHasJockey (Z)V

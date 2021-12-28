@@ -1,7 +1,7 @@
-CLASS oq net/minecraft/server/network/packet/ClientCommandC2SPacket
-	CLASS oq$a Mode
+CLASS nb net/minecraft/server/network/packet/ClientCommandC2SPacket
+	CLASS nb$a Mode
 	FIELD a entityId I
-	FIELD b mode Loq$a;
+	FIELD b mode Lnb$a;
 	FIELD c mountJumpHeight I
-	METHOD c getMode ()Loq$a;
+	METHOD c getMode ()Lnb$a;
 	METHOD d getMountJumpHeight ()I

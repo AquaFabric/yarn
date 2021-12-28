@@ -1,2 +1,2 @@
-CLASS cnp net/minecraft/scoreboard/ScoreboardSynchronizer
-	FIELD a compound Lcnq;
+CLASS cbn net/minecraft/scoreboard/ScoreboardSynchronizer
+	FIELD a compound Lcbo;

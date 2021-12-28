@@ -1,62 +1,34 @@
-CLASS dbt net/minecraft/client/gui/ingame/StructureBlockScreen
-	CLASS dbt$1
-		METHOD charTyped (CI)Z
-			ARG 1 chr
-			ARG 2 keyCode
-	FIELD A buttonDetect Lcwo;
-	FIELD B buttonEntities Lcwo;
-	FIELD C buttonMirror Lcwo;
-	FIELD D buttonShowAir Lcwo;
-	FIELD E buttonShowBoundingBox Lcwo;
-	FIELD F decimalFormat Ljava/text/DecimalFormat;
-	FIELD a structureBlock Lbum;
-	FIELD b mirror Lbpw;
-	FIELD c rotation Lbqw;
-	FIELD d mode Lbwr;
-	FIELD e ignoreEntities Z
-	FIELD f showAir Z
-	FIELD g showBoundingBox Z
-	FIELD h inputName Lcwu;
-	FIELD i inputPosX Lcwu;
-	FIELD j inputPosY Lcwu;
-	FIELD k inputPosZ Lcwu;
-	FIELD l inputSizeX Lcwu;
-	FIELD m inputSizeY Lcwu;
-	FIELD n inputSizeZ Lcwu;
-	FIELD o inputIntegrity Lcwu;
-	FIELD p inputSeed Lcwu;
-	FIELD q inputMetadata Lcwu;
-	FIELD r buttonDone Lcwo;
-	FIELD s buttonCancel Lcwo;
-	FIELD t buttonSave Lcwo;
-	FIELD u buttonLoad Lcwo;
-	FIELD v buttonRotate0 Lcwo;
-	FIELD w buttonRotate90 Lcwo;
-	FIELD x buttonRotate180 Lcwo;
-	FIELD y buttonRotate270 Lcwo;
-	FIELD z buttonMode Lcwo;
-	METHOD <init> (Lbum;)V
-		ARG 1 structureBlock
-	METHOD a done ()V
+CLASS clu net/minecraft/client/gui/ingame/StructureBlockScreen
+	FIELD F buttonDone Lcgu;
+	FIELD G buttonCancel Lcgu;
+	FIELD H buttonSave Lcgu;
+	FIELD I buttonLoad Lcgu;
+	FIELD J buttonRotate0 Lcgu;
+	FIELD K buttonRotate90 Lcgu;
+	FIELD L buttonRotate180 Lcgu;
+	FIELD M buttonRotate270 Lcgu;
+	FIELD N buttonMode Lcgu;
+	FIELD O buttonDetect Lcgu;
+	FIELD P buttonEntities Lcgu;
+	FIELD Q buttonMirror Lcgu;
+	FIELD R buttonShowAir Lcgu;
+	FIELD S buttonShowBoundingBox Lcgu;
+	FIELD U decimalFormat Ljava/text/DecimalFormat;
+	FIELD f structureBlock Lbkf;
+	FIELD g mirror Lbfz;
+	FIELD h rotation Lbhb;
+	FIELD i mode Lbmr;
+	FIELD s ignoreEntities Z
+	FIELD t showAir Z
+	FIELD u showBoundingBox Z
 	METHOD a parseLong (Ljava/lang/String;)J
-	METHOD b cancel ()V
 	METHOD b parseFloat (Ljava/lang/String;)F
-	METHOD c updateIgnoreEntitiesButton ()V
 	METHOD c parseInt (Ljava/lang/String;)I
-	METHOD d updateShowAirButton ()V
-	METHOD e updateShowBoundingBoxButton ()V
-	METHOD f updateMirrorButton ()V
-	METHOD g updateRotationButton ()V
-	METHOD h updateMode ()V
-	METHOD keyPressed (III)Z
-		ARG 1 keyCode
-		ARG 2 scanCode
-		ARG 3 modifiers
-	METHOD render (IIF)V
-		ARG 1 mouseX
-		ARG 2 mouseY
-		ARG 3 delta
-	METHOD resize (Lcvi;II)V
-		ARG 1 client
-		ARG 2 width
-		ARG 3 height
+	METHOD h done ()V
+	METHOD i cancel ()V
+	METHOD j updateIgnoreEntitiesButton ()V
+	METHOD k updateShowAirButton ()V
+	METHOD m updateShowBoundingBoxButton ()V
+	METHOD o updateMirrorButton ()V
+	METHOD s updateRotationButton ()V
+	METHOD u updateMode ()V

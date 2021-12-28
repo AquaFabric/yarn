@@ -1,2 +1,2 @@
-CLASS bcr net/minecraft/server/network/ServerItemCooldownManager
-	FIELD a player Lvh;
+CLASS atv net/minecraft/server/network/ServerItemCooldownManager
+	FIELD a player Ltf;

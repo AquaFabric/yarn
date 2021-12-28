@@ -1,19 +1,14 @@
-CLASS cxt net/minecraft/client/toast/ToastManager
-	CLASS cxt$a Entry
-		FIELD b instance Lcxs;
-		METHOD <init> (Lcxt;Lcxs;)V
-			ARG 1 instance
-		METHOD a getInstance ()Lcxs;
+CLASS cib net/minecraft/client/toast/ToastManager
+	CLASS cib$a Entry
+		FIELD b instance Lcia;
+		METHOD a getInstance ()Lcia;
 		METHOD a draw (II)Z
 		METHOD a getDissapearProgress (J)F
-			ARG 1 time
-	FIELD a client Lcvi;
-	FIELD b visibleEntries [Lcxt$a;
-	FIELD c toastQueue Ljava/util/Deque;
+	FIELD a client Lcft;
+	FIELD f visibleEntries [Lcib$a;
+	FIELD g toastQueue Ljava/util/Deque;
 	METHOD a draw ()V
-	METHOD a add (Lcxs;)V
-	METHOD a getToast (Ljava/lang/Class;Ljava/lang/Object;)Lcxs;
-		ARG 1 toastClass
-		ARG 2 type
+	METHOD a add (Lcia;)V
+	METHOD a getToast (Ljava/lang/Class;Ljava/lang/Object;)Lcia;
 	METHOD b clear ()V
-	METHOD c getGame ()Lcvi;
+	METHOD c getGame ()Lcft;

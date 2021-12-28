@@ -1,4 +1,2 @@
-CLASS ane net/minecraft/entity/ai/goal/LookAtCustomerGoal
-	FIELD f trader Lavg;
-	METHOD <init> (Lavg;)V
-		ARG 1 trader
+CLASS ahc net/minecraft/entity/ai/goal/LookAtCustomerGoal
+	FIELD e trader Laob;

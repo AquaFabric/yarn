@@ -1,2 +1,2 @@
-CLASS gs net/minecraft/data/report/BlockListProvider
-	FIELD c root Lgi;
+CLASS fz net/minecraft/data/report/BlockListProvider
+	FIELD b root Lfp;

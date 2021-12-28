@@ -1,28 +1,24 @@
-CLASS axn net/minecraft/entity/vehicle/BoatEntity
-	CLASS axn$a Location
-	CLASS axn$b Type
+CLASS apj net/minecraft/entity/vehicle/BoatEntity
+	CLASS apj$a Location
+	CLASS apj$b Type
 		FIELD g name Ljava/lang/String;
-		FIELD h baseBlock Lbml;
+		FIELD h baseBlock Lbcs;
 		METHOD a getName ()Ljava/lang/String;
-		METHOD a getType (I)Laxn$b;
-		METHOD a getType (Ljava/lang/String;)Laxn$b;
-		METHOD b getBaseBlock ()Lbml;
-	FIELD aI location Laxn$a;
-	FIELD aJ lastLocation Laxn$a;
-	FIELD e BOAT_TYPE Lqh;
-	FIELD f LEFT_PADDLE_MOVING Lqh;
-	FIELD g RIGHT_PADDLE_MOVING Lqh;
-	METHOD <init> (Lbhh;DDD)V
-		ARG 1 world
-		ARG 2 x
+		METHOD a getType (I)Lapj$b;
+		METHOD a getType (Ljava/lang/String;)Lapj$b;
+		METHOD b getBaseBlock ()Lbcs;
+	FIELD aL location Lapj$a;
+	FIELD aM lastLocation Lapj$a;
+	FIELD d BOAT_TYPE Lor;
+	FIELD e LEFT_PADDLE_MOVING Lor;
+	FIELD f RIGHT_PADDLE_MOVING Lor;
 	METHOD a getPaddleState (I)Z
-		ARG 1 paddle
-	METHOD a copyEntityData (Laif;)V
-	METHOD a setBoatType (Laxn$b;)V
+	METHOD a copyEntityData (Laer;)V
+	METHOD a setBoatType (Lapj$b;)V
 	METHOD a setPaddleState (ZZ)V
-	METHOD f asItem ()Lbbv;
-	METHOD i getPaddleSoundEvent ()Lyj;
-	METHOD p getBoatType ()Laxn$b;
-	METHOD s checkLocation ()Laxn$a;
-	METHOD u checKBoatInWater ()Z
-	METHOD v getUnderWaterLocation ()Laxn$a;
+	METHOD f asItem ()Lata;
+	METHOD i getPaddleSoundEvent ()Lwi;
+	METHOD p getBoatType ()Lapj$b;
+	METHOD s checkLocation ()Lapj$a;
+	METHOD t checKBoatInWater ()Z
+	METHOD u getUnderWaterLocation ()Lapj$a;

@@ -1,52 +1,39 @@
-CLASS dne net/minecraft/client/render/chunk/ChunkRenderer
+CLASS cwt net/minecraft/client/render/chunk/ChunkRenderer
 	FIELD a chunkUpdateCount I
-	FIELD b data Ldnc;
-	FIELD c boundingBox Lcrq;
-	FIELD d world Lbhh;
-	FIELD e renderer Ldkm;
+	FIELD b data Lcwr;
+	FIELD c boundingBox Lcea;
+	FIELD d world Laxy;
+	FIELD e renderer Lcue;
 	FIELD f lock Ljava/util/concurrent/locks/ReentrantLock;
 	FIELD g dataLock Ljava/util/concurrent/locks/ReentrantLock;
-	FIELD h task Ldmz;
+	FIELD h task Lcwo;
 	FIELD i blockEntities Ljava/util/Set;
-	FIELD j buffers [Lcun;
-	FIELD l rebuildScheduled Z
-	FIELD m origin Lev$a;
-	FIELD n neighborPositions [Lev$a;
-	FIELD o rebuildOnClientThread Z
+	FIELD k buffers [Lddv;
+	FIELD m rebuildScheduled Z
+	FIELD n origin Lel$a;
+	FIELD o neighborPositions [Lel$a;
+	FIELD p rebuildOnClientThread Z
+	METHOD <init> (Lcvi;)V
+		ARG 1 client
 	METHOD a delete ()V
-	METHOD a resortTransparency (FFFLdmz;)V
+	METHOD a resortTransparency (FFFLcwo;)V
 	METHOD a setOrigin (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a endBufferBuilding (Lbgs;FFFLcuj;Ldnc;)V
-	METHOD a beginBufferBuilding (Lcuj;Lev;)V
-	METHOD a setData (Ldnc;)V
-		ARG 1 data
-	METHOD a isChunkNonEmpty (Lev;Lbhh;)Z
-		ARG 0 pos
-		ARG 1 world
-	METHOD a getNeighborPosition (Lfa;)Lev;
-		ARG 1 direction
+	METHOD a endBufferBuilding (Laxl;FFFLctq;Lcwr;)V
+	METHOD a beginBufferBuilding (Lctq;Lel;)V
+	METHOD a setData (Lcwr;)V
+	METHOD a getNeighborPosition (Leq;)Lel;
 	METHOD a scheduleRebuild (Z)V
-		ARG 1 rebuildOnClientThread
-	METHOD b shouldBuild ()Z
-	METHOD b rebuildChunk (FFFLdmz;)V
-		ARG 1 cameraX
-		ARG 2 cameraY
-		ARG 3 cameraZ
-		ARG 4 task
-	METHOD b getGlBuffer (I)Lcun;
-		ARG 1 layer
-	METHOD c cancel ()V
-	METHOD d getLock ()Ljava/util/concurrent/locks/ReentrantLock;
-	METHOD e startRebuild ()Ldmz;
-	METHOD f startResortTransparency ()Ldmz;
-	METHOD g getSquaredCameraDistance ()D
-	METHOD h getData ()Ldnc;
+	METHOD b cancel ()V
+	METHOD b rebuildChunk (FFFLcwo;)V
+	METHOD b getGlBuffer (I)Lddv;
+	METHOD c getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD d startRebuild ()Lcwo;
+	METHOD e startResortTransparency ()Lcwo;
+	METHOD f getSquaredCameraDistance ()D
+	METHOD h getData ()Lcwr;
 	METHOD i clear ()V
-	METHOD k getOrigin ()Lev;
+	METHOD k getOrigin ()Lel;
 	METHOD l unscheduleRebuild ()V
 	METHOD m shouldRebuild ()Z
 	METHOD n shouldRebuildOnClientThread ()Z
-	METHOD o getWorld ()Lbhh;
+	METHOD o getWorld ()Laxy;

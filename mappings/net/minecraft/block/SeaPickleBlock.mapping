@@ -1,11 +1,8 @@
-CLASS bra net/minecraft/block/SeaPickleBlock
-	FIELD a PICKLES Lbwj;
-	FIELD b WATERLOGGED Lbwb;
-	FIELD c ONE_PICKLE_SHAPE Lcsp;
-	FIELD d TWO_PICKLES_SHAPE Lcsp;
-	FIELD e THREE_PICKLES_SHAPE Lcsp;
-	FIELD f FOUR_PICKLES_SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD j isDry (Lbvj;)Z
-		ARG 1 state
+CLASS bhf net/minecraft/block/SeaPickleBlock
+	FIELD a PICKLES Lbmj;
+	FIELD b WATERLOGGED Lbmb;
+	FIELD c ONE_PICKLE_SHAPE Lcew;
+	FIELD o TWO_PICKLES_SHAPE Lcew;
+	FIELD p THREE_PICKLES_SHAPE Lcew;
+	FIELD q FOUR_PICKLES_SHAPE Lcew;
+	METHOD k isDry (Lblc;)Z

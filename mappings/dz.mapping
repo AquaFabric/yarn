@@ -1,0 +1,5 @@
+CLASS dz
+	CLASS dz$a Entry
+		FIELD a argClass Ljava/lang/Class;
+		FIELD b serializer Ldy;
+		FIELD c id Lpc;

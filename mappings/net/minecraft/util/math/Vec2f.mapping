@@ -1,7 +1,5 @@
-CLASS cru net/minecraft/util/math/Vec2f
-	FIELD a ZERO Lcru;
+CLASS ced net/minecraft/util/math/Vec2f
+	FIELD a ZERO Lced;
 	FIELD i x F
 	FIELD j y F
-	METHOD <init> (FF)V
-		ARG 1 x
-	METHOD c equals (Lcru;)Z
+	METHOD c equals (Lced;)Z

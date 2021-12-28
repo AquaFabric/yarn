@@ -1,4 +1,2 @@
-CLASS brv net/minecraft/block/SignBlock
-	FIELD c ROTATION Lbwj;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS bhy net/minecraft/block/SignBlock
+	FIELD c ROTATION Lbmj;

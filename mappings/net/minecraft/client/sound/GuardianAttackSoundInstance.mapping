@@ -1,2 +1,2 @@
-CLASS dwn net/minecraft/client/sound/GuardianAttackSoundInstance
-	FIELD o guardian Lauf;
+CLASS dfp net/minecraft/client/sound/GuardianAttackSoundInstance
+	FIELD n guardian Lanc;

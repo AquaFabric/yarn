@@ -1,5 +1,3 @@
-CLASS brx net/minecraft/block/GourdBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD d getStem ()Lbrw;
-	METHOD e getAttachedStem ()Lblr;
+CLASS bia net/minecraft/block/GourdBlock
+	METHOD d getStem ()Lbhz;
+	METHOD e getAttachedStem ()Lbcf;

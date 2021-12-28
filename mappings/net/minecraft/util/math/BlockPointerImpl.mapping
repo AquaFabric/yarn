@@ -1,5 +1,3 @@
-CLASS ex net/minecraft/util/math/BlockPointerImpl
-	FIELD a world Lbhh;
-	FIELD b pos Lev;
-	METHOD <init> (Lbhh;Lev;)V
-		ARG 1 world
+CLASS en net/minecraft/util/math/BlockPointerImpl
+	FIELD a world Laxy;
+	FIELD b pos Lel;

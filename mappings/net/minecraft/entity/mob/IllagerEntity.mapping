@@ -1,6 +1,10 @@
 CLASS atr net/minecraft/entity/mob/IllagerEntity
-	CLASS atr$a State
-	CLASS atr$b LongDoorInteractGoal
+	FIELD a SOUND_ITEM_MAP Ljava/util/Map;
+	FIELD c comparatorOutput I
+	FIELD d sound Lwi;
 	METHOD <init> (Laij;Lbhh;)V
 		ARG 1 type
-	METHOD l getState ()Latr$a;
+	METHOD a bySound (Lwi;)Latr;
+	METHOD d getComparatorOutput ()I
+	METHOD e getDescription ()Lij;
+	METHOD f getSound ()Lwi;

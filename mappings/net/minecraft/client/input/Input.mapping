@@ -1,11 +1,8 @@
-CLASS djt net/minecraft/client/input/Input
-	FIELD a movementSideways F
-	FIELD b movementForward F
-	FIELD c pressingForward Z
-	FIELD d pressingBack Z
-	FIELD e pressingLeft Z
-	FIELD f pressingRight Z
+CLASS cth net/minecraft/client/input/Input
+	FIELD c hasBuffer Z
 	FIELD g jumping Z
 	FIELD h sneaking Z
-	METHOD a getMovementInput ()Lcru;
-	METHOD a tick (ZZ)V
+	METHOD <init> (Ljava/nio/ByteBuffer;Ljavax/sound/sampled/AudioFormat;)V
+		ARG 1 sample
+		ARG 2 format
+	METHOD b getMovementInput ()Lced;

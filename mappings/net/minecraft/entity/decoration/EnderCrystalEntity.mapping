@@ -1,9 +1,8 @@
-CLASS asf net/minecraft/entity/decoration/EnderCrystalEntity
-	FIELD c BEAM_TARGET Lqh;
-	FIELD d SHOW_BOTTOM Lqh;
-	METHOD a crystalDestroyed (Laho;)V
-		ARG 1 source
-	METHOD a setBeamTarget (Lev;)V
+CLASS alc net/minecraft/entity/decoration/EnderCrystalEntity
+	FIELD b BEAM_TARGET Lor;
+	FIELD c SHOW_BOTTOM Lor;
+	METHOD a crystalDestroyed (Laea;)V
+	METHOD a setBeamTarget (Lel;)V
 	METHOD a setShowBottom (Z)V
-	METHOD f getBeamTarget ()Lev;
+	METHOD f getBeamTarget ()Lel;
 	METHOD i getShowBottom ()Z

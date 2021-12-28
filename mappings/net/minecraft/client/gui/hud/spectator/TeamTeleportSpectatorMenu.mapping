@@ -1,6 +1,6 @@
-CLASS ddk net/minecraft/client/gui/hud/spectator/TeamTeleportSpectatorMenu
-	CLASS ddk$a TeleportToSpecificTeamCommand
-		FIELD b team Lcst;
-		FIELD c skinId Lqs;
+CLASS cnn net/minecraft/client/gui/hud/spectator/TeamTeleportSpectatorMenu
+	CLASS cnn$a TeleportToSpecificTeamCommand
+		FIELD b team Lcfa;
+		FIELD c skinId Lpc;
 		FIELD d scoreboardEntries Ljava/util/List;
 	FIELD a commands Ljava/util/List;

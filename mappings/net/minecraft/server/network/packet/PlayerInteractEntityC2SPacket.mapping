@@ -1,10 +1,10 @@
-CLASS og net/minecraft/server/network/packet/PlayerInteractEntityC2SPacket
-	CLASS og$a InteractionType
+CLASS ms net/minecraft/server/network/packet/PlayerInteractEntityC2SPacket
+	CLASS ms$a InteractionType
 	FIELD a entityId I
-	FIELD b type Log$a;
-	FIELD c hitPos Lcrv;
-	FIELD d hand Lagz;
-	METHOD a getEntity (Lbhh;)Laif;
-	METHOD b getType ()Log$a;
-	METHOD c getHand ()Lagz;
-	METHOD d getHitPosition ()Lcrv;
+	FIELD b type Lms$a;
+	FIELD c hitPos Lcee;
+	FIELD d hand Ladk;
+	METHOD a getEntity (Laxy;)Laer;
+	METHOD b getType ()Lms$a;
+	METHOD c getHand ()Ladk;
+	METHOD d getHitPosition ()Lcee;

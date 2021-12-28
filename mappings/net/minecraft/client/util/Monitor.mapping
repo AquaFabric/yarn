@@ -1,14 +1,14 @@
-CLASS ctu net/minecraft/client/util/Monitor
-	FIELD a monitorTracker Lcty;
+CLASS cfu net/minecraft/client/util/Monitor
+	FIELD a monitorTracker Lcgc;
 	FIELD b handle J
 	FIELD c videoModes Ljava/util/List;
-	FIELD d currentVideoMode Lcua;
+	FIELD d currentVideoMode Lcgb;
 	FIELD e x I
 	FIELD f y I
 	METHOD a populateVideoModes ()V
-	METHOD a getVideoMode (I)Lcua;
-	METHOD a findClosestVideoMode (Ljava/util/Optional;)Lcua;
-	METHOD b getCurrentVideoMode ()Lcua;
+	METHOD a getVideoMode (I)Lcgb;
+	METHOD a findClosestVideoMode (Ljava/util/Optional;)Lcgb;
+	METHOD b getCurrentVideoMode ()Lcgb;
 	METHOD b findClosestVideoModeIndex (Ljava/util/Optional;)I
 	METHOD c getViewportX ()I
 	METHOD d getViewportY ()I

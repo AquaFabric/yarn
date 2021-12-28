@@ -1,1 +1,7 @@
-CLASS deo net/minecraft/client/render/entity/model/EvokerFangsEntityModel
+CLASS cop net/minecraft/client/render/entity/model/EvokerFangsEntityModel
+	METHOD <init> (Lcql;[Lcoo;[Lcpv;)V
+		ARG 1 contextType
+		ARG 2 pools
+		ARG 3 functions
+	METHOD a (Ljava/util/function/Consumer;Lbca;)V
+		ARG 1 stack

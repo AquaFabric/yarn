@@ -1,8 +1,12 @@
 CLASS he net/minecraft/data/server/recipe/RecipeJsonProvider
-	METHOD a toJson ()Lcom/google/gson/JsonObject;
-	METHOD a serialize (Lcom/google/gson/JsonObject;)V
-		ARG 1 json
-	METHOD b getRecipeId ()Lqs;
-	METHOD c getSerializer ()Lbek;
-	METHOD d toAdvancementJson ()Lcom/google/gson/JsonObject;
-	METHOD e getAdvancementId ()Lqs;
+	FIELD g value Ljava/util/List;
+	FIELD h type B
+	METHOD d getListType ()I
+	METHOD e getCompoundTag (I)Lgy;
+	METHOD f getListTag (I)Lhe;
+	METHOD g getShort (I)S
+	METHOD h getInt (I)I
+	METHOD i getIntArray (I)[I
+	METHOD k getDouble (I)D
+	METHOD l getFloat (I)F
+	METHOD m getString (I)Ljava/lang/String;

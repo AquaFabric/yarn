@@ -1,10 +1,7 @@
-CLASS la net/minecraft/client/network/packet/GuiSlotUpdateS2CPacket
+CLASS jw net/minecraft/client/network/packet/GuiSlotUpdateS2CPacket
 	FIELD a id I
 	FIELD b slot I
-	FIELD c itemStack Lbca;
-	METHOD <init> (IILbca;)V
-		ARG 1 id
-		ARG 2 slot
+	FIELD c itemStack Late;
 	METHOD b getId ()I
 	METHOD c getSlot ()I
-	METHOD d getItemStack ()Lbca;
+	METHOD d getItemStack ()Late;

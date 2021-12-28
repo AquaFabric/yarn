@@ -1,2 +1,7 @@
 CLASS bav net/minecraft/item/AutomaticItemPlacementContext
-	FIELD g direction Lfa;
+	FIELD a levelProperties Lccb;
+	FIELD b generatorSettings Lbou;
+	METHOD a getLevelProperties ()Lccb;
+	METHOD a setGeneratorSettings (Lbou;)Lbav;
+	METHOD a setLevelProperties (Lccb;)Lbav;
+	METHOD b getGeneratorSettings ()Lbou;

@@ -1,2 +1,2 @@
-CLASS azt net/minecraft/item/AirBlockItem
-	FIELD a block Lbml;
+CLASS ara net/minecraft/item/AirBlockItem
+	FIELD a block Lbcs;

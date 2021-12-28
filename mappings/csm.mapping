@@ -1,0 +1,5 @@
+CLASS csm
+	METHOD a tick ()V
+	METHOD a move (DDD)V
+	METHOD a getColorMultiplier (F)I
+	METHOD a buildGeometry (Lctq;Laer;FFFFFF)V

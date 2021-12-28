@@ -1,8 +1,3 @@
-CLASS ahm net/minecraft/entity/DamageUtil
+CLASS ady net/minecraft/entity/DamageUtil
 	METHOD a getInflictedDamage (FF)F
-		ARG 0 damageDealt
-		ARG 1 protection
 	METHOD a getDamageLeft (FFF)F
-		ARG 0 damage
-		ARG 1 armor
-		ARG 2 armorToughness

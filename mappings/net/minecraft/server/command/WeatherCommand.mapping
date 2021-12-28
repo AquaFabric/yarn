@@ -1,12 +1,5 @@
-CLASS tw net/minecraft/server/command/WeatherCommand
-	METHOD a executeClear (Lcd;I)I
-		ARG 0 source
-		ARG 1 duration
+CLASS se net/minecraft/server/command/WeatherCommand
+	METHOD a executeClear (Lbu;I)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher
-	METHOD b executeRain (Lcd;I)I
-		ARG 0 source
-		ARG 1 duration
-	METHOD c executeThunder (Lcd;I)I
-		ARG 0 source
-		ARG 1 duration
+	METHOD b executeRain (Lbu;I)I
+	METHOD c executeThunder (Lbu;I)I

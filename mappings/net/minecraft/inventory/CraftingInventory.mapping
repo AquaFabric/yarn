@@ -1,11 +1,8 @@
 CLASS ayn net/minecraft/inventory/CraftingInventory
-	FIELD a stacks Lfj;
-	FIELD b width I
-	FIELD c height I
-	FIELD d container Layb;
+	FIELD b entityTag Lgy;
 	METHOD <init> (Layb;II)V
 		ARG 1 container
 		ARG 2 width
 		ARG 3 height
-	METHOD f getHeight ()I
-	METHOD g getWidth ()I
+	METHOD a serialize ()Lgy;
+	METHOD b getEntityTag ()Lgy;

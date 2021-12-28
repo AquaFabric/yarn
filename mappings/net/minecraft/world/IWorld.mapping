@@ -1,28 +1,17 @@
-CLASS bhi net/minecraft/world/IWorld
-	METHOD E getChunkManager ()Lbxb;
-	METHOD F getFluidTickScheduler ()Lbhw;
-	METHOD G getBlockTickScheduler ()Lbhw;
-	METHOD a playLevelEvent (Lavx;ILev;I)V
-	METHOD a playSound (Lavx;Lev;Lyj;Lyl;FF)V
-	METHOD a updateNeighbors (Lev;Lbml;)V
-	METHOD a addParticle (Lgd;DDDDDD)V
-		ARG 1 parameters
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 velocityX
-		ARG 10 velocityY
-		ARG 12 velocityZ
-	METHOD aa getMoonSize ()F
-	METHOD ab getMoonPhase ()I
-	METHOD ac getDifficulty ()Lagx;
-	METHOD c playLevelEvent (ILev;I)V
-	METHOD e getLocalDifficulty (Lev;)Lagy;
-		ARG 1 pos
-	METHOD j getSkyAngle (F)F
-		ARG 1 delta
-	METHOD k getRandom ()Ljava/util/Random;
-	METHOD m_ getWorld ()Lbhh;
-	METHOD n_ getSeed ()J
-	METHOD o_ getSpawnPos ()Lev;
-	METHOD p_ getLevelProperties ()Lcoa;
+CLASS axz net/minecraft/world/IWorld
+	METHOD H getChunkManager ()Lbnc;
+	METHOD I getFluidTickScheduler ()Layo;
+	METHOD J getBlockTickScheduler ()Layo;
+	METHOD a playSound (Laog;Lel;Lwi;Lwk;FF)V
+	METHOD a updateNeighbors (Lel;Lbcs;)V
+	METHOD a addParticle (Lfk;DDDDDD)V
+	METHOD ah getMoonSize ()F
+	METHOD ai getMoonPhase ()I
+	METHOD aj getDifficulty ()Ladi;
+	METHOD f getWorld ()Laxy;
+	METHOD g getLevelProperties ()Lccb;
+	METHOD h getLocalDifficulty (Lel;)Ladj;
+	METHOD k getSkyAngle (F)F
+	METHOD m getRandom ()Ljava/util/Random;
+	METHOD n getSpawnPos ()Lel;
+	METHOD r_ getSeed ()J

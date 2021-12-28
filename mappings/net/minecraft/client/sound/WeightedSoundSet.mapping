@@ -1,9 +1,7 @@
-CLASS dxv net/minecraft/client/sound/WeightedSoundSet
+CLASS dgv net/minecraft/client/sound/WeightedSoundSet
 	FIELD a sounds Ljava/util/List;
 	FIELD b random Ljava/util/Random;
-	FIELD c id Lqs;
-	FIELD d subtitle Ljm;
-	METHOD <init> (Lqs;Ljava/lang/String;)V
-		ARG 1 id
-	METHOD a add (Ldxw;)V
-	METHOD c getSubtitle ()Ljm;
+	FIELD c id Lpc;
+	FIELD d subtitle Lij;
+	METHOD a add (Ldgw;)V
+	METHOD c getSubtitle ()Lij;

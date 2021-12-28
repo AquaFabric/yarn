@@ -1,4 +1,2 @@
-CLASS hz net/minecraft/nbt/ByteTag
+CLASS gw net/minecraft/nbt/ByteTag
 	FIELD f value B
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o

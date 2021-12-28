@@ -1,6 +1,4 @@
-CLASS bhv net/minecraft/world/MobSpawnerEntry
-	FIELD b entityTag Lib;
-	METHOD <init> (ILib;)V
-		ARG 1 weight
-	METHOD a serialize ()Lib;
-	METHOD b getEntityTag ()Lib;
+CLASS ayn net/minecraft/world/MobSpawnerEntry
+	FIELD b entityTag Lgy;
+	METHOD a serialize ()Lgy;
+	METHOD b getEntityTag ()Lgy;

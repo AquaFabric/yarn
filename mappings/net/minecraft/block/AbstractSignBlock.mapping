@@ -1,5 +1,3 @@
-CLASS bre net/minecraft/block/AbstractSignBlock
-	FIELD a WATERLOGGED Lbwb;
-	FIELD b SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS bhj net/minecraft/block/AbstractSignBlock
+	FIELD a WATERLOGGED Lbmb;
+	FIELD b SHAPE Lcew;

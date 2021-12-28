@@ -1,13 +1,13 @@
-CLASS cxf net/minecraft/client/gui/hud/SubtitlesHud
-	CLASS cxf$a SubtitleEntry
+CLASS cho net/minecraft/client/gui/hud/SubtitlesHud
+	CLASS cho$a SubtitleEntry
 		FIELD b text Ljava/lang/String;
 		FIELD c time J
-		FIELD d pos Lcrv;
+		FIELD d pos Lcee;
 		METHOD a getText ()Ljava/lang/String;
-		METHOD a reset (Lcrv;)V
+		METHOD a reset (Lcee;)V
 		METHOD b getTime ()J
-		METHOD c getPosition ()Lcrv;
-	FIELD a client Lcvi;
-	FIELD b entries Ljava/util/List;
-	FIELD c enabled Z
+		METHOD c getPosition ()Lcee;
+	FIELD a client Lcft;
+	FIELD f entries Ljava/util/List;
+	FIELD g enabled Z
 	METHOD a draw ()V

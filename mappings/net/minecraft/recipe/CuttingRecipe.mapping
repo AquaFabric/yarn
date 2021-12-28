@@ -1,11 +1,13 @@
 CLASS bes net/minecraft/recipe/CuttingRecipe
-	CLASS bes$a Serializer
-	FIELD a ingredient Lbef;
-	FIELD b result Lbca;
-	FIELD c id Lqs;
-	FIELD d group Ljava/lang/String;
-	FIELD e type Lbel;
-	FIELD f serializer Lbek;
+	FIELD a OPEN Lbmb;
+	FIELD b POWERED Lbmb;
+	FIELD c IN_WALL Lbmb;
+	FIELD o Z_AXIS_SHAPE Lcew;
+	FIELD p X_AXIS_SHAPE Lcew;
+	FIELD q IN_WALL_Z_AXIS_SHAPE Lcew;
+	FIELD r IN_WALL_X_AXIS_SHAPE Lcew;
+	FIELD s Z_AXIS_COLLISION_SHAPE Lcew;
+	FIELD t X_AXIS_COLLISION_SHAPE Lcew;
 	METHOD <init> (Lbel;Lbek;Lqs;Ljava/lang/String;Lbef;Lbca;)V
 		ARG 1 type
 		ARG 2 serializer
@@ -13,3 +15,4 @@ CLASS bes net/minecraft/recipe/CuttingRecipe
 		ARG 4 group
 		ARG 5 ingredient
 		ARG 6 result
+	METHOD k isWall (Lblc;)Z

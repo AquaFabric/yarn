@@ -1,11 +1,11 @@
-CLASS dyb net/minecraft/client/tutorial/MovementTutorialStepHandler
-	FIELD a MOVE_TITLE Ljm;
-	FIELD b MOVE_DESCRIPTION Ljm;
-	FIELD c LOOK_TITLE Ljm;
-	FIELD d LOOK_DESCRIPTION Ljm;
-	FIELD e manager Ldye;
-	FIELD f moveToast Lcxu;
-	FIELD g lookAroundToast Lcxu;
+CLASS dhb net/minecraft/client/tutorial/MovementTutorialStepHandler
+	FIELD a MOVE_TITLE Lij;
+	FIELD b MOVE_DESCRIPTION Lij;
+	FIELD c LOOK_TITLE Lij;
+	FIELD d LOOK_DESCRIPTION Lij;
+	FIELD e manager Ldhe;
+	FIELD f moveToast Lcic;
+	FIELD g lookAroundToast Lcic;
 	FIELD h ticks I
 	FIELD i movedTicks I
 	FIELD j lookedAroundTicks I

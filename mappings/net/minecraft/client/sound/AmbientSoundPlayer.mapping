@@ -1,4 +1,4 @@
-CLASS dww net/minecraft/client/sound/AmbientSoundPlayer
-	FIELD a player Ldjv;
-	FIELD b soundManager Ldxu;
+CLASS dfy net/minecraft/client/sound/AmbientSoundPlayer
+	FIELD a player Lctj;
+	FIELD b soundManager Ldgt;
 	FIELD c ticksUntilPlay I

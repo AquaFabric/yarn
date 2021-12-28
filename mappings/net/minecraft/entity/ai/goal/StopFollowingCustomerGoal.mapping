@@ -1,4 +1,2 @@
-CLASS aog net/minecraft/entity/ai/goal/StopFollowingCustomerGoal
-	FIELD a trader Lavg;
-	METHOD <init> (Lavg;)V
-		ARG 1 trader
+CLASS aid net/minecraft/entity/ai/goal/StopFollowingCustomerGoal
+	FIELD a trader Laob;

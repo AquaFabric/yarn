@@ -1,16 +1,12 @@
-CLASS dhp net/minecraft/client/options/ServerList
+CLASS crk net/minecraft/client/options/ServerList
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b client Lcvi;
+	FIELD b client Lcft;
 	FIELD c serverEntries Ljava/util/List;
 	METHOD a loadFile ()V
-	METHOD a get (I)Ldho;
+	METHOD a get (I)Lcrj;
 	METHOD a swapEntries (II)V
-		ARG 1 index1
-	METHOD a set (ILdho;)V
-		ARG 1 index
-	METHOD a remove (Ldho;)V
+	METHOD a set (ILcrj;)V
+	METHOD a add (Lcrj;)V
 	METHOD b saveFile ()V
-	METHOD b add (Ldho;)V
+	METHOD b updateServerListEntry (Lcrj;)V
 	METHOD c size ()I
-	METHOD c updateServerListEntry (Ldho;)V
-		ARG 0 e

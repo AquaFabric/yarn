@@ -1,11 +1,3 @@
-CLASS bpr net/minecraft/block/FluidFillable
-	METHOD a canFillWithFluid (Lbgr;Lev;Lbvj;Lcky;)Z
-		ARG 1 view
-		ARG 2 pos
-		ARG 3 state
-		ARG 4 fluid
-	METHOD a tryFillWithFluid (Lbhi;Lev;Lbvj;Lckz;)Z
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-		ARG 4 fluidState
+CLASS bfv net/minecraft/block/FluidFillable
+	METHOD a canFillWithFluid (Laxk;Lel;Lblc;Lbyv;)Z
+	METHOD a tryFillWithFluid (Laxz;Lel;Lblc;Lbyw;)Z

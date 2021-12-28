@@ -1,16 +1,20 @@
-CLASS awx net/minecraft/entity/thrown/ThrownPotionEntity
+CLASS apd net/minecraft/entity/thrown/ThrownPotionEntity
 	FIELD e WATER_HURTS Ljava/util/function/Predicate;
-	FIELD f ITEM_STACK Lqh;
+	FIELD f ITEM_STACK Lor;
 	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD <init> (Lbhh;DDD)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-	METHOD <init> (Lbhh;Laio;)V
-		ARG 1 world
-	METHOD a doesWaterHurt (Laio;)Z
-		ARG 0 entityHit
-	METHOD a extinguishFire (Lev;Lfa;)V
-	METHOD b setItemStack (Lbca;)V
-	METHOD i damageEntitiesHurtByWater ()V
-	METHOD k isLingering ()Z
+	METHOD <init> (Lakn;FI)V
+		ARG 2 speed
+		ARG 3 completionRange
+	METHOD <init> (Lcrv;FI)V
+		ARG 1 pos
+		ARG 2 speedFactor
+		ARG 3 completionRange
+	METHOD <init> (Lev;FI)V
+		ARG 1 pos
+		ARG 2 speed
+		ARG 3 completionRange
+	METHOD a doesWaterHurt (Lafa;)Z
+	METHOD a extinguishFire (Lel;Leq;)V
+	METHOD b setItemStack (Late;)V
+	METHOD l damageEntitiesHurtByWater ()V
+	METHOD m isLingering ()Z

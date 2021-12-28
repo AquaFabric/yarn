@@ -1,2 +1,2 @@
-CLASS dol net/minecraft/client/render/entity/BatEntityRenderer
-	FIELD a SKIN Lqs;
+CLASS cxv net/minecraft/client/render/entity/BatEntityRenderer
+	FIELD a SKIN Lpc;

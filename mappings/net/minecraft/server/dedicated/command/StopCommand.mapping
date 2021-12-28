@@ -1,2 +1,3 @@
-CLASS tl net/minecraft/server/dedicated/command/StopCommand
+CLASS ru net/minecraft/server/dedicated/command/StopCommand
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+		ARG 0 dispatcher

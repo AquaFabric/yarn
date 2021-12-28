@@ -1,5 +1,3 @@
-CLASS rn net/minecraft/server/dedicated/command/BanListCommand
-	METHOD a execute (Lcd;Ljava/util/Collection;)I
-		ARG 0 source
-		ARG 1 targets
+CLASS pz net/minecraft/server/dedicated/command/BanListCommand
+	METHOD a execute (Lbu;Ljava/util/Collection;)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

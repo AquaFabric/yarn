@@ -1,4 +1,8 @@
-CLASS dgx net/minecraft/client/render/entity/model/EndCrystalEntityModel
-	FIELD a cube Ldhb;
-	FIELD b glass Ldhb;
-	FIELD f base Ldhb;
+CLASS cqs net/minecraft/client/render/entity/model/EndCrystalEntityModel
+	FIELD a cube Lcqw;
+	FIELD b glass Lcqw;
+	FIELD c base Lcqw;
+	METHOD <init> (Lam;)V
+		ARG 1 predicate
+	METHOD test (Ljava/lang/Object;)Z
+		ARG 1 context

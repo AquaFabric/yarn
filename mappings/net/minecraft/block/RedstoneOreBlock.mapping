@@ -1,11 +1,16 @@
-CLASS bqo net/minecraft/block/RedstoneOreBlock
-	FIELD a LIT Lbwb;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a spawnParticles (Lbhh;Lev;)V
-		ARG 0 world
+CLASS bgt net/minecraft/block/RedstoneOreBlock
+	CLASS bgt$1
+		METHOD tryAdvance (Ljava/util/function/Consumer;)Z
+			ARG 1 consumer
+	FIELD a LIT Lbmb;
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD <init> (J)V
 		ARG 1 pos
-	METHOD d light (Lbvj;Lbhh;Lev;)V
-		ARG 0 state
-		ARG 1 world
-		ARG 2 pos
+	METHOD <init> (Lev;)V
+		ARG 1 pos
+	METHOD a spawnParticles (Laxy;Lel;)V
+	METHOD b light (Lblc;Laxy;Lel;)V
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

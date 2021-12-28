@@ -1,2 +1,2 @@
-CLASS zo net/minecraft/util/LowercaseMap
+CLASS xl net/minecraft/util/LowercaseMap
 	FIELD a delegate Ljava/util/Map;

@@ -1,6 +1,8 @@
 CLASS ayq net/minecraft/container/Generic3x3Container
-	FIELD c inventory Lagt;
+	FIELD h priorityIndex I
 	METHOD <init> (ILavw;)V
 		ARG 1 syncId
 	METHOD <init> (ILavw;Lagt;)V
 		ARG 1 syncId
+	METHOD a getPriorityIndex ()I
+	METHOD a getByIndex (I)Layq;

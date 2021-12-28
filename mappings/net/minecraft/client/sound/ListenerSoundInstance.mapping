@@ -1,4 +1,2 @@
-CLASS dxt net/minecraft/client/sound/ListenerSoundInstance
-	METHOD a onSoundPlayed (Ldwu;Ldxv;)V
-		ARG 1 sound
-		ARG 2 soundSet
+CLASS dgs net/minecraft/client/sound/ListenerSoundInstance
+	METHOD a onSoundPlayed (Ldfw;Ldgv;)V

@@ -1,16 +1,12 @@
-CLASS cwn net/minecraft/client/gui/hud/BossBarHud
-	FIELD a BAR_TEX Lqs;
-	FIELD b client Lcvi;
-	FIELD c bossBars Ljava/util/Map;
-	METHOD <init> (Lcvi;)V
-		ARG 1 client
+CLASS cgt net/minecraft/client/gui/hud/BossBarHud
+	FIELD a BAR_TEX Lpc;
+	FIELD f client Lcft;
+	FIELD g bossBars Ljava/util/Map;
+	METHOD <init> (Ljava/util/function/Function;)V
+		ARG 1 configDeserializer
 	METHOD a draw ()V
-	METHOD a drawBossBar (IILagq;)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 bossBar
-	METHOD a handlePacket (Lkq;)V
-		ARG 1 packet
+	METHOD a drawBossBar (IILadc;)V
+	METHOD a handlePacket (Ljl;)V
 	METHOD b clear ()V
 	METHOD d shouldPlayDragonMusic ()Z
 	METHOD e shouldDarkenSky ()Z

@@ -1,6 +1,5 @@
-CLASS arx net/minecraft/entity/mob/SkeletonHorseEntity
-	FIELD bK trapped Z
-	FIELD bL trapTime I
-	METHOD dV isTrapped ()Z
-	METHOD r setTrapped (Z)V
-		ARG 1 trapped
+CLASS aku net/minecraft/entity/mob/SkeletonHorseEntity
+	FIELD bN trapped Z
+	FIELD bO trapTime I
+	METHOD dy isTrapped ()Z
+	METHOD s setTrapped (Z)V

@@ -1,19 +1,15 @@
-CLASS aul net/minecraft/entity/mob/PhantomEntity
-	CLASS aul$a PhantomMovementType
-	CLASS aul$b FindTargetGoal
-		FIELD b PLAYERS_IN_RANGE_PREDICATE Lapz;
-		FIELD c delay I
-	CLASS aul$c StartAttackGoal
-	CLASS aul$d PhantomBodyControl
-	CLASS aul$e CircleMovementGoal
-	CLASS aul$f PhantomLookControl
-	CLASS aul$g PhantomMoveControl
-		METHOD <init> (Laul;Laip;)V
-			ARG 2 owner
-	CLASS aul$h MovementGoal
-	CLASS aul$i SwoopMovementGoal
-	FIELD b SIZE Lqh;
-	FIELD bz movementType Laul$a;
+CLASS anh net/minecraft/entity/mob/PhantomEntity
+	CLASS anh$a PhantomMovementType
+	CLASS anh$b FindTargetGoal
+		FIELD b delay I
+	CLASS anh$c StartAttackGoal
+	CLASS anh$d PhantomBodyControl
+	CLASS anh$e CircleMovementGoal
+	CLASS anh$f PhantomLookControl
+	CLASS anh$g PhantomMoveControl
+	CLASS anh$h MovementGoal
+	CLASS anh$i SwoopMovementGoal
+	FIELD a SIZE Lor;
+	FIELD bC movementType Lanh$a;
 	METHOD a setPhantomSize (I)V
-	METHOD dU onSizeChanged ()V
-	METHOD l getPhantomSize ()I
+	METHOD dr getPhantomSize ()I

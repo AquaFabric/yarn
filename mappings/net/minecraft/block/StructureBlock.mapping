@@ -1,6 +1,3 @@
-CLASS bsa net/minecraft/block/StructureBlock
-	FIELD a MODE Lbwh;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a doAction (Lbum;)V
-		ARG 1 blockEntity
+CLASS bid net/minecraft/block/StructureBlock
+	FIELD a MODE Lbmh;
+	METHOD a doAction (Lbkf;)V

@@ -1,3 +1,3 @@
-CLASS bgy net/minecraft/client/world/DummyClientTickScheduler
-	FIELD a INSTANCE Lbgy;
-	METHOD a get ()Lbgy;
+CLASS axo net/minecraft/client/world/DummyClientTickScheduler
+	FIELD a INSTANCE Laxo;
+	METHOD a get ()Laxo;

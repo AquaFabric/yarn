@@ -1,6 +1,10 @@
-CLASS cxr net/minecraft/client/toast/SystemToast
-	CLASS cxr$a Type
+CLASS chz net/minecraft/client/toast/SystemToast
+	CLASS chz$a Type
+		METHOD <init> (Ljava/util/Random;II)V
+			ARG 1 random
+			ARG 2 x
+			ARG 3 z
 	FIELD f startTime J
 	FIELD g justUpdated Z
-	METHOD a show (Lcxt;Lcxr$a;Ljm;Ljm;)V
-	METHOD a setContent (Ljm;Ljm;)V
+	METHOD a show (Lcib;Lchz$a;Lij;Lij;)V
+	METHOD a setContent (Lij;Lij;)V

@@ -1,13 +1,8 @@
 CLASS ayp net/minecraft/container/Property
-	CLASS ayp$3
-		FIELD a value I
-	FIELD a oldValue I
-	METHOD a create ()Layp;
-	METHOD a set (I)V
-		ARG 1 value
-	METHOD a create (Layk;I)Layp;
-		ARG 1 key
-	METHOD a create ([II)Layp;
-		ARG 1 key
-	METHOD b get ()I
-	METHOD c detectChanges ()Z
+	FIELD a pos Lel;
+	FIELD b time J
+	FIELD c priority Layq;
+	FIELD d idCounter J
+	FIELD e object Ljava/lang/Object;
+	FIELD f id J
+	METHOD a getObject ()Ljava/lang/Object;

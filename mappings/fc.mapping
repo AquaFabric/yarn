@@ -1,0 +1,6 @@
+CLASS fc
+	METHOD a get (I)Ljava/lang/Object;
+	METHOD a getRawId (Ljava/lang/Object;)I
+	METHOD a getRandom (Ljava/util/Random;)Ljava/lang/Object;
+	METHOD a get (Lpc;)Ljava/lang/Object;
+	METHOD b getId (Ljava/lang/Object;)Lpc;

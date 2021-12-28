@@ -1,4 +1,4 @@
-CLASS cmj net/minecraft/world/biome/layer/AddEdgeBiomesLayer
+CLASS cah net/minecraft/world/biome/layer/AddEdgeBiomesLayer
 	FIELD b BEACH_ID I
 	FIELD c SNOWY_BEACH_ID I
 	FIELD d DESERT_ID I
@@ -21,7 +21,8 @@ CLASS cmj net/minecraft/world/biome/layer/AddEdgeBiomesLayer
 	FIELD u STONE_SHORE_ID I
 	FIELD v SWAMP_ID I
 	FIELD w TAIGA_ID I
-	METHOD c isWooded (I)Z
-		ARG 0 id
-	METHOD d isBadlands (I)Z
-		ARG 1 id
+	METHOD <init> (Ljava/util/function/Function;Z)V
+		ARG 1 configFactory
+		ARG 2 emitNeighborBlockUpdates
+	METHOD a isWooded (I)Z
+	METHOD b isBadlands (I)Z

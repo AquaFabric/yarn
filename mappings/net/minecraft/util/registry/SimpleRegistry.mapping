@@ -1,6 +1,10 @@
 CLASS fi net/minecraft/util/registry/SimpleRegistry
-	FIELD R nextId I
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b indexedEntries Lzi;
-	FIELD c entries Lcom/google/common/collect/BiMap;
-	FIELD d randomEntries [Ljava/lang/Object;
+	FIELD a RED Lfi;
+	FIELD c red F
+	FIELD d green F
+	FIELD e blue F
+	FIELD f alpha F
+	METHOD c getRed ()F
+	METHOD d getGreen ()F
+	METHOD e getBlue ()F
+	METHOD f getAlpha ()F

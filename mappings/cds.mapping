@@ -1,0 +1,6 @@
+CLASS cds
+	CLASS cds$a Serializer
+		FIELD a id Lpc;
+		FIELD b callbackClass Ljava/lang/Class;
+		METHOD a getId ()Lpc;
+		METHOD b getCallbackClass ()Ljava/lang/Class;

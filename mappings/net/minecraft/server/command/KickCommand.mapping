@@ -1,7 +1,3 @@
-CLASS sj net/minecraft/server/command/KickCommand
-	METHOD a execute (Lcd;Ljava/util/Collection;Ljm;)I
-		ARG 0 source
-		ARG 1 targets
-		ARG 2 reason
+CLASS qv net/minecraft/server/command/KickCommand
+	METHOD a execute (Lbu;Ljava/util/Collection;Lij;)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher

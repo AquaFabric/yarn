@@ -1,2 +1,2 @@
-CLASS ow net/minecraft/server/network/packet/SelectVillagerTradeC2SPacket
+CLASS nh net/minecraft/server/network/packet/SelectVillagerTradeC2SPacket
 	FIELD a tradeId I

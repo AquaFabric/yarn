@@ -1,8 +1,9 @@
 CLASS axj net/minecraft/entity/ai/brain/ScheduleRule
-	FIELD a entries Ljava/util/List;
-	METHOD a getPriority (I)F
-		ARG 1 time
-	METHOD a withEntry (IF)Laxj;
-		ARG 1 startTime
-		ARG 2 priority
-	METHOD b sort ()V
+	FIELD a pos Lel;
+	FIELD b block Lbcs;
+	FIELD c type I
+	FIELD d data I
+	METHOD a getPos ()Lel;
+	METHOD b getBlock ()Lbcs;
+	METHOD c getType ()I
+	METHOD d getData ()I

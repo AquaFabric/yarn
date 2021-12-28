@@ -1,9 +1,7 @@
 CLASS cum net/minecraft/client/render/Tessellator
-	FIELD a buffer Lcuj;
-	FIELD b renderer Lcuk;
+	FIELD a buffer Lctq;
+	FIELD b renderer Lctr;
 	FIELD c INSTANCE Lcum;
-	METHOD <init> (I)V
-		ARG 1 bufferCapacity
 	METHOD a getInstance ()Lcum;
 	METHOD b draw ()V
-	METHOD c getBufferBuilder ()Lcuj;
+	METHOD c getBufferBuilder ()Lctq;

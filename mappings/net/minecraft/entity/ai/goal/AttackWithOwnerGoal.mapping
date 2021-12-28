@@ -1,6 +1,4 @@
-CLASS aov net/minecraft/entity/ai/goal/AttackWithOwnerGoal
-	FIELD a tameable Lajc;
-	FIELD b attacking Laio;
+CLASS air net/minecraft/entity/ai/goal/AttackWithOwnerGoal
+	FIELD a tameable Lafl;
+	FIELD b attacking Lafa;
 	FIELD c lastAttackTime I
-	METHOD <init> (Lajc;)V
-		ARG 1 tameable

@@ -1,15 +1,8 @@
-CLASS anp net/minecraft/entity/ai/goal/EscapeDangerGoal
-	FIELD a mob Laiv;
+CLASS aho net/minecraft/entity/ai/goal/EscapeDangerGoal
+	FIELD a mob Lafg;
 	FIELD b speed D
 	FIELD c targetX D
 	FIELD d targetY D
 	FIELD e targetZ D
-	METHOD <init> (Laiv;D)V
-		ARG 1 mob
-		ARG 2 speed
-	METHOD a locateClosestWater (Lbgr;Laif;II)Lev;
-		ARG 1 blockView
-		ARG 2 entity
-		ARG 3 rangeX
-		ARG 4 rangeY
+	METHOD a locateClosestWater (Laxk;Laer;II)Lel;
 	METHOD g findTarget ()Z

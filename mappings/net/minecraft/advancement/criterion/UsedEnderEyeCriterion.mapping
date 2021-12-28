@@ -1,15 +1,14 @@
-CLASS bu net/minecraft/advancement/criterion/UsedEnderEyeCriterion
-	CLASS bu$a Handler
-		FIELD a manager Lrb;
+CLASS bl net/minecraft/advancement/criterion/UsedEnderEyeCriterion
+	CLASS bl$a Handler
+		FIELD a manager Lpm;
 		FIELD b conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
 		METHOD a handle (D)V
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS bu$b Conditions
-		FIELD a distance Lbi$c;
+		METHOD a addCondition (Ls$a;)V
+		METHOD b removeCondition (Ls$a;)V
+	CLASS bl$b Conditions
+		FIELD a distance Lba$c;
 		METHOD a matches (D)Z
-	FIELD a id Lqs;
+	FIELD a id Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvh;Lev;)V
-		ARG 1 player
+	METHOD a handle (Ltf;Lel;)V

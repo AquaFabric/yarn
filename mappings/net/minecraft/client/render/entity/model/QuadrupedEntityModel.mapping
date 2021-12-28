@@ -1,7 +1,15 @@
-CLASS dfr net/minecraft/client/render/entity/model/QuadrupedEntityModel
-	FIELD a head Ldhb;
-	FIELD b body Ldhb;
-	FIELD f leg1 Ldhb;
-	FIELD g leg2 Ldhb;
-	FIELD h leg3 Ldhb;
-	FIELD i leg4 Ldhb;
+CLASS cpn net/minecraft/client/render/entity/model/QuadrupedEntityModel
+	FIELD a head Lcqw;
+	FIELD b body Lcqw;
+	FIELD c leg1 Lcqw;
+	FIELD d leg2 Lcqw;
+	FIELD e leg3 Lcqw;
+	FIELD f leg4 Lcqw;
+	METHOD <init> ([Lcqy;Lcpn$c;Ljava/util/List;)V
+		ARG 1 conditions
+		ARG 2 source
+		ARG 3 operations
+	METHOD a (Lbca;Lis;Lcpn$b;)V
+		ARG 2 operation
+	METHOD a (Lbtm;)Lis;
+		ARG 0 blockEntity

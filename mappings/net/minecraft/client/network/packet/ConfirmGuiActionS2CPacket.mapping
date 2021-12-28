@@ -1,10 +1,13 @@
-CLASS kw net/minecraft/client/network/packet/ConfirmGuiActionS2CPacket
+CLASS jr net/minecraft/client/network/packet/ConfirmGuiActionS2CPacket
 	FIELD a id I
 	FIELD b actionId S
 	FIELD c accepted Z
-	METHOD <init> (ISZ)V
-		ARG 1 id
-		ARG 2 actionId
+	METHOD <init> (Ljava/lang/String;Lcr$h;Z)V
+		ARG 1 path
+		ARG 2 parsedPath
+		ARG 3 componentJson
+	METHOD <init> (Ljava/lang/String;Z)V
+		ARG 1 path
 	METHOD b getId ()I
 	METHOD c getActionId ()S
 	METHOD d wasAccepted ()Z

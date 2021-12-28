@@ -1,11 +1,11 @@
-CLASS w net/minecraft/advancement/criterion/CriterionProgress
+CLASS r net/minecraft/advancement/criterion/CriterionProgress
 	FIELD a FORMAT Ljava/text/SimpleDateFormat;
 	FIELD b obtained Ljava/util/Date;
 	METHOD a isObtained ()Z
-	METHOD a obtainedAt (Ljava/lang/String;)Lw;
-	METHOD a toPacket (Ljc;)V
+	METHOD a toPacket (Lhy;)V
+	METHOD a obtainedAt (Ljava/lang/String;)Lr;
 	METHOD b obtain ()V
-	METHOD b fromPacket (Ljc;)Lw;
+	METHOD b fromPacket (Lhy;)Lr;
 	METHOD c reset ()V
 	METHOD d getObtainedDate ()Ljava/util/Date;
 	METHOD e toJson ()Lcom/google/gson/JsonElement;

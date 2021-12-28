@@ -1,13 +1,7 @@
-CLASS ben net/minecraft/recipe/crafting/ShapelessRecipe
-	CLASS ben$a Serializer
-		METHOD a getIngredients (Lcom/google/gson/JsonArray;)Lfj;
-			ARG 0 json
-	FIELD a id Lqs;
+CLASS avq net/minecraft/recipe/crafting/ShapelessRecipe
+	CLASS avq$a Serializer
+		METHOD a getIngredients (Lcom/google/gson/JsonArray;)Lez;
+	FIELD a id Lpc;
 	FIELD b group Ljava/lang/String;
-	FIELD c output Lbca;
-	FIELD d input Lfj;
-	METHOD <init> (Lqs;Ljava/lang/String;Lbca;Lfj;)V
-		ARG 1 id
-		ARG 2 group
-		ARG 3 output
-		ARG 4 input
+	FIELD c output Late;
+	FIELD d input Lez;

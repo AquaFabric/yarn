@@ -1,9 +1,17 @@
 CLASS cet net/minecraft/structure/VillageGenerator
 	CLASS cet$a Piece
-	METHOD a addPieces (Lbwy;Lcje;Lev;Ljava/util/List;Lbza;Lcer;)V
-		ARG 0 chunkGenerator
-		ARG 1 structureManager
-		ARG 2 pos
-		ARG 3 pieces
-		ARG 4 random
-		ARG 5 config
+	FIELD a EMPTY Lcew;
+	FIELD b FULL_CUBE Lcew;
+	METHOD a empty ()Lcew;
+	METHOD a findRequiredBitResolution (DD)I
+	METHOD a cuboid (DDDDDD)Lcew;
+	METHOD a lcm (II)J
+	METHOD a createListPair (ILit/unimi/dsi/fastutil/doubles/DoubleList;Lit/unimi/dsi/fastutil/doubles/DoubleList;ZZ)Lceo;
+	METHOD a cuboid (Lcea;)Lcew;
+	METHOD a matchesAnywhere (Lceo;Lceo;Lceo;Lcem;Lcem;Lcei;)Z
+	METHOD a union (Lcew;Lcew;)Lcew;
+	METHOD a combineAndSimplify (Lcew;Lcew;Lcei;)Lcew;
+	METHOD a calculateMaxOffset (Leq$a;Lcea;Ljava/util/stream/Stream;D)D
+	METHOD b fullCube ()Lcew;
+	METHOD b combine (Lcew;Lcew;Lcei;)Lcew;
+	METHOD c matchesAnywhere (Lcew;Lcew;Lcei;)Z

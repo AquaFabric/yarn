@@ -1,17 +1,12 @@
-CLASS bqe net/minecraft/block/ConnectedPlantBlock
-	FIELD a NORTH Lbwb;
-	FIELD b EAST Lbwb;
-	FIELD c SOUTH Lbwb;
-	FIELD d WEST Lbwb;
-	FIELD e UP Lbwb;
-	FIELD f DOWN Lbwb;
-	FIELD g FACING_PROPERTIES Ljava/util/Map;
-	FIELD h CONNECTIONS_TO_SHAPE [Lcsp;
-	FIELD i FACINGS [Lfa;
-	METHOD <init> (FLbml$c;)V
-		ARG 1 radius
-		ARG 2 settings
-	METHOD a generateFacingsToShapeMap (F)[Lcsp;
-		ARG 1 radius
-	METHOD j getConnectionMask (Lbvj;)I
-		ARG 1 state
+CLASS bgj net/minecraft/block/ConnectedPlantBlock
+	FIELD a NORTH Lbmb;
+	FIELD b EAST Lbmb;
+	FIELD c SOUTH Lbmb;
+	FIELD o WEST Lbmb;
+	FIELD p UP Lbmb;
+	FIELD q DOWN Lbmb;
+	FIELD r FACING_PROPERTIES Ljava/util/Map;
+	FIELD s CONNECTIONS_TO_SHAPE [Lcew;
+	FIELD t FACINGS [Leq;
+	METHOD a generateFacingsToShapeMap (F)[Lcew;
+	METHOD k getConnectionMask (Lblc;)I

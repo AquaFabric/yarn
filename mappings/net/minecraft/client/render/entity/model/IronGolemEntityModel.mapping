@@ -1,1 +1,4 @@
-CLASS dex net/minecraft/client/render/entity/model/IronGolemEntityModel
+CLASS cov net/minecraft/client/render/entity/model/IronGolemEntityModel
+	METHOD a ([Lcow;Lcol;Ljava/util/function/Consumer;)Z
+		ARG 1 context
+		ARG 2 lootChoiceExpander

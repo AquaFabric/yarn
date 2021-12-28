@@ -1,66 +1,38 @@
-CLASS bi net/minecraft/util/NumberRange
-	CLASS bi$a Factory
-	CLASS bi$c FloatRange
-		FIELD e ANY Lbi$c;
+CLASS ba net/minecraft/util/NumberRange
+	CLASS ba$a Factory
+	CLASS ba$c FloatRange
+		FIELD e ANY Lba$c;
 		FIELD f minSquared Ljava/lang/Double;
 		FIELD g maxSquared Ljava/lang/Double;
-		METHOD <init> (Ljava/lang/Float;Ljava/lang/Float;)V
-			ARG 1 max
 		METHOD a matchesSquared (D)Z
-		METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbi$c;
-			ARG 0 element
-		METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lbi$c;
-			ARG 0 reader
-		METHOD a create (Lcom/mojang/brigadier/StringReader;Ljava/lang/Float;Ljava/lang/Float;)Lbi$c;
-			ARG 0 reader
-			ARG 1 min
-			ARG 2 max
-		METHOD a parse (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;)Lbi$c;
-			ARG 0 reader
+		METHOD a fromJson (Lcom/google/gson/JsonElement;)Lba$c;
+		METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lba$c;
+		METHOD a create (Lcom/mojang/brigadier/StringReader;Ljava/lang/Float;Ljava/lang/Float;)Lba$c;
+		METHOD a parse (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;)Lba$c;
 		METHOD a squared (Ljava/lang/Float;)Ljava/lang/Double;
-			ARG 0 value
-		METHOD b atLeast (F)Lbi$c;
-			ARG 0 value
+		METHOD b atLeast (F)Lba$c;
 		METHOD d matches (F)Z
-	CLASS bi$d IntRange
-		FIELD e ANY Lbi$d;
+	CLASS ba$d IntRange
+		FIELD e ANY Lba$d;
 		FIELD f minSquared Ljava/lang/Long;
 		FIELD g maxSquared Ljava/lang/Long;
-		METHOD <init> (Ljava/lang/Integer;Ljava/lang/Integer;)V
-			ARG 1 max
-		METHOD a exactly (I)Lbi$d;
-			ARG 0 value
-		METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbi$d;
-			ARG 0 element
-		METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lbi$d;
-		METHOD a (Lcom/mojang/brigadier/StringReader;Ljava/lang/Integer;Ljava/lang/Integer;)Lbi$d;
-			ARG 1 min
-			ARG 2 max
-		METHOD a fromStringReader (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;)Lbi$d;
+		METHOD a exactly (I)Lba$d;
+		METHOD a fromJson (Lcom/google/gson/JsonElement;)Lba$d;
+		METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lba$d;
+		METHOD a fromStringReader (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;)Lba$d;
 		METHOD a squared (Ljava/lang/Integer;)Ljava/lang/Long;
-			ARG 0 value
-		METHOD b atLeast (I)Lbi$d;
-			ARG 0 value
+		METHOD b atLeast (I)Lba$d;
 		METHOD d test (I)Z
 	FIELD a EXCEPTION_EMPTY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD b EXCEPTION_SWAPPED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD c min Ljava/lang/Number;
 	FIELD d max Ljava/lang/Number;
-	METHOD <init> (Ljava/lang/Number;Ljava/lang/Number;)V
-		ARG 1 min
-		ARG 2 max
 	METHOD a getMin ()Ljava/lang/Number;
-	METHOD a fromJson (Lcom/google/gson/JsonElement;Lbi;Ljava/util/function/BiFunction;Lbi$a;)Lbi;
-		ARG 0 json
-		ARG 1 defaultValue
-		ARG 3 factory
+	METHOD a fromJson (Lcom/google/gson/JsonElement;Lba;Ljava/util/function/BiFunction;Lba$a;)Lba;
 	METHOD a isNextCharValid (Lcom/mojang/brigadier/StringReader;)Z
-		ARG 0 reader
-	METHOD a parse (Lcom/mojang/brigadier/StringReader;Lbi$b;Ljava/util/function/Function;Ljava/util/function/Supplier;Ljava/util/function/Function;)Lbi;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;Lba$b;Ljava/util/function/Function;Ljava/util/function/Supplier;Ljava/util/function/Function;)Lba;
 	METHOD a fromStringReader (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;Ljava/util/function/Supplier;)Ljava/lang/Number;
 	METHOD a applyIfNonNull (Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;
-		ARG 0 object
-		ARG 1 function
 	METHOD b getMax ()Ljava/lang/Number;
 	METHOD c isDummy ()Z
 	METHOD d serialize ()Lcom/google/gson/JsonElement;

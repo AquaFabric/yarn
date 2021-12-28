@@ -1,11 +1,4 @@
 CLASS bel net/minecraft/recipe/RecipeType
-	FIELD a CRAFTING Lbel;
-	FIELD b SMELTING Lbel;
-	FIELD c BLASTING Lbel;
-	FIELD d SMOKING Lbel;
-	FIELD e CAMPFIRE_COOKING Lbel;
-	METHOD a get (Lbei;Lbhh;Lagt;)Ljava/util/Optional;
-		ARG 1 recipe
-		ARG 2 world
-		ARG 3 inventory
-	METHOD a register (Ljava/lang/String;)Lbel;
+	FIELD b Y_SHAPE Lcew;
+	FIELD c Z_SHAPE Lcew;
+	FIELD o X_SHAPE Lcew;

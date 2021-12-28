@@ -1,2 +1,18 @@
-CLASS dgq net/minecraft/client/render/entity/model/WitchEntityModel
-	FIELD n mole Ldhb;
+CLASS cqm net/minecraft/client/render/entity/model/WitchEntityModel
+	FIELD h mole Lcqw;
+	METHOD a (Lcql$a;)V
+		ARG 0 builder
+	METHOD b (Lcql$a;)V
+		ARG 0 builder
+	METHOD c (Lcql$a;)V
+		ARG 0 builder
+	METHOD d (Lcql$a;)V
+		ARG 0 builder
+	METHOD e (Lcql$a;)V
+		ARG 0 builder
+	METHOD f (Lcql$a;)V
+		ARG 0 builder
+	METHOD g (Lcql$a;)V
+		ARG 0 builder
+	METHOD h (Lcql$a;)V
+		ARG 0 builder

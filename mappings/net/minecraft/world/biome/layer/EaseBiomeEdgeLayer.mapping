@@ -1,4 +1,4 @@
-CLASS clv net/minecraft/world/biome/layer/EaseBiomeEdgeLayer
+CLASS bzu net/minecraft/world/biome/layer/EaseBiomeEdgeLayer
 	FIELD b DESERT_ID I
 	FIELD c MOUNTAINS_ID I
 	FIELD d WOODED_MOUNTAINS_ID I
@@ -9,9 +9,10 @@ CLASS clv net/minecraft/world/biome/layer/EaseBiomeEdgeLayer
 	FIELD i BALDANDS_ID I
 	FIELD j BADLANDS_PLATEAU_ID I
 	FIELD k WOODED_BADLANDS_PLATEAU_ID I
-	FIELD l PLAINS_ID I
-	FIELD m GIANT_TREE_TAIGA_ID I
-	FIELD n MOUNTAIN_EDGE_ID I
-	FIELD o SWAMP_ID I
-	FIELD p TAIGA_ID I
-	FIELD q SNOWY_TAIGA_ID I
+	FIELD l GIANT_TREE_TAIGA_ID I
+	FIELD m MOUNTAIN_EDGE_ID I
+	FIELD n SWAMP_ID I
+	FIELD o TAIGA_ID I
+	FIELD p SNOWY_TAIGA_ID I
+	METHOD <init> (F)V
+		ARG 1 probability

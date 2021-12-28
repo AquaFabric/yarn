@@ -1,13 +1,8 @@
-CLASS bpk net/minecraft/block/LadderBlock
-	FIELD a FACING Lbwe;
-	FIELD b WATERLOGGED Lbwb;
-	FIELD c EAST_SHAPE Lcsp;
-	FIELD d WEST_SHAPE Lcsp;
-	FIELD e SOUTH_SHAPE Lcsp;
-	FIELD f NORTH_SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a canPlaceOn (Lbgr;Lev;Lfa;)Z
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 side
+CLASS bfq net/minecraft/block/LadderBlock
+	FIELD a FACING Lbme;
+	FIELD b WATERLOGGED Lbmb;
+	FIELD c EAST_SHAPE Lcew;
+	FIELD o WEST_SHAPE Lcew;
+	FIELD p SOUTH_SHAPE Lcew;
+	FIELD q NORTH_SHAPE Lcew;
+	METHOD a canPlaceOn (Laxk;Lel;Leq;)Z

@@ -1,16 +1,12 @@
-CLASS arj net/minecraft/entity/passive/SheepEntity
-	FIELD bA DROPS Ljava/util/Map;
-	FIELD bB COLORS Ljava/util/Map;
-	FIELD bE eatGrassGoal Lamm;
-	FIELD bz COLOR Lqh;
-	METHOD a getChildColor (Laqr;Laqr;)Lbax;
-	METHOD a getRgbColor (Lbax;)[F
-		ARG 0 dyeColor
-	METHOD a generateDefaultColor (Ljava/util/Random;)Lbax;
-	METHOD b setColor (Lbax;)V
-	METHOD c getDyedColor (Lbax;)[F
-		ARG 0 color
-	METHOD dV dropItems ()V
-	METHOD dW getColor ()Lbax;
-	METHOD dX isSheared ()Z
-	METHOD r setSheared (Z)V
+CLASS akf net/minecraft/entity/passive/SheepEntity
+	FIELD bC COLOR Lor;
+	FIELD bG COLORS Ljava/util/Map;
+	FIELD bI eatGrassGoal Lagk;
+	METHOD a getChildColor (Lajq;Lajq;)Lasc;
+	METHOD a getRgbColor (Lasc;)[F
+	METHOD a generateDefaultColor (Ljava/util/Random;)Lasc;
+	METHOD b setColor (Lasc;)V
+	METHOD c getDyedColor (Lasc;)[F
+	METHOD dy getColor ()Lasc;
+	METHOD dz isSheared ()Z
+	METHOD s setSheared (Z)V

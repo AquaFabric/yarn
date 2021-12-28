@@ -1,1 +1,4 @@
-CLASS dgl net/minecraft/client/render/entity/EntityModelTurtle
+CLASS cqg net/minecraft/client/render/entity/EntityModelTurtle
+	METHOD <init> ([Lcqy;Ljava/util/Map;)V
+		ARG 1 conditions
+		ARG 2 effects

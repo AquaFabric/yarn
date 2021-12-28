@@ -1,4 +1,4 @@
-CLASS ej net/minecraft/command/arguments/serialize/ArgumentSerializer
+CLASS dy net/minecraft/command/arguments/serialize/ArgumentSerializer
 	METHOD a toJson (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
-	METHOD a toPacket (Lcom/mojang/brigadier/arguments/ArgumentType;Ljc;)V
-	METHOD b fromPacket (Ljc;)Lcom/mojang/brigadier/arguments/ArgumentType;
+	METHOD a toPacket (Lcom/mojang/brigadier/arguments/ArgumentType;Lhy;)V
+	METHOD b fromPacket (Lhy;)Lcom/mojang/brigadier/arguments/ArgumentType;

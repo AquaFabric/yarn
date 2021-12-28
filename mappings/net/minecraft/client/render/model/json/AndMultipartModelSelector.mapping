@@ -1,6 +1,5 @@
-CLASS dlv net/minecraft/client/render/model/json/AndMultipartModelSelector
-	FIELD c selectors Ljava/lang/Iterable;
-	METHOD <init> (Ljava/lang/Iterable;)V
-		ARG 1 selectors
-	METHOD getPredicate (Lbvk;)Ljava/util/function/Predicate;
-		ARG 1 stateFactory
+CLASS cvn net/minecraft/client/render/model/json/AndMultipartModelSelector
+	FIELD a selectors Ljava/lang/Iterable;
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 3 id
+		ARG 4 translationKey

@@ -1,7 +1,2 @@
-CLASS bbs net/minecraft/item/DecorationItem
-	FIELD a entityType Laij;
-	METHOD a canPlaceOn (Lavx;Lfa;Lbca;Lev;)Z
-		ARG 1 player
-		ARG 2 facing
-		ARG 3 stack
-		ARG 4 pos
+CLASS asy net/minecraft/item/DecorationItem
+	METHOD a canPlaceOn (Laog;Leq;Late;Lel;)Z

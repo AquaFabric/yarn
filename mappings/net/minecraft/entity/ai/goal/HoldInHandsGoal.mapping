@@ -1,10 +1,24 @@
 CLASS aoi net/minecraft/entity/ai/goal/HoldInHandsGoal
-	FIELD a actor Laip;
-	FIELD b item Lbca;
-	FIELD c condition Ljava/util/function/Predicate;
-	FIELD d sound Lyj;
+	CLASS aoi$a Filter
+		FIELD b recipe Lavk;
+		FIELD c ingredients Ljava/util/List;
+		FIELD d ingredientCount I
+		METHOD a find (ILit/unimi/dsi/fastutil/ints/IntList;)Z
+		METHOD b countCrafts (ILit/unimi/dsi/fastutil/ints/IntList;)I
+	FIELD a idToAmountMap Lit/unimi/dsi/fastutil/ints/Int2IntMap;
 	METHOD <init> (Laip;Lbca;Lyj;Ljava/util/function/Predicate;)V
 		ARG 1 actor
 		ARG 2 item
 		ARG 3 sound
 		ARG 4 condition
+	METHOD a clear ()V
+	METHOD a contains (I)Z
+	METHOD a take (II)I
+	METHOD a addNormalItem (Late;)V
+	METHOD a countRecipeCrafts (Lavk;ILit/unimi/dsi/fastutil/ints/IntList;)I
+	METHOD a findRecipe (Lavk;Lit/unimi/dsi/fastutil/ints/IntList;)Z
+	METHOD a findRecipe (Lavk;Lit/unimi/dsi/fastutil/ints/IntList;I)Z
+	METHOD b getStackFromId (I)Late;
+	METHOD b addItem (II)V
+	METHOD b countRecipeCrafts (Lavk;Lit/unimi/dsi/fastutil/ints/IntList;)I
+	METHOD c getItemId (Late;)I

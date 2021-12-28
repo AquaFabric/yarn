@@ -1,8 +1,5 @@
-CLASS csd net/minecraft/util/shape/FractionalDoubleListPair
-	FIELD a mergedList Lcsb;
+CLASS cel net/minecraft/util/shape/FractionalDoubleListPair
+	FIELD a mergedList Lcej;
 	FIELD b firstSectionCount I
 	FIELD c secondSectionCount I
 	FIELD d gcd I
-	METHOD <init> (II)V
-		ARG 1 firstSectionCount
-		ARG 2 secondSectionCount

@@ -1,2 +1,2 @@
-CLASS dkj net/minecraft/client/texture/ImageFilter
-	METHOD a filterImage (Lctw;)Lctw;
+CLASS cub net/minecraft/client/texture/ImageFilter
+	METHOD a filterImage (Lddg;)Lddg;

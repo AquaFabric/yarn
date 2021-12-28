@@ -1,2 +1,2 @@
-CLASS bup net/minecraft/util/Tickable
-	METHOD U_ tick ()V
+CLASS pt net/minecraft/util/Tickable
+	METHOD Y_ tick ()V

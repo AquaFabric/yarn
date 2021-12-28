@@ -1,8 +1,8 @@
-CLASS op net/minecraft/server/network/packet/PlayerActionC2SPacket
-	CLASS op$a Action
-	FIELD a pos Lev;
-	FIELD b direction Lfa;
-	FIELD c action Lop$a;
-	METHOD b getPos ()Lev;
-	METHOD c getDirection ()Lfa;
-	METHOD d getAction ()Lop$a;
+CLASS na net/minecraft/server/network/packet/PlayerActionC2SPacket
+	CLASS na$a Action
+	FIELD a pos Lel;
+	FIELD b direction Leq;
+	FIELD c action Lna$a;
+	METHOD b getPos ()Lel;
+	METHOD c getDirection ()Leq;
+	METHOD d getAction ()Lna$a;

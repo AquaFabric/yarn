@@ -1,29 +1,15 @@
-CLASS cne net/minecraft/entity/ai/pathing/PathNode
+CLASS cbc net/minecraft/entity/ai/pathing/PathNode
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
 	FIELD d heapIndex I
 	FIELD g heapWeight F
-	FIELD m type Lcnc;
+	FIELD m type Lcba;
 	FIELD n hashCode I
-	METHOD <init> (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a copyWithNewPosition (III)Lcne;
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a distance (Lcne;)F
-	METHOD b getPos ()Lcrv;
+	METHOD a isInHeap ()Z
+	METHOD a copyWithNewPosition (III)Lcbc;
+	METHOD a distance (Lcbc;)F
 	METHOD b calculateHashCode (III)I
-		ARG 0 x
-		ARG 1 y
-		ARG 2 z
-	METHOD b distanceSquared (Lcne;)F
-	METHOD b fromBuffer (Ljc;)Lcne;
-		ARG 0 buffer
-	METHOD c isInHeap ()Z
-	METHOD c manhattanDistance (Lcne;)F
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
+	METHOD b distanceSquared (Lcbc;)F
+	METHOD b fromBuffer (Lhy;)Lcbc;
+	METHOD c manhattanDistance (Lcbc;)F

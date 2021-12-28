@@ -1,15 +1,12 @@
-CLASS ate net/minecraft/entity/decoration/ItemFrameEntity
-	FIELD ar itemDropChance F
-	FIELD f ITEM_STACK Lqh;
-	FIELD g ROTATION Lqh;
+CLASS amb net/minecraft/entity/decoration/ItemFrameEntity
+	FIELD e ITEM_STACK Lor;
+	FIELD f ROTATION Lor;
+	FIELD g itemDropChance F
 	METHOD a setRotation (I)V
 	METHOD a setRotation (IZ)V
-		ARG 1 value
-	METHOD a setHeldItemStack (Lbca;Z)V
-		ARG 1 value
-	METHOD b setHeldItemStack (Lbca;)V
-	METHOD c removeFromFrame (Lbca;)V
-		ARG 1 map
-	METHOD o getHeldItemStack ()Lbca;
+	METHOD a setHeldItemStack (Late;Z)V
+	METHOD b setHeldItemStack (Late;)V
+	METHOD c removeFromFrame (Late;)V
+	METHOD o getHeldItemStack ()Late;
 	METHOD p getRotation ()I
 	METHOD q getComparatorPower ()I

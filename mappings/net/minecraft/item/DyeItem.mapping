@@ -1,5 +1,5 @@
-CLASS bay net/minecraft/item/DyeItem
+CLASS asd net/minecraft/item/DyeItem
 	FIELD a dyes Ljava/util/Map;
-	FIELD b color Lbax;
-	METHOD a fromColor (Lbax;)Lbay;
-	METHOD d getColor ()Lbax;
+	FIELD b color Lasc;
+	METHOD a fromColor (Lasc;)Lasd;
+	METHOD d getColor ()Lasc;

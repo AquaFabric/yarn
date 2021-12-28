@@ -1,2 +1,2 @@
-CLASS gt net/minecraft/data/report/CommandSyntaxProvider
-	FIELD c root Lgi;
+CLASS ga net/minecraft/data/report/CommandSyntaxProvider
+	FIELD b root Lfp;

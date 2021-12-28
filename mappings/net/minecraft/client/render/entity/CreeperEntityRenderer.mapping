@@ -1,2 +1,2 @@
-CLASS dou net/minecraft/client/render/entity/CreeperEntityRenderer
-	FIELD a SKIN Lqs;
+CLASS cyd net/minecraft/client/render/entity/CreeperEntityRenderer
+	FIELD a SKIN Lpc;

@@ -1,3 +1,4 @@
-CLASS asl net/minecraft/entity/boss/dragon/phase/DyingPhase
-	METHOD <init> (Lasg;)V
-		ARG 1 dragon
+CLASS ali net/minecraft/entity/boss/dragon/phase/DyingPhase
+	METHOD <init> (FF)V
+		ARG 1 minWaterHeight
+		ARG 2 chance

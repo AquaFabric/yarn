@@ -1,6 +1,13 @@
 CLASS ceh net/minecraft/world/gen/feature/SpruceTreeFeature
-	FIELD a LOG Lbvj;
-	FIELD aS LEAVES Lbvj;
+	FIELD d storage Ljava/util/BitSet;
+	FIELD e xMin I
+	FIELD f yMin I
+	FIELD g zMin I
+	FIELD h xMax I
+	FIELD i yMax I
+	FIELD j zMax I
 	METHOD <init> (Ljava/util/function/Function;Z)V
 		ARG 1 configFactory
 		ARG 2 emitNeighborBlockUpdates
+	METHOD a getIndex (III)I
+	METHOD a combine (Lcem;Lcem;Lceo;Lceo;Lceo;Lcei;)Lceh;

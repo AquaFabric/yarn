@@ -1,2 +1,10 @@
-CLASS abs net/minecraft/datafixers/fixes/EntityMinecartIdentifiersFix
+CLASS zg net/minecraft/datafixers/fixes/EntityMinecartIdentifiersFix
 	FIELD a MINECARTS Ljava/util/List;
+	METHOD <init> (Ljava/lang/Class;)V
+		ARG 1 elementType
+	METHOD add (Ljava/lang/Object;)Z
+		ARG 1 e
+	METHOD contains (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD remove (Ljava/lang/Object;)Z
+		ARG 1 o

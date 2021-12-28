@@ -1,16 +1,7 @@
-CLASS dt net/minecraft/command/arguments/DefaultPosArgument
-	FIELD a x Lds;
-	FIELD b y Lds;
-	FIELD c z Lds;
-	METHOD <init> (Lds;Lds;Lds;)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ldt;
-		ARG 0 reader
-	METHOD a parse (Lcom/mojang/brigadier/StringReader;Z)Ldt;
-		ARG 0 reader
-		ARG 1 centerIntegers
-	METHOD d zero ()Ldt;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
+CLASS dh net/minecraft/command/arguments/DefaultPosArgument
+	FIELD a x Ldg;
+	FIELD b y Ldg;
+	FIELD c z Ldg;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ldh;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;Z)Ldh;
+	METHOD d zero ()Ldh;

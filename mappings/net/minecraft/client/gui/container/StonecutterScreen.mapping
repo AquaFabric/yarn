@@ -1,12 +1,4 @@
 CLASS dbs net/minecraft/client/gui/container/StonecutterScreen
-	FIELD k TEXTURE Lqs;
-	FIELD l scrollAmount F
-	FIELD m mouseClicked Z
-	FIELD n scrollOffset I
-	FIELD o canCraft Z
-	METHOD b getMaxScroll ()I
-	METHOD c shouldScroll ()Z
-	METHOD d onInventoryChange ()V
 	METHOD mouseClicked (DDI)Z
 		ARG 1 mouseX
 		ARG 3 mouseY

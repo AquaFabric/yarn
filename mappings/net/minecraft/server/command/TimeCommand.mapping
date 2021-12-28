@@ -1,14 +1,6 @@
-CLASS tt net/minecraft/server/command/TimeCommand
-	METHOD a executeSet (Lcd;I)I
-		ARG 0 source
-		ARG 1 time
+CLASS sb net/minecraft/server/command/TimeCommand
+	METHOD a executeSet (Lbu;I)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher
-	METHOD a getDayTime (Lvg;)I
-		ARG 0 world
-	METHOD b executeAdd (Lcd;I)I
-		ARG 0 source
-		ARG 1 time
-	METHOD c executeQuery (Lcd;I)I
-		ARG 0 source
-		ARG 1 time
+	METHOD a getDayTime (Ltd;)I
+	METHOD b executeAdd (Lbu;I)I
+	METHOD c executeQuery (Lbu;I)I

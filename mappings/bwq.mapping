@@ -1,0 +1,14 @@
+CLASS bwq
+	CLASS bwq$a MineshaftCorridor
+		FIELD b hasRails Z
+		FIELD c hasCobwebs Z
+		FIELD d hasSpawner Z
+		FIELD e length I
+	CLASS bwq$b MineshaftCrossing
+		FIELD b direction Leq;
+		FIELD c twoFloors Z
+	CLASS bwq$c MineshaftPart
+		FIELD a mineshaftType Lbru$b;
+	CLASS bwq$d MineshaftRoom
+		FIELD b entrances Ljava/util/List;
+	CLASS bwq$e MineshaftStairs

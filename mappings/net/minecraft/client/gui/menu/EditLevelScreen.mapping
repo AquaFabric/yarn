@@ -1,15 +1,23 @@
 CLASS dcx net/minecraft/client/gui/menu/EditLevelScreen
-	FIELD a saveButton Lcwo;
-	FIELD b callback Lit/unimi/dsi/fastutil/booleans/BooleanConsumer;
-	FIELD c levelNameTextField Lcwu;
-	FIELD d levelName Ljava/lang/String;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b loc I
+	FIELD c count I
+	FIELD d dataType I
+	FIELD e intData Ljava/nio/IntBuffer;
+	FIELD f floatData Ljava/nio/FloatBuffer;
+	FIELD g name Ljava/lang/String;
+	FIELD h stateDirty Z
 	METHOD <init> (Lit/unimi/dsi/fastutil/booleans/BooleanConsumer;Ljava/lang/String;)V
 		ARG 1 callback
 		ARG 2 levelName
-	METHOD a commit ()V
-	METHOD a backupLevel (Lcod;Ljava/lang/String;)V
-		ARG 0 level
-		ARG 1 name
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getTypeIndex (Ljava/lang/String;)I
+	METHOD b upload ()V
+	METHOD b setLoc (I)V
+	METHOD h markStateDirty ()V
+	METHOD i uploadInts ()V
+	METHOD j uploadFloats ()V
+	METHOD k uploadMatrix ()V
 	METHOD render (IIF)V
 		ARG 1 mouseX
 		ARG 2 mouseY

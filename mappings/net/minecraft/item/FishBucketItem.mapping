@@ -1,10 +1,3 @@
-CLASS bbo net/minecraft/item/FishBucketItem
-	FIELD a fishType Laij;
-	METHOD <init> (Laij;Lcky;Lbbv$a;)V
-		ARG 1 fishType
-		ARG 2 fluid
-		ARG 3 settings
-	METHOD b spawnFish (Lbhh;Lbca;Lev;)V
-		ARG 1 world
-		ARG 2 stack
-		ARG 3 pos
+CLASS asr net/minecraft/item/FishBucketItem
+	FIELD a fishType Laev;
+	METHOD b spawnFish (Laxy;Late;Lel;)V

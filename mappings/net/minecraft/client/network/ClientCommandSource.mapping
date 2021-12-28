@@ -1,11 +1,12 @@
-CLASS dhj net/minecraft/client/network/ClientCommandSource
-	FIELD a networkHandler Ldhi;
-	FIELD b client Lcvi;
+CLASS cre net/minecraft/client/network/ClientCommandSource
+	FIELD a networkHandler Lcrd;
+	FIELD b client Lcft;
 	FIELD c completionId I
 	FIELD d pendingCompletion Ljava/util/concurrent/CompletableFuture;
-	METHOD <init> (Ldhi;Lcvi;)V
-		ARG 1 client
+	METHOD <init> (Lbc;)V
+		ARG 1 predicate
 	METHOD a formatDouble (D)Ljava/lang/String;
 	METHOD a formatInt (I)Ljava/lang/String;
 	METHOD a onCommandSuggestions (ILcom/mojang/brigadier/suggestion/Suggestions;)V
-		ARG 1 completionId
+	METHOD test (Ljava/lang/Object;)Z
+		ARG 1 context

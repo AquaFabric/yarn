@@ -1,0 +1,25 @@
+CLASS bwx
+	CLASS bwx$a ChestCorridor
+		FIELD a chestGenerated Z
+	CLASS bwx$b SmallCorridor
+		FIELD a length I
+	CLASS bwx$c FiveWayCrossing
+	CLASS bwx$e Library
+		FIELD a tall Z
+	CLASS bwx$g PortalRoom
+		FIELD a spawnerPlaced Z
+	CLASS bwx$h PrisonHall
+	CLASS bwx$j SquareRoom
+		FIELD a roomType I
+	CLASS bwx$k StoneBrickRandomizer
+	CLASS bwx$l SpiralStaircase
+		FIELD a isStructureStart Z
+	CLASS bwx$n Corridor
+		FIELD a leftExitExists Z
+		FIELD b rightExitExixts Z
+	CLASS bwx$o Stairs
+	CLASS bwx$p Piece
+		CLASS bwx$p$a EntranceType
+		FIELD d entryDoor Lbwx$p$a;
+		METHOD a generateEntrance (Laxz;Ljava/util/Random;Lbwf;Lbwx$p$a;III)V
+		METHOD a getRandomEntrance (Ljava/util/Random;)Lbwx$p$a;

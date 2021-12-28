@@ -1,43 +1,30 @@
-CLASS auf net/minecraft/entity/mob/GuardianEntity
-	CLASS auf$a FireBeamGoal
-		FIELD a guardian Lauf;
+CLASS anc net/minecraft/entity/mob/GuardianEntity
+	CLASS anc$a FireBeamGoal
+		FIELD a guardian Lanc;
 		FIELD b beamTicks I
 		FIELD c elder Z
-		METHOD <init> (Lauf;)V
-			ARG 1 guardian
-	CLASS auf$b GuardianTargetPredicate
-		FIELD a owner Lauf;
-		METHOD <init> (Lauf;)V
-			ARG 1 owner
-		METHOD test (Ljava/lang/Object;)Z
-			ARG 1 context
-	CLASS auf$c GuardianMoveControl
-		FIELD i guardian Lauf;
-		METHOD <init> (Lauf;)V
-			ARG 1 guardian
-	FIELD bA tailAngle F
-	FIELD bB prevTailAngle F
-	FIELD bC wanderGoal Lant;
-	FIELD bD BEAM_TARGET_ID Lqh;
-	FIELD bE cachedBeamTarget Laio;
-	FIELD bF beamTicks I
-	FIELD bG flopping Z
-	FIELD b SPIKES_RETRACTED Lqh;
-	FIELD bz spikesExtensionRate F
-	FIELD c spikesExtension F
-	FIELD d prevSpikesExtension F
+	CLASS anc$b GuardianTargetPredicate
+		FIELD a owner Lanc;
+	CLASS anc$c GuardianMoveControl
+		FIELD i guardian Lanc;
+	FIELD a spikesExtension F
+	FIELD bC tailAngle F
+	FIELD bD prevTailAngle F
+	FIELD bE wanderGoal Lahr;
+	FIELD b prevSpikesExtension F
+	FIELD bF SPIKES_RETRACTED Lor;
+	FIELD bG BEAM_TARGET_ID Lor;
+	FIELD bH cachedBeamTarget Lafa;
+	FIELD bI beamTicks I
+	FIELD bJ flopping Z
+	FIELD c spikesExtensionRate F
+	METHOD a getSpikesExtension (F)F
 	METHOD a setBeamTarget (I)V
-		ARG 1 progress
-	METHOD dX getFlopSound ()Lyj;
-	METHOD dY areSpikesRetracted ()Z
-	METHOD dZ hasBeamTarget ()Z
-	METHOD ea getBeamTarget ()Laio;
+	METHOD a setSpikesRetracted (Z)V
+	METHOD dA getFlopSound ()Lwi;
+	METHOD dB areSpikesRetracted ()Z
+	METHOD dC hasBeamTarget ()Z
+	METHOD dD getBeamTarget ()Lafa;
 	METHOD l getWarmupTime ()I
-	METHOD r setSpikesRetracted (Z)V
-		ARG 1 retracted
-	METHOD v getSpikesExtension (F)F
-		ARG 1 tickDelta
-	METHOD w getTailAngle (F)F
-		ARG 1 tickDelta
-	METHOD x getBeamProgress (F)F
-		ARG 1 tickDelta
+	METHOD v getTailAngle (F)F
+	METHOD w getBeamProgress (F)F

@@ -1,0 +1,16 @@
+CLASS ayu
+	CLASS ayu$a Settings
+		FIELD b precipitation Layu$d;
+		FIELD c category Layu$b;
+		FIELD j parent Ljava/lang/String;
+		METHOD a category (Layu$b;)Layu$a;
+		METHOD a precipitation (Layu$d;)Layu$a;
+		METHOD a surfaceBuilder (Lbxr;)Layu$a;
+		METHOD a parent (Ljava/lang/String;)Layu$a;
+	CLASS ayu$b Category
+	CLASS ayu$e SpawnEntry
+		FIELD c minGroupSize I
+		FIELD d maxGroupSize I
+	METHOD a getFoliageColorAt (Lel;)I
+	METHOD b getGrassColorAt (Lel;)I
+	METHOD e getMaxSpawnLimit ()F

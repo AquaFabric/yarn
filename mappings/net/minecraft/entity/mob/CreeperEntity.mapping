@@ -1,21 +1,18 @@
-CLASS atv net/minecraft/entity/mob/CreeperEntity
-	FIELD bA currentFuseTime I
-	FIELD bB fuseTime I
-	FIELD bC explosionRadius I
-	FIELD bD headsDropped I
-	FIELD b FUSE_SPEED Lqh;
-	FIELD bz lastFuseTime I
-	FIELD c CHARGED Lqh;
-	FIELD d IGNITED Lqh;
+CLASS amt net/minecraft/entity/mob/CreeperEntity
+	FIELD a FUSE_SPEED Lor;
+	FIELD bC lastFuseTime I
+	FIELD bD currentFuseTime I
+	FIELD bE fuseTime I
+	FIELD bF explosionRadius I
+	FIELD bG headsDropped I
+	FIELD b CHARGED Lor;
+	FIELD c IGNITED Lor;
+	METHOD a getClientFuseTime (F)F
 	METHOD a setFuseSpeed (I)V
-		ARG 1 fuseSpeed
-	METHOD dW getFuseSpeed ()I
-	METHOD dX getIgnited ()Z
-	METHOD dY setIgnited ()V
-	METHOD dZ shouldDropHead ()Z
-	METHOD ea onHeadDropped ()V
-	METHOD eb explode ()V
-	METHOD ed spawnEffectsCloud ()V
+	METHOD dA getIgnited ()Z
+	METHOD dB setIgnited ()V
+	METHOD dD onHeadDropped ()V
+	METHOD dE explode ()V
+	METHOD dF spawnEffectsCloud ()V
+	METHOD dz getFuseSpeed ()I
 	METHOD l isCharged ()Z
-	METHOD v getClientFuseTime (F)F
-		ARG 1 timeDelta

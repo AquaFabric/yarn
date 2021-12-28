@@ -1,6 +1,2 @@
-CLASS cze net/minecraft/client/gui/ingame/SleepingChatScreen
-	METHOD b stopSleeping ()V
-	METHOD keyPressed (III)Z
-		ARG 1 keyCode
-		ARG 2 scanCode
-		ARG 3 modifiers
+CLASS cju net/minecraft/client/gui/ingame/SleepingChatScreen
+	METHOD i stopSleeping ()V

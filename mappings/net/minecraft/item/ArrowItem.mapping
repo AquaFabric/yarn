@@ -1,7 +1,2 @@
-CLASS azy net/minecraft/item/ArrowItem
-	METHOD <init> (Lbbv$a;)V
-		ARG 1 settings
-	METHOD a createProjectile (Lbhh;Lbca;Laio;)Lawb;
-		ARG 1 world
-		ARG 2 stack
-		ARG 3 livingShooter
+CLASS arf net/minecraft/item/ArrowItem
+	METHOD a createProjectile (Laxy;Late;Lafa;)Laok;

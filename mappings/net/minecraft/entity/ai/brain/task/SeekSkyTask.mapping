@@ -1,7 +1,38 @@
 CLASS akj net/minecraft/entity/ai/brain/task/SeekSkyTask
-	FIELD a speed F
+	CLASS akj$a Variety
+		FIELD m shape I
+		FIELD n pattern I
+		FIELD o VALUES [Lakj$a;
+		METHOD a getShape ()I
+		METHOD a getTranslateKey (II)Ljava/lang/String;
+		METHOD b getPattern ()I
+		METHOD c getTranslationKey ()Ljava/lang/String;
+	CLASS akj$b Data
+		FIELD b shape I
+		FIELD c pattern I
+		FIELD d baseColor I
+		FIELD e patternColor I
+	FIELD a COMMON_VARIANTS [I
+	FIELD bC SMALL_FISH_VARIETY_IDS [Lpc;
+	FIELD bD LARGE_FISH_VARIETY_IDS [Lpc;
+	FIELD bE commonSpawn Z
+	FIELD b VARIANT Lor;
+	FIELD c SHAPE_IDS [Lpc;
 	METHOD <init> (F)V
 		ARG 1 speed
-	METHOD b findNearbySky (Lvg;Laio;)Lcrv;
-		ARG 1 world
-		ARG 2 entity
+	METHOD a toVariant (Lakj$a;Lasc;Lasc;)I
+	METHOD b getToolTipForVariant (I)Ljava/lang/String;
+	METHOD d getBaseDyeColor (I)Lasc;
+	METHOD dH getVariant ()I
+	METHOD dI getBaseColorComponents ()[F
+	METHOD dJ getPatternColorComponents ()[F
+	METHOD dK getShape ()I
+	METHOD dL getVarietyId ()Lpc;
+	METHOD dM getShapeId ()Lpc;
+	METHOD p getPatternDyeColor (I)Lasc;
+	METHOD q getTranslationKey (I)Ljava/lang/String;
+	METHOD r setVariant (I)V
+	METHOD s getShape (I)I
+	METHOD t getBaseDyeColorIndex (I)I
+	METHOD u getPatternDyeColorIndex (I)I
+	METHOD v getPattern (I)I

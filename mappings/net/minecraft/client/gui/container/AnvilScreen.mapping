@@ -1,7 +1,4 @@
 CLASS dan net/minecraft/client/gui/container/AnvilScreen
-	FIELD k BG_TEX Lqs;
-	FIELD l nameField Lcwu;
-	METHOD a onRenamed (Ljava/lang/String;)V
 	METHOD keyPressed (III)Z
 		ARG 1 keyCode
 		ARG 2 scanCode

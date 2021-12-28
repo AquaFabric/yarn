@@ -1,8 +1,29 @@
 CLASS nn net/minecraft/client/network/packet/SynchronizeRecipesS2CPacket
-	FIELD a recipes Ljava/util/List;
-	METHOD a writeRecipe (Lbei;Ljc;)V
-		ARG 0 recipe
-		ARG 1 buf
-	METHOD b getRecipes ()Ljava/util/List;
-	METHOD c readRecipe (Ljc;)Lbei;
-		ARG 0 buf
+	FIELD a pos Lel;
+	FIELD b action Lbkf$a;
+	FIELD c mode Lbmr;
+	FIELD d structureName Ljava/lang/String;
+	FIELD e offset Lel;
+	FIELD f size Lel;
+	FIELD g mirror Lbfz;
+	FIELD h rotation Lbhb;
+	FIELD i metadata Ljava/lang/String;
+	FIELD j ignoreEntities Z
+	FIELD k showAir Z
+	FIELD l showBoundingBox Z
+	FIELD m integrity F
+	FIELD n seed J
+	METHOD b getPos ()Lel;
+	METHOD c getAction ()Lbkf$a;
+	METHOD d getMode ()Lbmr;
+	METHOD e getStructureName ()Ljava/lang/String;
+	METHOD f getOffset ()Lel;
+	METHOD g getSize ()Lel;
+	METHOD h getMirror ()Lbfz;
+	METHOD i getRotation ()Lbhb;
+	METHOD j getMetadata ()Ljava/lang/String;
+	METHOD k getIgnoreEntities ()Z
+	METHOD l shouldShowAir ()Z
+	METHOD m shouldShowBoundingBox ()Z
+	METHOD n getIntegrity ()F
+	METHOD o getSeed ()J

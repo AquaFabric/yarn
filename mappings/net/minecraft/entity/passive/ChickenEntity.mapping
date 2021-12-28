@@ -1,7 +1,6 @@
-CLASS aqt net/minecraft/entity/passive/ChickenEntity
-	FIELD bF eggLayTime I
-	FIELD bG jockey Z
-	FIELD bH BREEDING_INGREDIENT Lbef;
-	METHOD dV hasJockey ()Z
-	METHOD r setHasJockey (Z)V
-		ARG 1 hasJockey
+CLASS ajr net/minecraft/entity/passive/ChickenEntity
+	FIELD bI eggLayTime I
+	FIELD bJ jockey Z
+	FIELD bK BREEDING_INGREDIENT Lavh;
+	METHOD dy hasJockey ()Z
+	METHOD s setHasJockey (Z)V

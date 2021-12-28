@@ -1,5 +1,2 @@
-CLASS bmq net/minecraft/block/FluidDrainable
-	METHOD b tryDrainFluid (Lbhi;Lev;Lbvj;)Lcky;
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
+CLASS bcz net/minecraft/block/FluidDrainable
+	METHOD a tryDrainFluid (Laxz;Lel;Lblc;)Lbyv;

@@ -1,10 +1,7 @@
-CLASS avb net/minecraft/entity/mob/WitchEntity
-	FIELD bA DRINKING Lqh;
-	FIELD bB drinkTimeLeft I
-	FIELD bC raidGoal Laos;
-	FIELD bD attackPlayerGoal Laor;
-	FIELD b DRINKING_SPEED_PENALTY_MODIFIER_ID Ljava/util/UUID;
-	FIELD bz DRINKING_SPEED_PENALTY_MODIFIER Lajg;
+CLASS anu net/minecraft/entity/mob/WitchEntity
+	FIELD a DRINKING_SPEED_PENALTY_MODIFIER_ID Ljava/util/UUID;
+	FIELD bC drinkTimeLeft I
+	FIELD b DRINKING_SPEED_PENALTY_MODIFIER Lafo;
+	FIELD c DRINKING Lor;
+	METHOD a setDrinking (Z)V
 	METHOD l isDrinking ()Z
-	METHOD s setDrinking (Z)V
-		ARG 1 drinking

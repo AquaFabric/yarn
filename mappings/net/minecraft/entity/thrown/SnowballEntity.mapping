@@ -1,4 +1,11 @@
 CLASS awq net/minecraft/entity/thrown/SnowballEntity
+	CLASS awq$a Type
+		FIELD f name Ljava/lang/String;
+		FIELD g basePower I
+		FIELD h powerPerLevel I
+		METHOD b getBasePower ()I
+		METHOD c getPowerPerLevel ()I
+	FIELD a type Lawq$a;
 	METHOD <init> (Lbhh;DDD)V
 		ARG 1 world
 		ARG 2 x
@@ -7,4 +14,5 @@ CLASS awq net/minecraft/entity/thrown/SnowballEntity
 	METHOD <init> (Lbhh;Laio;)V
 		ARG 1 world
 		ARG 2 owner
-	METHOD n getParticleParameters ()Lgd;
+	METHOD a transformExplosionKnockback (Lafa;D)D
+	METHOD a transformFireDuration (Lafa;I)I

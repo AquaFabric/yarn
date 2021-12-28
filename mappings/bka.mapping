@@ -1,0 +1,3 @@
+CLASS bka
+	METHOD a setInvStackList (Lez;)V
+	METHOD q getInvStackList ()Lez;

@@ -1,57 +1,34 @@
-CLASS dhk net/minecraft/client/network/ClientPlayerInteractionManager
-	FIELD a client Lcvi;
-	FIELD b networkHandler Ldhi;
-	FIELD c currentBreakingPos Lev;
-	FIELD d selectedStack Lbca;
+CLASS crf net/minecraft/client/network/ClientPlayerInteractionManager
+	FIELD a client Lcft;
+	FIELD b networkHandler Lcrd;
+	FIELD c currentBreakingPos Lel;
+	FIELD d selectedStack Late;
 	FIELD e currentBreakingProgress F
 	FIELD h breakingBlock Z
-	FIELD i gameMode Lbhe;
+	FIELD i gameMode Laxv;
 	FIELD j lastSelectedSlot I
-	METHOD <init> (Lcvi;Ldhi;)V
-		ARG 1 client
+	METHOD <init> (Ljava/lang/Boolean;Ljava/lang/Boolean;)V
+		ARG 1 raining
+		ARG 2 thundering
 	METHOD a hasStatusBars ()Z
 	METHOD a pickFromInventory (I)V
-		ARG 1 slot
 	METHOD a clickButton (II)V
-		ARG 1 syncId
-		ARG 2 buttonId
-	METHOD a clickRecipe (ILbei;Z)V
-		ARG 1 syncId
-		ARG 2 recipe
-	METHOD a copyAbilities (Lavx;)V
-	METHOD a attackEntity (Lavx;Laif;)V
-		ARG 1 player
-		ARG 2 target
-	METHOD a interactEntity (Lavx;Laif;Lagz;)Laha;
-		ARG 1 player
-		ARG 2 entity
-		ARG 3 hand
-	METHOD a interactEntityAtLocation (Lavx;Laif;Lcrs;Lagz;)Laha;
-	METHOD a interactItem (Lavx;Lbhh;Lagz;)Laha;
-		ARG 1 player
-		ARG 2 world
-		ARG 3 hand
-	METHOD a dropCreativeStack (Lbca;)V
-	METHOD a clickCreativeStack (Lbca;I)V
-		ARG 1 stack
-	METHOD a setGameMode (Lbhe;)V
-	METHOD a createPlayer (Ldhl;Lyu;Lcuy;)Ldjv;
-		ARG 1 world
-		ARG 2 stateHandler
-		ARG 3 recipeBook
-	METHOD a interactBlock (Ldjv;Ldhl;Lagz;Lcrr;)Laha;
-		ARG 1 player
-		ARG 2 world
-		ARG 3 hand
-		ARG 4 hitResult
-	METHOD a breakBlock (Lev;)Z
-	METHOD a attackBlock (Lev;Lfa;)Z
-		ARG 1 pos
+	METHOD a clickRecipe (ILavk;Z)V
+	METHOD a copyAbilities (Laog;)V
+	METHOD a attackEntity (Laog;Laer;)V
+	METHOD a interactEntity (Laog;Laer;Ladk;)Ladm;
+	METHOD a interactEntityAtLocation (Laog;Laer;Lceb;Ladk;)Ladm;
+	METHOD a interactItem (Laog;Laxy;Ladk;)Ladm;
+	METHOD a dropCreativeStack (Late;)V
+	METHOD a clickCreativeStack (Late;I)V
+	METHOD a setGameMode (Laxv;)V
+	METHOD a createPlayer (Laxy;Lwt;Lcfj;)Lctj;
+	METHOD a breakBlock (Lel;)Z
+	METHOD a attackBlock (Lel;Leq;)Z
 	METHOD b cancelBlockBreaking ()V
-	METHOD b stopUsingItem (Lavx;)V
-	METHOD b isCurrentlyBreaking (Lev;)Z
-		ARG 1 pos
+	METHOD b isCurrentlyBreaking (Lel;)Z
 	METHOD c getReachDistance ()F
+	METHOD c stopUsingItem (Laog;)V
 	METHOD d tick ()V
 	METHOD e hasExperienceBar ()Z
 	METHOD f hasLimitedAttackSpeed ()Z
@@ -59,6 +36,8 @@ CLASS dhk net/minecraft/client/network/ClientPlayerInteractionManager
 	METHOD h hasExtendedReach ()Z
 	METHOD i hasRidingInventory ()Z
 	METHOD j isFlyingLocked ()Z
-	METHOD k getCurrentGameMode ()Lbhe;
+	METHOD k getCurrentGameMode ()Laxv;
 	METHOD l isBreakingBlock ()Z
 	METHOD m syncSelectedSlot ()V
+	METHOD test (Ljava/lang/Object;)Z
+		ARG 1 context

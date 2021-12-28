@@ -1,0 +1,6 @@
+CLASS aqr
+	METHOD a populateRecipeFinder (Laoi;)V
+	METHOD a matches (Lavk;)Z
+	METHOD d clearCraftingSlots ()V
+	METHOD e getCraftingResultSlotIndex ()I
+	METHOD h getCraftingSlotCount ()I

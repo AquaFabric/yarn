@@ -1,5 +1,4 @@
 CLASS aws net/minecraft/entity/thrown/ThrownItemEntity
-	FIELD e ITEM Lqh;
 	METHOD <init> (Laij;DDDLbhh;)V
 		ARG 1 type
 	METHOD <init> (Laij;Laio;Lbhh;)V
@@ -8,7 +7,5 @@ CLASS aws net/minecraft/entity/thrown/ThrownItemEntity
 		ARG 3 world
 	METHOD <init> (Laij;Lbhh;)V
 		ARG 1 type
-	METHOD b setItem (Lbca;)V
-		ARG 1 item
-	METHOD i getDefaultItem ()Lbbv;
-	METHOD k getItem ()Lbca;
+	METHOD a shouldDamageAttacker (ILjava/util/Random;)Z
+	METHOD b getDamageAmount (ILjava/util/Random;)I

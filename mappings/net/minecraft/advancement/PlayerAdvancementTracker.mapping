@@ -1,4 +1,4 @@
-CLASS rb net/minecraft/advancement/PlayerAdvancementTracker
+CLASS pm net/minecraft/advancement/PlayerAdvancementTracker
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b GSON Lcom/google/gson/Gson;
 	FIELD c JSON_TYPE Lcom/google/gson/reflect/TypeToken;
@@ -8,27 +8,24 @@ CLASS rb net/minecraft/advancement/PlayerAdvancementTracker
 	FIELD g visibleAdvancements Ljava/util/Set;
 	FIELD h visibilityUpdates Ljava/util/Set;
 	FIELD i progressUpdates Ljava/util/Set;
-	FIELD j owner Lvh;
-	FIELD k currentDisplayTab Lq;
+	FIELD j owner Ltf;
+	FIELD k currentDisplayTab Ll;
 	FIELD l dirty Z
 	METHOD a clearCriterions ()V
-	METHOD a setDisplayTab (Lq;)V
-	METHOD a grantCriterion (Lq;Ljava/lang/String;)Z
-		ARG 2 criterion
-	METHOD a initProgress (Lq;Ls;)V
-	METHOD a setOwner (Lvh;)V
+	METHOD a setDisplayTab (Ll;)V
+	METHOD a grantCriterion (Ll;Ljava/lang/String;)Z
+	METHOD a initProgress (Ll;Ln;)V
+	METHOD a setOwner (Ltf;)V
 	METHOD b reload ()V
-	METHOD b getProgress (Lq;)Ls;
-	METHOD b revokeCriterion (Lq;Ljava/lang/String;)Z
-		ARG 2 criterion
-	METHOD b sendUpdate (Lvh;)V
-	METHOD c save ()V
-	METHOD c beginTracking (Lq;)V
+	METHOD b getProgress (Ll;)Ln;
+	METHOD b revokeCriterion (Ll;Ljava/lang/String;)Z
+	METHOD b sendUpdate (Ltf;)V
+	METHOD c beginTracking (Ll;)V
 	METHOD d beginTrackingAllAdvancements ()V
-	METHOD d endTrackingCompleted (Lq;)V
+	METHOD d endTrackingCompleted (Ll;)V
 	METHOD e updateCompleted ()V
-	METHOD e updateDisplay (Lq;)V
+	METHOD e updateDisplay (Ll;)V
 	METHOD f rewardEmptyAdvancements ()V
-	METHOD f canSee (Lq;)Z
+	METHOD f canSee (Ll;)Z
 	METHOD g load ()V
-	METHOD g hasChildrenDone (Lq;)Z
+	METHOD g hasChildrenDone (Ll;)Z

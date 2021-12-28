@@ -1,5 +1,5 @@
-CLASS dyc net/minecraft/client/tutorial/OpenInventoryTutorialStepHandler
-	FIELD a TITLE Ljm;
-	FIELD b DESCRIPTION Ljm;
-	FIELD c manager Ldye;
+CLASS dhc net/minecraft/client/tutorial/OpenInventoryTutorialStepHandler
+	FIELD a TITLE Lij;
+	FIELD b DESCRIPTION Lij;
+	FIELD c manager Ldhe;
 	FIELD e ticks I

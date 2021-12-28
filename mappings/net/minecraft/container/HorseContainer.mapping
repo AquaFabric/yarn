@@ -1,5 +1,3 @@
-CLASS ayx net/minecraft/container/HorseContainer
-	FIELD c playerInv Lagt;
-	FIELD d entity Lars;
-	METHOD <init> (ILavw;Lagt;Lars;)V
-		ARG 1 syncId
+CLASS aql net/minecraft/container/HorseContainer
+	FIELD a playerInv Lade;
+	FIELD f entity Lako;

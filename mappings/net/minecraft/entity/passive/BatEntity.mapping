@@ -1,7 +1,6 @@
-CLASS aqm net/minecraft/entity/passive/BatEntity
-	FIELD b BAT_FLAGS Lqh;
-	FIELD c CLOSE_PLAYER_PREDICATE Lapz;
-	FIELD d hangingPosition Lev;
-	METHOD dT isTodayAroundHalloween ()Z
+CLASS ajl net/minecraft/entity/passive/BatEntity
+	FIELD a BAT_FLAGS Lor;
+	FIELD b hangingPosition Lel;
+	METHOD a setRoosting (Z)V
+	METHOD dr isTodayAroundHalloween ()Z
 	METHOD l isRoosting ()Z
-	METHOD r setRoosting (Z)V

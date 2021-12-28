@@ -1,11 +1,9 @@
-CLASS yw net/minecraft/tag/BlockTags
-	CLASS yw$a CachingTag
+CLASS wv net/minecraft/tag/BlockTags
+	CLASS wv$a CachingTag
 		FIELD a version I
-		FIELD b delegate Lzb;
-	FIELD Y container Lzc;
-	FIELD Z latestVersion I
-	METHOD a getContainer ()Lzc;
-	METHOD a register (Ljava/lang/String;)Lzb;
-		ARG 0 id
-	METHOD a setContainer (Lzc;)V
-		ARG 0 container
+		FIELD b delegate Lwz;
+	FIELD M container Lxa;
+	FIELD N latestVersion I
+	METHOD a getContainer ()Lxa;
+	METHOD a register (Ljava/lang/String;)Lwz;
+	METHOD a setContainer (Lxa;)V

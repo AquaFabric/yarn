@@ -1,10 +1,4 @@
 CLASS dbm net/minecraft/client/gui/container/VillagerScreen
-	CLASS dbm$a WidgetButtonPage
-		METHOD renderToolTip (II)V
-			ARG 1 mouseX
-			ARG 2 mouseY
-	FIELD k TEXTURE Lqs;
-	METHOD b syncRecipeIndex ()V
 	METHOD mouseClicked (DDI)Z
 		ARG 1 mouseX
 		ARG 3 mouseY

@@ -1,13 +1,18 @@
 CLASS avp net/minecraft/village/VillagerType
-	FIELD a DESERT Lavp;
-	FIELD b JUNGLE Lavp;
-	FIELD c PLAINS Lavp;
-	FIELD d SAVANNA Lavp;
-	FIELD e SNOW Lavp;
-	FIELD f SWAMP Lavp;
-	FIELD g TAIGA Lavp;
-	FIELD h BIOME_TO_TYPE Ljava/util/Map;
-	METHOD a forBiome (Lbie;)Lavp;
-		ARG 0 biome
-	METHOD a create (Ljava/lang/String;)Lavp;
-		ARG 0 id
+	CLASS avp$a Serializer
+	FIELD a width I
+	FIELD b height I
+	FIELD c inputs Lez;
+	FIELD d output Late;
+	FIELD e id Lpc;
+	FIELD f group Ljava/lang/String;
+	METHOD a matchesSmall (Lade;IIZ)Z
+	METHOD a getItemStack (Lcom/google/gson/JsonObject;)Late;
+	METHOD a findNextIngredient (Ljava/lang/String;)I
+	METHOD a combinePattern ([Ljava/lang/String;)[Ljava/lang/String;
+	METHOD b getPattern (Lcom/google/gson/JsonArray;)[Ljava/lang/String;
+	METHOD b findNextIngredientReverse (Ljava/lang/String;)I
+	METHOD b getIngredients ([Ljava/lang/String;Ljava/util/Map;II)Lez;
+	METHOD c getComponents (Lcom/google/gson/JsonObject;)Ljava/util/Map;
+	METHOD g getWidth ()I
+	METHOD h getHeight ()I

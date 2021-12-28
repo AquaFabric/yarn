@@ -1,9 +1,6 @@
-CLASS brw net/minecraft/block/StemBlock
-	FIELD a AGE Lbwj;
-	FIELD b AGE_TO_SHAPE [Lcsp;
-	FIELD c gourdBlock Lbrx;
-	METHOD <init> (Lbrx;Lbml$c;)V
-		ARG 1 gourdBlock
-		ARG 2 settings
-	METHOD d getPickItem ()Lbbv;
-	METHOD e getGourdBlock ()Lbrx;
+CLASS bhz net/minecraft/block/StemBlock
+	FIELD a AGE Lbmj;
+	FIELD b AGE_TO_SHAPE [Lcew;
+	FIELD c gourdBlock Lbia;
+	METHOD d getPickItem ()Lata;
+	METHOD e getGourdBlock ()Lbia;

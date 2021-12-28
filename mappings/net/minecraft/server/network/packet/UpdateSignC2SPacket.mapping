@@ -1,5 +1,5 @@
-CLASS pe net/minecraft/server/network/packet/UpdateSignC2SPacket
-	FIELD a pos Lev;
+CLASS no net/minecraft/server/network/packet/UpdateSignC2SPacket
+	FIELD a pos Lel;
 	FIELD b text [Ljava/lang/String;
-	METHOD b getPos ()Lev;
+	METHOD b getPos ()Lel;
 	METHOD c getText ()[Ljava/lang/String;

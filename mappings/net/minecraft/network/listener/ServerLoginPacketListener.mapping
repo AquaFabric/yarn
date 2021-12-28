@@ -1,4 +1,4 @@
-CLASS pt net/minecraft/network/listener/ServerLoginPacketListener
-	METHOD a onQueryResponse (Lpu;)V
-	METHOD a onHello (Lpv;)V
-	METHOD a onKey (Lpw;)V
+CLASS od net/minecraft/network/listener/ServerLoginPacketListener
+	METHOD a onQueryResponse (Loe;)V
+	METHOD a onHello (Lof;)V
+	METHOD a onKey (Log;)V

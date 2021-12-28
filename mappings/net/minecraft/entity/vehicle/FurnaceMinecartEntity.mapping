@@ -1,14 +1,8 @@
-CLASS axr net/minecraft/entity/vehicle/FurnaceMinecartEntity
-	FIELD b pushX D
-	FIELD c pushZ D
-	FIELD d LIT Lqh;
-	FIELD e fuel I
-	FIELD f ACCEPTABLE_FUEL Lbef;
-	METHOD <init> (Lbhh;DDD)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD n setLit (Z)V
-		ARG 1 lit
-	METHOD v isLit ()Z
+CLASS apn net/minecraft/entity/vehicle/FurnaceMinecartEntity
+	FIELD a pushX D
+	FIELD b pushZ D
+	FIELD c LIT Lor;
+	FIELD d fuel I
+	FIELD e ACCEPTABLE_FUEL Lavh;
+	METHOD f isLit ()Z
+	METHOD o setLit (Z)V

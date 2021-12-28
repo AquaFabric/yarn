@@ -1,4 +1,6 @@
-CLASS dga net/minecraft/client/render/entity/model/SignBlockEntityModel
-	FIELD b signpost Ldhb;
+CLASS cpv net/minecraft/client/render/entity/model/SignBlockEntityModel
+	FIELD b signpost Lcqw;
 	METHOD a render ()V
-	METHOD b getSignpostModel ()Ldhb;
+	METHOD a (Ljava/util/function/Consumer;Ljava/util/function/BiFunction;Lcol;Lbca;)V
+		ARG 3 stack
+	METHOD b getSignpostModel ()Lcqw;

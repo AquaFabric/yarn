@@ -1,10 +1,10 @@
-CLASS byh net/minecraft/entity/boss/dragon/EnderDragonFight
+CLASS boh net/minecraft/entity/boss/dragon/EnderDragonFight
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD b VALID_ENTITY Ljava/util/function/Predicate;
-	FIELD c bossBar Lvd;
-	FIELD d world Lvg;
+	FIELD c bossBar Ltb;
+	FIELD d world Ltd;
 	FIELD e gateways Ljava/util/List;
-	FIELD f endPortalPattern Lbvo;
+	FIELD f endPortalPattern Lbli;
 	FIELD g dragonSeenTimer I
 	FIELD h endCrystalsAlive I
 	FIELD i crystalCountTimer I
@@ -13,26 +13,19 @@ CLASS byh net/minecraft/entity/boss/dragon/EnderDragonFight
 	FIELD l previouslyKilled Z
 	FIELD m dragonUuid Ljava/util/UUID;
 	FIELD n doLegacyCheck Z
-	FIELD o exitPortalLocation Lev;
-	FIELD p dragonSpawnState Lbyg;
+	FIELD o exitPortalLocation Lel;
+	FIELD p dragonSpawnState Lbog;
 	FIELD q spawnStateTimer I
 	FIELD r crystals Ljava/util/List;
-	METHOD <init> (Lvg;Lib;)V
-		ARG 1 world
-	METHOD a toTag ()Lib;
-	METHOD a crystalDestroyed (Lasf;Laho;)V
-		ARG 1 enderCrystal
-		ARG 2 source
-	METHOD a dragonKilled (Lasg;)V
-		ARG 1 dragon
-	METHOD a setSpawnState (Lbyg;)V
-	METHOD a generateEndGateway (Lev;)V
+	METHOD a toTag ()Lgy;
+	METHOD a crystalDestroyed (Lalc;Laea;)V
+	METHOD a dragonKilled (Lald;)V
+	METHOD a setSpawnState (Lbog;)V
+	METHOD a generateEndGateway (Lel;)V
 	METHOD a respawnDragon (Ljava/util/List;)V
 	METHOD a generateEndPortal (Z)V
-		ARG 1 previouslyKilled
 	METHOD b tick ()V
-	METHOD b updateFight (Lasg;)V
-		ARG 1 dragon
+	METHOD b updateFight (Lald;)V
 	METHOD c getAliveEndCrystals ()I
 	METHOD d hasPreviouslyKilled ()Z
 	METHOD e respawnDragon ()V
@@ -40,9 +33,8 @@ CLASS byh net/minecraft/entity/boss/dragon/EnderDragonFight
 	METHOD g convertFromLegacy ()V
 	METHOD h checkDragonSeen ()V
 	METHOD i worldContainsEndPortal ()Z
-	METHOD j findEndPortal ()Lbvo$b;
-	METHOD k loadChunks ()Z
-	METHOD l updatePlayers ()V
-	METHOD m countAliveCrystals ()V
-	METHOD n generateNewEndGateway ()V
-	METHOD o createDragon ()Lasg;
+	METHOD j findEndPortal ()Lbli$b;
+	METHOD k updatePlayers ()V
+	METHOD l countAliveCrystals ()V
+	METHOD m generateNewEndGateway ()V
+	METHOD n createDragon ()Lald;

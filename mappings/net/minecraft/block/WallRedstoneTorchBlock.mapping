@@ -1,5 +1,3 @@
-CLASS bqs net/minecraft/block/WallRedstoneTorchBlock
-	FIELD b FACING Lbwe;
-	FIELD c LIT_2 Lbwb;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS bgx net/minecraft/block/WallRedstoneTorchBlock
+	FIELD b FACING Lbme;
+	FIELD c LIT_2 Lbmb;

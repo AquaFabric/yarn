@@ -1,6 +1,5 @@
 CLASS cs net/minecraft/command/arguments/NbtTagArgumentType
 	FIELD a EXAMPLES Ljava/util/Collection;
+	FIELD b UNKNOWN_TEAM_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	METHOD a create ()Lcs;
-	METHOD a getTag (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lis;
-		ARG 0 context
-		ARG 1 name
+	METHOD a getTeam (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcfa;

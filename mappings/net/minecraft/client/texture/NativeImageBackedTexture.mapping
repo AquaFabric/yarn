@@ -1,5 +1,5 @@
-CLASS dtw net/minecraft/client/texture/NativeImageBackedTexture
-	FIELD f image Lctw;
+CLASS ddb net/minecraft/client/texture/NativeImageBackedTexture
+	FIELD f image Lddg;
 	METHOD a upload ()V
-	METHOD a setImage (Lctw;)V
-	METHOD e getImage ()Lctw;
+	METHOD a setImage (Lddg;)V
+	METHOD e getImage ()Lddg;

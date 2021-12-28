@@ -1,4 +1,2 @@
-CLASS cmt net/minecraft/world/biome/layer/SouthEastSamplingLayer
-	METHOD a sample (Lcln;I)I
-		ARG 1 context
-		ARG 2 se
+CLASS car net/minecraft/world/biome/layer/SouthEastSamplingLayer
+	METHOD a sample (Lbzl;I)I

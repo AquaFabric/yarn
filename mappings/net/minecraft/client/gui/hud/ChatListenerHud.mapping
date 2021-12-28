@@ -1,4 +1,2 @@
-CLASS cwh net/minecraft/client/gui/hud/ChatListenerHud
-	FIELD a client Lcvi;
-	METHOD <init> (Lcvi;)V
-		ARG 1 client
+CLASS cgr net/minecraft/client/gui/hud/ChatListenerHud
+	FIELD a client Lcft;

@@ -1,10 +1,5 @@
-CLASS amk net/minecraft/entity/ai/goal/DolphinJumpGoal
-	FIELD b dolphin Laqw;
+CLASS agx net/minecraft/entity/ai/goal/DolphinJumpGoal
+	FIELD b dolphin Laju;
 	FIELD c chance I
-	METHOD <init> (Laqw;I)V
-		ARG 1 dolphin
-		ARG 2 chance
-	METHOD a isWater (Lev;III)Z
-		ARG 1 pos
-	METHOD b isAir (Lev;III)Z
-		ARG 1 pos
+	METHOD a isWater (Lel;III)Z
+	METHOD b isAir (Lel;III)Z

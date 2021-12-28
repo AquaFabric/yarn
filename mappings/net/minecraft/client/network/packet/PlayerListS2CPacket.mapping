@@ -1,19 +1,15 @@
-CLASS ma net/minecraft/client/network/packet/PlayerListS2CPacket
-	CLASS ma$a Action
-	CLASS ma$b Entry
+CLASS kr net/minecraft/client/network/packet/PlayerListS2CPacket
+	CLASS kr$a Action
+	CLASS kr$b Entry
 		FIELD b latency I
-		FIELD c gameMode Lbhe;
+		FIELD c gameMode Laxv;
 		FIELD d profile Lcom/mojang/authlib/GameProfile;
-		FIELD e displayName Ljm;
+		FIELD e displayName Lij;
 		METHOD a getProfile ()Lcom/mojang/authlib/GameProfile;
 		METHOD b getLatency ()I
-		METHOD c getGameMode ()Lbhe;
-		METHOD d getDisplayName ()Ljm;
-	FIELD a action Lma$a;
+		METHOD c getGameMode ()Laxv;
+		METHOD d getDisplayName ()Lij;
+	FIELD a action Lkr$a;
 	FIELD b entries Ljava/util/List;
-	METHOD <init> (Lma$a;Ljava/lang/Iterable;)V
-		ARG 1 action
-	METHOD <init> (Lma$a;[Lvh;)V
-		ARG 1 action
 	METHOD b getEntries ()Ljava/util/List;
-	METHOD c getAction ()Lma$a;
+	METHOD c getAction ()Lkr$a;

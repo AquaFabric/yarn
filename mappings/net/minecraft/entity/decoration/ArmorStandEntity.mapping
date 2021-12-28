@@ -1,53 +1,45 @@
-CLASS atc net/minecraft/entity/decoration/ArmorStandEntity
-	FIELD bA RIDEABLE_MINECART_PREDICATE Ljava/util/function/Predicate;
-	FIELD bB heldItems Lfj;
-	FIELD bC armorItems Lfj;
-	FIELD bE disabledSlots I
-	FIELD bF headRotation Lfn;
-	FIELD bG bodyRotation Lfn;
-	FIELD bH leftArmRotation Lfn;
-	FIELD bI rightArmRotation Lfn;
-	FIELD bJ leftLegRotation Lfn;
-	FIELD bK rightLegRotation Lfn;
-	FIELD b ARMOR_STAND_FLAGS Lqh;
-	FIELD bs TRACKER_RIGHT_LEG_ROTATION Lqh;
-	FIELD bu DEFAULT_HEAD_ROTATION Lfn;
-	FIELD bv DEFAULT_BODY_ROTATION Lfn;
-	FIELD bw DEFAULT_LEFT_ARM_ROTATION Lfn;
-	FIELD bx DEFAULT_RIGHT_ARM_ROTATION Lfn;
-	FIELD by DEFAULT_LEFT_LEG_ROTATION Lfn;
-	FIELD bz DEFAULT_RIGHT_LEG_ROTATION Lfn;
-	FIELD c TRACKER_HEAD_ROTATION Lqh;
-	FIELD d TRACKER_BODY_ROTATION Lqh;
-	FIELD e TRACKER_LEFT_ARM_ROTATION Lqh;
-	FIELD f TRACKER_RIGHT_ARM_ROTATION Lqh;
-	FIELD g TRACKER_LEFT_LEG_ROTATION Lqh;
-	METHOD A canClip ()Z
-	METHOD B serializePose ()Lib;
+CLASS alz net/minecraft/entity/decoration/ArmorStandEntity
+	FIELD a ARMOR_STAND_FLAGS Lor;
+	FIELD bA DEFAULT_RIGHT_ARM_ROTATION Lfd;
+	FIELD bB DEFAULT_LEFT_LEG_ROTATION Lfd;
+	FIELD bC DEFAULT_RIGHT_LEG_ROTATION Lfd;
+	FIELD bD RIDEABLE_MINECART_PREDICATE Ljava/util/function/Predicate;
+	FIELD bH disabledSlots I
+	FIELD bJ headRotation Lfd;
+	FIELD bK bodyRotation Lfd;
+	FIELD bL leftArmRotation Lfd;
+	FIELD b TRACKER_HEAD_ROTATION Lor;
+	FIELD bM rightArmRotation Lfd;
+	FIELD bN leftLegRotation Lfd;
+	FIELD bO rightLegRotation Lfd;
+	FIELD bx DEFAULT_HEAD_ROTATION Lfd;
+	FIELD by DEFAULT_BODY_ROTATION Lfd;
+	FIELD bz DEFAULT_LEFT_ARM_ROTATION Lfd;
+	FIELD c TRACKER_BODY_ROTATION Lor;
+	FIELD d TRACKER_LEFT_ARM_ROTATION Lor;
+	FIELD e TRACKER_RIGHT_ARM_ROTATION Lor;
+	FIELD f TRACKER_LEFT_LEG_ROTATION Lor;
+	FIELD g TRACKER_RIGHT_LEG_ROTATION Lor;
 	METHOD a setBitField (BIZ)B
-		ARG 1 value
-		ARG 2 bitField
-		ARG 3 set
-	METHOD a setHeadRotation (Lfn;)V
-	METHOD b setBodyRotation (Lfn;)V
-	METHOD c setLeftArmRotation (Lfn;)V
-	METHOD d setRightArmRotation (Lfn;)V
-	METHOD e (FF)F
-		ARG 1 yaw
-	METHOD e setLeftLegRotation (Lfn;)V
-	METHOD f setRightLegRotation (Lfn;)V
-	METHOD g deserializePose (Lib;)V
+	METHOD a setHeadRotation (Lfd;)V
+	METHOD b setBodyRotation (Lfd;)V
+	METHOD c setLeftArmRotation (Lfd;)V
+	METHOD d setRightArmRotation (Lfd;)V
+	METHOD e setLeftLegRotation (Lfd;)V
+	METHOD f setRightLegRotation (Lfd;)V
+	METHOD g deserializePose (Lgy;)V
 	METHOD l isSmall ()Z
 	METHOD n shouldShowArms ()Z
-	METHOD n setSmall (Z)V
 	METHOD o shouldHideBasePlate ()Z
-	METHOD o setShowArms (Z)V
 	METHOD p isMarker ()Z
-	METHOD p setHideBasePlate (Z)V
-	METHOD q setMarker (Z)V
-	METHOD r getHeadRotation ()Lfn;
-	METHOD s getBodyRotation ()Lfn;
-	METHOD u getLeftArmRotation ()Lfn;
-	METHOD v getRightArmRotation ()Lfn;
-	METHOD w getLeftLegRotation ()Lfn;
-	METHOD z getRightLegRotation ()Lfn;
+	METHOD p setSmall (Z)V
+	METHOD q setShowArms (Z)V
+	METHOD r getHeadRotation ()Lfd;
+	METHOD r setHideBasePlate (Z)V
+	METHOD s getBodyRotation ()Lfd;
+	METHOD s setMarker (Z)V
+	METHOD t getLeftArmRotation ()Lfd;
+	METHOD u getRightArmRotation ()Lfd;
+	METHOD v getLeftLegRotation ()Lfd;
+	METHOD x getRightLegRotation ()Lfd;
+	METHOD z serializePose ()Lgy;

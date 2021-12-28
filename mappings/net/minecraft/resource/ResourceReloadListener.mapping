@@ -1,11 +1,34 @@
 CLASS wz net/minecraft/resource/ResourceReloadListener
 	CLASS wz$a Synchronizer
-		METHOD a whenPrepared (Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;
-			ARG 1 preparedObject
-	METHOD a reload (Lwz$a;Lxe;Lage;Lage;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
-		ARG 1 synchronizer
-		ARG 2 manager
-		ARG 3 prepareProfiler
-		ARG 4 applyProfiler
-		ARG 5 prepareExecutor
-		ARG 6 applyExecutor
+		FIELD a entries Ljava/util/Set;
+		FIELD b ordered Z
+		METHOD a create ()Lwz$a;
+		METHOD a add (Ljava/lang/Object;)Lwz$a;
+		METHOD a add (Ljava/util/Collection;)Lwz$a;
+		METHOD a applyTagGetter (Ljava/util/function/Function;)Z
+		METHOD a add (Lpc;)Lwz$a;
+		METHOD a add (Lwz$b;)Lwz$a;
+		METHOD a add (Lwz;)Lwz$a;
+		METHOD a ordered (Z)Lwz$a;
+		METHOD a add ([Ljava/lang/Object;)Lwz$a;
+		METHOD b build (Lpc;)Lwz;
+	CLASS wz$b Entry
+		METHOD a toJson (Lcom/google/gson/JsonArray;Ljava/util/function/Function;)V
+		METHOD a build (Ljava/util/Collection;)V
+		METHOD a applyTagGetter (Ljava/util/function/Function;)Z
+	CLASS wz$c TagEntry
+		FIELD a id Lpc;
+		FIELD b tag Lwz;
+		METHOD a getId ()Lpc;
+	CLASS wz$d CollectionEntry
+		FIELD a values Ljava/util/Collection;
+		METHOD a getValues ()Ljava/util/Collection;
+	FIELD a id Lpc;
+	FIELD b values Ljava/util/Set;
+	FIELD c entries Ljava/util/Collection;
+	METHOD a values ()Ljava/util/Collection;
+	METHOD a contains (Ljava/lang/Object;)Z
+	METHOD a getRandom (Ljava/util/Random;)Ljava/lang/Object;
+	METHOD a toJson (Ljava/util/function/Function;)Lcom/google/gson/JsonObject;
+	METHOD b entries ()Ljava/util/Collection;
+	METHOD c getId ()Lpc;

@@ -1,15 +1,9 @@
-CLASS bxh net/minecraft/world/chunk/BiMapPalette
-	FIELD a idList Lfe;
-	FIELD b map Lzi;
-	FIELD c resizeHandler Lbxp;
+CLASS bnh net/minecraft/world/chunk/BiMapPalette
+	FIELD a idList Leu;
+	FIELD b map Lxg;
+	FIELD c resizeHandler Lbnp;
 	FIELD d elementDeserializer Ljava/util/function/Function;
 	FIELD e elementSerializer Ljava/util/function/Function;
 	FIELD f indexBits I
-	METHOD <init> (Lfe;ILbxp;Ljava/util/function/Function;Ljava/util/function/Function;)V
-		ARG 2 indexBits
-		ARG 3 resizeHandler
-		ARG 4 elementDeserializer
-		ARG 5 elementSerializer
 	METHOD b getIndexBits ()I
-	METHOD b toTag (Lii;)V
-		ARG 1 tag
+	METHOD b toTag (Lhe;)V

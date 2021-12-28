@@ -1,1 +1,9 @@
-CLASS dem net/minecraft/client/render/entity/model/EndermiteEntityModel
+CLASS coo net/minecraft/client/render/entity/model/EndermiteEntityModel
+	METHOD <init> ([Lcpe;[Lcqy;[Lcpv;Lcos;Lcou;)V
+		ARG 1 entries
+		ARG 2 conditions
+		ARG 3 functions
+		ARG 4 rollsRange
+		ARG 5 bonusRollsRange
+	METHOD a (Lcol;Ljava/util/List;Lorg/apache/commons/lang3/mutable/MutableInt;Lcpd;)V
+		ARG 3 choice

@@ -1,23 +1,18 @@
-CLASS asg net/minecraft/entity/boss/dragon/EnderDragonEntity
-	FIELD bA partHead Lase;
-	FIELD bB partNeck Lase;
-	FIELD bC partBody Lase;
-	FIELD bD partTail1 Lase;
-	FIELD bE partTail2 Lase;
-	FIELD bF partTail3 Lase;
-	FIELD bG partWingRight Lase;
-	FIELD bH partWingLeft Lase;
-	FIELD b PHASE_TYPE Lqh;
-	FIELD bM connectedCrystal Lasf;
-	FIELD bN LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD bO CLOSE_PLAYER_PREDICATE Lapz;
-	FIELD bP fight Lbyh;
-	FIELD bQ phaseManager Lasx;
-	FIELD bz parts [Lase;
-	METHOD a damagePart (Lase;Laho;F)Z
-	METHOD a crystalDestroyed (Lasf;Lev;Laho;)V
-		ARG 1 crystal
-		ARG 2 pos
-		ARG 3 source
-	METHOD dU getPhaseManager ()Lasx;
-	METHOD dV getFight ()Lbyh;
+CLASS ald net/minecraft/entity/boss/dragon/EnderDragonEntity
+	FIELD a PHASE_TYPE Lor;
+	FIELD bC parts [Lalb;
+	FIELD bD partHead Lalb;
+	FIELD bE partNeck Lalb;
+	FIELD bF partBody Lalb;
+	FIELD bG partTail1 Lalb;
+	FIELD bH partTail2 Lalb;
+	FIELD bI partTail3 Lalb;
+	FIELD bJ partWingRight Lalb;
+	FIELD bK partWingLeft Lalb;
+	FIELD bP connectedCrystal Lalc;
+	FIELD bQ LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD bR fight Lboh;
+	FIELD bS phaseManager Lalu;
+	METHOD a crystalDestroyed (Lalc;Lel;Laea;)V
+	METHOD dr getPhaseManager ()Lalu;
+	METHOD ds getFight ()Lboh;

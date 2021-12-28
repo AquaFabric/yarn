@@ -1,2 +1,8 @@
-CLASS dpj net/minecraft/client/render/entity/ExperienceOrbEntityRenderer
-	FIELD a SKIN Lqs;
+CLASS cys net/minecraft/client/render/entity/ExperienceOrbEntityRenderer
+	FIELD a SKIN Lpc;
+	METHOD <init> (Lit/unimi/dsi/fastutil/booleans/BooleanConsumer;Ljava/lang/String;Z)V
+		ARG 2 link
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

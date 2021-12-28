@@ -1,19 +1,15 @@
-CLASS cxz net/minecraft/client/font/GlyphAtlasTexture
-	CLASS cxz$a Slot
+CLASS cih net/minecraft/client/font/GlyphAtlasTexture
+	CLASS cih$a Slot
 		FIELD a x I
 		FIELD b y I
 		FIELD c width I
 		FIELD d height I
-		FIELD e subSlot1 Lcxz$a;
-		FIELD f subSlot2 Lcxz$a;
+		FIELD e subSlot1 Lcih$a;
+		FIELD f subSlot2 Lcih$a;
 		FIELD g isOccupied Z
-		METHOD a findSlotFor (Lctk;)Lcxz$a;
-			ARG 1 glyph
-	FIELD f id Lqs;
+		METHOD a findSlotFor (Lcij;)Lcih$a;
+	FIELD f id Lpc;
 	FIELD g hasColor Z
-	FIELD h rootSlot Lcxz$a;
-	METHOD <init> (Lqs;Z)V
-		ARG 2 hasColor
-	METHOD a getId ()Lqs;
-	METHOD a getGlyphRenderer (Lctk;)Lcyb;
-		ARG 1 glyph
+	FIELD h rootSlot Lcih$a;
+	METHOD a getId ()Lpc;
+	METHOD a getGlyphRenderer (Lcij;)Lcik;

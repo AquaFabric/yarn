@@ -1,5 +1,10 @@
-CLASS lx net/minecraft/client/network/packet/CraftResponseS2CPacket
+CLASS ko net/minecraft/client/network/packet/CraftResponseS2CPacket
 	FIELD a syncId I
-	FIELD b recipeId Lqs;
-	METHOD b getRecipeId ()Lqs;
+	FIELD b recipeId Lpc;
+	METHOD <init> (Lev;Lbml;II)V
+		ARG 1 pos
+		ARG 2 block
+		ARG 3 type
+		ARG 4 data
+	METHOD b getRecipeId ()Lpc;
 	METHOD c getSyncId ()I

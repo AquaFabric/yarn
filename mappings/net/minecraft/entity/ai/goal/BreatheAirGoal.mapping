@@ -1,8 +1,4 @@
-CLASS amg net/minecraft/entity/ai/goal/BreatheAirGoal
-	FIELD a mob Laiv;
-	METHOD <init> (Laiv;)V
-		ARG 1 mob
-	METHOD a isAirPos (Lbhk;Lev;)Z
-		ARG 1 world
-		ARG 2 pos
+CLASS agh net/minecraft/entity/ai/goal/BreatheAirGoal
+	FIELD a mob Lafg;
+	METHOD a isAirPos (Layc;Lel;)Z
 	METHOD g moveToAir ()V

@@ -1,11 +1,11 @@
-CLASS dmm net/minecraft/client/render/block/entity/ChestBlockEntityRenderer
-	FIELD c TRAPPED_DOUBLE_TEX Lqs;
-	FIELD d CHRISTMAS_DOUBLE_TEX Lqs;
-	FIELD e NORMAL_DOUBLE_TEX Lqs;
-	FIELD f TRAPPED_TEX Lqs;
-	FIELD g CHRISTMAS_TEX Lqs;
-	FIELD h NORMAL_TEX Lqs;
-	FIELD i ENDER_TEX Lqs;
-	FIELD j modelSingleChest Lded;
-	FIELD k modelDoubleChest Lded;
+CLASS cwc net/minecraft/client/render/block/entity/ChestBlockEntityRenderer
+	FIELD c TRAPPED_DOUBLE_TEX Lpc;
+	FIELD d CHRISTMAS_DOUBLE_TEX Lpc;
+	FIELD e NORMAL_DOUBLE_TEX Lpc;
+	FIELD f TRAPPED_TEX Lpc;
+	FIELD g CHRISTMAS_TEX Lpc;
+	FIELD h NORMAL_TEX Lpc;
+	FIELD i ENDER_TEX Lpc;
+	FIELD j modelSingleChest Lcoe;
+	FIELD k modelDoubleChest Lcoe;
 	FIELD l isChristmas Z

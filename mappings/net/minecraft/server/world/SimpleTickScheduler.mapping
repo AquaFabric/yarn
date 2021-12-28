@@ -1,5 +1,20 @@
 CLASS bgu net/minecraft/server/world/SimpleTickScheduler
-	FIELD a scheduledTicks Ljava/util/Set;
-	FIELD b identifierProvider Ljava/util/function/Function;
-	METHOD a stream ()Ljava/util/stream/Stream;
-	METHOD a toTag (J)Lii;
+	FIELD a WIRE_CONNECTION_NORTH Lbmh;
+	FIELD b WIRE_CONNECTION_EAST Lbmh;
+	FIELD c WIRE_CONNECTION_SOUTH Lbmh;
+	FIELD o WIRE_CONNECTION_WEST Lbmh;
+	FIELD p POWER Lbmj;
+	FIELD q DIRECTION_TO_WIRE_CONNECTION_PROPERTY Ljava/util/Map;
+	FIELD r WIRE_CONNECTIONS_TO_SHAPE [Lcew;
+	FIELD s wiresGivePower Z
+	FIELD t affectedNeighbors Ljava/util/Set;
+	METHOD a increasePower (ILblc;)I
+	METHOD a connectsTo (Laxk;Lel;)Z
+	METHOD a getRenderConnectionType (Laxk;Lel;Leq;)Lbmo;
+	METHOD a updateNeighbors (Laxy;Lel;)V
+	METHOD a update (Laxy;Lel;Lblc;)Lblc;
+	METHOD a connectsTo (Lblc;Leq;)Z
+	METHOD b getWireColor (I)I
+	METHOD b updateLogic (Laxy;Lel;Lblc;)Lblc;
+	METHOD k connectsTo (Lblc;)Z
+	METHOD w getWireConnectionMask (Lblc;)I

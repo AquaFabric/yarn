@@ -1,7 +1,5 @@
-CLASS aix net/minecraft/entity/JumpingMount
-	METHOD F_ canJump ()Z
+CLASS afi net/minecraft/entity/JumpingMount
+	METHOD G_ canJump ()Z
+	METHOD I_ stopJumping ()V
 	METHOD a_ setJumpStrength (I)V
-		ARG 1 strength
 	METHOD b startJumping (I)V
-		ARG 1 height
-	METHOD c stopJumping ()V

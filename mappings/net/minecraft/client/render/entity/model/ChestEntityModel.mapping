@@ -1,4 +1,4 @@
-CLASS ded net/minecraft/client/render/entity/model/ChestEntityModel
-	FIELD a lid Ldhb;
-	FIELD b base Ldhb;
-	FIELD c hatch Ldhb;
+CLASS coe net/minecraft/client/render/entity/model/ChestEntityModel
+	FIELD a lid Lcqw;
+	FIELD b base Lcqw;
+	FIELD c hatch Lcqw;

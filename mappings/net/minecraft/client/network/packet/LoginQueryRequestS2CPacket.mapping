@@ -1,5 +1,5 @@
-CLASS po net/minecraft/client/network/packet/LoginQueryRequestS2CPacket
+CLASS ny net/minecraft/client/network/packet/LoginQueryRequestS2CPacket
 	FIELD a queryId I
-	FIELD b channel Lqs;
-	FIELD c payload Ljc;
+	FIELD b channel Lpc;
+	FIELD c payload Lhy;
 	METHOD b getQueryId ()I

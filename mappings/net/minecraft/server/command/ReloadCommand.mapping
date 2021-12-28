@@ -1,3 +1,5 @@
-CLASS sx net/minecraft/server/command/ReloadCommand
+CLASS rh net/minecraft/server/command/ReloadCommand
+	METHOD <init> (ILjava/lang/Runnable;)V
+		ARG 1 creationTicks
+		ARG 2 runnable
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher

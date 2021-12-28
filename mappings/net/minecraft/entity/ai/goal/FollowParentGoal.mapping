@@ -1,8 +1,5 @@
-CLASS amu net/minecraft/entity/ai/goal/FollowParentGoal
-	FIELD a animal Laqr;
-	FIELD b parent Laqr;
+CLASS ags net/minecraft/entity/ai/goal/FollowParentGoal
+	FIELD a animal Lajq;
+	FIELD b parent Lajq;
 	FIELD c speed D
 	FIELD d delay I
-	METHOD <init> (Laqr;D)V
-		ARG 1 animal
-		ARG 2 speed

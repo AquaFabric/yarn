@@ -1,15 +1,17 @@
-CLASS dad net/minecraft/client/gui/widget/AdvancementWidget
-	FIELD a WIDGETS_TEX Lqs;
-	FIELD c tree Ldab;
-	FIELD d advancement Lq;
-	FIELD e display Lz;
-	FIELD i client Lcvi;
-	FIELD k children Ljava/util/List;
-	FIELD m xPos I
-	FIELD n yPos I
-	METHOD <init> (Ldab;Lcvi;Lq;Lz;)V
-		ARG 1 tree
-		ARG 2 client
-		ARG 3 advancement
-	METHOD a getRootWidget (Lq;)Ldad;
-	METHOD a setProgress (Ls;)V
+CLASS ckq net/minecraft/client/gui/widget/AdvancementWidget
+	FIELD a WIDGETS_TEX Lpc;
+	FIELD g tree Lcko;
+	FIELD h advancement Ll;
+	FIELD i display Lu;
+	FIELD m client Lcft;
+	FIELD o children Ljava/util/List;
+	FIELD q xPos I
+	FIELD r yPos I
+	METHOD <init> (Lbxl;ZZ)V
+		ARG 1 chunkProvider
+		ARG 2 hasBlockLight
+		ARG 3 hasSkyLight
+	METHOD a (Lev;I)V
+		ARG 1 pos
+	METHOD a getRootWidget (Ll;)Lckq;
+	METHOD a setProgress (Ln;)V

@@ -1,4 +1,4 @@
-CLASS dsa net/minecraft/client/render/entity/ExplodingWitherSkullEntityRenderer
-	FIELD a INVINCIBLE_SKIN Lqs;
-	FIELD f SKIN Lqs;
-	FIELD g model Ldgd;
+CLASS dbb net/minecraft/client/render/entity/ExplodingWitherSkullEntityRenderer
+	FIELD a INVINCIBLE_SKIN Lpc;
+	FIELD f SKIN Lpc;
+	FIELD g model Lcpx;

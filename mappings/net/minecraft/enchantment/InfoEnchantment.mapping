@@ -1,6 +1,3 @@
-CLASS bfl net/minecraft/enchantment/InfoEnchantment
-	FIELD b enchantment Lbfi;
+CLASS awh net/minecraft/enchantment/InfoEnchantment
+	FIELD b enchantment Lawe;
 	FIELD c level I
-	METHOD <init> (Lbfi;I)V
-		ARG 1 enchantment
-		ARG 2 level

@@ -1,10 +1,5 @@
-CLASS bgl net/minecraft/village/TraderOfferList
-	METHOD a toTag ()Lib;
-	METHOD a getValidRecipe (Lbca;Lbca;I)Lbgk;
-		ARG 1 firstBuyItem
-		ARG 2 secondBuyItem
-		ARG 3 index
-	METHOD a toPacket (Ljc;)V
-		ARG 1 buffer
-	METHOD b fromPacket (Ljc;)Lbgl;
-		ARG 0 byteBuf
+CLASS axf net/minecraft/village/TraderOfferList
+	METHOD a toTag ()Lgy;
+	METHOD a getValidRecipe (Late;Late;I)Laxe;
+	METHOD a toPacket (Lhy;)V
+	METHOD b fromPacket (Lhy;)Laxf;

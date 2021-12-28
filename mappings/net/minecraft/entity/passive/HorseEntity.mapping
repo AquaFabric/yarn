@@ -1,21 +1,16 @@
-CLASS aru net/minecraft/entity/passive/HorseEntity
-	FIELD bJ HORSE_ARMOR_BONUS_UUID Ljava/util/UUID;
-	FIELD bK VARIANT Lqh;
-	FIELD bL HORSE_TEX [Ljava/lang/String;
-	FIELD bM HORSE_TEX_ID [Ljava/lang/String;
-	FIELD bN HORSE_MARKING_TEX [Ljava/lang/String;
-	FIELD bO HORSE_MARKING_TEX_ID [Ljava/lang/String;
-	FIELD bP textureLocation Ljava/lang/String;
-	FIELD bQ textureLayers [Ljava/lang/String;
-	METHOD dV getArmorType ()Lbca;
-	METHOD dY getVariant ()I
-	METHOD dZ getTextureLocation ()Ljava/lang/String;
-	METHOD eB getTextureLayers ()[Ljava/lang/String;
-	METHOD eC clearTextureInfo ()V
-	METHOD eD initTextureInfo ()V
-	METHOD k equipArmor (Lbca;)V
-		ARG 1 stack
-	METHOD l setArmorTypeFromStack (Lbca;)V
-		ARG 1 stack
-	METHOD u setVariant (I)V
-		ARG 1 variant
+CLASS akq net/minecraft/entity/passive/HorseEntity
+	FIELD bM HORSE_ARMOR_BONUS_UUID Ljava/util/UUID;
+	FIELD bN VARIANT Lor;
+	FIELD bP HORSE_TEX [Ljava/lang/String;
+	FIELD bQ HORSE_TEX_ID [Ljava/lang/String;
+	FIELD bR HORSE_MARKING_TEX [Ljava/lang/String;
+	FIELD bS HORSE_MARKING_TEX_ID [Ljava/lang/String;
+	FIELD bT textureLocation Ljava/lang/String;
+	FIELD bU textureLayers [Ljava/lang/String;
+	METHOD dC getTextureLayers ()[Ljava/lang/String;
+	METHOD dy getVariant ()I
+	METHOD dz getTextureLocation ()Ljava/lang/String;
+	METHOD eg clearTextureInfo ()V
+	METHOD eh initTextureInfo ()V
+	METHOD h setArmorTypeFromStack (Late;)V
+	METHOD s setVariant (I)V

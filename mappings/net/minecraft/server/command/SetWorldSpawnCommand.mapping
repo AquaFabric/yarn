@@ -1,6 +1,3 @@
-CLASS tj net/minecraft/server/command/SetWorldSpawnCommand
-	METHOD a execute (Lcd;Lev;)I
-		ARG 0 source
-		ARG 1 pos
+CLASS rs net/minecraft/server/command/SetWorldSpawnCommand
+	METHOD a execute (Lbu;Lel;)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher

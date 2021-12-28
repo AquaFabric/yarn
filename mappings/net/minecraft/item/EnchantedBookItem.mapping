@@ -1,7 +1,4 @@
-CLASS bbf net/minecraft/item/EnchantedBookItem
-	METHOD a addEnchantment (Lbca;Lbfl;)V
-		ARG 0 stack
-		ARG 1 enchantmentInfo
-	METHOD a makeStack (Lbfl;)Lbca;
-	METHOD e getEnchantmentTag (Lbca;)Lii;
-		ARG 0 stack
+CLASS asi net/minecraft/item/EnchantedBookItem
+	METHOD a addEnchantment (Late;Lawh;)V
+	METHOD a makeStack (Lawh;)Late;
+	METHOD e getEnchantmentTag (Late;)Lhe;

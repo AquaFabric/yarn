@@ -1,11 +1,13 @@
-CLASS cnb net/minecraft/entity/ai/pathing/PathMinHeap
-	FIELD a pathNodes [Lcne;
+CLASS caz net/minecraft/entity/ai/pathing/PathMinHeap
+	FIELD a pathNodes [Lcbc;
 	FIELD b count I
+	METHOD <init> (Ljava/util/Optional;Z)V
+		ARG 1 exitPos
+		ARG 2 exact
 	METHOD a clear ()V
 	METHOD a shiftUp (I)V
-	METHOD a push (Lcne;)Lcne;
-	METHOD a setNodeWeight (Lcne;F)V
-		ARG 1 node
+	METHOD a push (Lcbc;)Lcbc;
+	METHOD a setNodeWeight (Lcbc;F)V
 	METHOD b shiftDown (I)V
-	METHOD c pop ()Lcne;
+	METHOD c pop ()Lcbc;
 	METHOD e isEmpty ()Z

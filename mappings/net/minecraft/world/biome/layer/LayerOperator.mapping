@@ -1,4 +1,3 @@
-CLASS cmy net/minecraft/world/biome/layer/LayerOperator
-	METHOD apply (II)I
-		ARG 1 x
-		ARG 2 z
+CLASS caw net/minecraft/world/biome/layer/LayerOperator
+	METHOD <init> (Lbvj;)V
+		ARG 1 state

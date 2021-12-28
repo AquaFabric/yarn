@@ -1,2 +1,6 @@
-CLASS drz net/minecraft/client/render/entity/WitherSkeletonEntityRenderer
-	FIELD a SKIN Lqs;
+CLASS dba net/minecraft/client/render/entity/WitherSkeletonEntityRenderer
+	FIELD a SKIN Lpc;
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

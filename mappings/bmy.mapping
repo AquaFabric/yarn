@@ -1,0 +1,9 @@
+CLASS bmy
+	METHOD a getEntitySpawnList (Lafc;Lel;)Ljava/util/List;
+	METHOD a locateStructure (Laxy;Ljava/lang/String;Lel;IZ)Lel;
+	METHOD a hasStructure (Layu;Lbtl;)Z
+	METHOD a generateFeatures (Lti;)V
+	METHOD a carve (Lti;Lboq$a;)V
+	METHOD b getStructureConfig (Layu;Lbtl;)Lbqp;
+	METHOD b populateEntities (Lti;)V
+	METHOD d getSpawnHeight ()I

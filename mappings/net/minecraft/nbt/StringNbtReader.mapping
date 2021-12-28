@@ -1,4 +1,4 @@
-CLASS it net/minecraft/nbt/StringNbtReader
+CLASS hp net/minecraft/nbt/StringNbtReader
 	FIELD a TRAILING Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD b EXPECTED_KEY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD c EXPECTED_VALUE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
@@ -13,17 +13,16 @@ CLASS it net/minecraft/nbt/StringNbtReader
 	FIELD l SHORT_PATTERN Ljava/util/regex/Pattern;
 	FIELD m INT_PATTERN Ljava/util/regex/Pattern;
 	FIELD n reader Lcom/mojang/brigadier/StringReader;
-	METHOD a readCompoundTag ()Lib;
+	METHOD a readCompoundTag ()Lgy;
 	METHOD a readArray (BB)Ljava/util/List;
 	METHOD a expect (C)V
-	METHOD a parse (Ljava/lang/String;)Lib;
-		ARG 0 string
+	METHOD a parse (Ljava/lang/String;)Lgy;
 	METHOD b readString ()Ljava/lang/String;
-	METHOD b parsePrimitive (Ljava/lang/String;)Lis;
-	METHOD c parseTagPrimitive ()Lis;
-	METHOD d parseTag ()Lis;
-	METHOD e parseTagArray ()Lis;
-	METHOD f parseCompoundTag ()Lib;
-	METHOD g parseListTag ()Lis;
-	METHOD h parseTagPrimitiveArray ()Lis;
+	METHOD b parsePrimitive (Ljava/lang/String;)Lho;
+	METHOD c parseTagPrimitive ()Lho;
+	METHOD d parseTag ()Lho;
+	METHOD e parseTagArray ()Lho;
+	METHOD f parseCompoundTag ()Lgy;
+	METHOD g parseListTag ()Lho;
+	METHOD h parseTagPrimitiveArray ()Lho;
 	METHOD i readComma ()Z

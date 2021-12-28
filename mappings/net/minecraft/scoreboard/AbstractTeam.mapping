@@ -1,31 +1,23 @@
-CLASS csx net/minecraft/scoreboard/AbstractTeam
-	CLASS csx$a CollisionRule
+CLASS cfe net/minecraft/scoreboard/AbstractTeam
+	CLASS cfe$a CollisionRule
 		FIELD e name Ljava/lang/String;
 		FIELD f value I
 		FIELD g COLLISION_RULES Ljava/util/Map;
-		METHOD <init> (Ljava/lang/String;ILjava/lang/String;I)V
-			ARG 3 name
-			ARG 4 value
-		METHOD a getRule (Ljava/lang/String;)Lcsx$a;
-			ARG 0 name
-		METHOD b getTranslationKey ()Ljm;
-	CLASS csx$b VisibilityRule
+		METHOD a getRule (Ljava/lang/String;)Lcfe$a;
+		METHOD b getTranslationKey ()Lij;
+	CLASS cfe$b VisibilityRule
 		FIELD e name Ljava/lang/String;
 		FIELD f value I
 		FIELD g VISIBILITY_RULES Ljava/util/Map;
-		METHOD <init> (Ljava/lang/String;ILjava/lang/String;I)V
-			ARG 3 name
-			ARG 4 value
-		METHOD a getRule (Ljava/lang/String;)Lcsx$b;
-			ARG 0 name
-		METHOD b getTranslationKey ()Ljm;
-	METHOD a isEqual (Lcsx;)Z
+		METHOD a getRule (Ljava/lang/String;)Lcfe$b;
+		METHOD b getTranslationKey ()Lij;
+	METHOD a isEqual (Lcfe;)Z
 	METHOD b getName ()Ljava/lang/String;
-	METHOD d modifyText (Ljm;)Ljm;
+	METHOD d modifyText (Lij;)Lij;
 	METHOD g getPlayerList ()Ljava/util/Collection;
 	METHOD h isFriendlyFireAllowed ()Z
 	METHOD i shouldShowFriendlyInvisibles ()Z
-	METHOD j getNameTagVisibilityRule ()Lcsx$b;
-	METHOD k getDeathMessageVisibilityRule ()Lcsx$b;
-	METHOD l getCollisionRule ()Lcsx$a;
-	METHOD n getColor ()Lc;
+	METHOD j getNameTagVisibilityRule ()Lcfe$b;
+	METHOD k getDeathMessageVisibilityRule ()Lcfe$b;
+	METHOD l getCollisionRule ()Lcfe$a;
+	METHOD n getColor ()La;

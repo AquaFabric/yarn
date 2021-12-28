@@ -1,4 +1,6 @@
-CLASS bpb net/minecraft/block/HorizontalFacingBlock
-	FIELD ay FACING Lbwe;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS bfi net/minecraft/block/HorizontalFacingBlock
+	FIELD D FACING Lbme;
+	METHOD <init> (Lbfi$a;Lbfj;[Laik;)V
+		ARG 1 weight
+		ARG 2 type
+		ARG 3 slotTypes

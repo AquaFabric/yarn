@@ -1,3 +1,1 @@
-CLASS cbw net/minecraft/world/gen/feature/IceSpikeFeature
-	METHOD <init> (Ljava/util/function/Function;)V
-		ARG 1 configFactory
+CLASS brc net/minecraft/world/gen/feature/IceSpikeFeature

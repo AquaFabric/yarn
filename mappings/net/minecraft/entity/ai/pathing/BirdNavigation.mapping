@@ -1,5 +1,3 @@
-CLASS apf net/minecraft/entity/ai/pathing/BirdNavigation
+CLASS aiu net/minecraft/entity/ai/pathing/BirdNavigation
 	METHOD a setCanPathThroughDoors (Z)V
-		ARG 1 canPathThroughDoors
 	METHOD b setCanEnterOpenDoors (Z)V
-		ARG 1 canEnterOpenDoors

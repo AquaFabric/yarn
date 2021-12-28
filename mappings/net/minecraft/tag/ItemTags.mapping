@@ -1,11 +1,9 @@
-CLASS yz net/minecraft/tag/ItemTags
-	CLASS yz$a CachingTag
+CLASS wx net/minecraft/tag/ItemTags
+	CLASS wx$a CachingTag
 		FIELD a version I
-		FIELD b delegate Lzb;
-	FIELD N container Lzc;
-	FIELD O latestVersion I
-	METHOD a getContainer ()Lzc;
-	METHOD a register (Ljava/lang/String;)Lzb;
-		ARG 0 id
-	METHOD a setContainer (Lzc;)V
-		ARG 0 container
+		FIELD b delegate Lwz;
+	FIELD E container Lxa;
+	FIELD F latestVersion I
+	METHOD a getContainer ()Lxa;
+	METHOD a register (Ljava/lang/String;)Lwz;
+	METHOD a setContainer (Lxa;)V

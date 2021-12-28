@@ -1,6 +1,3 @@
-CLASS rv net/minecraft/server/command/DefaultGameModeCommand
-	METHOD a execute (Lcd;Lbhe;)I
-		ARG 0 source
-		ARG 1 defaultGameMode
+CLASS qh net/minecraft/server/command/DefaultGameModeCommand
+	METHOD a execute (Lbu;Laxv;)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher

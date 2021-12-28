@@ -1,3 +1,9 @@
 CLASS amz net/minecraft/entity/ai/goal/DiveJumpingGoal
-	METHOD a updatePitch (FFF)F
-		ARG 1 previousPitch
+	CLASS amz$a ConjureFangsGoal
+		METHOD a conjureFangs (DDDDFI)V
+	CLASS amz$b LookAtTargetOrWololoTarget
+	CLASS amz$c SummonVexGoal
+	CLASS amz$d WololoGoal
+	FIELD c wololoTarget Lakf;
+	METHOD a setWololoTarget (Lakf;)V
+	METHOD dD getWololoTarget ()Lakf;

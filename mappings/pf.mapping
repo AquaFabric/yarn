@@ -1,0 +1,6 @@
+CLASS pf
+	CLASS pf$a BoatDispenserBehavior
+		FIELD a itemDispenser Leo;
+		FIELD b boatType Lapj$b;
+	CLASS pf$c FallibleItemDispenserBehavior
+		FIELD a success Z

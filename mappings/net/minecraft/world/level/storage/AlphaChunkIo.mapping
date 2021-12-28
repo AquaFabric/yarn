@@ -1,23 +1,16 @@
-CLASS bxx net/minecraft/world/level/storage/AlphaChunkIo
-	CLASS bxx$a AlphaChunk
+CLASS bny net/minecraft/world/level/storage/AlphaChunkIo
+	CLASS bny$a AlphaChunk
 		FIELD a lastUpdate J
 		FIELD b terrainPopulated Z
 		FIELD c heightMap [B
-		FIELD d blockLight Lbxn;
-		FIELD e skyLight Lbxn;
-		FIELD f data Lbxn;
+		FIELD d blockLight Lbnn;
+		FIELD e skyLight Lbnn;
+		FIELD f data Lbnn;
 		FIELD g blocks [B
-		FIELD h entities Lii;
-		FIELD i blockEntities Lii;
-		FIELD j blockTicks Lii;
+		FIELD h entities Lhe;
+		FIELD i blockEntities Lhe;
+		FIELD j blockTicks Lhe;
 		FIELD k x I
 		FIELD l z I
-		METHOD <init> (II)V
-			ARG 1 x
-			ARG 2 z
-	METHOD a convertAlphaChunk (Lbxx$a;Lib;Lbig;)V
-		ARG 0 alphaChunk
-		ARG 1 tag
-		ARG 2 biomeSource
-	METHOD a readAlphaChunk (Lib;)Lbxx$a;
-		ARG 0 tag
+	METHOD a convertAlphaChunk (Lbny$a;Lgy;Layw;)V
+	METHOD a readAlphaChunk (Lgy;)Lbny$a;

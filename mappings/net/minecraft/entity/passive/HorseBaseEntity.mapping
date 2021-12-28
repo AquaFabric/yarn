@@ -1,95 +1,68 @@
-CLASS ars net/minecraft/entity/passive/HorseBaseEntity
-	FIELD bD inAir Z
-	FIELD bE items Lahf;
-	FIELD bF temper I
-	FIELD bG jumpStrength F
-	FIELD bI soundTicks I
-	FIELD bJ IS_BRED_HORSE Ljava/util/function/Predicate;
-	FIELD bK PARENT_HORSE_PREDICATE Lapz;
-	FIELD bL HORSE_FLAGS Lqh;
-	FIELD bM OWNER_UUID Lqh;
-	FIELD bN eatingGrassTicks I
-	FIELD bO eatingTicks I
-	FIELD bP angryTicks I
-	FIELD bQ jumping Z
-	FIELD bR eatingGrassAnimationProgress F
-	FIELD bS lastEatingGrassAnimationProgress F
-	FIELD bT angryAnimationProgress F
-	FIELD bU lastAngryAnimationProgress F
-	FIELD bV eatingAnimationProgress F
-	FIELD bW lastEatingAnimationProgress F
-	FIELD bz JUMP_STRENGTH Laje;
-	METHOD <init> (Laij;Lbhh;)V
-		ARG 1 type
-	METHOD a setChildAttributes (Laid;Lars;)V
-		ARG 1 mate
-		ARG 2 child
-	METHOD a playWalkSound (Lbro;)V
-		ARG 1 group
-	METHOD b receiveFood (Lavx;Lbca;)Z
-		ARG 1 player
-		ARG 2 item
+CLASS ako net/minecraft/entity/passive/HorseBaseEntity
+	FIELD bC JUMP_STRENGTH Lafm;
+	FIELD bG inAir Z
+	FIELD bH items Laqk;
+	FIELD bI temper I
+	FIELD bJ jumpStrength F
+	FIELD bL soundTicks I
+	FIELD bN HORSE_FLAGS Lor;
+	FIELD bO OWNER_UUID Lor;
+	FIELD bP eatingGrassTicks I
+	FIELD bQ eatingTicks I
+	FIELD bR angryTicks I
+	FIELD bS jumping Z
+	FIELD bT eatingGrassAnimationProgress F
+	FIELD bU lastEatingGrassAnimationProgress F
+	FIELD bV angryAnimationProgress F
+	FIELD bW lastAngryAnimationProgress F
+	FIELD bX eatingAnimationProgress F
+	FIELD bY lastEatingAnimationProgress F
+	METHOD A spawnPlayerReactionParticles (Z)V
+	METHOD a setChildAttributes (Laeo;Lako;)V
+	METHOD a playWalkSound (Lbhr;)V
+	METHOD b receiveFood (Laog;Late;)Z
 	METHOD b setOwnerUuid (Ljava/util/UUID;)V
-		ARG 1 uuid
+	METHOD c openInventory (Laog;)V
 	METHOD d setHorseFlag (IZ)V
-		ARG 1 bitmask
-		ARG 2 flag
-	METHOD dV playEatingAnimation ()V
-	METHOD dW getInventorySize ()I
-	METHOD dX getAngrySound ()Lyj;
-	METHOD dZ setEating ()V
-	METHOD e openInventory (Lavx;)V
-		ARG 1 player
-	METHOD eA canEquip ()Z
-	METHOD eB updateAnger ()V
-	METHOD ee initCustomGoals ()V
-	METHOD ef isTame ()Z
-	METHOD eg getOwnerUuid ()Ljava/util/UUID;
-	METHOD eh isInAir ()Z
-	METHOD ei isEatingGrass ()Z
-	METHOD ej isAngry ()Z
-	METHOD ek isBred ()Z
-	METHOD el getTemper ()I
-	METHOD en updateSaddle ()V
-	METHOD eo getJumpStrength ()D
-	METHOD ep canBeSaddled ()Z
-	METHOD eq isSaddled ()Z
-	METHOD er getMaxTemper ()I
-	METHOD es walkToParent ()V
-	METHOD et eatsGrass ()Z
-	METHOD eu playAngrySound ()V
-	METHOD ev playJumpSound ()V
-	METHOD ew canBreed ()Z
-	METHOD ex getChildHealthBonus ()F
-	METHOD ey getChildJumpStrengthBonus ()D
-	METHOD ez getChildMovementSpeedBonus ()D
-	METHOD g putPlayerOnBack (Lavx;)V
-		ARG 1 player
-	METHOD h bondWithPlayer (Lavx;)Z
-		ARG 1 player
-	METHOD j canEquip (Lbca;)Z
-		ARG 1 item
-	METHOD r getHorseFlag (I)Z
-		ARG 1 bitmask
-	METHOD s setTemper (I)V
-		ARG 1 temper
-	METHOD s setTame (Z)V
-		ARG 1 tame
-	METHOD t addTemper (I)I
-		ARG 1 difference
-	METHOD t setInAir (Z)V
-		ARG 1 inAir
-	METHOD u setBred (Z)V
+	METHOD dA getInventorySize ()I
+	METHOD dB getAngrySound ()Lwi;
+	METHOD dC setEating ()V
+	METHOD dH updateAnger ()V
+	METHOD dI initCustomGoals ()V
+	METHOD dJ isTame ()Z
+	METHOD dK getOwnerUuid ()Ljava/util/UUID;
+	METHOD dM isInAir ()Z
+	METHOD dN isEatingGrass ()Z
+	METHOD dO isAngry ()Z
+	METHOD dP isBred ()Z
+	METHOD dQ getTemper ()I
+	METHOD dS updateSaddle ()V
+	METHOD dT getJumpStrength ()D
+	METHOD dU canBeSaddled ()Z
+	METHOD dV isSaddled ()Z
+	METHOD dW getMaxTemper ()I
+	METHOD dX walkToParent ()V
+	METHOD dY eatsGrass ()Z
+	METHOD dZ playAngrySound ()V
+	METHOD dy playEatingAnimation ()V
+	METHOD ea playJumpSound ()V
+	METHOD eb canBreed ()Z
+	METHOD ec getChildHealthBonus ()F
+	METHOD ed getChildJumpStrengthBonus ()D
+	METHOD ee getChildMovementSpeedBonus ()D
+	METHOD ef canEquip ()Z
+	METHOD g putPlayerOnBack (Laog;)V
+	METHOD g canEquip (Late;)Z
+	METHOD h bondWithPlayer (Laog;)Z
+	METHOD p getHorseFlag (I)Z
+	METHOD q setTemper (I)V
+	METHOD r addTemper (I)I
+	METHOD u setTame (Z)V
 	METHOD v getEatingGrassAnimationProgress (F)F
-		ARG 1 tickDelta
-	METHOD v setSaddled (Z)V
+	METHOD v setInAir (Z)V
 	METHOD w getAngryAnimationProgress (F)F
-		ARG 1 tickDelta
-	METHOD w setEatingGrass (Z)V
-		ARG 1 eatingGrass
+	METHOD w setBred (Z)V
 	METHOD x getEatingAnimationProgress (F)F
-		ARG 1 tickDelta
-	METHOD x setAngry (Z)V
-		ARG 1 angry
-	METHOD y spawnPlayerReactionParticles (Z)V
-		ARG 1 positive
+	METHOD x setSaddled (Z)V
+	METHOD y setEatingGrass (Z)V
+	METHOD z setAngry (Z)V

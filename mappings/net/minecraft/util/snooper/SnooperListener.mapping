@@ -1,2 +1,2 @@
-CLASS ahi net/minecraft/util/snooper/SnooperListener
-	METHOD a addSnooperInfo (Lahh;)V
+CLASS adv net/minecraft/util/snooper/SnooperListener
+	METHOD a addSnooperInfo (Ladu;)V

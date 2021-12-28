@@ -1,4 +1,2 @@
-CLASS cms net/minecraft/world/biome/layer/IdentitySamplingLayer
-	METHOD a sample (Lcln;I)I
-		ARG 1 context
-		ARG 2 value
+CLASS caq net/minecraft/world/biome/layer/IdentitySamplingLayer
+	METHOD a sample (Lbzl;I)I

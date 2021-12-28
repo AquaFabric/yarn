@@ -1,0 +1,16 @@
+CLASS csc
+	CLASS csc$c ExplosionParticle
+		FIELD L trail Z
+		FIELD M flicker Z
+		METHOD a setTrail (Z)V
+		METHOD b setFlicker (Z)V
+	CLASS csc$d FireworkParticle
+		FIELD J age I
+		FIELD K particleManager Lcsn;
+		FIELD L explosions Lhe;
+		FIELD M flicker Z
+		METHOD a addExplosionParticle (DDDDDD[I[IZZ)V
+		METHOD a explodeBall (DI[I[IZZ)V
+		METHOD a explodeStar (D[[D[I[IZZZ)V
+		METHOD a explodeBurst ([I[IZZ)V
+		METHOD n isFar ()Z

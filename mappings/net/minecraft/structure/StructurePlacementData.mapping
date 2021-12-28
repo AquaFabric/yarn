@@ -1,35 +1,22 @@
-CLASS cjf net/minecraft/structure/StructurePlacementData
-	FIELD a mirror Lbpw;
-	FIELD b rotation Lbqw;
-	FIELD c position Lev;
+CLASS bxn net/minecraft/structure/StructurePlacementData
+	FIELD a mirror Lbfz;
+	FIELD b rotation Lbhb;
+	FIELD c position Lel;
 	FIELD d ignoreEntities Z
-	FIELD e chunkPosition Lbgt;
-	FIELD f boundingBox Lchr;
-	FIELD g placeFluids Z
-	FIELD h random Ljava/util/Random;
-	FIELD k processors Ljava/util/List;
-	METHOD a copy ()Lcjf;
-	METHOD a setChunkPosition (Lbgt;)Lcjf;
-		ARG 1 chunkPosition
-	METHOD a setMirrored (Lbpw;)Lcjf;
-	METHOD a setRotation (Lbqw;)Lcjf;
-	METHOD a setBoundingBox (Lchr;)Lcjf;
-		ARG 1 boundingBox
-	METHOD a addProcessor (Lcjg;)Lcjf;
-		ARG 1 processor
-	METHOD a setPosition (Lev;)Lcjf;
-		ARG 1 position
-	METHOD a setRandom (Ljava/util/Random;)Lcjf;
-		ARG 1 random
-	METHOD a setIgnoreEntities (Z)Lcjf;
-	METHOD b clearProcessors ()Lcjf;
-	METHOD b removeProcessor (Lcjg;)Lcjf;
-		ARG 1 processor
-	METHOD b getRandom (Lev;)Ljava/util/Random;
-		ARG 1 pos
-	METHOD c getMirror ()Lbpw;
-	METHOD d getRotation ()Lbqw;
-	METHOD e getPosition ()Lev;
-	METHOD g shouldIgnoreEntities ()Z
-	METHOD j getProcessors ()Ljava/util/List;
-	METHOD l shouldPlaceFluids ()Z
+	FIELD f chunkPosition Laxm;
+	FIELD g boundingBox Lbwf;
+	FIELD i placeFluids Z
+	FIELD k random Ljava/util/Random;
+	METHOD a copy ()Lbxn;
+	METHOD a setChunkPosition (Laxm;)Lbxn;
+	METHOD a setMirrored (Lbfz;)Lbxn;
+	METHOD a setRotation (Lbhb;)Lbxn;
+	METHOD a setBoundingBox (Lbwf;)Lbxn;
+	METHOD a setPosition (Lel;)Lbxn;
+	METHOD a setRandom (Ljava/util/Random;)Lbxn;
+	METHOD a setIgnoreEntities (Z)Lbxn;
+	METHOD b getMirror ()Lbfz;
+	METHOD c getRotation ()Lbhb;
+	METHOD d getPosition ()Lel;
+	METHOD h shouldIgnoreEntities ()Z
+	METHOD m shouldPlaceFluids ()Z

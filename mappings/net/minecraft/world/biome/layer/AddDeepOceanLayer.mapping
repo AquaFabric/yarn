@@ -1,1 +1,4 @@
-CLASS clq net/minecraft/world/biome/layer/AddDeepOceanLayer
+CLASS bzp net/minecraft/world/biome/layer/AddDeepOceanLayer
+	METHOD <init> (Lbvj;I)V
+		ARG 1 state
+		ARG 2 startRadius

@@ -1,9 +1,3 @@
-CLASS brq net/minecraft/block/SpongeBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a update (Lbhh;Lev;)V
-		ARG 1 world
-		ARG 2 pos
-	METHOD b absorbWater (Lbhh;Lev;)Z
-		ARG 1 world
-		ARG 2 pos
+CLASS bht net/minecraft/block/SpongeBlock
+	METHOD a update (Laxy;Lel;)V
+	METHOD b absorbWater (Laxy;Lel;)Z

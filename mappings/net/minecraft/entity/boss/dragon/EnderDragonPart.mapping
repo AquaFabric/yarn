@@ -1,9 +1,5 @@
-CLASS ase net/minecraft/entity/boss/dragon/EnderDragonPart
-	FIELD b owner Lasg;
-	FIELD c name Ljava/lang/String;
-	FIELD d partSize Laig;
-	METHOD <init> (Lasg;Ljava/lang/String;FF)V
-		ARG 1 owner
-		ARG 2 name
-		ARG 3 width
-		ARG 4 height
+CLASS alb net/minecraft/entity/boss/dragon/EnderDragonPart
+	FIELD b name Ljava/lang/String;
+	METHOD <init> (FI)V
+		ARG 1 speed
+		ARG 2 completionRange

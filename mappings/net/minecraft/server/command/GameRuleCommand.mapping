@@ -1,10 +1,4 @@
-CLASS sg net/minecraft/server/command/GameRuleCommand
-	METHOD a executeQuery (Lcd;Ljava/lang/String;)I
-		ARG 0 source
-		ARG 1 gameRule
-	METHOD a executeSet (Lcd;Ljava/lang/String;Lcom/mojang/brigadier/context/CommandContext;)I
-		ARG 0 source
-		ARG 1 gameRule
-		ARG 2 context
+CLASS qs net/minecraft/server/command/GameRuleCommand
+	METHOD a executeQuery (Lbu;Ljava/lang/String;)I
+	METHOD a executeSet (Lbu;Ljava/lang/String;Lcom/mojang/brigadier/context/CommandContext;)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher

@@ -1,23 +1,17 @@
-CLASS bte net/minecraft/block/entity/BannerBlockEntity
-	FIELD a customName Ljm;
-	FIELD b baseColor Lbax;
-	FIELD c patternListTag Lii;
+CLASS bje net/minecraft/block/entity/BannerBlockEntity
+	FIELD a customName Lij;
+	FIELD e baseColor Lasc;
+	FIELD f patternListTag Lhe;
 	FIELD g patternListTagRead Z
 	FIELD h patterns Ljava/util/List;
 	FIELD i patternColors Ljava/util/List;
 	FIELD j patternCacheKey Ljava/lang/String;
-	METHOD <init> (Lbax;)V
-		ARG 1 baseColor
-	METHOD a getPatternCount (Lbca;)I
-		ARG 0 stack
-	METHOD a deserialize (Lbca;Lbax;)V
-		ARG 1 stack
-	METHOD a getPickStack (Lbvj;)Lbca;
-	METHOD a getColorForState (Ljava/util/function/Supplier;)Lbax;
-	METHOD a setCustomName (Ljm;)V
-	METHOD b loadFromItemStack (Lbca;)V
-		ARG 0 stack
-	METHOD c getPatterns ()Ljava/util/List;
-	METHOD f getPatternColors ()Ljava/util/List;
-	METHOD g getPatternCacheKey ()Ljava/lang/String;
-	METHOD r readPattern ()V
+	METHOD a getPatternCount (Late;)I
+	METHOD a deserialize (Late;Lasc;)V
+	METHOD a getPickStack (Lblc;)Late;
+	METHOD a getColorForState (Ljava/util/function/Supplier;)Lasc;
+	METHOD b loadFromItemStack (Late;)V
+	METHOD f getPatterns ()Ljava/util/List;
+	METHOD h getPatternColors ()Ljava/util/List;
+	METHOD i getPatternCacheKey ()Ljava/lang/String;
+	METHOD j readPattern ()V

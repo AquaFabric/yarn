@@ -1,10 +1,9 @@
-CLASS dli net/minecraft/client/render/model/json/ModelRotation
-	FIELD a origin Lb;
-	FIELD b axis Lfa$a;
+CLASS cva net/minecraft/client/render/model/json/ModelRotation
+	FIELD a origin Ldhl;
+	FIELD b axis Leq$a;
 	FIELD c angle F
 	FIELD d rescale Z
-	METHOD <init> (Lb;Lfa$a;FZ)V
-		ARG 1 origin
-		ARG 2 axis
-		ARG 3 angle
-		ARG 4 rescale
+	METHOD <init> (Ljava/lang/String;Ljava/util/function/BiConsumer;Ljava/util/function/BiFunction;)V
+		ARG 1 key
+		ARG 2 setter
+		ARG 3 messageProvider

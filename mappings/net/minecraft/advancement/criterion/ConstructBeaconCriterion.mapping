@@ -1,16 +1,15 @@
-CLASS ai net/minecraft/advancement/criterion/ConstructBeaconCriterion
-	CLASS ai$a Handler
-		FIELD a manager Lrb;
+CLASS ad net/minecraft/advancement/criterion/ConstructBeaconCriterion
+	CLASS ad$a Handler
+		FIELD a manager Lpm;
 		FIELD b conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lbti;)V
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS ai$b Conditions
-		FIELD a level Lbi$d;
-		METHOD a level (Lbi$d;)Lai$b;
-		METHOD a matches (Lbti;)Z
-	FIELD a ID Lqs;
+		METHOD a handle (Lbjg;)V
+		METHOD a addCondition (Ls$a;)V
+		METHOD b removeCondition (Ls$a;)V
+	CLASS ad$b Conditions
+		FIELD a level Lba$d;
+		METHOD a level (Lba$d;)Lad$b;
+		METHOD a matches (Lbjg;)Z
+	FIELD a ID Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvh;Lbti;)V
-		ARG 1 player
+	METHOD a handle (Ltf;Lbjg;)V

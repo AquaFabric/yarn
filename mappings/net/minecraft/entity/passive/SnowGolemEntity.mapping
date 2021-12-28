@@ -1,5 +1,4 @@
-CLASS arl net/minecraft/entity/passive/SnowGolemEntity
-	FIELD b SNOW_GOLEM_FLAGS Lqh;
+CLASS akh net/minecraft/entity/passive/SnowGolemEntity
+	FIELD a SNOW_GOLEM_FLAGS Lor;
+	METHOD a setHasPumpkin (Z)V
 	METHOD l hasPumpkin ()Z
-	METHOD r setHasPumpkin (Z)V
-		ARG 1 hasPumpkin

@@ -1,19 +1,16 @@
-CLASS ap net/minecraft/advancement/criterion/EnchantedItemCriterion
-	CLASS ap$a Handler
-		FIELD a manager Lrb;
+CLASS ak net/minecraft/advancement/criterion/EnchantedItemCriterion
+	CLASS ak$a Handler
+		FIELD a manager Lpm;
 		FIELD b conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lbca;I)V
-			ARG 1 level
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS ap$b Conditions
-		FIELD a item Lbc;
-		FIELD b levels Lbi$d;
-		METHOD a matches (Lbca;I)Z
-		METHOD c any ()Lap$b;
-	FIELD a ID Lqs;
+		METHOD a handle (Late;I)V
+		METHOD a addCondition (Ls$a;)V
+		METHOD b removeCondition (Ls$a;)V
+	CLASS ak$b Conditions
+		FIELD a item Lav;
+		FIELD b levels Lba$d;
+		METHOD a matches (Late;I)Z
+		METHOD c any ()Lak$b;
+	FIELD a ID Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvh;Lbca;I)V
-		ARG 1 player
-		ARG 2 stack
+	METHOD a handle (Ltf;Late;I)V

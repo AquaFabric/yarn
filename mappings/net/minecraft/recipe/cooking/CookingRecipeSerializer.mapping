@@ -1,7 +1,9 @@
 CLASS beq net/minecraft/recipe/cooking/CookingRecipeSerializer
-	CLASS beq$a RecipeFactory
-	FIELD t cookingTime I
-	FIELD u recipeFactory Lbeq$a;
+	FIELD a MOISTURE Lbmj;
+	FIELD b SHAPE Lcew;
 	METHOD <init> (Lbeq$a;I)V
 		ARG 1 recipeFactory
 		ARG 2 cookingTime
+	METHOD a hasCrop (Laxk;Lel;)Z
+	METHOD a isWaterNearby (Layc;Lel;)Z
+	METHOD b setToDirt (Lblc;Laxy;Lel;)V

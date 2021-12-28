@@ -1,13 +1,8 @@
-CLASS axq net/minecraft/entity/vehicle/CommandBlockMinecartEntity
-	CLASS axq$a CommandExecutor
-		METHOD g getMinecart ()Laxq;
-	FIELD b COMMAND Lqh;
-	FIELD c LAST_OUTPUT Lqh;
-	FIELD d commandExecutor Lbgn;
-	FIELD e lastExecuted I
-	METHOD <init> (Lbhh;DDD)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD v getCommandExecutor ()Lbgn;
+CLASS apm net/minecraft/entity/vehicle/CommandBlockMinecartEntity
+	CLASS apm$a CommandExecutor
+		METHOD g getMinecart ()Lapm;
+	FIELD a COMMAND Lor;
+	FIELD b LAST_OUTPUT Lor;
+	FIELD c commandExecutor Laxh;
+	FIELD d lastExecuted I
+	METHOD f getCommandExecutor ()Laxh;

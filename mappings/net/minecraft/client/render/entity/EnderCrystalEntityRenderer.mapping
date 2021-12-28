@@ -1,2 +1,2 @@
-CLASS dpb net/minecraft/client/render/entity/EnderCrystalEntityRenderer
-	FIELD a SKIN Lqs;
+CLASS cyk net/minecraft/client/render/entity/EnderCrystalEntityRenderer
+	FIELD a SKIN Lpc;

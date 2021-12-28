@@ -1,8 +1,4 @@
-CLASS bvr net/minecraft/util/MaterialPredicate
-	CLASS bvr$1
-		METHOD test (Ljava/lang/Object;)Z
-			ARG 1 context
-	FIELD a IS_AIR Lbvr;
-	FIELD b material Lcld;
-	METHOD a create (Lcld;)Lbvr;
-		ARG 0 material
+CLASS bln net/minecraft/util/MaterialPredicate
+	FIELD a IS_AIR Lbln;
+	FIELD b material Lbza;
+	METHOD a create (Lbza;)Lbln;

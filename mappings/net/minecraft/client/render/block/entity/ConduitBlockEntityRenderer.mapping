@@ -1,23 +1,13 @@
-CLASS dmn net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer
-	CLASS dmn$a CageModel
-		FIELD a cuboid Ldhb;
-		METHOD a render (FFFFFF)V
-	CLASS dmn$b EyeModel
-		FIELD a cuboid Ldhb;
-		METHOD a render (FFFFFF)V
-	CLASS dmn$c BaseModel
-		FIELD a cuboid Ldhb;
-		METHOD a render (FFFFFF)V
-	CLASS dmn$d WindModel
-		FIELD a cuboids [Ldhb;
-		METHOD a render (FFFFFF)V
-	FIELD c BASE_TEX Lqs;
-	FIELD d CAGE_TEX Lqs;
-	FIELD e WIND_TEX Lqs;
-	FIELD f WIND_VERTICAL_TEX Lqs;
-	FIELD g OPEN_EYE_TEX Lqs;
-	FIELD h CLOSED_EYE_TEX Lqs;
-	FIELD i baseModel Ldmn$c;
-	FIELD j cageModel Ldmn$a;
-	FIELD k windModel Ldmn$d;
-	FIELD l eyeModel Ldmn$b;
+CLASS cwd net/minecraft/client/render/block/entity/ConduitBlockEntityRenderer
+	CLASS cwd$b EyeModel
+		FIELD a cuboid Lcqw;
+	FIELD c BASE_TEX Lpc;
+	FIELD d CAGE_TEX Lpc;
+	FIELD e WIND_TEX Lpc;
+	FIELD f WIND_VERTICAL_TEX Lpc;
+	FIELD g OPEN_EYE_TEX Lpc;
+	FIELD h CLOSED_EYE_TEX Lpc;
+	FIELD i baseModel Lcpc;
+	FIELD j cageModel Lcpc;
+	FIELD k windModel Lcwd$d;
+	FIELD l eyeModel Lcwd$b;

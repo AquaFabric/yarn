@@ -1,4 +1,2 @@
-CLASS ic net/minecraft/nbt/DoubleTag
+CLASS gz net/minecraft/nbt/DoubleTag
 	FIELD f value D
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o

@@ -1,0 +1,30 @@
+CLASS bxi
+	CLASS bxi$a FirstFloorRoomPool
+	CLASS bxi$b RoomPool
+		METHOD a getSmallRoom (Ljava/util/Random;)Ljava/lang/String;
+		METHOD a getMediumFunctionalRoom (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD b getSmallSecretRoom (Ljava/util/Random;)Ljava/lang/String;
+		METHOD b getMediumGenericRoom (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD c getMediumSecretRoom (Ljava/util/Random;)Ljava/lang/String;
+		METHOD d getBigRoom (Ljava/util/Random;)Ljava/lang/String;
+		METHOD e getBigSecretRoom (Ljava/util/Random;)Ljava/lang/String;
+	CLASS bxi$d LayoutGenerator
+		FIELD a manager Lbxm;
+		FIELD b random Ljava/util/Random;
+		METHOD a generate (Lel;Lbhb;Ljava/util/List;Lbxi$c;)V
+		METHOD a addEntrance (Ljava/util/List;Lbxi$e;)V
+		METHOD a addRoof (Ljava/util/List;Lbxi$e;Lbxi$g;Leq;IIII)V
+		METHOD a addBigSecretRoom (Ljava/util/List;Lel;Lbhb;Lbxi$b;)V
+		METHOD a addSmallRoom (Ljava/util/List;Lel;Lbhb;Leq;Lbxi$b;)V
+		METHOD a addBigRoom (Ljava/util/List;Lel;Lbhb;Leq;Leq;Lbxi$b;)V
+		METHOD a addMediumRoom (Ljava/util/List;Lel;Lbhb;Leq;Leq;Lbxi$b;Z)V
+	CLASS bxi$e GenerationPiece
+		FIELD a rotation Lbhb;
+		FIELD b position Lel;
+		FIELD c template Ljava/lang/String;
+	CLASS bxi$f SecondFloorRoomPool
+	CLASS bxi$h ThirdFloorRoomPool
+	CLASS bxi$i Piece
+		FIELD d template Ljava/lang/String;
+		FIELD e rotation Lbhb;
+		FIELD f mirror Lbfz;

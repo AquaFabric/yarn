@@ -1,0 +1,18 @@
+CLASS byv
+	METHOD a getRenderLayer ()Laxl;
+	METHOD a onScheduledTick (Laxy;Lel;Lbyw;)V
+	METHOD a randomDisplayTick (Laxy;Lel;Lbyw;Ljava/util/Random;)V
+	METHOD a getTickRate (Layc;)I
+	METHOD a getVelocity (Layc;Lel;Lbyw;)Lcee;
+	METHOD a appendProperties (Lble$a;)V
+	METHOD a matchesType (Lbyv;)Z
+	METHOD a getHeight (Lbyw;)F
+	METHOD b getBucketItem ()Lata;
+	METHOD b onRandomTick (Laxy;Lel;Lbyw;Ljava/util/Random;)V
+	METHOD b toBlockState (Lbyw;)Lblc;
+	METHOD c isEmpty ()Z
+	METHOD c isStill (Lbyw;)Z
+	METHOD d getBlastResistance ()F
+	METHOD d getLevel (Lbyw;)I
+	METHOD j getParticle ()Lfk;
+	METHOD k hasRandomTicks ()Z

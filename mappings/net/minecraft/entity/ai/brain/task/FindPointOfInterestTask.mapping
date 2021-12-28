@@ -1,8 +1,15 @@
 CLASS ajn net/minecraft/entity/ai/brain/task/FindPointOfInterestTask
-	FIELD a pointOfInterestType Ljava/util/function/Predicate;
-	FIELD b targetMemoryModule Lapb;
-	FIELD c onlyRunIfChild Z
-	FIELD d lastRunTime J
+	CLASS ajn$a FishMoveControl
+		FIELD i fish Lajn;
+	CLASS ajn$b SwimToRandomPlaceGoal
+		FIELD h fish Lajn;
+	FIELD a FROM_BUCKET Lor;
 	METHOD <init> (Laqj;Lapb;Z)V
 		ARG 2 targetMemoryModule
 		ARG 3 onlyRunIfChild
+	METHOD a setFromBucket (Z)V
+	METHOD dA isFromBucket ()Z
+	METHOD dy hasSelfControl ()Z
+	METHOD dz getFlopSound ()Lwi;
+	METHOD f copyDataToStack (Late;)V
+	METHOD l getFishBucketItem ()Late;

@@ -1,4 +1,2 @@
-CLASS dwi net/minecraft/client/sound/MovingSoundInstance
-	FIELD n done Z
-	METHOD <init> (Lyj;Lyl;)V
-		ARG 1 sound
+CLASS dfm net/minecraft/client/sound/MovingSoundInstance
+	FIELD m done Z

@@ -1,10 +1,10 @@
-CLASS kt net/minecraft/client/network/packet/ChunkDeltaUpdateS2CPacket
-	CLASS kt$a ChunkDeltaRecord
+CLASS jo net/minecraft/client/network/packet/ChunkDeltaUpdateS2CPacket
+	CLASS jo$a ChunkDeltaRecord
 		FIELD b pos S
-		FIELD c state Lbvj;
-		METHOD a getBlockPos ()Lev;
+		FIELD c state Lblc;
+		METHOD a getBlockPos ()Lel;
 		METHOD b getPosShort ()S
-		METHOD c getState ()Lbvj;
-	FIELD a chunkPos Lbgt;
-	FIELD b records [Lkt$a;
-	METHOD b getRecords ()[Lkt$a;
+		METHOD c getState ()Lblc;
+	FIELD a chunkPos Laxm;
+	FIELD b records [Ljo$a;
+	METHOD b getRecords ()[Ljo$a;

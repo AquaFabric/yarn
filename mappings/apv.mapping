@@ -1,0 +1,6 @@
+CLASS apv
+	METHOD a onContentChanged (Lade;)V
+	METHOD a canUse (Laog;)Z
+	METHOD a canInsertIntoSlot (Late;Laqx;)Z
+	METHOD b close (Laog;)V
+	METHOD b transferSlot (Laog;I)Late;

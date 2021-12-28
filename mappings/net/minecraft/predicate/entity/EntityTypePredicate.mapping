@@ -1,15 +1,19 @@
 CLASS aw net/minecraft/predicate/entity/EntityTypePredicate
 	CLASS aw$a Tagged
-		FIELD b tag Lzb;
+		FIELD a manager Lpm;
+		FIELD b conditions Ljava/util/Set;
+		METHOD a isEmpty ()Z
+		METHOD a addCondition (Ls$a;)V
+		METHOD a handle (Ltf;Laer;Laea;)V
+		METHOD b removeCondition (Ls$a;)V
 	CLASS aw$b Single
-		FIELD b type Laij;
-	FIELD a ANY Law;
-	FIELD b COMMA_JOINER Lcom/google/common/base/Joiner;
-	METHOD a toJson ()Lcom/google/gson/JsonElement;
-	METHOD a matches (Laij;)Z
-	METHOD a deserialize (Lcom/google/gson/JsonElement;)Law;
-		ARG 0 element
-	METHOD a create (Lzb;)Law;
-		ARG 0 tag
-	METHOD b create (Laij;)Law;
-		ARG 0 type
+		FIELD a entity Lao;
+		FIELD b killingBlow Lah;
+		METHOD a createPlayerKilledEntity (Lao$a;)Law$b;
+		METHOD a createPlayerKilledEntity (Lao$a;Lah$a;)Law$b;
+		METHOD a test (Ltf;Laer;Laea;)Z
+		METHOD c createPlayerKilledEntity ()Law$b;
+		METHOD d createEntityKilledPlayer ()Law$b;
+	FIELD a handlers Ljava/util/Map;
+	FIELD b id Lpc;
+	METHOD a handle (Ltf;Laer;Laea;)V

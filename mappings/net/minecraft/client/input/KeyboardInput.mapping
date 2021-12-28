@@ -1,4 +1,2 @@
-CLASS dju net/minecraft/client/input/KeyboardInput
-	FIELD i settings Lcvm;
-	METHOD <init> (Lcvm;)V
-		ARG 1 settings
+CLASS cti net/minecraft/client/input/KeyboardInput
+	FIELD i settings Lcfw;

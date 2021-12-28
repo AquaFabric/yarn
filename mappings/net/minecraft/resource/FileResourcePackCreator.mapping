@@ -1,7 +1,8 @@
-CLASS wr net/minecraft/resource/FileResourcePackCreator
+CLASS uv net/minecraft/resource/FileResourcePackCreator
 	FIELD a POSSIBLE_PACK Ljava/io/FileFilter;
 	FIELD b packsFolder Ljava/io/File;
-	METHOD <init> (Ljava/io/File;)V
-		ARG 1 packsFolder
+	METHOD <init> (III)V
+		ARG 1 levelCount
+		ARG 2 initLevelCapacity
+		ARG 3 initTotalCapacity
 	METHOD a createResourcePack (Ljava/io/File;)Ljava/util/function/Supplier;
-		ARG 1 file

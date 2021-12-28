@@ -1,0 +1,7 @@
+CLASS ccy
+	CLASS ccy$a Serializer
+		FIELD a id Lpc;
+		FIELD b type Ljava/lang/Class;
+		METHOD a getIdentifier ()Lpc;
+		METHOD b getType ()Ljava/lang/Class;
+	METHOD a process (Late;Ljava/util/Random;Lccr;)Late;

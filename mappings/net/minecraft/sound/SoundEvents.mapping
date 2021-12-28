@@ -1,3 +1,1 @@
-CLASS yk net/minecraft/sound/SoundEvents
-	METHOD a register (Ljava/lang/String;)Lyj;
-		ARG 0 id
+CLASS wj net/minecraft/sound/SoundEvents

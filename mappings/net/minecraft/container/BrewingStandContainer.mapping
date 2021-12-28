@@ -1,25 +1,8 @@
-CLASS ayg net/minecraft/container/BrewingStandContainer
-	CLASS ayg$a SlotFuel
-		METHOD <init> (Lagt;III)V
-			ARG 1 invSlot
-			ARG 2 xPosition
-			ARG 3 <Position
-		METHOD a_ matches (Lbca;)Z
-	CLASS ayg$b SlotIngredient
-		METHOD <init> (Lagt;III)V
-			ARG 1 invSlot
-			ARG 2 xPosition
-			ARG 3 <Position
-	CLASS ayg$c SlotPotion
-		METHOD <init> (Lagt;III)V
-			ARG 1 invSlot
-			ARG 2 xPosition
-			ARG 3 <Position
-		METHOD b_ matches (Lbca;)Z
-	FIELD c inventory Lagt;
-	FIELD d propertyDelegate Layk;
-	FIELD e ingredientSlot Lazo;
-	METHOD <init> (ILavw;)V
-		ARG 1 syncId
-	METHOD e getFuel ()I
-	METHOD f getBrewTime ()I
+CLASS apy net/minecraft/container/BrewingStandContainer
+	CLASS apy$a SlotFuel
+		METHOD b_ matches (Late;)Z
+	CLASS apy$b SlotIngredient
+	CLASS apy$c SlotPotion
+		METHOD c_ matches (Late;)Z
+	FIELD a inventory Lade;
+	FIELD f ingredientSlot Laqx;

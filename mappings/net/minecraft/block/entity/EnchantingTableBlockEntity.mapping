@@ -1,10 +1,9 @@
-CLASS btx net/minecraft/block/entity/EnchantingTableBlockEntity
+CLASS bjs net/minecraft/block/entity/EnchantingTableBlockEntity
 	FIELD a ticks I
-	FIELD b nextPageAngle F
-	FIELD c pageAngle F
+	FIELD e nextPageAngle F
+	FIELD f pageAngle F
 	FIELD i nextPageTurningSpeed F
 	FIELD j pageTurningSpeed F
 	FIELD n RANDOM Ljava/util/Random;
-	FIELD o customName Ljm;
-	METHOD a setCustomName (Ljm;)V
-		ARG 1 value
+	FIELD o customName Lij;
+	METHOD a setCustomName (Lij;)V

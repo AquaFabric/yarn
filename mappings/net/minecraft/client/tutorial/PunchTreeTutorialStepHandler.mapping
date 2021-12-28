@@ -1,5 +1,5 @@
-CLASS dyd net/minecraft/client/tutorial/PunchTreeTutorialStepHandler
-	FIELD a TITLE Ljm;
-	FIELD b DESCRIPTION Ljm;
-	FIELD c manager Ldye;
+CLASS dhd net/minecraft/client/tutorial/PunchTreeTutorialStepHandler
+	FIELD a TITLE Lij;
+	FIELD b DESCRIPTION Lij;
+	FIELD c manager Ldhe;
 	FIELD e ticks I

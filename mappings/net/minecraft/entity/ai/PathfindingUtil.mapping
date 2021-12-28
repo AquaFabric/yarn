@@ -1,7 +1,4 @@
-CLASS aqb net/minecraft/entity/ai/PathfindingUtil
-	METHOD a findTarget (Laiv;II)Lcrv;
-	METHOD a findTarget (Laiv;IILcrv;ZDLjava/util/function/ToDoubleFunction;)Lcrv;
-	METHOD a findTargetStraight (Laiv;IILjava/util/function/ToDoubleFunction;)Lcrv;
-	METHOD b findTargetStraight (Laiv;II)Lcrv;
-	METHOD b isWater (Lev;Laiv;)Z
-	METHOD c findTarget (Laiv;IILcrv;)Lcrv;
+CLASS ajd net/minecraft/entity/ai/PathfindingUtil
+	METHOD a findTarget (Lafg;II)Lcee;
+	METHOD b isWater (Lel;Lafg;)Z
+	METHOD c findTarget (Lafg;IILcee;)Lcee;

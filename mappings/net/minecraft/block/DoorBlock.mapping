@@ -1,24 +1,15 @@
-CLASS bnw net/minecraft/block/DoorBlock
-	FIELD a FACING Lbwe;
-	FIELD b OPEN Lbwb;
-	FIELD c HINGE Lbwh;
-	FIELD d POWERED Lbwb;
-	FIELD e HALF Lbwh;
-	FIELD f NORTH_SHAPE Lcsp;
-	FIELD g SOUTH_SHAPE Lcsp;
-	FIELD h EAST_SHAPE Lcsp;
-	FIELD i WEST_SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a setOpen (Lbhh;Lev;Z)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 open
-	METHOD b getHinge (Lbae;)Lbwf;
-		ARG 1 ctx
-	METHOD b playOpenCloseSound (Lbhh;Lev;Z)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 open
+CLASS bed net/minecraft/block/DoorBlock
+	FIELD a FACING Lbme;
+	FIELD b OPEN Lbmb;
+	FIELD c HINGE Lbmh;
+	FIELD o POWERED Lbmb;
+	FIELD p HALF Lbmh;
+	FIELD q NORTH_SHAPE Lcew;
+	FIELD r SOUTH_SHAPE Lcew;
+	FIELD s EAST_SHAPE Lcew;
+	FIELD t WEST_SHAPE Lcew;
+	METHOD a setOpen (Laxy;Lel;Z)V
+	METHOD b getHinge (Lark;)Lbmf;
+	METHOD b playOpenCloseSound (Laxy;Lel;Z)V
 	METHOD d getOpenSoundEventId ()I
 	METHOD e getCloseSoundEventId ()I

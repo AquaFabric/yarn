@@ -1,7 +1,11 @@
-CLASS ask net/minecraft/entity/boss/dragon/phase/ChargingPlayerPhase
+CLASS alh net/minecraft/entity/boss/dragon/phase/ChargingPlayerPhase
 	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD c target Lcrv;
-	METHOD <init> (Lasg;)V
-		ARG 1 dragon
-	METHOD a setTarget (Lcrv;)V
-		ARG 1 target
+	FIELD c target Lcee;
+	FIELD d completionRange I
+	METHOD <init> (Lapb;FIILapb;)V
+		ARG 1 secondaryPositions
+		ARG 2 speed
+		ARG 3 completionRange
+		ARG 4 primaryPositionActivationDistance
+		ARG 5 primaryPosition
+	METHOD a setTarget (Lcee;)V

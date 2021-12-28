@@ -1,5 +1,3 @@
-CLASS bni net/minecraft/block/ConduitBlock
-	FIELD a WATERLOGGED Lbwb;
-	FIELD b SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS bdp net/minecraft/block/ConduitBlock
+	FIELD a WATERLOGGED Lbmb;
+	FIELD b SHAPE Lcew;

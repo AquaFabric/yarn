@@ -1,13 +1,8 @@
-CLASS amr net/minecraft/entity/ai/goal/FollowMobGoal
-	FIELD a mob Laip;
+CLASS agp net/minecraft/entity/ai/goal/FollowMobGoal
+	FIELD a mob Lafb;
 	FIELD b targetPredicate Ljava/util/function/Predicate;
-	FIELD c target Laip;
+	FIELD c target Lafb;
 	FIELD d speed D
-	FIELD e navigation Laph;
+	FIELD e navigation Laiw;
 	FIELD g minDistance F
 	FIELD i maxDistance F
-	METHOD <init> (Laip;DFF)V
-		ARG 1 mob
-		ARG 2 speed
-		ARG 4 minDistance
-		ARG 5 maxDistance

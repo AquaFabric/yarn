@@ -1,21 +1,14 @@
-CLASS cxb net/minecraft/client/gui/hud/PlayerListHud
-	CLASS cxb$a EntryOrderComparator
+CLASS chk net/minecraft/client/gui/hud/PlayerListHud
+	CLASS chk$a EntryOrderComparator
 	FIELD a ENTRY_ORDERING Lcom/google/common/collect/Ordering;
-	FIELD b client Lcvi;
-	FIELD c inGameHud Lcwb;
-	FIELD d footer Ljm;
-	FIELD e header Ljm;
-	FIELD f showTime J
-	FIELD g visible Z
-	METHOD <init> (Lcvi;Lcwb;)V
-		ARG 1 client
+	FIELD f client Lcft;
+	FIELD g inGameHud Lcgl;
+	FIELD h footer Lij;
+	FIELD i header Lij;
+	FIELD j showTime J
+	FIELD k visible Z
 	METHOD a clear ()V
-	METHOD a draw (ILcsv;Lcss;)V
-		ARG 2 scoreboard
-		ARG 3 playerListScoreboardObjective
-	METHOD a setFooter (Ljm;)V
-		ARG 1 footer
+	METHOD a draw (ILcfc;Lcez;)V
+	METHOD a setFooter (Lij;)V
 	METHOD a tick (Z)V
-		ARG 1 visible
-	METHOD b setHeader (Ljm;)V
-		ARG 1 header
+	METHOD b setHeader (Lij;)V

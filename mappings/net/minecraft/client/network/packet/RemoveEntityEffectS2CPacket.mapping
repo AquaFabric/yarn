@@ -1,7 +1,5 @@
-CLASS mf net/minecraft/client/network/packet/RemoveEntityEffectS2CPacket
+CLASS kx net/minecraft/client/network/packet/RemoveEntityEffectS2CPacket
 	FIELD a entityId I
-	FIELD b effectType Lahx;
-	METHOD <init> (ILahx;)V
-		ARG 1 entityId
-	METHOD a getEntity (Lbhh;)Laif;
-	METHOD b getEffectType ()Lahx;
+	FIELD b effectType Laej;
+	METHOD a getEntity (Laxy;)Laer;
+	METHOD b getEffectType ()Laej;

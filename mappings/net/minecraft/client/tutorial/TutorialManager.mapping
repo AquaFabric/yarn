@@ -1,21 +1,16 @@
-CLASS dye net/minecraft/client/tutorial/TutorialManager
-	FIELD a client Lcvi;
-	FIELD b currentHandler Ldyf;
+CLASS dhe net/minecraft/client/tutorial/TutorialManager
+	FIELD a client Lcft;
+	FIELD b currentHandler Ldhf;
 	METHOD a onInventoryOpened ()V
 	METHOD a onUpdateMouse (DD)V
-		ARG 1 deltaX
-		ARG 3 deltaY
-	METHOD a onSlotUpdate (Lbca;)V
-	METHOD a tick (Ldhl;Lcrt;)V
-		ARG 1 world
-		ARG 2 hitResult
-	METHOD a onBlockAttacked (Ldhl;Lev;Lbvj;F)V
-	METHOD a onMovement (Ldjt;)V
-		ARG 1 input
-	METHOD a setStep (Ldyg;)V
-	METHOD a getKeybindName (Ljava/lang/String;)Ljm;
+	METHOD a onSlotUpdate (Late;)V
+	METHOD a tick (Lcrg;Lceb;)V
+	METHOD a onBlockAttacked (Lcrg;Lel;Lblc;F)V
+	METHOD a onMovement (Lcth;)V
+	METHOD a setStep (Ldhg;)V
+	METHOD a getKeybindName (Ljava/lang/String;)Lij;
 	METHOD b destroyHandler ()V
 	METHOD c createHandler ()V
 	METHOD d tick ()V
-	METHOD e getClient ()Lcvi;
-	METHOD f getGameMode ()Lbhe;
+	METHOD e getClient ()Lcft;
+	METHOD f getGameMode ()Laxv;

@@ -1,3 +1,1 @@
-CLASS bdj net/minecraft/item/TridentItem
-	METHOD <init> (Lbbv$a;)V
-		ARG 1 settings
+CLASS aun net/minecraft/item/TridentItem

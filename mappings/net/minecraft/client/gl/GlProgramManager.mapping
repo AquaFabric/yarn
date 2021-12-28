@@ -1,8 +1,6 @@
-CLASS cuh net/minecraft/client/gl/GlProgramManager
+CLASS dcw net/minecraft/client/gl/GlProgramManager
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b INSTANCE Lcuh;
+	FIELD b INSTANCE Ldcw;
 	METHOD a init ()V
-	METHOD a deleteProgram (Lcuf;)V
-	METHOD b getInstance ()Lcuh;
-	METHOD b linkProgram (Lcuf;)V
+	METHOD b getInstance ()Ldcw;
 	METHOD c createProgram ()I

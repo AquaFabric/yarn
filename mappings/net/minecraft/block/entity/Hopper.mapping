@@ -1,9 +1,9 @@
-CLASS bua net/minecraft/block/entity/Hopper
-	FIELD a INSIDE_SHAPE Lcsp;
-	FIELD b ABOVE_SHAPE Lcsp;
-	FIELD c INPUT_AREA_SHAPE Lcsp;
-	METHOD A getHopperY ()D
-	METHOD B getHopperZ ()D
-	METHOD O_ getInputAreaShape ()Lcsp;
-	METHOD w getWorld ()Lbhh;
-	METHOD z getHopperX ()D
+CLASS bjv net/minecraft/block/entity/Hopper
+	FIELD a INSIDE_SHAPE Lcew;
+	FIELD b ABOVE_SHAPE Lcew;
+	FIELD c INPUT_AREA_SHAPE Lcew;
+	METHOD F getWorld ()Laxy;
+	METHOD G getHopperX ()D
+	METHOD H getHopperY ()D
+	METHOD I getHopperZ ()D
+	METHOD i getInputAreaShape ()Lcew;

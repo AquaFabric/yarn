@@ -1,1 +1,13 @@
-CLASS dfm net/minecraft/client/render/entity/model/PolarBearEntityModel
+CLASS cpi net/minecraft/client/render/entity/model/PolarBearEntityModel
+	METHOD <init> (Lzb;ZII[Lcqy;[Lcpv;)V
+		ARG 1 name
+		ARG 2 expand
+		ARG 3 weight
+		ARG 4 quality
+		ARG 5 conditions
+		ARG 6 functions
+	METHOD a (Lzb;II[Lcqy;[Lcpv;)Lcpf;
+		ARG 1 weight
+		ARG 2 quality
+		ARG 3 conditions
+		ARG 4 functions

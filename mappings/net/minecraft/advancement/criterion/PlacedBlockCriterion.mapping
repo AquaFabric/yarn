@@ -1,24 +1,18 @@
-CLASS bm net/minecraft/advancement/criterion/PlacedBlockCriterion
-	CLASS bm$a Handler
-		FIELD a manager Lrb;
+CLASS be net/minecraft/advancement/criterion/PlacedBlockCriterion
+	CLASS be$a Handler
+		FIELD a manager Lpm;
 		FIELD b conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lbvj;Lev;Lvg;Lbca;)V
-			ARG 1 pos
-			ARG 2 world
-			ARG 3 item
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS bm$b Conditions
-		FIELD a block Lbml;
+		METHOD a handle (Lblc;Lel;Ltd;Late;)V
+		METHOD a addCondition (Ls$a;)V
+		METHOD b removeCondition (Ls$a;)V
+	CLASS be$b Conditions
+		FIELD a block Lbcs;
 		FIELD b state Ljava/util/Map;
-		FIELD c location Lbg;
-		FIELD d item Lbc;
-		METHOD a block (Lbml;)Lbm$b;
-			ARG 0 block
-		METHOD a matches (Lbvj;Lev;Lvg;Lbca;)Z
-	FIELD a ID Lqs;
+		FIELD c location Lay;
+		FIELD d item Lav;
+		METHOD a block (Lbcs;)Lbe$b;
+		METHOD a matches (Lblc;Lel;Ltd;Late;)Z
+	FIELD a ID Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvh;Lev;Lbca;)V
-		ARG 1 player
-		ARG 2 blockPos
+	METHOD a handle (Ltf;Lel;Late;)V

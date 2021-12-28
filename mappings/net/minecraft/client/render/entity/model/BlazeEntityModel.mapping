@@ -1,1 +1,6 @@
-CLASS ddz net/minecraft/client/render/entity/model/BlazeEntityModel
+CLASS cob net/minecraft/client/render/entity/model/BlazeEntityModel
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;Lcom/mojang/datafixers/DataFixer;)V
+		ARG 1 worldsDirectory
+		ARG 2 worldName
+		ARG 3 server
+		ARG 4 dataFixer

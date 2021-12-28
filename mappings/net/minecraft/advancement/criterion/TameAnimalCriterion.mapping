@@ -1,18 +1,15 @@
-CLASS br net/minecraft/advancement/criterion/TameAnimalCriterion
-	CLASS br$a Handler
-		FIELD a manager Lrb;
+CLASS bi net/minecraft/advancement/criterion/TameAnimalCriterion
+	CLASS bi$a Handler
+		FIELD a manager Lpm;
 		FIELD b Conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lvh;Laqr;)V
-			ARG 1 entity
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS br$b Conditions
-		FIELD a entity Lav;
-		METHOD a create (Lav;)Lbr$b;
-		METHOD a matches (Lvh;Laqr;)Z
-		METHOD c any ()Lbr$b;
-	FIELD a ID Lqs;
+		METHOD a addCondition (Ls$a;)V
+		METHOD a handle (Ltf;Lajq;)V
+		METHOD b removeCondition (Ls$a;)V
+	CLASS bi$b Conditions
+		FIELD a entity Lao;
+		METHOD a matches (Ltf;Lajq;)Z
+		METHOD c any ()Lbi$b;
+	FIELD a ID Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvh;Laqr;)V
-		ARG 1 player
+	METHOD a handle (Ltf;Lajq;)V

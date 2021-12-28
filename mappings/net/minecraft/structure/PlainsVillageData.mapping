@@ -1,2 +1,10 @@
 CLASS cdb net/minecraft/structure/PlainsVillageData
-	METHOD a initialize ()V
+	CLASS cdb$a Attribute
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD d amountRange Lccu;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots [Laew;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcdb$a;
+		METHOD a serialize (Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonObject;
+	CLASS cdb$b Factory

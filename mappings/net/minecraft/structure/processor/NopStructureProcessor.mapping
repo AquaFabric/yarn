@@ -1,2 +1,1 @@
 CLASS cix net/minecraft/structure/processor/NopStructureProcessor
-	FIELD a INSTANCE Lcix;

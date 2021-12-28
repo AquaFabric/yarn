@@ -1,10 +1,7 @@
-CLASS ani net/minecraft/entity/ai/goal/MoveThroughVillageGoal
-	FIELD a mob Laiv;
+CLASS ahg net/minecraft/entity/ai/goal/MoveThroughVillageGoal
+	FIELD a mob Lafg;
 	FIELD b speed D
-	FIELD c targetPath Lcng;
-	FIELD d target Lev;
+	FIELD c targetPath Lcbe;
 	FIELD e requiresNighttime Z
-	METHOD <init> (Laiv;DZILjava/util/function/BooleanSupplier;)V
-		ARG 1 mob
-		ARG 2 speed
-		ARG 4 requiresNighttime
+	METHOD createMenu (ILavw;Lavx;)Layb;
+		ARG 1 syncId

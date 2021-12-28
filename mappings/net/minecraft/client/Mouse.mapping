@@ -1,5 +1,5 @@
-CLASS cvj net/minecraft/client/Mouse
-	FIELD a client Lcvi;
+CLASS cfv net/minecraft/client/Mouse
+	FIELD a client Lcft;
 	FIELD b leftButtonClicked Z
 	FIELD c middleButtonClicked Z
 	FIELD d rightButtonClicked Z
@@ -9,26 +9,21 @@ CLASS cvj net/minecraft/client/Mouse
 	FIELD h activeButton I
 	FIELD i hasResolutionChanged Z
 	FIELD k glfwTime D
-	FIELD l cursorXSmoother Lzw;
-	FIELD m cursorYSmoother Lzw;
+	FIELD l cursorXSmoother Lxu;
+	FIELD m cursorYSmoother Lxu;
 	FIELD n cursorDeltaX D
 	FIELD o cursorDeltaY D
 	FIELD p eventDeltaWheel D
 	FIELD r isCursorLocked Z
-	METHOD <init> (Lcvi;)V
-		ARG 1 client
+	METHOD <init> (Lcgt;Lcan;)V
+		ARG 1 decorator
+	METHOD <init> (Lcgt;Lcom/mojang/datafixers/Dynamic;)V
+		ARG 1 decorator
 	METHOD a updateMouse ()V
-	METHOD a setup (J)V
 	METHOD a onMouseScroll (JDD)V
-		ARG 1 window
 	METHOD a onMouseButton (JIII)V
-		ARG 1 window
-		ARG 3 button
-		ARG 4 action
-		ARG 5 mods
 	METHOD b wasLeftButtonClicked ()Z
 	METHOD b onCursorPos (JDD)V
-		ARG 1 window
 	METHOD d wasRightButtonClicked ()Z
 	METHOD e getX ()D
 	METHOD f getY ()D

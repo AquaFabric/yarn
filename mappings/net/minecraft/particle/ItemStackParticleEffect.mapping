@@ -1,8 +1,4 @@
-CLASS gc net/minecraft/particle/ItemStackParticleEffect
-	FIELD a PARAMETERS_FACTORY Lgd$a;
-	FIELD b type Lge;
-	FIELD c stack Lbca;
-	METHOD <init> (Lge;Lbca;)V
-		ARG 1 type
-		ARG 2 stack
-	METHOD c getItemStack ()Lbca;
+CLASS fj net/minecraft/particle/ItemStackParticleEffect
+	FIELD b type Lfl;
+	FIELD c stack Late;
+	METHOD c getItemStack ()Late;

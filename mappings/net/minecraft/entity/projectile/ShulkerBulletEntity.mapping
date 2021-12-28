@@ -1,22 +1,10 @@
-CLASS awo net/minecraft/entity/projectile/ShulkerBulletEntity
-	FIELD as ownerUuid Ljava/util/UUID;
-	FIELD at ownerPos Lev;
-	FIELD au targetUuid Ljava/util/UUID;
-	FIELD av targetPos Lev;
-	FIELD b owner Laio;
-	FIELD c target Laif;
-	FIELD d direction Lfa;
-	METHOD <init> (Lbhh;DDDDDD)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 velocityX
-		ARG 10 velocityY
-		ARG 12 velocityZ
-	METHOD <init> (Lbhh;Laio;Laif;Lfa$a;)V
-		ARG 1 world
-		ARG 2 owner
-		ARG 3 target
-	METHOD a onHit (Lcrt;)V
-	METHOD a setDirection (Lfa;)V
+CLASS aov net/minecraft/entity/projectile/ShulkerBulletEntity
+	FIELD a owner Lafa;
+	FIELD aw ownerPos Lel;
+	FIELD ax targetUuid Ljava/util/UUID;
+	FIELD ay targetPos Lel;
+	FIELD b target Laer;
+	FIELD c direction Leq;
+	FIELD h ownerUuid Ljava/util/UUID;
+	METHOD a onHit (Lceb;)V
+	METHOD a setDirection (Leq;)V

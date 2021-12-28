@@ -1,11 +1,7 @@
-CLASS bvt net/minecraft/predicate/block/BlockStatePredicate
+CLASS blp net/minecraft/predicate/block/BlockStatePredicate
 	FIELD a ANY Ljava/util/function/Predicate;
-	FIELD b factory Lbvk;
+	FIELD b factory Lble;
 	FIELD c propertyTests Ljava/util/Map;
-	METHOD a forBlock (Lbml;)Lbvt;
-		ARG 0 block
-	METHOD a testProperty (Lbvj;Lbwm;Ljava/util/function/Predicate;)Z
-		ARG 1 blockState
-		ARG 2 property
-	METHOD a with (Lbwm;Ljava/util/function/Predicate;)Lbvt;
-		ARG 1 property
+	METHOD a forBlock (Lbcs;)Lblp;
+	METHOD a testProperty (Lblc;Lbmm;Ljava/util/function/Predicate;)Z
+	METHOD a with (Lbmm;Ljava/util/function/Predicate;)Lblp;

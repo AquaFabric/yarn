@@ -1,20 +1,11 @@
-CLASS cnr net/minecraft/item/map/MapBannerMarker
-	FIELD a pos Lev;
-	FIELD b color Lbax;
-	FIELD c name Ljm;
-	METHOD <init> (Lev;Lbax;Ljm;)V
-		ARG 1 pos
-		ARG 2 dyeColor
-		ARG 3 name
-	METHOD a getPos ()Lev;
-	METHOD a fromWorldBlock (Lbgr;Lev;)Lcnr;
-		ARG 0 blockView
-		ARG 1 blockPos
-	METHOD a fromNbt (Lib;)Lcnr;
-		ARG 0 tag
-	METHOD c getType ()Lcns$a;
-	METHOD d getName ()Ljm;
-	METHOD e getNbt ()Lib;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
+CLASS cbp net/minecraft/item/map/MapBannerMarker
+	FIELD a pos Lel;
+	FIELD b color Lasc;
+	FIELD c name Lij;
+	METHOD a getPos ()Lel;
+	METHOD a fromWorldBlock (Laxk;Lel;)Lcbp;
+	METHOD a fromNbt (Lgy;)Lcbp;
+	METHOD c getType ()Lcbq$a;
+	METHOD d getName ()Lij;
+	METHOD e getNbt ()Lgy;
 	METHOD f getKey ()Ljava/lang/String;

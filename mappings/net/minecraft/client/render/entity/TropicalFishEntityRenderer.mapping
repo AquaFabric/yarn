@@ -1,1 +1,5 @@
-CLASS dro net/minecraft/client/render/entity/TropicalFishEntityRenderer
+CLASS das net/minecraft/client/render/entity/TropicalFishEntityRenderer
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

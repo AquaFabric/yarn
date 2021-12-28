@@ -1,0 +1,10 @@
+CLASS bwr
+	CLASS bwr$a BridgeCrossing
+	CLASS bwr$b BridgeEnd
+		FIELD a seed I
+	CLASS bwr$l BridgePlatform
+		FIELD a hasBlazeSpawner Z
+	CLASS bwr$m Piece
+	CLASS bwr$q Start
+		FIELD b bridgePieces Ljava/util/List;
+		FIELD c corridorPieces Ljava/util/List;

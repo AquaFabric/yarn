@@ -1,3 +1,2 @@
-CLASS zr net/minecraft/util/LowercaseEnumTypeAdapterFactory
+CLASS xp net/minecraft/util/LowercaseEnumTypeAdapterFactory
 	METHOD a toString (Ljava/lang/Object;)Ljava/lang/String;
-		ARG 1 o

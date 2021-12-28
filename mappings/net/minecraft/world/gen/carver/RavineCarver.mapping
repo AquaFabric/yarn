@@ -1,18 +1,34 @@
 CLASS bzb net/minecraft/world/gen/carver/RavineCarver
-	FIELD m heightToHorizontalStretchFactor [F
-	METHOD a carveRavine (Lbwx;JIIIDDDFFFIIDLjava/util/BitSet;)V
-		ARG 1 chunk
-		ARG 2 seed
-		ARG 4 seaLevel
-		ARG 5 mainChunkX
-		ARG 6 mainChunkZ
-		ARG 7 x
-		ARG 9 y
-		ARG 11 z
-		ARG 13 baseWidth
-		ARG 14 xzAngle
-		ARG 15 yAngle
-		ARG 16 branch
-		ARG 17 branchCount
-		ARG 18 heightWidthRatio
-		ARG 20 mask
+	FIELD A BLUE Lbzb;
+	FIELD B BROWN Lbzb;
+	FIELD C GREEN Lbzb;
+	FIELD D RED Lbzb;
+	FIELD E BLACK Lbzb;
+	FIELD a COLORS [Lbzb;
+	FIELD ab color I
+	FIELD ac id I
+	FIELD b AIR Lbzb;
+	FIELD c GRASS Lbzb;
+	FIELD d SAND Lbzb;
+	FIELD e WEB Lbzb;
+	FIELD f LAVA Lbzb;
+	FIELD g ICE Lbzb;
+	FIELD h IRON Lbzb;
+	FIELD i FOLIAGE Lbzb;
+	FIELD j WHITE Lbzb;
+	FIELD k CLAY Lbzb;
+	FIELD l DIRT Lbzb;
+	FIELD m STONE Lbzb;
+	FIELD n WATER Lbzb;
+	FIELD o WOOD Lbzb;
+	FIELD q ORANGE Lbzb;
+	FIELD r MAGENTA Lbzb;
+	FIELD s LIGHT_BLUE Lbzb;
+	FIELD t YELLOW Lbzb;
+	FIELD u LIME Lbzb;
+	FIELD v PINK Lbzb;
+	FIELD w GRAY Lbzb;
+	FIELD x LIGHT_GRAY Lbzb;
+	FIELD y CYAN Lbzb;
+	FIELD z PURPLE Lbzb;
+	METHOD a getRenderColor (I)I

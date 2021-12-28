@@ -1,21 +1,32 @@
 CLASS bxb net/minecraft/world/chunk/ChunkManager
-	METHOD a isChunkLoaded (II)Z
-		ARG 1 x
-		ARG 2 z
-	METHOD a getChunk (IILbxc;Z)Lbwx;
-		ARG 1 x
-		ARG 2 z
-		ARG 3 leastStatus
-		ARG 4 create
-	METHOD a getWorldChunk (IIZ)Lbxj;
-	METHOD a shouldTickEntity (Laif;)Z
-	METHOD a setChunkForced (Lbgt;Z)V
-		ARG 1 pos
-		ARG 2 forced
-	METHOD a tick (Ljava/util/function/BooleanSupplier;)V
-	METHOD a setMobSpawnOptions (ZZ)V
-		ARG 1 spawnMonsters
-		ARG 2 spawnAnimals
-	METHOD e getStatus ()Ljava/lang/String;
-	METHOD f getChunkGenerator ()Lbwy;
-	METHOD j getLightingProvider ()Lckq;
+	CLASS bxb$a BlockRandomizer
+		FIELD a block Lblc;
+		METHOD a getBlock ()Lblc;
+		METHOD a setBlock (Ljava/util/Random;IIIZ)V
+	FIELD a facing Leq;
+	FIELD b mirror Lbfz;
+	FIELD c rotation Lbhb;
+	FIELD d BLOCKS_NEEDING_POST_PROCESSING Ljava/util/Set;
+	FIELD m AIR Lblc;
+	FIELD n boundingBox Lbwf;
+	METHOD a applyXTransform (II)I
+	METHOD a translate (III)V
+	METHOD a getBlockAt (Laxk;IIILbwf;)Lblc;
+	METHOD a addBlock (Laxz;Lblc;IIILbwf;)V
+	METHOD a fillWithOutline (Laxz;Lbwf;IIIIIILblc;Lblc;Z)V
+	METHOD a fillWithOutline (Laxz;Lbwf;IIIIIIZLjava/util/Random;Lbxb$a;)V
+	METHOD a fillWithOutlineUnderSealevel (Laxz;Lbwf;Ljava/util/Random;FIIIIIILblc;Lblc;ZZ)V
+	METHOD a addBlockWithRandomThreshold (Laxz;Lbwf;Ljava/util/Random;FIIILblc;)V
+	METHOD a addDispenser (Laxz;Lbwf;Ljava/util/Random;IIILeq;Lpc;)Z
+	METHOD a addChest (Laxz;Lbwf;Ljava/util/Random;IIILpc;)Z
+	METHOD a addChest (Laxz;Lbwf;Ljava/util/Random;Lel;Lpc;Lblc;)Z
+	METHOD a generate (Laxz;Ljava/util/Random;Lbwf;Laxm;)Z
+	METHOD a isUnderSeaLevel (Layc;IIILbwf;)Z
+	METHOD a setOrientation (Leq;)V
+	METHOD a toNbt (Lgy;)V
+	METHOD b applyZTransform (II)I
+	METHOD b fill (Laxz;Lbwf;IIIIII)V
+	METHOD c getTag ()Lgy;
+	METHOD d getBoundingBox ()Lbwf;
+	METHOD d applyYTransform (I)I
+	METHOD f getFacing ()Leq;

@@ -1,2 +1,2 @@
-CLASS bcn net/minecraft/util/Rarity
-	FIELD e formatting Lc;
+CLASS atq net/minecraft/util/Rarity
+	FIELD e formatting La;

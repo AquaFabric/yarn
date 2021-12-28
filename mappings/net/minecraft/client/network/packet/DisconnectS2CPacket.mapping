@@ -1,3 +1,3 @@
-CLASS le net/minecraft/client/network/packet/DisconnectS2CPacket
-	FIELD a reason Ljm;
-	METHOD b getReason ()Ljm;
+CLASS ka net/minecraft/client/network/packet/DisconnectS2CPacket
+	FIELD a reason Lij;
+	METHOD b getReason ()Lij;

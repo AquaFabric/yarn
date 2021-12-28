@@ -1,4 +1,4 @@
-CLASS tp net/minecraft/server/command/TeamCommand
+CLASS ry net/minecraft/server/command/TeamCommand
 	FIELD a ADD_DUPLICATE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD b ADD_LONGNAME_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD c EMPTY_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
@@ -11,66 +11,21 @@ CLASS tp net/minecraft/server/command/TeamCommand
 	FIELD j OPTION_NAMETAGEVISIBILITY_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD k OPTION_DEATHMESSAGEVISIBILITY_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD l OPTION_COLLISIONRULE_UNCHANGED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	METHOD a executeListTeams (Lcd;)I
-		ARG 0 source
-	METHOD a executeEmpty (Lcd;Lcst;)I
-		ARG 0 source
-		ARG 1 team
-	METHOD a executeModifyColor (Lcd;Lcst;Lc;)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 color
-	METHOD a executeModifyCollisionRule (Lcd;Lcst;Lcsx$a;)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 collisionRule
-	METHOD a executeModifyNametagVisibility (Lcd;Lcst;Lcsx$b;)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 visibility
-	METHOD a executeJoin (Lcd;Lcst;Ljava/util/Collection;)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 members
-	METHOD a executeModifyDisplayName (Lcd;Lcst;Ljm;)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 displayName
-	METHOD a executeModifySeeFriendlyInvisibles (Lcd;Lcst;Z)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 allowed
-	METHOD a executeAdd (Lcd;Ljava/lang/String;)I
-		ARG 0 source
-		ARG 1 team
-	METHOD a executeAdd (Lcd;Ljava/lang/String;Ljm;)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 displayName
-	METHOD a executeLeave (Lcd;Ljava/util/Collection;)I
-		ARG 0 source
-		ARG 1 members
+	METHOD a executeListTeams (Lbu;)I
+	METHOD a executeEmpty (Lbu;Lcfa;)I
+	METHOD a executeModifyColor (Lbu;Lcfa;La;)I
+	METHOD a executeModifyCollisionRule (Lbu;Lcfa;Lcfe$a;)I
+	METHOD a executeModifyNametagVisibility (Lbu;Lcfa;Lcfe$b;)I
+	METHOD a executeModifyDisplayName (Lbu;Lcfa;Lij;)I
+	METHOD a executeJoin (Lbu;Lcfa;Ljava/util/Collection;)I
+	METHOD a executeModifySeeFriendlyInvisibles (Lbu;Lcfa;Z)I
+	METHOD a executeAdd (Lbu;Ljava/lang/String;)I
+	METHOD a executeAdd (Lbu;Ljava/lang/String;Lij;)I
+	METHOD a executeLeave (Lbu;Ljava/util/Collection;)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher
-	METHOD b executeRemove (Lcd;Lcst;)I
-		ARG 0 source
-		ARG 1 team
-	METHOD b executeModifyDeathMessageVisibility (Lcd;Lcst;Lcsx$b;)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 visibility
-	METHOD b executeModifyPrefix (Lcd;Lcst;Ljm;)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 prefix
-	METHOD b executeModifyFriendlyFire (Lcd;Lcst;Z)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 allowed
-	METHOD c executeListMembers (Lcd;Lcst;)I
-		ARG 0 source
-		ARG 1 team
-	METHOD c executeModifySuffix (Lcd;Lcst;Ljm;)I
-		ARG 0 source
-		ARG 1 team
-		ARG 2 suffix
+	METHOD b executeRemove (Lbu;Lcfa;)I
+	METHOD b executeModifyDeathMessageVisibility (Lbu;Lcfa;Lcfe$b;)I
+	METHOD b executeModifyPrefix (Lbu;Lcfa;Lij;)I
+	METHOD b executeModifyFriendlyFire (Lbu;Lcfa;Z)I
+	METHOD c executeListMembers (Lbu;Lcfa;)I
+	METHOD c executeModifySuffix (Lbu;Lcfa;Lij;)I

@@ -1,4 +1,2 @@
-CLASS bnu net/minecraft/block/FacingBlock
-	FIELD a FACING Lbwe;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS beb net/minecraft/block/FacingBlock
+	FIELD a FACING Lbme;

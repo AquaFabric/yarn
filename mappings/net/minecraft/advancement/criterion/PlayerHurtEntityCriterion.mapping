@@ -1,18 +1,16 @@
-CLASS bn net/minecraft/advancement/criterion/PlayerHurtEntityCriterion
-	CLASS bn$a Handler
-		FIELD a manager Lrb;
+CLASS bf net/minecraft/advancement/criterion/PlayerHurtEntityCriterion
+	CLASS bf$a Handler
+		FIELD a manager Lpm;
 		FIELD b conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lvh;Laif;Laho;FFZ)V
-			ARG 1 entity
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS bn$b Conditions
-		FIELD a damage Lal;
-		FIELD b entity Lav;
-		METHOD a create (Lal$a;)Lbn$b;
-		METHOD a matches (Lvh;Laif;Laho;FFZ)Z
-	FIELD a ID Lqs;
+		METHOD a addCondition (Ls$a;)V
+		METHOD a handle (Ltf;Laer;Laea;FFZ)V
+		METHOD b removeCondition (Ls$a;)V
+	CLASS bf$b Conditions
+		FIELD a damage Lag;
+		FIELD b entity Lao;
+		METHOD a create (Lag$a;)Lbf$b;
+		METHOD a matches (Ltf;Laer;Laea;FFZ)Z
+	FIELD a ID Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvh;Laif;Laho;FFZ)V
-		ARG 1 player
+	METHOD a handle (Ltf;Laer;Laea;FFZ)V

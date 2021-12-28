@@ -1,1 +1,6 @@
-CLASS dfi net/minecraft/client/render/entity/model/PhantomEntityModel
+CLASS cpf net/minecraft/client/render/entity/model/PhantomEntityModel
+	METHOD <init> (II[Lcqy;[Lcpv;)V
+		ARG 1 weight
+		ARG 2 quality
+		ARG 3 conditions
+		ARG 4 functions

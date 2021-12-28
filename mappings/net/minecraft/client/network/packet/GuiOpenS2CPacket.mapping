@@ -1,7 +1,7 @@
 CLASS lj net/minecraft/client/network/packet/GuiOpenS2CPacket
 	FIELD a id I
-	FIELD b slotCount I
-	FIELD c entityHorseId I
-	METHOD b getId ()I
+	FIELD b slot Laew;
+	FIELD c stack Late;
+	METHOD b getStack ()Late;
 	METHOD c getSlotCount ()I
-	METHOD d getHorseId ()I
+	METHOD d getSlot ()Laew;

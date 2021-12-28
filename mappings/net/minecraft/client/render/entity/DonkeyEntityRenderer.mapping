@@ -1,2 +1,2 @@
-CLASS doq net/minecraft/client/render/entity/DonkeyEntityRenderer
+CLASS cxz net/minecraft/client/render/entity/DonkeyEntityRenderer
 	FIELD a TEXTURES Ljava/util/Map;

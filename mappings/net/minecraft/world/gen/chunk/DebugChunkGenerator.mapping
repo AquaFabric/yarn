@@ -1,12 +1,11 @@
-CLASS byn net/minecraft/world/gen/chunk/DebugChunkGenerator
-	FIELD e AIR Lbvj;
-	FIELD f BARRIER Lbvj;
-	FIELD g BLOCK_STATES Ljava/util/List;
-	FIELD h X_SIDE_LENGTH I
-	FIELD i Z_SIDE_LENGTH I
-	METHOD <init> (Lbhi;Lbig;Lbym;)V
-		ARG 1 world
-		ARG 3 config
-	METHOD a getBlockState (II)Lbvj;
-		ARG 0 x
-		ARG 1 z
+CLASS boo net/minecraft/world/gen/chunk/DebugChunkGenerator
+	FIELD f AIR Lblc;
+	FIELD g BARRIER Lblc;
+	FIELD h BLOCK_STATES Ljava/util/List;
+	FIELD i X_SIDE_LENGTH I
+	FIELD j Z_SIDE_LENGTH I
+	METHOD <init> (Lahx;ILbml$c;)V
+		ARG 1 suspiciousStewEffect
+		ARG 2 effectDuration
+		ARG 3 settings
+	METHOD b getBlockState (II)Lblc;

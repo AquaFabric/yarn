@@ -1,8 +1,4 @@
-CLASS cq net/minecraft/command/arguments/MobEffectArgumentType
-	FIELD a INVALID_EFFECT_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+CLASS cg net/minecraft/command/arguments/MobEffectArgumentType
 	FIELD b EXAMPLES Ljava/util/Collection;
-	METHOD a create ()Lcq;
-	METHOD a getMobEffect (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lahx;
-	METHOD listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
-		ARG 1 context
-		ARG 2 builder
+	METHOD a create ()Lcg;
+	METHOD a getMobEffect (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Laej;

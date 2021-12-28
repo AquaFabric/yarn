@@ -1,2 +1,2 @@
-CLASS buo net/minecraft/block/entity/EndPortalBlockEntity
-	METHOD a shouldDrawSide (Lfa;)Z
+CLASS bkh net/minecraft/block/entity/EndPortalBlockEntity
+	METHOD a shouldDrawSide (Leq;)Z

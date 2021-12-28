@@ -1,2 +1,9 @@
-CLASS dpe net/minecraft/client/render/entity/EndermiteEntityRenderer
-	FIELD a SKIN Lqs;
+CLASS cyn net/minecraft/client/render/entity/EndermiteEntityRenderer
+	FIELD a SKIN Lpc;
+	METHOD <init> (Lczr;Lcvm;)V
+		ARG 1 parent
+		ARG 2 gameOptions
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

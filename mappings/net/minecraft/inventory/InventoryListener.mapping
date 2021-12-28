@@ -1,2 +1,2 @@
-CLASS agv net/minecraft/inventory/InventoryListener
-	METHOD a onInvChange (Lagt;)V
+CLASS adg net/minecraft/inventory/InventoryListener
+	METHOD a onInvChange (Lade;)V

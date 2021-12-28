@@ -1,7 +1,4 @@
-CLASS dpy net/minecraft/client/render/entity/ItemEntityRenderer
-	FIELD a itemRenderer Ldqa;
+CLASS cze net/minecraft/client/render/entity/ItemEntityRenderer
+	FIELD a itemRenderer Lczg;
 	FIELD f random Ljava/util/Random;
-	METHOD <init> (Ldpf;Ldqa;)V
-		ARG 1 renderManager
-	METHOD a getRenderedAmount (Lbca;)I
-		ARG 1 stack
+	METHOD a getRenderedAmount (Late;)I

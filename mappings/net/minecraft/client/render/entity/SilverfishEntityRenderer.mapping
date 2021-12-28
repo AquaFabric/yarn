@@ -1,2 +1,2 @@
-CLASS drb net/minecraft/client/render/entity/SilverfishEntityRenderer
-	FIELD a SKIN Lqs;
+CLASS dae net/minecraft/client/render/entity/SilverfishEntityRenderer
+	FIELD a SKIN Lpc;

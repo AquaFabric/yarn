@@ -1,4 +1,3 @@
-CLASS cln net/minecraft/world/biome/layer/LayerRandomnessSource
-	METHOD a getNoiseSampler ()Lckc;
+CLASS bzl net/minecraft/world/biome/layer/LayerRandomnessSource
+	METHOD a getNoiseSampler ()Lbyi;
 	METHOD a nextInt (I)I
-		ARG 1 bound

@@ -1,7 +1,3 @@
-CLASS ti net/minecraft/server/command/SpawnPointCommand
-	METHOD a execute (Lcd;Ljava/util/Collection;Lev;)I
-		ARG 0 source
-		ARG 1 targets
-		ARG 2 pos
+CLASS rr net/minecraft/server/command/SpawnPointCommand
+	METHOD a execute (Lbu;Ljava/util/Collection;Lel;)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher

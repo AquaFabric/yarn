@@ -1,10 +1,7 @@
-CLASS byg net/minecraft/entity/boss/dragon/EnderDragonSpawnState
-	FIELD a START Lbyg;
-	FIELD b PREPARING_TO_SUMMON_PILLARS Lbyg;
-	FIELD c SUMMONING_PILLARS Lbyg;
-	FIELD d SUMMONING_DRAGOM Lbyg;
-	FIELD e END Lbyg;
-	METHOD a run (Lvg;Lbyh;Ljava/util/List;ILev;)V
-		ARG 1 world
-		ARG 2 fight
-		ARG 3 crystals
+CLASS bog net/minecraft/entity/boss/dragon/EnderDragonSpawnState
+	FIELD a START Lbog;
+	FIELD b PREPARING_TO_SUMMON_PILLARS Lbog;
+	FIELD c SUMMONING_PILLARS Lbog;
+	FIELD d SUMMONING_DRAGOM Lbog;
+	FIELD e END Lbog;
+	METHOD a run (Ltd;Lboh;Ljava/util/List;ILel;)V

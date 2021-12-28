@@ -1,7 +1,6 @@
-CLASS ua net/minecraft/command/DataCommandObject
-	METHOD a getTag ()Lib;
-	METHOD a getGetFeedback (Lcr$h;DI)Ljm;
-	METHOD a setTag (Lib;)V
-	METHOD a getQueryFeedback (Lis;)Ljm;
-		ARG 1 tag
-	METHOD b getModifiedFeedback ()Ljm;
+CLASS si net/minecraft/command/DataCommandObject
+	METHOD a getTag ()Lgy;
+	METHOD a getGetFeedback (Lci$c;DI)Lij;
+	METHOD a setTag (Lgy;)V
+	METHOD a getQueryFeedback (Lho;)Lij;
+	METHOD b getModifiedFeedback ()Lij;

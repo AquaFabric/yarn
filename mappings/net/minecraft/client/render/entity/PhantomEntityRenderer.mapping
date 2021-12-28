@@ -1,2 +1,9 @@
-CLASS dqo net/minecraft/client/render/entity/PhantomEntityRenderer
-	FIELD a SKIN Lqs;
+CLASS czu net/minecraft/client/render/entity/PhantomEntityRenderer
+	FIELD a SKIN Lpc;
+	METHOD <init> (Lczr;Lcvm;)V
+		ARG 1 parent
+		ARG 2 options
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

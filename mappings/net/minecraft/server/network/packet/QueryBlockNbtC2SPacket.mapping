@@ -1,5 +1,5 @@
-CLASS nt net/minecraft/server/network/packet/QueryBlockNbtC2SPacket
+CLASS mg net/minecraft/server/network/packet/QueryBlockNbtC2SPacket
 	FIELD a transactionId I
-	FIELD b pos Lev;
+	FIELD b pos Lel;
 	METHOD b getTransactionId ()I
-	METHOD c getPos ()Lev;
+	METHOD c getPos ()Lel;

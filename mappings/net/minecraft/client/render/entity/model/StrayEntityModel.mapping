@@ -1,1 +1,4 @@
-CLASS dgc net/minecraft/client/render/entity/model/StrayEntityModel
+CLASS cpy net/minecraft/client/render/entity/model/StrayEntityModel
+	METHOD <init> ([Lcqy;Ljava/util/List;)V
+		ARG 1 conditions
+		ARG 2 attributes

@@ -1,14 +1,12 @@
-CLASS dkl net/minecraft/client/render/item/ItemModels
+CLASS cud net/minecraft/client/render/item/ItemModels
 	FIELD a modelIds Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
 	FIELD b models Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
-	FIELD c modelManager Ldvy;
-	METHOD a getModelManager ()Ldvy;
-	METHOD a getModel (Lbbv;)Ldvu;
-	METHOD a putModel (Lbbv;Ldvz;)V
-		ARG 1 item
-		ARG 2 modelId
-	METHOD a getSprite (Lbca;)Ldug;
-	METHOD a getSprite (Lbhg;)Ldug;
+	FIELD c modelManager Ldfd;
+	METHOD a getModelManager ()Ldfd;
+	METHOD a getModel (Lata;)Ldez;
+	METHOD a putModel (Lata;Ldfe;)V
+	METHOD a getSprite (Late;)Lddm;
+	METHOD a getSprite (Laxx;)Lddm;
 	METHOD b reloadModels ()V
-	METHOD b getModelId (Lbbv;)I
-	METHOD b getModel (Lbca;)Ldvu;
+	METHOD b getModelId (Lata;)I
+	METHOD b getModel (Late;)Ldez;

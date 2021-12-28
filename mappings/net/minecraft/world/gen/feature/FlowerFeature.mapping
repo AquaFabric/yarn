@@ -1,6 +1,2 @@
-CLASS cbh net/minecraft/world/gen/feature/FlowerFeature
-	METHOD <init> (Ljava/util/function/Function;)V
-		ARG 1 configFactory
-	METHOD a getFlowerToPlace (Ljava/util/Random;Lev;)Lbvj;
-		ARG 1 random
-		ARG 2 pos
+CLASS bqs net/minecraft/world/gen/feature/FlowerFeature
+	METHOD a getFlowerToPlace (Ljava/util/Random;Lel;)Lblc;

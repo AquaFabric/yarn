@@ -1,5 +1,3 @@
-CLASS byx net/minecraft/world/gen/PhantomSpawner
+CLASS bow net/minecraft/world/gen/PhantomSpawner
 	FIELD a ticksUntilNextSpawn I
-	METHOD a spawn (Lvg;ZZ)I
-		ARG 2 spawnMonsters
-		ARG 3 spawnAnimals
+	METHOD a spawn (Laxy;ZZ)I

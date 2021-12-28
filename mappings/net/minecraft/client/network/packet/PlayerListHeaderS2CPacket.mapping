@@ -1,5 +1,5 @@
-CLASS ng net/minecraft/client/network/packet/PlayerListHeaderS2CPacket
-	FIELD a header Ljm;
-	FIELD b footer Ljm;
-	METHOD b getHeader ()Ljm;
-	METHOD c getFooter ()Ljm;
+CLASS lv net/minecraft/client/network/packet/PlayerListHeaderS2CPacket
+	FIELD a header Lij;
+	FIELD b footer Lij;
+	METHOD b getHeader ()Lij;
+	METHOD c getFooter ()Lij;

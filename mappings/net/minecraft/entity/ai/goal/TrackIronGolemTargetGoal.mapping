@@ -1,5 +1,2 @@
-CLASS aoo net/minecraft/entity/ai/goal/TrackIronGolemTargetGoal
-	FIELD a golem Laqz;
-	FIELD b target Laio;
-	METHOD <init> (Laqz;)V
-		ARG 1 golem
+CLASS aik net/minecraft/entity/ai/goal/TrackIronGolemTargetGoal
+	FIELD a golem Lajw;

@@ -1,53 +1,34 @@
-CLASS agq net/minecraft/entity/boss/BossBar
-	CLASS agq$a Color
+CLASS adc net/minecraft/entity/boss/BossBar
+	CLASS adc$a Color
 		FIELD h name Ljava/lang/String;
-		FIELD i format Lc;
-		METHOD <init> (Ljava/lang/String;ILjava/lang/String;Lc;)V
-			ARG 3 name
-			ARG 4 format
-		METHOD a getTextFormat ()Lc;
-		METHOD a byName (Ljava/lang/String;)Lagq$a;
-			ARG 0 name
+		FIELD i format La;
+		METHOD a getTextFormat ()La;
+		METHOD a byName (Ljava/lang/String;)Ladc$a;
 		METHOD b getName ()Ljava/lang/String;
-	CLASS agq$b Style
+	CLASS adc$b Style
 		FIELD f name Ljava/lang/String;
-		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
-			ARG 3 name
 		METHOD a getName ()Ljava/lang/String;
-		METHOD a byName (Ljava/lang/String;)Lagq$b;
-			ARG 0 name
-	FIELD a name Ljm;
+		METHOD a byName (Ljava/lang/String;)Ladc$b;
+	FIELD a name Lij;
 	FIELD b percent F
-	FIELD c color Lagq$a;
-	FIELD d style Lagq$b;
+	FIELD c color Ladc$a;
+	FIELD d style Ladc$b;
 	FIELD e darkenSky Z
 	FIELD f dragonMusic Z
 	FIELD g thickenFog Z
 	FIELD h uuid Ljava/util/UUID;
-	METHOD <init> (Ljava/util/UUID;Ljm;Lagq$a;Lagq$b;)V
-		ARG 1 uuid
-		ARG 2 name
-		ARG 3 color
-		ARG 4 style
 	METHOD a setPercent (F)V
-		ARG 1 percentage
-	METHOD a setColor (Lagq$a;)V
-		ARG 1 color
-	METHOD a setOverlay (Lagq$b;)V
-		ARG 1 style
-	METHOD a setName (Ljm;)V
-		ARG 1 name
-	METHOD a setDarkenSky (Z)Lagq;
-		ARG 1 darkenSky
-	METHOD b setDragonMusic (Z)Lagq;
-		ARG 1 dragonMusic
-	METHOD c setThickenFog (Z)Lagq;
-		ARG 1 thickenFog
+	METHOD a setColor (Ladc$a;)V
+	METHOD a setOverlay (Ladc$b;)V
+	METHOD a setName (Lij;)V
+	METHOD a setDarkenSky (Z)Ladc;
+	METHOD b setDragonMusic (Z)Ladc;
+	METHOD c setThickenFog (Z)Ladc;
 	METHOD i getUuid ()Ljava/util/UUID;
-	METHOD j getName ()Ljm;
+	METHOD j getName ()Lij;
 	METHOD k getPercent ()F
-	METHOD l getColor ()Lagq$a;
-	METHOD m getOverlay ()Lagq$b;
+	METHOD l getColor ()Ladc$a;
+	METHOD m getOverlay ()Ladc$b;
 	METHOD n getDarkenSky ()Z
 	METHOD o hasDragonMusic ()Z
 	METHOD p getThickenFog ()Z

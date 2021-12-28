@@ -1,9 +1,7 @@
-CLASS dxz net/minecraft/client/tutorial/CraftPlanksTutorialStepHandler
-	FIELD a TITLE Ljm;
-	FIELD b DESCRIPTION Ljm;
-	FIELD c manager Ldye;
-	FIELD d toast Lcxu;
+CLASS dgz net/minecraft/client/tutorial/CraftPlanksTutorialStepHandler
+	FIELD a TITLE Lij;
+	FIELD b DESCRIPTION Lij;
+	FIELD c manager Ldhe;
+	FIELD d toast Lcic;
 	FIELD e ticks I
-	METHOD a hasCrafted (Ldjv;Lzb;)Z
-		ARG 0 player
-		ARG 1 tag
+	METHOD a hasCrafted (Lctj;Lwz;)Z

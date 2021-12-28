@@ -1,6 +1,5 @@
-CLASS bwk net/minecraft/block/enums/Instrument
-	FIELD q name Ljava/lang/String;
-	FIELD r sound Lyj;
-	METHOD a getSound ()Lyj;
-	METHOD a fromBlockState (Lbvj;)Lbwk;
-		ARG 0 state
+CLASS bmk net/minecraft/block/enums/Instrument
+	FIELD k name Ljava/lang/String;
+	FIELD l sound Lwi;
+	METHOD a getSound ()Lwi;
+	METHOD a fromBlockState (Lblc;)Lbmk;

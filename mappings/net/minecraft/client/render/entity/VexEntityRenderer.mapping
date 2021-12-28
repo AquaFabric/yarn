@@ -1,3 +1,7 @@
-CLASS drr net/minecraft/client/render/entity/VexEntityRenderer
-	FIELD a TEXTURE Lqs;
-	FIELD j CHARGING_TEXTURE Lqs;
+CLASS dav net/minecraft/client/render/entity/VexEntityRenderer
+	FIELD a TEXTURE Lpc;
+	FIELD j CHARGING_TEXTURE Lpc;
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

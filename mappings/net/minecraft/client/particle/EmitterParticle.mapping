@@ -1,9 +1,5 @@
-CLASS djn net/minecraft/client/particle/EmitterParticle
-	FIELD C entity Laif;
-	FIELD D emitterAge I
-	FIELD E maxEmitterAge I
-	FIELD F parameters Lgd;
-	METHOD <init> (Lbhh;Laif;Lgd;)V
-		ARG 1 world
-		ARG 2 entity
-		ARG 3 parameters
+CLASS ctb net/minecraft/client/particle/EmitterParticle
+	FIELD J entity Laer;
+	FIELD K emitterAge I
+	FIELD L maxEmitterAge I
+	FIELD M parameters Lfk;

@@ -1,5 +1,3 @@
-CLASS pr net/minecraft/client/network/packet/LoginCompressionS2CPacket
+CLASS ob net/minecraft/client/network/packet/LoginCompressionS2CPacket
 	FIELD a compressionThreshold I
-	METHOD <init> (I)V
-		ARG 1 compressionThreshold
 	METHOD b getCompressionThreshold ()I

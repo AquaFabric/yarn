@@ -1,15 +1,10 @@
-CLASS mb net/minecraft/client/network/packet/LookAtS2CPacket
+CLASS ks net/minecraft/client/network/packet/LookAtS2CPacket
 	FIELD a targetX D
 	FIELD b targetY D
 	FIELD c targetZ D
 	FIELD d entityId I
-	FIELD e selfAnchor Lck$a;
-	FIELD f targetAnchor Lck$a;
+	FIELD e selfAnchor Lca$a;
+	FIELD f targetAnchor Lca$a;
 	FIELD g lookAtEntity Z
-	METHOD <init> (Lck$a;Laif;Lck$a;)V
-		ARG 1 selfAnchor
-		ARG 2 entity
-		ARG 3 targetAnchor
-	METHOD a getTargetPosition (Lbhh;)Lcrv;
-		ARG 1 world
-	METHOD b getSelfAnchor ()Lck$a;
+	METHOD a getTargetPosition (Laxy;)Lcee;
+	METHOD b getSelfAnchor ()Lca$a;

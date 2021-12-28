@@ -1,4 +1,6 @@
-CLASS byy net/minecraft/world/gen/chunk/FloatingIslandsChunkGeneratorConfig
-	FIELD t center Lev;
-	METHOD a withCenter (Lev;)Lbyy;
-	METHOD v getCenter ()Lev;
+CLASS box net/minecraft/world/gen/chunk/FloatingIslandsChunkGeneratorConfig
+	FIELD t center Lel;
+	METHOD <init> (Lbml$c;)V
+		ARG 1 settings
+	METHOD a withCenter (Lel;)Lbox;
+	METHOD t getCenter ()Lel;

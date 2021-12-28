@@ -1,5 +1,3 @@
-CLASS pp net/minecraft/client/network/packet/LoginSuccessS2CPacket
+CLASS nz net/minecraft/client/network/packet/LoginSuccessS2CPacket
 	FIELD a profile Lcom/mojang/authlib/GameProfile;
-	METHOD <init> (Lcom/mojang/authlib/GameProfile;)V
-		ARG 1 profile
 	METHOD b getProfile ()Lcom/mojang/authlib/GameProfile;

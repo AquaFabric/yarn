@@ -1,3 +1,2 @@
-CLASS tc net/minecraft/server/command/SayCommand
+CLASS rm net/minecraft/server/command/SayCommand
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher

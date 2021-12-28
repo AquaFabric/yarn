@@ -1,14 +1,12 @@
-CLASS arm net/minecraft/entity/passive/SquidEntity
-	CLASS arm$a EscapeAttackerGoal
+CLASS aki net/minecraft/entity/passive/SquidEntity
+	CLASS aki$a EscapeAttackerGoal
 		FIELD b timer I
-	CLASS arm$b SwimGoal
-		FIELD b squid Larm;
-		METHOD <init> (Larm;Larm;)V
-			ARG 2 squid
-	FIELD bE constantVelocityRate F
-	FIELD bH constantVelocityX F
-	FIELD bI constantVelocityY F
-	FIELD bJ constantVelocityZ F
-	METHOD a setConstantVelocity (FFF)V
-	METHOD dV squirt ()V
+	CLASS aki$b SwimGoal
+		FIELD b squid Laki;
+	FIELD bH constantVelocityRate F
+	FIELD bK constantVelocityX F
+	FIELD bL constantVelocityY F
+	FIELD bM constantVelocityZ F
+	METHOD c setConstantVelocity (FFF)V
+	METHOD dy squirt ()V
 	METHOD l hasConstantVelocity ()Z

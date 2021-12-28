@@ -1,0 +1,3 @@
+CLASS cky
+	METHOD a drawBackground (FII)V
+	METHOD c drawForeground (II)V

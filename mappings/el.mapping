@@ -1,0 +1,25 @@
+CLASS el
+	CLASS el$a Mutable
+		FIELD b x I
+		FIELD c y I
+		FIELD d z I
+		METHOD a set (Laer;)Lel$a;
+		METHOD c set (DDD)Lel$a;
+		METHOD c set (III)Lel$a;
+		METHOD c setOffset (Leq;)Lel$a;
+		METHOD c setOffset (Leq;I)Lel$a;
+		METHOD d setOffset (III)Lel$a;
+		METHOD g set (Lff;)Lel$a;
+		METHOD p setY (I)V
+	CLASS el$b PooledMutable
+		FIELD f free Z
+		FIELD g POOL Ljava/util/List;
+		METHOD b getEntityPos (Laer;)Lel$b;
+		METHOD d get (DDD)Lel$b;
+		METHOD e get (III)Lel$b;
+		METHOD r get ()Lel$b;
+	METHOD a add (DDD)Lel;
+	METHOD a add (III)Lel;
+	METHOD a rotate (Lbhb;)Lel;
+	METHOD a offset (Leq;I)Lel;
+	METHOD h toImmutable ()Lel;

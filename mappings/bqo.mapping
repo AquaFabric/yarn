@@ -1,0 +1,4 @@
+CLASS bqo
+	METHOD a generate (Laxz;Lbmy;Ljava/util/Random;Lel;Lbqp;)Z
+	METHOD a setBlockState (Laxz;Lel;Lblc;)V
+	METHOD d getMonsterSpawns ()Ljava/util/List;

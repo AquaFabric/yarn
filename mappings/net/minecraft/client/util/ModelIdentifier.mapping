@@ -1,9 +1,4 @@
-CLASS dvz net/minecraft/client/util/ModelIdentifier
+CLASS dfe net/minecraft/client/util/ModelIdentifier
 	FIELD c variant Ljava/lang/String;
-	METHOD <init> (Lqs;Ljava/lang/String;)V
-		ARG 1 id
+	METHOD b splitWithVariant (Ljava/lang/String;)[Ljava/lang/String;
 	METHOD c getVariant ()Ljava/lang/String;
-	METHOD c splitWithVariant (Ljava/lang/String;)[Ljava/lang/String;
-		ARG 0 str
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o

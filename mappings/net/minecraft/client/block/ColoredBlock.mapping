@@ -1,2 +1,4 @@
 CLASS bme net/minecraft/client/block/ColoredBlock
-	METHOD a getColor ()Lbax;
+	METHOD a create (Ljava/lang/String;Ljava/util/Collection;)Lbme;
+	METHOD a create (Ljava/lang/String;Ljava/util/function/Predicate;)Lbme;
+	METHOD a create (Ljava/lang/String;[Leq;)Lbme;

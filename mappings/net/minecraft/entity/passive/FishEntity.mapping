@@ -1,19 +1,12 @@
-CLASS aqo net/minecraft/entity/passive/FishEntity
-	CLASS aqo$a FishMoveControl
-		FIELD i fish Laqo;
-		METHOD <init> (Laqo;)V
-			ARG 1 owner
-	CLASS aqo$b SwimToRandomPlaceGoal
-		FIELD h fish Laqo;
-		METHOD <init> (Laqo;)V
-			ARG 1 fish
-	FIELD b FROM_BUCKET Lqh;
-	METHOD <init> (Laij;Lbhh;)V
-		ARG 1 type
-	METHOD dV hasSelfControl ()Z
-	METHOD dW getFlopSound ()Lyj;
-	METHOD dX isFromBucket ()Z
-	METHOD i copyDataToStack (Lbca;)V
-		ARG 1 stack
-	METHOD l getFishBucketItem ()Lbca;
-	METHOD r setFromBucket (Z)V
+CLASS ajn net/minecraft/entity/passive/FishEntity
+	CLASS ajn$a FishMoveControl
+		FIELD i fish Lajn;
+	CLASS ajn$b SwimToRandomPlaceGoal
+		FIELD h fish Lajn;
+	FIELD a FROM_BUCKET Lor;
+	METHOD a setFromBucket (Z)V
+	METHOD dA isFromBucket ()Z
+	METHOD dy hasSelfControl ()Z
+	METHOD dz getFlopSound ()Lwi;
+	METHOD f copyDataToStack (Late;)V
+	METHOD l getFishBucketItem ()Late;

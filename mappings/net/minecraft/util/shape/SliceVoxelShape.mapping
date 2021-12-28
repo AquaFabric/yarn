@@ -1,9 +1,5 @@
-CLASS csn net/minecraft/util/shape/SliceVoxelShape
-	FIELD b shape Lcsp;
-	FIELD c axis Lfa$a;
+CLASS ceu net/minecraft/util/shape/SliceVoxelShape
+	FIELD b shape Lcew;
+	FIELD c axis Leq$a;
 	FIELD d points Lit/unimi/dsi/fastutil/doubles/DoubleList;
-	METHOD <init> (Lcsp;Lfa$a;I)V
-		ARG 1 shape
-		ARG 2 axis
-	METHOD a createVoxelSet (Lcse;Lfa$a;I)Lcse;
-		ARG 0 voxelSet
+	METHOD a createVoxelSet (Lcem;Leq$a;I)Lcem;

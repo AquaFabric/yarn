@@ -1,4 +1,2 @@
-CLASS cai net/minecraft/world/gen/feature/DeadBushFeature
-	FIELD a DEAD_BUSH Lbnr;
-	METHOD <init> (Ljava/util/function/Function;)V
-		ARG 1 configFactory
+CLASS bpv net/minecraft/world/gen/feature/DeadBushFeature
+	FIELD a DEAD_BUSH Lbdy;

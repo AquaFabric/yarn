@@ -1,6 +1,3 @@
-CLASS sk net/minecraft/server/command/KillCommand
-	METHOD a execute (Lcd;Ljava/util/Collection;)I
-		ARG 0 source
-		ARG 1 targets
+CLASS qw net/minecraft/server/command/KillCommand
+	METHOD a execute (Lbu;Ljava/util/Collection;)I
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher

@@ -1,5 +1,7 @@
 CLASS vs net/minecraft/server/QueueingWorldGenerationProgressListener
-	FIELD a progressListener Lvp;
-	FIELD b queue Lagk;
+	FIELD a object Ljava/lang/Object;
 	METHOD <init> (Lvp;Ljava/util/concurrent/Executor;)V
 		ARG 1 progressListener
+	METHOD a serialize (Lcom/google/gson/JsonObject;)V
+	METHOD f isInvalid ()Z
+	METHOD g getKey ()Ljava/lang/Object;

@@ -1,12 +1,8 @@
-CLASS ys net/minecraft/stat/StatType
-	FIELD a registry Lfm;
+CLASS wr net/minecraft/stat/StatType
+	FIELD a registry Lfc;
 	FIELD b stats Ljava/util/Map;
-	METHOD a getRegistry ()Lfm;
+	METHOD a getRegistry ()Lfc;
 	METHOD a hasStat (Ljava/lang/Object;)Z
-		ARG 1 key
-	METHOD a getOrCreateStat (Ljava/lang/Object;Lyr;)Lyq;
-		ARG 1 key
-		ARG 2 formatter
-	METHOD b getOrCreateStat (Ljava/lang/Object;)Lyq;
-		ARG 1 key
+	METHOD a getOrCreateStat (Ljava/lang/Object;Lwq;)Lwp;
+	METHOD b getOrCreateStat (Ljava/lang/Object;)Lwp;
 	METHOD c getTranslationKey ()Ljava/lang/String;

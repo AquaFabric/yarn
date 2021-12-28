@@ -1,2 +1,2 @@
-CLASS djp net/minecraft/client/particle/CurrentDownParticle
-	CLASS djp$a Factory
+CLASS ctd net/minecraft/client/particle/CurrentDownParticle
+	CLASS ctd$a Factory

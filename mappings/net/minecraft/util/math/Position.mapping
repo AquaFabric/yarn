@@ -1,4 +1,4 @@
-CLASS fk net/minecraft/util/math/Position
+CLASS fa net/minecraft/util/math/Position
 	METHOD a getX ()D
 	METHOD b getY ()D
 	METHOD c getZ ()D

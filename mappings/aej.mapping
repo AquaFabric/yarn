@@ -1,0 +1,3 @@
+CLASS aej
+	METHOD a isInstant ()Z
+	METHOD a canApplyUpdateEffect (II)Z

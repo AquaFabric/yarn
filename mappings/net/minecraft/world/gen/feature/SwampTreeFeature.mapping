@@ -1,9 +1,25 @@
 CLASS cem net/minecraft/world/gen/feature/SwampTreeFeature
-	FIELD a LOG Lbvj;
-	FIELD aS LEAVES Lbvj;
+	FIELD a xSize I
+	FIELD b ySize I
+	FIELD c zSize I
+	FIELD d AXES [Leq$a;
 	METHOD <init> (Ljava/util/function/Function;)V
 		ARG 1 configFactory
-	METHOD a makeVines (Lbhm;Lev;Lbwb;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 directionProperty
+	METHOD a isEmpty ()Z
+	METHOD a isColumnFull (IIII)Z
+	METHOD a isRectangleFull (IIIII)Z
+	METHOD a setColumn (IIIIZ)V
+	METHOD a set (IIIZZ)V
+	METHOD a forEachEdge (Lcem$b;Lej;Z)V
+	METHOD a forEachEdge (Lcem$b;Z)V
+	METHOD a inBoundsAndContains (Lej;III)Z
+	METHOD a getMin (Leq$a;)I
+	METHOD b getXSize ()I
+	METHOD b contains (III)Z
+	METHOD b forEachBox (Lcem$b;Z)V
+	METHOD b contains (Lej;III)Z
+	METHOD b getMax (Leq$a;)I
+	METHOD c getYSize ()I
+	METHOD c inBoundsAndContains (III)Z
+	METHOD c getSize (Leq$a;)I
+	METHOD d getZSize ()I

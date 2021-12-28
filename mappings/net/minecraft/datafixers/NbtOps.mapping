@@ -1,2 +1,7 @@
-CLASS in net/minecraft/datafixers/NbtOps
-	FIELD a INSTANCE Lin;
+CLASS hj net/minecraft/datafixers/NbtOps
+	FIELD a INSTANCE Lhj;
+	METHOD <init> (Lbek;Lbef;Lbhg;I)V
+		ARG 1 serializer
+		ARG 2 input
+		ARG 3 output
+		ARG 4 outputCount

@@ -1,3 +1,8 @@
-CLASS cmd net/minecraft/world/biome/layer/AddSunflowerPlainsLayer
+CLASS cab net/minecraft/world/biome/layer/AddSunflowerPlainsLayer
 	FIELD b PLAINS_ID I
 	FIELD c SUNFLOWER_PLAINS I
+	METHOD <init> (Lcbd;Lcbe;)V
+		ARG 1 feature
+		ARG 2 config
+	METHOD <init> (Lcbd;Lcom/mojang/datafixers/Dynamic;)V
+		ARG 1 feature

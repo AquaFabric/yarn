@@ -1,1 +1,5 @@
-CLASS dgf net/minecraft/client/render/entity/model/SnowmanEntityModel
+CLASS cqa net/minecraft/client/render/entity/model/SnowmanEntityModel
+	METHOD <init> ([Lcqy;Lqs;J)V
+		ARG 1 conditions
+		ARG 2 id
+		ARG 3 seed

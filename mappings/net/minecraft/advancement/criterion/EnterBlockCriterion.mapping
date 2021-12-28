@@ -1,16 +1,16 @@
-CLASS ar net/minecraft/advancement/criterion/EnterBlockCriterion
-	CLASS ar$a Handler
-		FIELD a manager Lrb;
+CLASS am net/minecraft/advancement/criterion/EnterBlockCriterion
+	CLASS am$a Handler
+		FIELD a manager Lpm;
 		FIELD b conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lbvj;)V
-		METHOD a addConditon (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS ar$b Conditions
-		FIELD a block Lbml;
+		METHOD a handle (Lblc;)V
+		METHOD a addConditon (Ls$a;)V
+		METHOD b removeCondition (Ls$a;)V
+	CLASS am$b Conditions
+		FIELD a block Lbcs;
 		FIELD b state Ljava/util/Map;
-		METHOD a block (Lbml;)Lar$b;
-		METHOD a matches (Lbvj;)Z
-	FIELD a ID Lqs;
+		METHOD a block (Lbcs;)Lam$b;
+		METHOD a matches (Lblc;)Z
+	FIELD a ID Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvh;Lbvj;)V
+	METHOD a handle (Ltf;Lblc;)V

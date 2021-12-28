@@ -1,91 +1,34 @@
-CLASS bfk net/minecraft/enchantment/EnchantmentHelper
-	CLASS bfk$a Consumer
-		METHOD accept (Lbfi;I)V
-			ARG 1 enchantment
-			ARG 2 level
-	METHOD a getHighestApplicableEnchantmentsAtPower (ILbca;Z)Ljava/util/List;
-		ARG 0 power
-		ARG 1 stack
-	METHOD a getSweepingMultiplier (Laio;)F
-		ARG 0 entity
-	METHOD a onUserDamaged (Laio;Laif;)V
-		ARG 0 user
-		ARG 1 attacker
-	METHOD a getEnchantments (Lbca;)Ljava/util/Map;
-		ARG 0 stack
-	METHOD a getAttackDamage (Lbca;Lais;)F
-		ARG 0 stack
-		ARG 1 group
-	METHOD a getEquipmentLevel (Lbfi;Laio;)I
-		ARG 0 ench
-		ARG 1 entity
-	METHOD a getLevel (Lbfi;Lbca;)I
-		ARG 0 enchantment
-		ARG 1 stack
-	METHOD a accept (Lbfk$a;Lbca;)V
-		ARG 0 enchantmentHandler
-		ARG 1 stack
-	METHOD a accept (Lbfk$a;Ljava/lang/Iterable;)V
-		ARG 0 enchantmentHandler
-		ARG 1 stacks
-	METHOD a getProtectionAmount (Ljava/lang/Iterable;Laho;)I
-		ARG 0 equipment
-		ARG 1 source
-	METHOD a contains (Ljava/util/Collection;Lbfi;)Z
-		ARG 0 collection
-		ARG 1 enchantment
-	METHOD a remove (Ljava/util/List;Lbfl;)V
-		ARG 0 infos
-		ARG 1 info
-	METHOD a set (Ljava/util/Map;Lbca;)V
-		ARG 0 enchantments
-		ARG 1 stack
-	METHOD a calculateEnchantmentPower (Ljava/util/Random;IILbca;)I
-		ARG 0 random
-		ARG 1 num
-		ARG 2 enchantmentPower
-		ARG 3 rstack
-	METHOD a enchant (Ljava/util/Random;Lbca;IZ)Lbca;
-		ARG 0 random
-		ARG 1 target
-		ARG 2 level
-		ARG 3 hasTreasure
-	METHOD b getKnockback (Laio;)I
-		ARG 0 entity
-	METHOD b onTargetDamaged (Laio;Laif;)V
-		ARG 0 user
-		ARG 1 target
-	METHOD b getLuckOfTheSea (Lbca;)I
-		ARG 0 stack
-	METHOD b getRandomEnchantedEquipment (Lbfi;Laio;)Ljava/util/Map$Entry;
-	METHOD b getEnchantments (Ljava/util/Random;Lbca;IZ)Ljava/util/List;
-		ARG 0 random
-		ARG 1 stack
-		ARG 2 level
-		ARG 3 hasTreasure
-	METHOD c getFireAspect (Laio;)I
-		ARG 0 entity
-	METHOD c getLure (Lbca;)I
-		ARG 0 stack
-	METHOD d getRespiration (Laio;)I
-		ARG 0 entity
-	METHOD d hasBindingCurse (Lbca;)Z
-		ARG 0 stack
-	METHOD e getDepthStrider (Laio;)I
-		ARG 0 entity
-	METHOD e hasVanishingCurse (Lbca;)Z
-		ARG 0 stack
-	METHOD f getEfficiency (Laio;)I
-		ARG 0 entity
-	METHOD f getLoyalty (Lbca;)I
-		ARG 0 stack
-	METHOD g getLooting (Laio;)I
-		ARG 0 entity
-	METHOD g getRiptide (Lbca;)I
-		ARG 0 stack
-	METHOD h hasAquaAffinity (Laio;)Z
-		ARG 0 entity
-	METHOD h hasChanneling (Lbca;)Z
-		ARG 0 stack
-	METHOD i hasFrostWalker (Laio;)Z
-		ARG 0 entity
+CLASS awg net/minecraft/enchantment/EnchantmentHelper
+	CLASS awg$a Consumer
+	METHOD a getHighestApplicableEnchantmentsAtPower (ILate;Z)Ljava/util/List;
+	METHOD a getSweepingMultiplier (Lafa;)F
+	METHOD a onUserDamaged (Lafa;Laer;)V
+	METHOD a getEnchantments (Late;)Ljava/util/Map;
+	METHOD a getAttackDamage (Late;Lafd;)F
+	METHOD a getEquipmentLevel (Lawe;Lafa;)I
+	METHOD a getLevel (Lawe;Late;)I
+	METHOD a accept (Lawg$a;Late;)V
+	METHOD a accept (Lawg$a;Ljava/lang/Iterable;)V
+	METHOD a getProtectionAmount (Ljava/lang/Iterable;Laea;)I
+	METHOD a contains (Ljava/util/Collection;Lawe;)Z
+	METHOD a remove (Ljava/util/List;Lawh;)V
+	METHOD a set (Ljava/util/Map;Late;)V
+	METHOD a calculateEnchantmentPower (Ljava/util/Random;IILate;)I
+	METHOD a enchant (Ljava/util/Random;Late;IZ)Late;
+	METHOD b getKnockback (Lafa;)I
+	METHOD b onTargetDamaged (Lafa;Laer;)V
+	METHOD b getLuckOfTheSea (Late;)I
+	METHOD b getEnchantments (Ljava/util/Random;Late;IZ)Ljava/util/List;
+	METHOD c getFireAspect (Lafa;)I
+	METHOD c getLure (Late;)I
+	METHOD d getRespiration (Lafa;)I
+	METHOD d hasBindingCurse (Late;)Z
+	METHOD e getDepthStrider (Lafa;)I
+	METHOD e hasVanishingCurse (Late;)Z
+	METHOD f getEfficiency (Lafa;)I
+	METHOD f getLoyalty (Late;)I
+	METHOD g getLooting (Lafa;)I
+	METHOD g getRiptide (Late;)I
+	METHOD h hasAquaAffinity (Lafa;)Z
+	METHOD h hasChanneling (Late;)Z
+	METHOD i hasFrostWalker (Lafa;)Z

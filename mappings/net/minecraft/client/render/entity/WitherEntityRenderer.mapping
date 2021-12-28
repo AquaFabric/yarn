@@ -1,3 +1,7 @@
-CLASS dry net/minecraft/client/render/entity/WitherEntityRenderer
-	FIELD a INVINCIBLE_SKIN Lqs;
-	FIELD j SKIN Lqs;
+CLASS daz net/minecraft/client/render/entity/WitherEntityRenderer
+	FIELD a INVINCIBLE_SKIN Lpc;
+	FIELD j SKIN Lpc;
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

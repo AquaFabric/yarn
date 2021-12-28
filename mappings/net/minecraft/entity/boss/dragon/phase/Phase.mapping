@@ -1,11 +1,7 @@
-CLASS asq net/minecraft/entity/boss/dragon/phase/Phase
-	METHOD a modifyDamageTaken (Laho;F)F
-	METHOD a crystalDestroyed (Lasf;Lev;Laho;Lavx;)V
-		ARG 1 crystal
-		ARG 2 pos
-		ARG 3 source
-		ARG 4 player
+CLASS aln net/minecraft/entity/boss/dragon/phase/Phase
+	METHOD a modifyDamageTaken (Lalb;Laea;F)F
+	METHOD a crystalDestroyed (Lalc;Lel;Laea;Laog;)V
 	METHOD d beginPhase ()V
 	METHOD e endPhase ()V
-	METHOD g getTarget ()Lcrv;
-	METHOD i getType ()Lasw;
+	METHOD g getTarget ()Lcee;
+	METHOD i getType ()Lalt;

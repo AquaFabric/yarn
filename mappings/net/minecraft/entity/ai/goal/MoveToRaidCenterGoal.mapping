@@ -1,7 +1,11 @@
 CLASS anq net/minecraft/entity/ai/goal/MoveToRaidCenterGoal
-	FIELD a actor Laxc;
+	CLASS anq$a AttackGoal
+	CLASS anq$b SpawnEffectData
+		FIELD a effect Laej;
+		METHOD a setEffect (Ljava/util/Random;)V
+	CLASS anq$c FollowTargetGoal
+	FIELD a SPIDER_FLAGS Lor;
 	METHOD <init> (Laxc;)V
 		ARG 1 actor
-	METHOD a includeFreeRaiders (Laxb;)V
-		ARG 1 raid
-	METHOD g moveToAlternativePosition ()V
+	METHOD a setCanClimb (Z)V
+	METHOD l getCanClimb ()Z

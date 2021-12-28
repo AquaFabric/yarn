@@ -1,13 +1,20 @@
 CLASS ayd net/minecraft/container/AnvilContainer
-	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d result Lagt;
-	FIELD e inventory Lagt;
-	FIELD f levelCost Layp;
-	FIELD g context Layl;
-	FIELD i newItemName Ljava/lang/String;
-	FIELD j player Lavx;
-	METHOD a setNewItemName (Ljava/lang/String;)V
-	METHOD d getNextCost (I)I
-		ARG 0 cost
-	METHOD e updateResult ()V
-	METHOD f getLevelCost ()I
+	FIELD a seed J
+	FIELD b gameMode Laxv;
+	FIELD c structures Z
+	FIELD d hardcore Z
+	FIELD e generatorType Layg;
+	FIELD f commands Z
+	FIELD g bonusChest Z
+	FIELD h generatorOptions Lcom/google/gson/JsonElement;
+	METHOD a setBonusChest ()Layd;
+	METHOD a setGeneratorOptions (Lcom/google/gson/JsonElement;)Layd;
+	METHOD b enableCommands ()Layd;
+	METHOD c hasBonusChest ()Z
+	METHOD d getSeed ()J
+	METHOD e getGameMode ()Laxv;
+	METHOD f isHardcore ()Z
+	METHOD g hasStructures ()Z
+	METHOD h getGeneratorType ()Layg;
+	METHOD i allowCommands ()Z
+	METHOD j getGeneratorOptions ()Lcom/google/gson/JsonElement;

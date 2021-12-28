@@ -1,32 +1,18 @@
-CLASS dmj net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher
-	FIELD a INSTANCE Ldmj;
+CLASS cwa net/minecraft/client/render/block/entity/BlockEntityRenderDispatcher
+	FIELD a INSTANCE Lcwa;
 	FIELD b renderOffsetX D
 	FIELD c renderOffsetY D
 	FIELD d renderOffsetZ D
-	FIELD e textureManager Lduh;
-	FIELD f world Lbhh;
-	FIELD g cameraEntity Lcux;
-	FIELD h hitResult Lcrt;
-	FIELD i renderers Ljava/util/Map;
-	FIELD j fontRenderer Lcwa;
-	METHOD a getFontRenderer ()Lcwa;
-	METHOD a setWorld (Lbhh;)V
-	METHOD a configure (Lbhh;Lduh;Lcwa;Lcux;Lcrt;)V
-	METHOD a get (Lbtm;)Ldmk;
-	METHOD a renderEntity (Lbtm;DDDF)V
-		ARG 1 blockEntity
-		ARG 2 xOffset
-		ARG 4 yOffset
-		ARG 6 zOffset
-		ARG 8 tickDelta
-	METHOD a renderEntity (Lbtm;DDDFIZ)V
-		ARG 2 xOffset
-		ARG 4 yOffset
-		ARG 6 zOffset
-		ARG 8 tickDelta
-		ARG 9 blockBreakStage
-	METHOD a render (Lbtm;FI)V
-		ARG 2 tickDelta
-		ARG 3 blockBreakStage
-	METHOD a get (Ljava/lang/Class;)Ldmk;
-	METHOD b renderEntity (Lbtm;)V
+	FIELD e textureManager Lddn;
+	FIELD f world Laxy;
+	FIELD j hitResult Lceb;
+	FIELD n renderers Ljava/util/Map;
+	FIELD o fontRenderer Lcgk;
+	METHOD a getFontRenderer ()Lcgk;
+	METHOD a setWorld (Laxy;)V
+	METHOD a get (Lbji;)Lcwb;
+	METHOD a renderEntity (Lbji;DDDF)V
+	METHOD a renderEntity (Lbji;DDDFIZ)V
+	METHOD a render (Lbji;FI)V
+	METHOD a get (Ljava/lang/Class;)Lcwb;
+	METHOD b renderEntity (Lbji;)V

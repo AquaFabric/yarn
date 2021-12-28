@@ -1,0 +1,4 @@
+CLASS afg
+	METHOD a getPathfindingFavor (Lel;Layc;)F
+	METHOD dx getRunFromLeashSpeed ()D
+	METHOD u updateForLeashLength (F)V

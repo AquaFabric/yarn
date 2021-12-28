@@ -1,82 +1,41 @@
-CLASS cd net/minecraft/server/command/ServerCommandSource
+CLASS bu net/minecraft/server/command/ServerCommandSource
 	FIELD a REQUIRES_PLAYER_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
 	FIELD b REQUIRES_ENTITY_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
-	FIELD c output Lcc;
-	FIELD d position Lcrv;
-	FIELD e world Lvg;
+	FIELD c output Lbt;
+	FIELD d position Lcee;
+	FIELD e world Ltd;
 	FIELD f level I
 	FIELD g simpleName Ljava/lang/String;
-	FIELD h name Ljm;
+	FIELD h name Lij;
 	FIELD i minecraftServer Lnet/minecraft/server/MinecraftServer;
 	FIELD j silent Z
-	FIELD k entity Laif;
+	FIELD k entity Laer;
 	FIELD l resultConsumer Lcom/mojang/brigadier/ResultConsumer;
-	FIELD m entityAnchor Lck$a;
-	FIELD n rotation Lcru;
-	METHOD <init> (Lcc;Lcrv;Lcru;Lvg;ILjava/lang/String;Ljm;Lnet/minecraft/server/MinecraftServer;Laif;)V
-		ARG 1 output
-		ARG 2 pos
-		ARG 3 rot
-		ARG 4 world
-		ARG 5 level
-		ARG 6 simpleName
-		ARG 7 name
-		ARG 8 server
-		ARG 9 entity
-	METHOD <init> (Lcc;Lcrv;Lcru;Lvg;ILjava/lang/String;Ljm;Lnet/minecraft/server/MinecraftServer;Laif;ZLcom/mojang/brigadier/ResultConsumer;Lck$a;)V
-		ARG 1 output
-		ARG 2 pos
-		ARG 3 rot
-		ARG 4 world
-		ARG 5 level
-		ARG 6 simpleName
-		ARG 7 name
-		ARG 8 server
-		ARG 9 entity
-		ARG 10 silent
-		ARG 11 resultConsumer
-		ARG 12 entityAnchor
-	METHOD a withSilent ()Lcd;
-	METHOD a withLevel (I)Lcd;
-		ARG 1 level
-	METHOD a withEntity (Laif;)Lcd;
-		ARG 1 entity
-	METHOD a withLookingAt (Laif;Lck$a;)Lcd;
-		ARG 1 entity
-		ARG 2 anchor
-	METHOD a withEntityAnchor (Lck$a;)Lcd;
-		ARG 1 anchor
-	METHOD a withConsumer (Lcom/mojang/brigadier/ResultConsumer;)Lcd;
-		ARG 1 resultConsumer
-	METHOD a mergeConsumers (Lcom/mojang/brigadier/ResultConsumer;Ljava/util/function/BinaryOperator;)Lcd;
+	FIELD m entityAnchor Lca$a;
+	FIELD n rotation Lced;
+	METHOD a withSilent ()Lbu;
+	METHOD a withLevel (I)Lbu;
+	METHOD a withEntity (Laer;)Lbu;
+	METHOD a withLookingAt (Laer;Lca$a;)Lbu;
+	METHOD a withEntityAnchor (Lca$a;)Lbu;
+	METHOD a withRotation (Lced;)Lbu;
+	METHOD a withPosition (Lcee;)Lbu;
+	METHOD a withConsumer (Lcom/mojang/brigadier/ResultConsumer;)Lbu;
+	METHOD a mergeConsumers (Lcom/mojang/brigadier/ResultConsumer;Ljava/util/function/BinaryOperator;)Lbu;
 	METHOD a onCommandComplete (Lcom/mojang/brigadier/context/CommandContext;ZI)V
-		ARG 1 context
-		ARG 2 success
-		ARG 3 result
-	METHOD a withRotation (Lcru;)Lcd;
-		ARG 1 rotation
-	METHOD a withPosition (Lcrv;)Lcd;
-		ARG 1 position
-	METHOD a sendError (Ljm;)V
-		ARG 1 message
-	METHOD a sendFeedback (Ljm;Z)V
-		ARG 1 message
-		ARG 2 broadcastToOps
-	METHOD a withWorld (Lvg;)Lcd;
-		ARG 1 world
-	METHOD b getDisplayName ()Ljm;
-	METHOD b withMaxLevel (I)Lcd;
-		ARG 1 level
-	METHOD b withLookingAt (Lcrv;)Lcd;
-		ARG 1 position
-	METHOD b sendToOps (Ljm;)V
-		ARG 1 message
+	METHOD a sendError (Lij;)V
+	METHOD a sendFeedback (Lij;Z)V
+	METHOD a withWorld (Ltd;)Lbu;
+	METHOD b getDisplayName ()Lij;
+	METHOD b withMaxLevel (I)Lbu;
+	METHOD b withLookingAt (Lcee;)Lbu;
+	METHOD b sendToOps (Lij;)V
 	METHOD c getName ()Ljava/lang/String;
-	METHOD d getPosition ()Lcrv;
-	METHOD e getWorld ()Lvg;
-	METHOD f getEntity ()Laif;
-	METHOD g getEntityOrThrow ()Laif;
-	METHOD h getPlayer ()Lvh;
-	METHOD i getRotation ()Lcru;
+	METHOD d getPosition ()Lcee;
+	METHOD e getWorld ()Ltd;
+	METHOD f getEntity ()Laer;
+	METHOD g getEntityOrThrow ()Laer;
+	METHOD h getPlayer ()Ltf;
+	METHOD i getRotation ()Lced;
 	METHOD j getMinecraftServer ()Lnet/minecraft/server/MinecraftServer;
-	METHOD k getEntityAnchor ()Lck$a;
+	METHOD k getEntityAnchor ()Lca$a;

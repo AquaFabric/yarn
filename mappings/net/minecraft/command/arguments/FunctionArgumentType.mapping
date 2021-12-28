@@ -1,20 +1,7 @@
-CLASS dv net/minecraft/command/arguments/FunctionArgumentType
-	CLASS dv$a FunctionArgument
-		METHOD a getFunctions (Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;
-		METHOD b getFunctionOrTag (Lcom/mojang/brigadier/context/CommandContext;)Lcom/mojang/datafixers/util/Either;
+CLASS dj net/minecraft/command/arguments/FunctionArgumentType
+	CLASS dj$a FunctionArgument
+		METHOD create getFunctions (Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;
 	FIELD a EXAMPLES Ljava/util/Collection;
 	FIELD b UNKNOWN_FUNCTION_TAG_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD c UNKNOWN_FUNCTION_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	METHOD a create ()Ldv;
+	METHOD a create ()Ldj;
 	METHOD a getFunctions (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;
-		ARG 0 context
-		ARG 1 name
-	METHOD b getFunctionOrTag (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcom/mojang/datafixers/util/Either;
-		ARG 0 context
-		ARG 1 name
-	METHOD c getFunction (Lcom/mojang/brigadier/context/CommandContext;Lqs;)Lca;
-		ARG 0 context
-		ARG 1 id
-	METHOD d getFunctionTag (Lcom/mojang/brigadier/context/CommandContext;Lqs;)Lzb;
-		ARG 0 context
-		ARG 1 id

@@ -1,14 +1,9 @@
-CLASS aus net/minecraft/entity/mob/SilverfishEntity
-	CLASS aus$a WanderAndInfestGoal
-		FIELD h direction Lfa;
+CLASS anm net/minecraft/entity/mob/SilverfishEntity
+	CLASS anm$a WanderAndInfestGoal
+		FIELD h direction Leq;
 		FIELD i canInfest Z
-		METHOD <init> (Laus;)V
-			ARG 1 silverfish
-	CLASS aus$b CallForHelpGoal
-		FIELD a silverfish Laus;
+	CLASS anm$b CallForHelpGoal
+		FIELD a silverfish Lanm;
 		FIELD b delay I
-		METHOD <init> (Laus;)V
-			ARG 1 silverfish
 		METHOD g onHurt ()V
-	FIELD b CLOSE_PLAYER_PREDICATE Lapz;
-	FIELD c callForHelpGoal Laus$b;
+	FIELD a callForHelpGoal Lanm$b;

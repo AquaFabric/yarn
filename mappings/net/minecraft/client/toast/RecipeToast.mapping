@@ -1,6 +1,10 @@
-CLASS cxq net/minecraft/client/toast/RecipeToast
+CLASS chy net/minecraft/client/toast/RecipeToast
 	FIELD c recipes Ljava/util/List;
 	FIELD d startTime J
 	FIELD e justUpdated Z
-	METHOD a addRecipe (Lbei;)V
-	METHOD a show (Lcxt;Lbei;)V
+	METHOD a addRecipe (Lavk;)V
+	METHOD a show (Lcib;Lavk;)V
+	METHOD a (Ljava/util/List;Ljava/util/Random;IIILfa;ILccn$b;)Lchy$c;
+		ARG 1 random
+	METHOD b (Lcik;Ljava/util/List;Ljava/util/Random;IIILfa;I)Lchy$c;
+		ARG 2 random

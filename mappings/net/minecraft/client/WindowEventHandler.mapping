@@ -1,6 +1,34 @@
 CLASS cuc net/minecraft/client/WindowEventHandler
+	FIELD a MAP_BACKGROUND_TEX Lpc;
+	FIELD b UNDERWATER_TEX Lpc;
+	FIELD c client Lcft;
+	FIELD d mainHand Late;
+	FIELD e offHand Late;
+	FIELD f equipProgressMainHand F
+	FIELD g prevEquipProgressMainHand F
+	FIELD h equipProgressOffHand F
+	FIELD i prevEquipProgressOffHand F
+	FIELD j renderManager Lcyo;
+	FIELD k itemRenderer Lczg;
 	METHOD a onResolutionChanged ()V
-	METHOD a onWindowFocusChanged (Z)V
-		ARG 1 focused
-	METHOD b updateDisplay (Z)V
-		ARG 1 respectFramerateLimit
+	METHOD a renderFirstPersonItem (F)V
+	METHOD a rotate (FF)V
+	METHOD a renderMapInBothHands (FFF)V
+	METHOD a renderArmHoldingItem (FFLaez;)V
+	METHOD a renderMapInOneHand (FLaez;FLate;)V
+	METHOD a applyEatOrDrinkTransformation (FLaez;Late;)V
+	METHOD a resetEquipProgress (Ladk;)V
+	METHOD a renderArm (Laez;)V
+	METHOD a renderItem (Lafa;Late;Lcvk$b;)V
+	METHOD a renderItemFromSide (Lafa;Late;Lcvk$b;Z)V
+	METHOD a renderFirstPersonMap (Late;)V
+	METHOD a renderFirstPersonItem (Lctg;FFLadk;FLate;F)V
+	METHOD a renderBlock (Lddm;)V
+	METHOD b applyLightmap ()V
+	METHOD b renderOverlays (F)V
+	METHOD b applyHandOffset (Laez;F)V
+	METHOD c renderArms ()V
+	METHOD c applyCameraAngles (F)V
+	METHOD d renderFireOverlay ()V
+	METHOD d getMapAngle (F)F
+	METHOD e renderWaterOverlay (F)V

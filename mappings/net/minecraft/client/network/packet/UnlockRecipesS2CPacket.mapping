@@ -1,6 +1,6 @@
-CLASS md net/minecraft/client/network/packet/UnlockRecipesS2CPacket
-	CLASS md$a Action
-	FIELD a action Lmd$a;
+CLASS kv net/minecraft/client/network/packet/UnlockRecipesS2CPacket
+	CLASS kv$a Action
+	FIELD a action Lkv$a;
 	FIELD b recipeIdsToChange Ljava/util/List;
 	FIELD c recipeIdsToInit Ljava/util/List;
 	FIELD d guiOpen Z
@@ -13,4 +13,4 @@ CLASS md net/minecraft/client/network/packet/UnlockRecipesS2CPacket
 	METHOD e isFilteringCraftable ()Z
 	METHOD f isFurnaceGuiOpen ()Z
 	METHOD g isFurnaceFilteringCraftable ()Z
-	METHOD h getAction ()Lmd$a;
+	METHOD h getAction ()Lkv$a;

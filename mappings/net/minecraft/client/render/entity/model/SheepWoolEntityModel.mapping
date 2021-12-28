@@ -1,1 +1,4 @@
-CLASS dfw net/minecraft/client/render/entity/model/SheepWoolEntityModel
+CLASS cpr net/minecraft/client/render/entity/model/SheepWoolEntityModel
+	METHOD <init> ([Lcqy;Lcol$c;)V
+		ARG 1 conditions
+		ARG 2 entity

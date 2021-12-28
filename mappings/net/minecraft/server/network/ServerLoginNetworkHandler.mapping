@@ -1,17 +1,15 @@
-CLASS wa net/minecraft/server/network/ServerLoginNetworkHandler
-	CLASS wa$a State
-	FIELD a client Lja;
+CLASS ue net/minecraft/server/network/ServerLoginNetworkHandler
+	CLASS ue$a State
+	FIELD a client Lhw;
 	FIELD b authenticatorThreadId Ljava/util/concurrent/atomic/AtomicInteger;
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD d RANDOM Ljava/util/Random;
 	FIELD e nonce [B
 	FIELD f server Lnet/minecraft/server/MinecraftServer;
-	FIELD g state Lwa$a;
+	FIELD g state Lue$a;
 	FIELD h loginTicks I
 	FIELD i profile Lcom/mojang/authlib/GameProfile;
 	FIELD k secretKey Ljavax/crypto/SecretKey;
-	FIELD l clientEntity Lvh;
+	FIELD l clientEntity Ltf;
 	METHOD a toOfflineProfile (Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
-	METHOD b tick ()V
-	METHOD b disconnect (Ljm;)V
-		ARG 1 reason
+	METHOD b disconnect (Lij;)V

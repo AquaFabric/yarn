@@ -1,106 +1,65 @@
-CLASS dki net/minecraft/client/render/GameRenderer
-	FIELD C floatingItem Lbca;
-	FIELD D floatingItemTimeLeft I
-	FIELD E floatingItemWidth F
-	FIELD F floatingItemHeight F
-	FIELD G shader Ldkr;
-	FIELD H SHADERS_LOCATIONS [Lqs;
-	FIELD I forcedShaderIndex I
-	FIELD J shadersEnabled Z
-	FIELD L camera Lcux;
-	FIELD a firstPersonRenderer Ldkk;
+CLASS cty net/minecraft/client/render/GameRenderer
+	FIELD A backgroundRenderer Lctx;
+	FIELD F floatingItem Late;
+	FIELD G floatingItemTimeLeft I
+	FIELD H floatingItemWidth F
+	FIELD I floatingItemHeight F
+	FIELD J shader Ldct;
+	FIELD M SHADERS_LOCATIONS [Lpc;
+	FIELD N forcedShaderIndex I
+	FIELD O shadersEnabled Z
+	FIELD a firstPersonRenderer Lcuc;
 	FIELD b SHADER_COUNT I
 	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD d RAIN_LOC Lqs;
-	FIELD e SNOW_LOC Lqs;
-	FIELD f client Lcvi;
-	FIELD g resourceContainer Lxe;
+	FIELD d RAIN_LOC Lpc;
+	FIELD e SNOW_LOC Lpc;
+	FIELD f client Lcft;
+	FIELD g resourceContainer Lvf;
 	FIELD h random Ljava/util/Random;
 	FIELD i viewDistance F
-	FIELD j mapRenderer Lcwd;
+	FIELD j mapRenderer Lcgn;
 	FIELD k ticks I
-	FIELD l movementFovMultiplier F
-	FIELD m lastMovementFovMultiplier F
-	FIELD n skyDarkness F
-	FIELD o lastSkyDarkness F
-	FIELD p renderHand Z
-	FIELD q blockOutlineEnabled Z
-	FIELD r lastWorldIconUpdate J
-	FIELD s lastWindowFocusedTime J
-	FIELD t lightmapTextureManager Ldkn;
-	FIELD x backgroundRenderer Ldkh;
-	METHOD <init> (Lcvi;Lxe;)V
-		ARG 1 client
+	FIELD o movementFovMultiplier F
+	FIELD p lastMovementFovMultiplier F
+	FIELD q skyDarkness F
+	FIELD r lastSkyDarkness F
+	FIELD s renderHand Z
+	FIELD t blockOutlineEnabled Z
+	FIELD u lastWorldIconUpdate J
+	FIELD v lastWindowFocusedTime J
+	FIELD w lightmapTextureManager Lcuf;
 	METHOD a isShaderEnabled ()Z
 	METHOD a updateTargetedEntity (F)V
-		ARG 1 tickDelta
 	METHOD a renderWorld (FJ)V
-		ARG 1 tickDelta
-		ARG 2 endTime
 	METHOD a render (FJZ)V
-		ARG 1 tickDelta
-		ARG 2 startTime
-		ARG 4 fullRender
+	METHOD a getFov (FZ)D
 	METHOD a onResized (II)V
 	METHOD a renderFloatingItem (IIF)V
-		ARG 1 scaledWidth
-		ARG 2 scaledHeight
-		ARG 3 tickDelta
-	METHOD a onCameraEntitySet (Laif;)V
-	METHOD a getNightVisionStrength (Laio;F)F
-		ARG 1 entity
-		ARG 2 tickDelta
-	METHOD a showFloatingItem (Lbca;)V
-		ARG 1 floatingItem
-	METHOD a renderHand (Lcux;F)V
-		ARG 1 camera
-		ARG 2 tickDelta
-	METHOD a getFov (Lcux;FZ)D
-		ARG 2 tickDelta
-	METHOD a renderAboveClouds (Lcux;Ldkm;FDDD)V
-		ARG 1 camera
-		ARG 2 worldRenderer
-		ARG 3 tickDelta
-		ARG 4 cameraX
-		ARG 6 cameraY
-		ARG 8 cameraZ
-	METHOD a renderFloatingText (Lcwa;Ljava/lang/String;FFFIFFZ)V
-		ARG 0 textRenderer
-		ARG 1 text
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 verticalOffset
-		ARG 6 yaw
-		ARG 7 pitch
-		ARG 8 translucent
-	METHOD a loadShader (Lqs;)V
+	METHOD a onCameraEntitySet (Laer;)V
+	METHOD a getNightVisionStrength (Lafa;F)F
+	METHOD a showFloatingItem (Late;)V
+	METHOD a renderFloatingText (Lcgk;Ljava/lang/String;FFFIFFZZ)V
+	METHOD a renderAboveClouds (Lcue;FDDD)V
+	METHOD a loadShader (Lpc;)V
 	METHOD b disableShader ()V
-	METHOD b renderWeather (F)V
 	METHOD b renderCenter (FJ)V
-		ARG 1 tickDelta
-		ARG 2 endTime
 	METHOD c toggleShadersEnabled ()V
-	METHOD c getSkyDarkness (F)F
-		ARG 1 tickDelta
-	METHOD d bobViewWhenHurt (F)V
-		ARG 1 tickDelta
+	METHOD c renderWeather (F)V
+	METHOD d getSkyDarkness (F)F
 	METHOD d setFogBlack (Z)V
-		ARG 1 fogBlack
 	METHOD e tick ()V
-	METHOD e bobView (F)V
-		ARG 1 tickDelta
-	METHOD f getShader ()Ldkr;
-	METHOD f applyCameraTransformations (F)V
-		ARG 1 tickDelta
+	METHOD e bobViewWhenHurt (F)V
+	METHOD f getShader ()Ldct;
+	METHOD f bobView (F)V
 	METHOD h disableLightmap ()V
+	METHOD h applyCameraTransformations (F)V
 	METHOD i enableLightmap ()V
+	METHOD i renderHand (F)V
 	METHOD j reset ()V
-	METHOD k getMapRenderer ()Lcwd;
-	METHOD l getClient ()Lcvi;
+	METHOD k getMapRenderer ()Lcgn;
+	METHOD l getClient ()Lcft;
 	METHOD m getViewDistance ()F
-	METHOD n getCamera ()Lcux;
-	METHOD o updateMovementFovMultiplier ()V
-	METHOD p updateWorldIcon ()V
-	METHOD q shouldRenderBlockOutline ()Z
-	METHOD r renderRain ()V
+	METHOD n updateMovementFovMultiplier ()V
+	METHOD o updateWorldIcon ()V
+	METHOD p shouldRenderBlockOutline ()Z
+	METHOD q renderRain ()V

@@ -1,2 +1,5 @@
 CLASS ctb net/minecraft/client/util/GlfwUtil
-	METHOD b getTime ()D
+	FIELD J entity Laer;
+	FIELD K emitterAge I
+	FIELD L maxEmitterAge I
+	FIELD M parameters Lfk;

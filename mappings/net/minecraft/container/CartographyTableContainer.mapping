@@ -1,8 +1,4 @@
 CLASS ayh net/minecraft/container/CartographyTableContainer
-	FIELD c inventory Lagt;
-	FIELD d context Layl;
-	FIELD e currentlyTakingItem Z
-	FIELD f resultSlot Lazj;
 	METHOD <init> (ILavw;)V
 		ARG 1 syncId
 		ARG 2 inventory
@@ -10,7 +6,7 @@ CLASS ayh net/minecraft/container/CartographyTableContainer
 		ARG 1 syncId
 		ARG 2 inventory
 		ARG 3 context
-	METHOD a updateResult (Lbca;Lbca;Lbca;)V
-		ARG 1 map
-		ARG 2 item
-		ARG 3 oldResult
+	METHOD a spawnEntity (Laer;)Z
+	METHOD a setBlockState (Lel;Lblc;I)Z
+	METHOD a breakBlock (Lel;Z)Z
+	METHOD g clearBlockState (Lel;)Z

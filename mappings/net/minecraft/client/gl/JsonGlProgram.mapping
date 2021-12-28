@@ -1,7 +1,7 @@
-CLASS dke net/minecraft/client/gl/JsonGlProgram
+CLASS dcs net/minecraft/client/gl/JsonGlProgram
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b dummyUniform Lcud;
-	FIELD c activeProgram Ldke;
+	FIELD b dummyUniform Ldcq;
+	FIELD c activeProgram Ldcs;
 	FIELD d activeProgramRef I
 	FIELD e samplerBinds Ljava/util/Map;
 	FIELD f samplerNames Ljava/util/List;
@@ -13,28 +13,16 @@ CLASS dke net/minecraft/client/gl/JsonGlProgram
 	FIELD l name Ljava/lang/String;
 	FIELD m useCullFace Z
 	FIELD n uniformStateDirty Z
-	FIELD o blendState Lcue;
+	FIELD o blendState Ldcr;
 	FIELD p attribLocs Ljava/util/List;
 	FIELD q attribNames Ljava/util/List;
-	FIELD r vertexShader Lcug;
-	FIELD s fragmentShader Lcug;
-	METHOD <init> (Lxe;Ljava/lang/String;)V
-		ARG 1 resource
-		ARG 2 name
+	FIELD r vertexShader Ldcv;
+	FIELD s fragmentShader Ldcv;
+	METHOD a disable ()V
 	METHOD a addSampler (Lcom/google/gson/JsonElement;)V
-	METHOD a deserializeBlendState (Lcom/google/gson/JsonObject;)Lcue;
-		ARG 0 json
-	METHOD a getUniformByName (Ljava/lang/String;)Lcui;
-		ARG 1 name
+	METHOD a getUniformByName (Ljava/lang/String;)Ldcx;
 	METHOD a bindSampler (Ljava/lang/String;Ljava/lang/Object;)V
-		ARG 1 samplerName
-	METHOD a getShader (Lxe;Lcug$a;Ljava/lang/String;)Lcug;
-		ARG 0 resourceManager
-		ARG 1 type
-		ARG 2 name
+	METHOD b enable ()V
 	METHOD b addUniform (Lcom/google/gson/JsonElement;)V
-	METHOD b getUniformByNameOrDummy (Ljava/lang/String;)Lcud;
-		ARG 1 name
-	METHOD e disable ()V
-	METHOD f enable ()V
+	METHOD b getUniformByNameOrDummy (Ljava/lang/String;)Ldcq;
 	METHOD h finalizeUniformsAndSamplers ()V

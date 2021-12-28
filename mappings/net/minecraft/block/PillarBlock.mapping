@@ -1,4 +1,2 @@
-CLASS bqv net/minecraft/block/PillarBlock
-	FIELD a AXIS Lbwh;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS bha net/minecraft/block/PillarBlock
+	FIELD a AXIS Lbmh;

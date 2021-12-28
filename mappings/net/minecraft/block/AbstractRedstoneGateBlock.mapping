@@ -1,47 +1,15 @@
-CLASS bnt net/minecraft/block/AbstractRedstoneGateBlock
-	FIELD b SHAPE Lcsp;
-	FIELD c POWERED Lbwb;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a hasPower (Lbhh;Lev;Lbvj;)Z
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-	METHOD a isLocked (Lbhk;Lev;Lbvj;)Z
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-	METHOD b getOutputLevel (Lbgr;Lev;Lbvj;)I
-		ARG 1 view
-		ARG 2 pos
-		ARG 3 state
-	METHOD b getPower (Lbhh;Lev;Lbvj;)I
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-	METHOD b getMaxInputLevelSides (Lbhk;Lev;Lbvj;)I
-		ARG 1 view
-		ARG 2 pos
-		ARG 3 state
-	METHOD b getInputLevel (Lbhk;Lev;Lfa;)I
-		ARG 1 view
-		ARG 2 pos
-		ARG 3 dir
-	METHOD c isTargetNotAligned (Lbgr;Lev;Lbvj;)Z
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-	METHOD c updatePowered (Lbhh;Lev;Lbvj;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-	METHOD d updateTarget (Lbhh;Lev;Lbvj;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-	METHOD j getUpdateDelayInternal (Lbvj;)I
-		ARG 1 state
-	METHOD q isValidInput (Lbvj;)Z
-		ARG 1 state
-	METHOD r isRedstoneGate (Lbvj;)Z
-		ARG 0 state
+CLASS bea net/minecraft/block/AbstractRedstoneGateBlock
+	FIELD b SHAPE Lcew;
+	FIELD c POWERED Lbmb;
+	METHOD a hasPower (Laxy;Lel;Lblc;)Z
+	METHOD a isLocked (Layc;Lel;Lblc;)Z
+	METHOD a getInputLevel (Layc;Lel;Leq;)I
+	METHOD b getOutputLevel (Laxk;Lel;Lblc;)I
+	METHOD b getPower (Laxy;Lel;Lblc;)I
+	METHOD b getMaxInputLevelSides (Layc;Lel;Lblc;)I
+	METHOD c isTargetNotAligned (Laxk;Lel;Lblc;)Z
+	METHOD c updatePowered (Laxy;Lel;Lblc;)V
+	METHOD d updateTarget (Laxy;Lel;Lblc;)V
+	METHOD k getUpdateDelayInternal (Lblc;)I
+	METHOD w isValidInput (Lblc;)Z
+	METHOD x isRedstoneGate (Lblc;)Z

@@ -1,7 +1,7 @@
-CLASS pa net/minecraft/server/network/packet/UpdateCommandBlockMinecartC2SPacket
+CLASS nl net/minecraft/server/network/packet/UpdateCommandBlockMinecartC2SPacket
 	FIELD a entityId I
 	FIELD b command Ljava/lang/String;
 	FIELD c trackOutput Z
-	METHOD a getMinecartCommandExecutor (Lbhh;)Lbgn;
+	METHOD a getMinecartCommandExecutor (Laxy;)Laxh;
 	METHOD b getCommand ()Ljava/lang/String;
 	METHOD c shouldTrackOutput ()Z

@@ -1,38 +1,14 @@
-CLASS bui net/minecraft/block/entity/SignBlockEntity
-	FIELD a text [Ljm;
-	FIELD b caretVisible Z
-	FIELD c currentRow I
-	FIELD g selectionStart I
-	FIELD h selectionEnd I
-	FIELD i editable Z
-	FIELD j editor Lavx;
-	FIELD k textBeingEdited [Ljava/lang/String;
-	FIELD l textColor Lbax;
-	METHOD a getTextOnRow (I)Ljm;
-		ARG 1 row
-	METHOD a setSelectionState (IIIZ)V
-		ARG 1 currentRow
-		ARG 2 selectionStart
-		ARG 3 selectionEnd
-		ARG 4 caretVisible
+CLASS bkc net/minecraft/block/entity/SignBlockEntity
+	FIELD a text [Lij;
+	FIELD f editable Z
+	FIELD g editor Laog;
+	FIELD h textBeingEdited [Ljava/lang/String;
+	METHOD a getTextOnRow (I)Lij;
+	METHOD a setTextOnRow (ILij;)V
 	METHOD a getTextBeingEditedOnRow (ILjava/util/function/Function;)Ljava/lang/String;
-		ARG 1 row
-		ARG 2 function
-	METHOD a setTextOnRow (ILjm;)V
-		ARG 1 row
-		ARG 2 text
-	METHOD a setEditor (Lavx;)V
-	METHOD a setTextColor (Lbax;)Z
-		ARG 1 value
-	METHOD a getCommandSource (Lvh;)Lcd;
-		ARG 1 player
+	METHOD a setEditor (Laog;)V
+	METHOD a getCommandSource (Ltf;)Lbu;
 	METHOD a setEditable (Z)V
-	METHOD b onActivate (Lavx;)Z
-	METHOD c isEditable ()Z
-	METHOD d getEditor ()Lavx;
-	METHOD f getTextColor ()Lbax;
-	METHOD g resetSelectionState ()V
-	METHOD r isCaretVisible ()Z
-	METHOD s getCurrentRow ()I
-	METHOD t getSelectionStart ()I
-	METHOD u getSelectionEnd ()I
+	METHOD b onActivate (Laog;)Z
+	METHOD d isEditable ()Z
+	METHOD e getEditor ()Laog;

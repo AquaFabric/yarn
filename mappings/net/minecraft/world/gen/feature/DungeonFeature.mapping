@@ -1,8 +1,5 @@
-CLASS cco net/minecraft/world/gen/feature/DungeonFeature
+CLASS brv net/minecraft/world/gen/feature/DungeonFeature
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD aS MOB_SPAWNER_ENTITIES [Laij;
-	FIELD aT AIR Lbvj;
-	METHOD <init> (Ljava/util/function/Function;)V
-		ARG 1 configFactory
-	METHOD a getMobSpawnerEntity (Ljava/util/Random;)Laij;
-		ARG 1 random
+	FIELD b MOB_SPAWNER_ENTITIES [Laev;
+	FIELD c AIR Lblc;
+	METHOD a getMobSpawnerEntity (Ljava/util/Random;)Laev;

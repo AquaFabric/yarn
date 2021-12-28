@@ -1,7 +1,5 @@
-CLASS anm net/minecraft/entity/ai/goal/AttackGoal
-	FIELD a world Lbgr;
-	FIELD b mob Laip;
-	FIELD c target Laio;
+CLASS ahk net/minecraft/entity/ai/goal/AttackGoal
+	FIELD a world Laxk;
+	FIELD b mob Lafb;
+	FIELD c target Lafa;
 	FIELD d cooldown I
-	METHOD <init> (Laip;)V
-		ARG 1 mob

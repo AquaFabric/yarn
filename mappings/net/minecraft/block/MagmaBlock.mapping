@@ -1,3 +1,4 @@
-CLASS bpu net/minecraft/block/MagmaBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS bfx net/minecraft/block/MagmaBlock
+	METHOD <init> (Lbfi$a;[Laik;)V
+		ARG 1 weight
+		ARG 2 slotTypes

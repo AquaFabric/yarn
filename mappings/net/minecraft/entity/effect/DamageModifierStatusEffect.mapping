@@ -1,4 +1,2 @@
-CLASS ahu net/minecraft/entity/effect/DamageModifierStatusEffect
+CLASS aeg net/minecraft/entity/effect/DamageModifierStatusEffect
 	FIELD a modifier D
-	METHOD <init> (Lahy;ID)V
-		ARG 2 color

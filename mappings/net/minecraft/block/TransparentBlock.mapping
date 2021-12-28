@@ -1,3 +1,1 @@
-CLASS boy net/minecraft/block/TransparentBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS bff net/minecraft/block/TransparentBlock

@@ -1,0 +1,2 @@
+CLASS bxe
+	METHOD a handleMetadata (Ljava/lang/String;Lel;Laxz;Ljava/util/Random;Lbwf;)V

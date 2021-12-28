@@ -1,0 +1,4 @@
+CLASS ge
+	METHOD b getRecipeId ()Lpc;
+	METHOD c toAdvancementJson ()Lcom/google/gson/JsonObject;
+	METHOD d getAdvancementId ()Lpc;

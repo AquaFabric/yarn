@@ -1,0 +1,7 @@
+CLASS bjg
+	CLASS bjg$a BeamSegment
+		FIELD a color [F
+		FIELD b height I
+		METHOD a increaseHeight ()V
+		METHOD b getColor ()[F
+		METHOD c getHeight ()I

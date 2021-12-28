@@ -1,9 +1,6 @@
-CLASS dwx net/minecraft/client/sound/AmbientSoundLoops
-	CLASS dwx$a MusicLoop
-		FIELD o player Ldjv;
-		METHOD <init> (Ldjv;Lyj;)V
-			ARG 1 player
-			ARG 2 soundEvent
-	CLASS dwx$b Underwater
-		FIELD o player Ldjv;
-		FIELD p transitionTimer I
+CLASS dfz net/minecraft/client/sound/AmbientSoundLoops
+	CLASS dfz$a MusicLoop
+		FIELD n player Lctj;
+	CLASS dfz$b Underwater
+		FIELD n player Lctj;
+		FIELD o transitionTimer I

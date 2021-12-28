@@ -1,0 +1,6 @@
+CLASS chf
+	CLASS chf$a IconLocation
+		FIELD g u I
+		FIELD h v I
+		METHOD a getU ()I
+		METHOD b getV ()I

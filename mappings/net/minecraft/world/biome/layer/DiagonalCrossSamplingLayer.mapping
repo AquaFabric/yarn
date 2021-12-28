@@ -1,8 +1,6 @@
-CLASS cmr net/minecraft/world/biome/layer/DiagonalCrossSamplingLayer
-	METHOD a sample (Lcln;IIIII)I
-		ARG 1 context
-		ARG 2 sw
-		ARG 3 se
-		ARG 4 ne
-		ARG 5 nw
-		ARG 6 center
+CLASS cap net/minecraft/world/biome/layer/DiagonalCrossSamplingLayer
+	METHOD <init> (DII)V
+		ARG 1 noiseLevel
+		ARG 3 belowNoise
+		ARG 4 aboveNoise
+	METHOD a sample (Lbzl;IIIII)I

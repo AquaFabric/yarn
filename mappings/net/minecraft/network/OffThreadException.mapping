@@ -1,2 +1,2 @@
-CLASS rc net/minecraft/network/OffThreadException
-	FIELD a INSTANCE Lrc;
+CLASS pn net/minecraft/network/OffThreadException
+	FIELD a INSTANCE Lpn;

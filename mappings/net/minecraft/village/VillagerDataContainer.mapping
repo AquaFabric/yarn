@@ -1,2 +1,4 @@
 CLASS avm net/minecraft/village/VillagerDataContainer
-	METHOD eh getVillagerData ()Lavl;
+	METHOD a write (Lhy;Lavk;)V
+	METHOD a read (Lpc;Lcom/google/gson/JsonObject;)Lavk;
+	METHOD a read (Lpc;Lhy;)Lavk;

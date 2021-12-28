@@ -1,6 +1,4 @@
-CLASS dkb net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
-	FIELD a layerBuilders [Lcuj;
-	METHOD a get (I)Lcuj;
-		ARG 1 index
-	METHOD a get (Lbgs;)Lcuj;
-		ARG 1 layer
+CLASS cts net/minecraft/client/render/chunk/BlockLayeredBufferBuilder
+	FIELD a layerBuilders [Lctq;
+	METHOD a get (I)Lctq;
+	METHOD a get (Laxl;)Lctq;

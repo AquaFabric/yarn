@@ -1,18 +1,24 @@
 CLASS amw net/minecraft/entity/ai/goal/GoalSelector
-	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b activeGoal Laol;
-	FIELD c goalsByControl Ljava/util/Map;
-	FIELD d goals Ljava/util/Set;
-	FIELD e profiler Lage;
-	FIELD f disabledControls Ljava/util/EnumSet;
-	FIELD g timeInterval I
-	METHOD a tick ()V
-	METHOD a add (ILamv;)V
-		ARG 1 weight
-	METHOD a disableControl (Lamv$a;)V
-	METHOD a setControlEnabled (Lamv$a;Z)V
-		ARG 1 control
-		ARG 2 enabled
-	METHOD a remove (Lamv;)V
-	METHOD b enableControl (Lamv$a;)V
-	METHOD c getRunningGoals ()Ljava/util/stream/Stream;
+	CLASS amw$a PlaceBlockGoal
+		FIELD a enderman Lamw;
+	CLASS amw$b TeleportTowardsPlayerGoal
+		FIELD i enderman Lamw;
+		FIELD j targetPlayer Laog;
+		FIELD k lookAtPlayerWarmup I
+		FIELD l ticksSinceUnseenTeleport I
+	CLASS amw$c PickUpBlockGoal
+		FIELD a enderman Lamw;
+	FIELD a ATTACKING_SPEED_BOOST_UUID Ljava/util/UUID;
+	FIELD bC ANGRY Lor;
+	FIELD bD lastAngrySoundAge I
+	FIELD bE ageWhenTargetSet I
+	FIELD b ATTACKING_SPEED_BOOST Lafo;
+	FIELD c CARRIED_BLOCK Lor;
+	METHOD a teleportTo (Laer;)Z
+	METHOD b setCarriedBlock (Lblc;)V
+	METHOD dA getCarriedBlock ()Lblc;
+	METHOD dB isAngry ()Z
+	METHOD dz teleportRandomly ()Z
+	METHOD f isPlayerStaring (Laog;)Z
+	METHOD k teleport (DDD)Z
+	METHOD l playAngrySound ()V

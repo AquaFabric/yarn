@@ -1,10 +1,7 @@
-CLASS kn net/minecraft/client/network/packet/BlockEntityUpdateS2CPacket
-	FIELD a pos Lev;
+CLASS ji net/minecraft/client/network/packet/BlockEntityUpdateS2CPacket
+	FIELD a pos Lel;
 	FIELD b actionId I
-	FIELD c tag Lib;
-	METHOD <init> (Lev;ILib;)V
-		ARG 1 pos
-		ARG 2 action
-	METHOD b getPos ()Lev;
+	FIELD c tag Lgy;
+	METHOD b getPos ()Lel;
 	METHOD c getActionId ()I
-	METHOD d getCompoundTag ()Lib;
+	METHOD d getCompoundTag ()Lgy;

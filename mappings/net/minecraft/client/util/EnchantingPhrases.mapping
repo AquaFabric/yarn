@@ -1,8 +1,7 @@
-CLASS dbb net/minecraft/client/util/EnchantingPhrases
-	FIELD a INSTANCE Ldbb;
+CLASS clk net/minecraft/client/util/EnchantingPhrases
+	FIELD a INSTANCE Lclk;
 	FIELD b random Ljava/util/Random;
 	FIELD c phrases [Ljava/lang/String;
-	METHOD a getInstance ()Ldbb;
+	METHOD a getInstance ()Lclk;
 	METHOD a setSeed (J)V
-	METHOD a generatePhrase (Lcwa;I)Ljava/lang/String;
-		ARG 1 fontRenderer
+	METHOD a generatePhrase (Lcgk;I)Ljava/lang/String;

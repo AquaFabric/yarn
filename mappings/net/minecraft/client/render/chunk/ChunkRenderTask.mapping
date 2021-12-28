@@ -1,34 +1,25 @@
-CLASS dmz net/minecraft/client/render/chunk/ChunkRenderTask
-	CLASS dmz$a Stage
-	CLASS dmz$b Mode
-	FIELD a chunkRenderer Ldne;
+CLASS cwo net/minecraft/client/render/chunk/ChunkRenderTask
+	CLASS cwo$a Stage
+	CLASS cwo$b Mode
+	FIELD a chunkRenderer Lcwt;
 	FIELD b lock Ljava/util/concurrent/locks/ReentrantLock;
 	FIELD c completionActions Ljava/util/List;
-	FIELD d mode Ldmz$b;
+	FIELD d mode Lcwo$b;
 	FIELD e squaredCameraDistance D
-	FIELD f region Ldng;
-	FIELD g bufferBuilder Ldkb;
-	FIELD h renderData Ldnc;
-	FIELD i stage Ldmz$a;
-	FIELD j cancelled Z
-	METHOD <init> (Ldne;Ldmz$b;DLdng;)V
-		ARG 1 chunkRenderer
-		ARG 2 mode
-		ARG 3 squaredCameraDistance
-		ARG 5 region
-	METHOD a getStage ()Ldmz$a;
-	METHOD a setBufferBuilders (Ldkb;)V
-	METHOD a setStage (Ldmz$a;)V
-	METHOD a setRenderData (Ldnc;)V
-		ARG 1 renderData
+	FIELD f bufferBuilder Lcts;
+	FIELD g renderData Lcwr;
+	FIELD h stage Lcwo$a;
+	FIELD i cancelled Z
+	METHOD a getStage ()Lcwo$a;
+	METHOD a setBufferBuilders (Lcts;)V
+	METHOD a setStage (Lcwo$a;)V
+	METHOD a setRenderData (Lcwr;)V
 	METHOD a addCompletionAction (Ljava/lang/Runnable;)V
-		ARG 1 action
-	METHOD b getChunkRenderer ()Ldne;
-	METHOD c takeRegion ()Ldng;
-	METHOD d getRenderData ()Ldnc;
-	METHOD e getBufferBuilders ()Ldkb;
-	METHOD f cancel ()V
-	METHOD g getLock ()Ljava/util/concurrent/locks/ReentrantLock;
-	METHOD h getMode ()Ldmz$b;
-	METHOD i isCancelled ()Z
-	METHOD j getSquaredCameraDistance ()D
+	METHOD b getChunkRenderer ()Lcwt;
+	METHOD c getRenderData ()Lcwr;
+	METHOD d getBufferBuilders ()Lcts;
+	METHOD e cancel ()V
+	METHOD f getLock ()Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD g getMode ()Lcwo$b;
+	METHOD h isCancelled ()Z
+	METHOD i getSquaredCameraDistance ()D

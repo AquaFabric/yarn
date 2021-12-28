@@ -1,1 +1,9 @@
-CLASS dgj net/minecraft/client/render/entity/model/TropicalFishEntityModelA
+CLASS cqe net/minecraft/client/render/entity/model/TropicalFishEntityModelA
+	METHOD <init> ([Lcqy;Ljm;Lcol$c;)V
+		ARG 1 conditions
+		ARG 2 name
+		ARG 3 entity
+	METHOD a (Lcd;Laif;Ljm;)Ljm;
+		ARG 2 textComponent
+	METHOD b (Ljm;)Ljm;
+		ARG 0 textComponent

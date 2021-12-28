@@ -1,8 +1,7 @@
-CLASS apg net/minecraft/entity/ai/pathing/MobNavigation
+CLASS aiv net/minecraft/entity/ai/pathing/MobNavigation
 	FIELD p avoidSunlight Z
-	METHOD <init> (Laip;Lbhh;)V
-		ARG 1 entity
+	METHOD <init> (Laij;Lbhh;)V
+		ARG 1 type
 	METHOD a setCanPathThroughDoors (Z)V
 	METHOD c setAvoidSunlight (Z)V
-		ARG 1 avoidSunlight
-	METHOD f canEnterOpenDoors ()Z
+	METHOD g canEnterOpenDoors ()Z

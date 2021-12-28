@@ -1,19 +1,41 @@
 CLASS awg net/minecraft/entity/EnderEyeEntity
-	FIELD b ITEM Lqh;
-	FIELD c velocityX D
-	FIELD d velocityY D
-	FIELD e velocityZ D
-	FIELD f useCount I
-	FIELD g dropsItem Z
+	CLASS awg$a Consumer
 	METHOD <init> (Lbhh;DDD)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a moveTowards (Lev;)V
-		ARG 1 pos
-	METHOD b setItem (Lbca;)V
-		ARG 1 stack
+	METHOD a getHighestApplicableEnchantmentsAtPower (ILate;Z)Ljava/util/List;
+	METHOD a getSweepingMultiplier (Lafa;)F
+	METHOD a onUserDamaged (Lafa;Laer;)V
+	METHOD a getEnchantments (Late;)Ljava/util/Map;
+	METHOD a getAttackDamage (Late;Lafd;)F
+	METHOD a getEquipmentLevel (Lawe;Lafa;)I
+	METHOD a getLevel (Lawe;Late;)I
+	METHOD a accept (Lawg$a;Late;)V
+	METHOD a accept (Lawg$a;Ljava/lang/Iterable;)V
+	METHOD a getProtectionAmount (Ljava/lang/Iterable;Laea;)I
+	METHOD a contains (Ljava/util/Collection;Lawe;)Z
+	METHOD a remove (Ljava/util/List;Lawh;)V
+	METHOD a set (Ljava/util/Map;Late;)V
+	METHOD a calculateEnchantmentPower (Ljava/util/Random;IILate;)I
+	METHOD a enchant (Ljava/util/Random;Late;IZ)Late;
+	METHOD b getKnockback (Lafa;)I
+	METHOD b onTargetDamaged (Lafa;Laer;)V
+	METHOD b getLuckOfTheSea (Late;)I
+	METHOD b getEnchantments (Ljava/util/Random;Late;IZ)Ljava/util/List;
+	METHOD c getFireAspect (Lafa;)I
+	METHOD c getLure (Late;)I
 	METHOD c (Lbca;)V
 		ARG 0 stack
-	METHOD i getTrackedItem ()Lbca;
+	METHOD d getRespiration (Lafa;)I
+	METHOD d hasBindingCurse (Late;)Z
+	METHOD e getDepthStrider (Lafa;)I
+	METHOD e hasVanishingCurse (Late;)Z
+	METHOD f getEfficiency (Lafa;)I
+	METHOD f getLoyalty (Late;)I
+	METHOD g getLooting (Lafa;)I
+	METHOD g getRiptide (Late;)I
+	METHOD h hasAquaAffinity (Lafa;)Z
+	METHOD h hasChanneling (Late;)Z
+	METHOD i hasFrostWalker (Lafa;)Z

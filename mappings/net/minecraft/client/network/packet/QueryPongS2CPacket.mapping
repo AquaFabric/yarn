@@ -1,2 +1,2 @@
-CLASS qa net/minecraft/client/network/packet/QueryPongS2CPacket
+CLASS ok net/minecraft/client/network/packet/QueryPongS2CPacket
 	FIELD a startTime J

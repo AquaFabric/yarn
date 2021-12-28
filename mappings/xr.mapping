@@ -1,0 +1,6 @@
+CLASS xr
+	CLASS xr$a ProfilerTiming
+		FIELD a parentSectionUsagePercentage D
+		FIELD b totalUsagePercentage D
+		FIELD c name Ljava/lang/String;
+		METHOD a getColor ()I

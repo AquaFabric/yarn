@@ -1,14 +1,14 @@
-CLASS dni net/minecraft/client/render/chunk/ChunkOcclusionGraph
+CLASS cwx net/minecraft/client/render/chunk/ChunkOcclusionGraph
 	FIELD a DIRECTION_COUNT I
 	FIELD b visibility Ljava/util/BitSet;
-	METHOD a isVisibleThrough (Lfa;Lfa;)Z
-		ARG 1 from
-		ARG 2 to
-	METHOD a setVisibleThrough (Lfa;Lfa;Z)V
-		ARG 1 from
-		ARG 2 to
-		ARG 3 visible
+	METHOD <init> (IILcwo$a;)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a isVisibleThrough (Leq;Leq;)Z
+	METHOD a setVisibleThrough (Leq;Leq;Z)V
 	METHOD a addOpenEdgeFaces (Ljava/util/Set;)V
-		ARG 1 faces
 	METHOD a fill (Z)V
-		ARG 1 visible
+	METHOD renderButton (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

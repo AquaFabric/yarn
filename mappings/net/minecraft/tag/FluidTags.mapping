@@ -1,10 +1,8 @@
-CLASS yy net/minecraft/tag/FluidTags
-	CLASS yy$a CachingTag
+CLASS ww net/minecraft/tag/FluidTags
+	CLASS ww$a CachingTag
 		FIELD a version I
-		FIELD b delegate Lzb;
-	FIELD c container Lzc;
+		FIELD b delegate Lwz;
+	FIELD c container Lxa;
 	FIELD d latestVersion I
-	METHOD a register (Ljava/lang/String;)Lzb;
-		ARG 0 id
-	METHOD a setContainer (Lzc;)V
-		ARG 0 container
+	METHOD a register (Ljava/lang/String;)Lwz;
+	METHOD a setContainer (Lxa;)V

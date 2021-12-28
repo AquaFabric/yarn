@@ -1,21 +1,19 @@
-CLASS cbj net/minecraft/world/gen/feature/FossilFeature
-	FIELD a SPINE_1 Lqs;
-	FIELD aS SPINE_2 Lqs;
-	FIELD aT SPINE_3 Lqs;
-	FIELD aU SPINE_4 Lqs;
-	FIELD aV SPINE_1_COAL Lqs;
-	FIELD aW SPINE_2_COAL Lqs;
-	FIELD aX SPINE_3_COAL Lqs;
-	FIELD aY SPINE_4_COAL Lqs;
-	FIELD aZ SKULL_1 Lqs;
-	FIELD ba SKULL_2 Lqs;
-	FIELD bb SKULL_3 Lqs;
-	FIELD bc SKULL_4 Lqs;
-	FIELD bd SKULL_1_COAL Lqs;
-	FIELD be SKULL_2_COAL Lqs;
-	FIELD bf SKULL_3_COAL Lqs;
-	FIELD bg SKULL_4_COAL Lqs;
-	FIELD bh FOSSILS [Lqs;
-	FIELD bi COAL_FOSSILS [Lqs;
-	METHOD <init> (Ljava/util/function/Function;)V
-		ARG 1 configFactory
+CLASS bqu net/minecraft/world/gen/feature/FossilFeature
+	FIELD aH SPINE_1_COAL Lpc;
+	FIELD aI SPINE_2_COAL Lpc;
+	FIELD aJ SPINE_3_COAL Lpc;
+	FIELD aK SPINE_4_COAL Lpc;
+	FIELD aL SKULL_1 Lpc;
+	FIELD a SPINE_1 Lpc;
+	FIELD aM SKULL_2 Lpc;
+	FIELD aN SKULL_3 Lpc;
+	FIELD aO SKULL_4 Lpc;
+	FIELD aP SKULL_1_COAL Lpc;
+	FIELD aQ SKULL_2_COAL Lpc;
+	FIELD aR SKULL_3_COAL Lpc;
+	FIELD aS SKULL_4_COAL Lpc;
+	FIELD aT FOSSILS [Lpc;
+	FIELD aU COAL_FOSSILS [Lpc;
+	FIELD b SPINE_2 Lpc;
+	FIELD c SPINE_3 Lpc;
+	FIELD d SPINE_4 Lpc;

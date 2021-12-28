@@ -1,6 +1,4 @@
-CLASS aou net/minecraft/entity/ai/goal/TrackOwnerAttackerGoal
-	FIELD a tameable Lajc;
-	FIELD b attacker Laio;
+CLASS aiq net/minecraft/entity/ai/goal/TrackOwnerAttackerGoal
+	FIELD a tameable Lafl;
+	FIELD b attacker Lafa;
 	FIELD c lastAttackedTime I
-	METHOD <init> (Lajc;)V
-		ARG 1 tameable

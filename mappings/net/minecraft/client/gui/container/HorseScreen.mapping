@@ -1,9 +1,7 @@
-CLASS dbg net/minecraft/client/gui/container/HorseScreen
-	FIELD k TEXTURE Lqs;
-	FIELD l entity Lars;
-	FIELD m mouseX F
-	FIELD n mouseY F
-	METHOD render (IIF)V
-		ARG 1 mouseX
-		ARG 2 mouseY
-		ARG 3 delta
+CLASS clo net/minecraft/client/gui/container/HorseScreen
+	FIELD A mouseX F
+	FIELD B mouseY F
+	FIELD w TEXTURE Lpc;
+	FIELD z entity Lako;
+	METHOD <init> (IJJ)V
+		ARG 2 seed

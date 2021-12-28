@@ -1,0 +1,4 @@
+CLASS bdv
+	METHOD a getGrowthAmount (Laxy;)I
+	METHOD d getAgeProperty ()Lbmj;
+	METHOD e getMaxAge ()I

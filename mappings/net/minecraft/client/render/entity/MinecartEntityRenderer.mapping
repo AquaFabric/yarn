@@ -1,7 +1,4 @@
-CLASS dqh net/minecraft/client/render/entity/MinecartEntityRenderer
-	FIELD a model Lden;
-	FIELD f SKIN Lqs;
-	METHOD a renderBlock (Laxl;FLbvj;)V
-		ARG 1 entity
-		ARG 2 delta
-		ARG 3 state
+CLASS czn net/minecraft/client/render/entity/MinecartEntityRenderer
+	FIELD a model Lcpc;
+	FIELD f SKIN Lpc;
+	METHOD a renderBlock (Laph;FLblc;)V

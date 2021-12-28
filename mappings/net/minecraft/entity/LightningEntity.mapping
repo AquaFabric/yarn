@@ -1,16 +1,8 @@
-CLASS atl net/minecraft/entity/LightningEntity
-	FIELD b seed J
-	FIELD c ambientTick I
-	FIELD d remainingActions I
-	FIELD e cosmetic Z
-	FIELD f channeller Lvh;
-	METHOD <init> (Lbhh;DDDZ)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 cosmetic
+CLASS amj net/minecraft/entity/LightningEntity
+	FIELD a seed J
+	FIELD b ambientTick I
+	FIELD c remainingActions I
+	FIELD d cosmetic Z
+	FIELD e channeller Ltf;
 	METHOD a spawnFire (I)V
-		ARG 1 spreadAttempts
-	METHOD d setChanneller (Lvh;)V
-		ARG 1 channeller
+	METHOD d setChanneller (Ltf;)V

@@ -1,0 +1,3 @@
+CLASS chg
+	CLASS chg$b Entries
+		FIELD b entries Ljava/util/List;

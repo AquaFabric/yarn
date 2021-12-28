@@ -1,16 +1,15 @@
-CLASS bv net/minecraft/advancement/criterion/UsedTotemCriterion
-	CLASS bv$a Handler
-		FIELD a manager Lrb;
+CLASS bm net/minecraft/advancement/criterion/UsedTotemCriterion
+	CLASS bm$a Handler
+		FIELD a manager Lpm;
 		FIELD b conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lbca;)V
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS bv$b Conditions
-		FIELD a item Lbc;
-		METHOD a matches (Lbca;)Z
-		METHOD a create (Lbhg;)Lbv$b;
-	FIELD a ID Lqs;
+		METHOD a handle (Late;)V
+		METHOD a addCondition (Ls$a;)V
+		METHOD b removeCondition (Ls$a;)V
+	CLASS bm$b Conditions
+		FIELD a item Lav;
+		METHOD a matches (Late;)Z
+		METHOD a create (Laxx;)Lbm$b;
+	FIELD a ID Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvh;Lbca;)V
-		ARG 1 player
+	METHOD a handle (Ltf;Late;)V

@@ -1,3 +1,4 @@
-CLASS boz net/minecraft/block/HayBlock
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
+CLASS bfg net/minecraft/block/HayBlock
+	METHOD <init> (Lbfi$a;[Laik;)V
+		ARG 1 weight
+		ARG 2 slotTypes

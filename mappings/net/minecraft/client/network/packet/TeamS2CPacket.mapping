@@ -1,27 +1,26 @@
-CLASS my net/minecraft/client/network/packet/TeamS2CPacket
+CLASS lo net/minecraft/client/network/packet/TeamS2CPacket
 	FIELD a teamName Ljava/lang/String;
-	FIELD b displayName Ljm;
-	FIELD c prefix Ljm;
-	FIELD d suffix Ljm;
+	FIELD b displayName Lij;
+	FIELD c prefix Lij;
+	FIELD d suffix Lij;
 	FIELD e nameTagVisibilityRule Ljava/lang/String;
 	FIELD f collisionRule Ljava/lang/String;
-	FIELD g color Lc;
+	FIELD g color La;
 	FIELD h playerList Ljava/util/Collection;
 	FIELD i mode I
 	FIELD j flags I
-	METHOD <init> (Lcst;I)V
-		ARG 1 team
-		ARG 2 mode
-	METHOD <init> (Lcst;Ljava/util/Collection;I)V
-		ARG 1 team
-		ARG 2 playerList
+	METHOD <init> (Lbgt;Lckq;II)V
+		ARG 1 pos
+		ARG 2 lightProvider
+		ARG 3 skyLightMask
+		ARG 4 blockLightMask
 	METHOD b getTeamName ()Ljava/lang/String;
-	METHOD c getDisplayName ()Ljm;
+	METHOD c getDisplayName ()Lij;
 	METHOD d getPlayerList ()Ljava/util/Collection;
 	METHOD e getMode ()I
 	METHOD f getFlags ()I
-	METHOD g getPlayerPrefix ()Lc;
+	METHOD g getPlayerPrefix ()La;
 	METHOD h getNameTagVisibilityRule ()Ljava/lang/String;
 	METHOD i getCollisionRule ()Ljava/lang/String;
-	METHOD j getPrefix ()Ljm;
-	METHOD k getSuffix ()Ljm;
+	METHOD j getPrefix ()Lij;
+	METHOD k getSuffix ()Lij;

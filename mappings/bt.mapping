@@ -1,0 +1,5 @@
+CLASS bt
+	METHOD B_ shouldBroadcastConsoleToOps ()Z
+	METHOD a sendCommandFeedback ()Z
+	METHOD a sendMessage (Lij;)V
+	METHOD b shouldTrackOutput ()Z

@@ -1,3 +1,8 @@
 CLASS fd net/minecraft/util/IndexedIterable
-	METHOD a get (I)Ljava/lang/Object;
-		ARG 1 index
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	METHOD a serialize ()Lhe;
+	METHOD b getX ()F
+	METHOD c getY ()F
+	METHOD d getZ ()F

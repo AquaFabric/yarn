@@ -1,0 +1,13 @@
+CLASS bws
+	CLASS bws$h Base
+	CLASS bws$p Entry
+	CLASS bws$q Penthouse
+	CLASS bws$r
+		FIELD a PRISMARINE Lblc;
+		FIELD b PRISMARINE_BRICKS Lblc;
+		FIELD c DARK_PRISMARINE Lblc;
+		FIELD e SEA_LANTERN Lblc;
+		FIELD f WATER Lblc;
+		FIELD g ICE_BLOCKS Ljava/util/Set;
+	CLASS bws$s SimpleRoom
+	CLASS bws$u WingRoom

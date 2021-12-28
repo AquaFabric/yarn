@@ -1,7 +1,10 @@
-CLASS dph net/minecraft/client/render/entity/EvokerFangsEntityRenderer
-	FIELD a SKIN Lqs;
-	FIELD f model Ldeo;
-	METHOD a (Lawf;DDDFF)V
-		ARG 1 model
-		ARG 2 x
-		ARG 4 y
+CLASS cyq net/minecraft/client/render/entity/EvokerFangsEntityRenderer
+	FIELD a SKIN Lpc;
+	FIELD f model Lcop;
+	METHOD <init> (Lczr;Lcvm;)V
+		ARG 1 parent
+		ARG 2 options
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

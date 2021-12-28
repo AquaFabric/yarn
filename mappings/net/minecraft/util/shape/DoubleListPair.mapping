@@ -1,5 +1,4 @@
-CLASS csh net/minecraft/util/shape/DoubleListPair
-	CLASS csh$a SectionPairPredicate
+CLASS ceo net/minecraft/util/shape/DoubleListPair
+	CLASS ceo$a SectionPairPredicate
 	METHOD a getMergedList ()Lit/unimi/dsi/fastutil/doubles/DoubleList;
-	METHOD a forAllOverlappingSections (Lcsh$a;)Z
-		ARG 1 predicate
+	METHOD a forAllOverlappingSections (Lceo$a;)Z

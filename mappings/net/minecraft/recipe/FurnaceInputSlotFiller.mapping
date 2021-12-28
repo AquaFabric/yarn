@@ -1,5 +1,4 @@
 CLASS qq net/minecraft/recipe/FurnaceInputSlotFiller
-	FIELD e slotMatchesRecipe Z
-	METHOD a fillInputSlot (ILit/unimi/dsi/fastutil/ints/IntList;)V
-		ARG 1 limit
-		ARG 2 inputs
+	FIELD a SUGGESTION_PROVIDER Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD a execute (Lbu;Ljava/util/Collection;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

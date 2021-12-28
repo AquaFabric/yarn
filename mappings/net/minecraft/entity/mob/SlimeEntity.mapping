@@ -1,49 +1,33 @@
-CLASS auu net/minecraft/entity/mob/SlimeEntity
-	CLASS auu$a
-		FIELD a slime Lauu;
-		METHOD <init> (Lauu;)V
-			ARG 1 slime
-	CLASS auu$b
-		FIELD a slime Lauu;
-		METHOD <init> (Lauu;)V
-			ARG 1 slime
-	CLASS auu$c
-		FIELD a slime Lauu;
-		METHOD <init> (Lauu;)V
-			ARG 1 slime
-	CLASS auu$d SlimeMoveControl
+CLASS ano net/minecraft/entity/mob/SlimeEntity
+	CLASS ano$a
+		FIELD a slime Lano;
+	CLASS ano$b
+		FIELD a slime Lano;
+	CLASS ano$c
+		FIELD a slime Lano;
+	CLASS ano$d SlimeMoveControl
 		FIELD i targetYaw F
 		FIELD j ticksUntilJump I
-		FIELD k slime Lauu;
+		FIELD k slime Lano;
 		FIELD l jumpOften Z
-		METHOD <init> (Lauu;)V
-			ARG 1 slime
 		METHOD a move (D)V
-			ARG 1 speed
 		METHOD a look (FZ)V
-			ARG 1 targetYaw
-			ARG 2 jumpOften
-	CLASS auu$e
-		FIELD a slime Lauu;
-		METHOD <init> (Lauu;)V
-			ARG 1 slime
-	FIELD bA onGroundLastTick Z
-	FIELD b targetStretch F
-	FIELD bz SLIME_SIZE Lqh;
-	FIELD c stretch F
-	FIELD d lastStretch F
+	CLASS ano$e
+		FIELD a slime Lano;
+	FIELD a targetStretch F
+	FIELD bC SLIME_SIZE Lor;
+	FIELD bD onGroundLastTick Z
+	FIELD b stretch F
+	FIELD c lastStretch F
 	METHOD a setSize (IZ)V
-		ARG 1 size
-		ARG 2 heal
-	METHOD dT getTicksUntilNextJump ()I
-	METHOD dU updateStretch ()V
-	METHOD dV isBig ()Z
-	METHOD dW getDamageAmount ()I
-	METHOD dX getSquishSound ()Lyj;
-	METHOD dY getJumpSound ()Lyj;
-	METHOD dZ getSize ()I
-	METHOD ea isSmall ()Z
-	METHOD eb makesJumpSound ()Z
-	METHOD h damage (Laio;)V
-		ARG 1 target
-	METHOD l getParticles ()Lgd;
+	METHOD dr getTicksUntilNextJump ()I
+	METHOD ds updateStretch ()V
+	METHOD dt isBig ()Z
+	METHOD du getDamageAmount ()I
+	METHOD dv getSquishSound ()Lwi;
+	METHOD dw getJumpSound ()Lwi;
+	METHOD dx getSize ()I
+	METHOD dy isSmall ()Z
+	METHOD dz makesJumpSound ()Z
+	METHOD f damage (Lafa;)V
+	METHOD l getParticles ()Lfk;

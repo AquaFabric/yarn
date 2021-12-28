@@ -1,19 +1,18 @@
-CLASS csy net/minecraft/scoreboard/ScoreboardCriterion
-	CLASS csy$a RenderType
+CLASS cff net/minecraft/scoreboard/ScoreboardCriterion
+	CLASS cff$a RenderType
 		FIELD c name Ljava/lang/String;
 		FIELD d CRITERION_TYPES Ljava/util/Map;
 		METHOD a getName ()Ljava/lang/String;
-		METHOD a getType (Ljava/lang/String;)Lcsy$a;
+		METHOD a getType (Ljava/lang/String;)Lcff$a;
 	FIELD a OBJECTIVES Ljava/util/Map;
-	FIELD m TEAM_KILLS [Lcsy;
-	FIELD n KILLED_BY_TEAMS [Lcsy;
+	FIELD m TEAM_KILLS [Lcff;
+	FIELD n KILLED_BY_TEAMS [Lcff;
 	FIELD o name Ljava/lang/String;
 	FIELD p readOnly Z
-	FIELD q criterionType Lcsy$a;
-	METHOD a createStatCriterion (Ljava/lang/String;)Ljava/util/Optional;
-	METHOD a createStatCriterion (Lys;Lqs;)Ljava/util/Optional;
-		ARG 0 statType
-		ARG 1 id
+	FIELD q criterionType Lcff$a;
+	METHOD <init> (Ljava/lang/String;Ljava/util/List;)V
+		ARG 1 location
+		ARG 2 processors
 	METHOD c getName ()Ljava/lang/String;
 	METHOD d isReadOnly ()Z
-	METHOD e getCriterionType ()Lcsy$a;
+	METHOD e getCriterionType ()Lcff$a;

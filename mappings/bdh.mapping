@@ -1,0 +1,2 @@
+CLASS bdh
+	METHOD d getOpenStat ()Lwp;

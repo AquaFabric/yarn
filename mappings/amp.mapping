@@ -1,0 +1,3 @@
+CLASS amp
+	CLASS amp$a State
+	METHOD l getState ()Lamp$a;

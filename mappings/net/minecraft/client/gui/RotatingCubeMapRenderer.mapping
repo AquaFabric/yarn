@@ -1,9 +1,5 @@
-CLASS dkq net/minecraft/client/gui/RotatingCubeMapRenderer
-	FIELD a client Lcvi;
-	FIELD b cubeMap Ldkd;
+CLASS cui net/minecraft/client/gui/RotatingCubeMapRenderer
+	FIELD a client Lcft;
+	FIELD b cubeMap Lctu;
 	FIELD c time F
-	METHOD <init> (Ldkd;)V
-		ARG 1 cubeMap
-	METHOD a render (FF)V
-		ARG 1 delta
-		ARG 2 alpha
+	METHOD a render (F)V

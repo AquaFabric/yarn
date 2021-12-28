@@ -1,10 +1,9 @@
-CLASS dwu net/minecraft/client/sound/SoundInstance
-	CLASS dwu$a AttenuationType
-	METHOD a getId ()Lqs;
-	METHOD a getSoundSet (Ldxu;)Ldxv;
-		ARG 1 soundManager
-	METHOD b getSound ()Ldwr;
-	METHOD c getCategory ()Lyl;
+CLASS dfw net/minecraft/client/sound/SoundInstance
+	CLASS dfw$a AttenuationType
+	METHOD a getId ()Lpc;
+	METHOD a getSoundSet (Ldgt;)Ldgv;
+	METHOD b getSound ()Ldft;
+	METHOD c getCategory ()Lwk;
 	METHOD d isRepeatable ()Z
 	METHOD e getRepeatDelay ()I
 	METHOD f getVolume ()F
@@ -12,6 +11,6 @@ CLASS dwu net/minecraft/client/sound/SoundInstance
 	METHOD h getX ()F
 	METHOD i getY ()F
 	METHOD j getZ ()F
-	METHOD k getAttenuationType ()Ldwu$a;
-	METHOD m isLooping ()Z
-	METHOD p shouldAlwaysPlay ()Z
+	METHOD k getAttenuationType ()Ldfw$a;
+	METHOD l isLooping ()Z
+	METHOD n shouldAlwaysPlay ()Z

@@ -1,10 +1,6 @@
 CLASS arz net/minecraft/entity/passive/TraderLlamaEntity
-	CLASS arz$a DefendTraderGoal
-		FIELD b llama Larv;
-		FIELD c offender Laio;
-		FIELD d traderLastAttackedTime I
-		METHOD <init> (Larz;Larv;)V
-			ARG 2 llama
-	FIELD bJ despawnDelay I
-	METHOD v setDespawnDelay (I)V
-		ARG 1 delay
+	METHOD a use (Laog;Lblc;Laxz;Lel;ZLate;)V
+	METHOD a sendMessage (Laog;Lij;)V
+	METHOD a getPropertyString (Lblc;Lbmm;)Ljava/lang/String;
+	METHOD a cycle (Lblc;Lbmm;Z)Lblc;
+	METHOD a cycle (Ljava/lang/Iterable;Ljava/lang/Object;Z)Ljava/lang/Object;

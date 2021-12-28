@@ -1,52 +1,28 @@
-CLASS dqe net/minecraft/client/render/entity/LivingEntityRenderer
+CLASS czk net/minecraft/client/render/entity/LivingEntityRenderer
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD f model Lden;
 	FIELD g colorOverlayBuffer Ljava/nio/FloatBuffer;
 	FIELD h features Ljava/util/List;
 	FIELD i disableOutlineRender Z
-	FIELD j colorOverlayTexture Ldtw;
-	METHOD a scale (Laio;F)V
-		ARG 1 entity
-		ARG 2 tickDelta
-	METHOD a getOverlayColor (Laio;FF)I
-	METHOD a setupTransforms (Laio;FFF)V
-		ARG 1 entity
-		ARG 2 pitch
-		ARG 3 yaw
-		ARG 4 delta
-	METHOD a render (Laio;FFFFFF)V
-		ARG 1 entity
-		ARG 2 limbAngle
-		ARG 3 limbDistance
-		ARG 4 age
-		ARG 5 headYaw
-		ARG 6 headPitch
-		ARG 7 scale
-	METHOD a renderFeatures (Laio;FFFFFFF)V
-		ARG 1 entity
-		ARG 2 limbAngle
-		ARG 3 limbDistance
-		ARG 4 tickDelta
-		ARG 5 age
-		ARG 6 headYaw
-		ARG 7 headPitch
-		ARG 8 scale
-	METHOD a applyOverlayColor (Laio;FZ)Z
-		ARG 1 entity
-		ARG 2 tickDelta
-		ARG 3 hasHurtOverlay
-	METHOD a addFeature (Ldtd;)Z
-	METHOD b getLyingAngle (Laio;)F
-	METHOD b getAge (Laio;F)F
-		ARG 1 entity
-		ARG 2 tickDelta
-	METHOD c scaleAndTranslate (Laio;F)F
-		ARG 1 entity
-		ARG 2 tickDelta
-	METHOD d beforeOutlineRender (Laio;)Z
-	METHOD d applyOverlayColor (Laio;F)Z
-	METHOD e afterOutlineRender ()V
-	METHOD e getHandSwingProgress (Laio;F)F
-		ARG 1 entity
-		ARG 2 tickDelta
-	METHOD f disableOverlayColor ()V
+	FIELD j colorOverlayTexture Lddb;
+	METHOD <init> (Lczr;Lcvm;)V
+		ARG 1 parent
+		ARG 2 gameOptions
+	METHOD a scale (Lafa;F)V
+	METHOD a getOverlayColor (Lafa;FF)I
+	METHOD a setupTransforms (Lafa;FFF)V
+	METHOD a render (Lafa;FFFFFF)V
+	METHOD a renderFeatures (Lafa;FFFFFFF)V
+	METHOD a applyOverlayColor (Lafa;FZ)Z
+	METHOD a addFeature (Ldca;)Z
+	METHOD b getLyingAngle (Lafa;)F
+	METHOD b getAge (Lafa;F)F
+	METHOD c scaleAndTranslate (Lafa;F)F
+	METHOD d beforeOutlineRender (Lafa;)Z
+	METHOD d applyOverlayColor (Lafa;F)Z
+	METHOD e getHandSwingProgress (Lafa;F)F
+	METHOD f afterOutlineRender ()V
+	METHOD g disableOverlayColor ()V
+	METHOD render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

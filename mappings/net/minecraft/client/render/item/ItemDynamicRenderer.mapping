@@ -1,15 +1,15 @@
-CLASS dkf net/minecraft/client/render/item/ItemDynamicRenderer
-	FIELD a INSTANCE Ldkf;
-	FIELD b RENDER_SHULKER_BOX_DYED [Lbuh;
-	FIELD c RENDER_SHULKER_BOX Lbuh;
-	FIELD d renderChestNormal Lbtq;
-	FIELD e renderChestTrapped Lbtq;
-	FIELD f renderChestEnder Lbty;
-	FIELD g renderBanner Lbte;
-	FIELD h renderBed Lbtj;
-	FIELD i renderSkull Lbuj;
-	FIELD j renderConduit Lbtt;
-	FIELD k modelShield Ldfx;
-	FIELD l modelTrident Ldgi;
-	METHOD a render (Lbca;)V
+CLASS ctv net/minecraft/client/render/item/ItemDynamicRenderer
+	FIELD a INSTANCE Lctv;
+	FIELD b RENDER_SHULKER_BOX_DYED [Lbkb;
+	FIELD c RENDER_SHULKER_BOX Lbkb;
+	FIELD d renderChestNormal Lbjl;
+	FIELD e renderChestTrapped Lbjl;
+	FIELD f renderChestEnder Lbjt;
+	FIELD g renderBanner Lbje;
+	FIELD h renderBed Lbjh;
+	FIELD i renderSkull Lbkd;
+	FIELD j renderConduit Lbjo;
+	FIELD k modelShield Lcps;
+	FIELD l modelTrident Lcqd;
+	METHOD a render (Late;)V
 	METHOD a renderEnchantmentGlint (Ljava/lang/Runnable;)V

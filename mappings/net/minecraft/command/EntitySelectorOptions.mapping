@@ -1,9 +1,9 @@
-CLASS ee net/minecraft/command/EntitySelectorOptions
-	CLASS ee$a SelectorHandler
-	CLASS ee$b SelectorOption
-		FIELD a handler Lee$a;
+CLASS dt net/minecraft/command/EntitySelectorOptions
+	CLASS dt$a SelectorHandler
+	CLASS dt$b SelectorOption
+		FIELD a handler Ldt$a;
 		FIELD b applicable Ljava/util/function/Predicate;
-		FIELD c description Ljm;
+		FIELD c description Lij;
 	FIELD a UNKNOWN_OPTION_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD b INAPPLICABLE_OPTION_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD c NEGATIVE_DISTANCE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
@@ -14,13 +14,6 @@ CLASS ee net/minecraft/command/EntitySelectorOptions
 	FIELD h INVALID_TYPE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD i options Ljava/util/Map;
 	METHOD a register ()V
-	METHOD a suggestOptions (Led;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)V
-	METHOD a getHandler (Led;Ljava/lang/String;I)Lee$a;
-		ARG 0 reader
-		ARG 1 option
-		ARG 2 restoreCursor
-	METHOD a putOption (Ljava/lang/String;Lee$a;Ljava/util/function/Predicate;Ljm;)V
-		ARG 0 name
-		ARG 1 handler
-		ARG 2 predicate
-		ARG 3 description
+	METHOD a suggestOptions (Lds;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)V
+	METHOD a getHandler (Lds;Ljava/lang/String;I)Ldt$a;
+	METHOD a putOption (Ljava/lang/String;Ldt$a;Ljava/util/function/Predicate;Lij;)V

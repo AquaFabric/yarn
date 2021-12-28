@@ -1,3 +1,3 @@
-CLASS bim net/minecraft/world/biome/source/CheckerboardBiomeSource
-	FIELD c biomes [Lbie;
+CLASS azc net/minecraft/world/biome/source/CheckerboardBiomeSource
+	FIELD c biomes [Layu;
 	FIELD d gridSize I

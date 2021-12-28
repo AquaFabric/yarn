@@ -1,17 +1,25 @@
 CLASS vt net/minecraft/client/gui/WorldGenerationProgressTracker
-	FIELD a progressLogger Lvr;
-	FIELD b chunkStatuses Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
-	FIELD c spawnPos Lbgt;
-	FIELD d centerSize I
-	FIELD e radius I
-	FIELD f size I
-	FIELD g isRunning Z
+	CLASS vt$a DeSerializer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c file Ljava/io/File;
+	FIELD d map Ljava/util/Map;
+	FIELD e enabled Z
 	METHOD <init> (I)V
 		ARG 1 radius
-	METHOD a start ()V
-	METHOD a getChunkStatus (II)Lbxc;
-		ARG 1 x
-		ARG 2 z
-	METHOD c getCenterSize ()I
-	METHOD d getSize ()I
-	METHOD e getProgressPercentage ()I
+	METHOD a getNames ()[Ljava/lang/String;
+	METHOD a fromJson (Lcom/google/gson/JsonObject;)Lvs;
+	METHOD a toString (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a add (Lvs;)V
+	METHOD a setEnabled (Z)V
+	METHOD b isEnabled ()Z
+	METHOD b get (Ljava/lang/Object;)Lvs;
+	METHOD b removeEntry (Lvs;)V
+	METHOD c getFile ()Ljava/io/File;
+	METHOD c remove (Ljava/lang/Object;)V
+	METHOD d isEmpty ()Z
+	METHOD d contains (Ljava/lang/Object;)Z
+	METHOD e values ()Ljava/util/Collection;
+	METHOD f save ()V
+	METHOD g load ()V
+	METHOD h removeInvalidEntries ()V

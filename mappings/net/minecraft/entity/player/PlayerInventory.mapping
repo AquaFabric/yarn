@@ -1,72 +1,42 @@
-CLASS avw net/minecraft/entity/player/PlayerInventory
-	FIELD a main Lfj;
-	FIELD b armor Lfj;
-	FIELD c offHand Lfj;
+CLASS aof net/minecraft/entity/player/PlayerInventory
+	FIELD a main Lez;
+	FIELD b armor Lez;
+	FIELD c offHand Lez;
 	FIELD d selectedSlot I
-	FIELD e player Lavx;
+	FIELD e player Laog;
 	FIELD f combinedInventory Ljava/util/List;
-	FIELD g cursorStack Lbca;
+	FIELD g cursorStack Late;
 	FIELD h changeCount I
-	METHOD <init> (Lavx;)V
-		ARG 1 player
 	METHOD a scrollInHotbar (D)V
-		ARG 1 scrollAmount
 	METHOD a damageArmor (F)V
-		ARG 1 armor
-	METHOD a clone (Lavw;)V
-		ARG 1 other
-	METHOD a populateRecipeFinder (Lavz;)V
-		ARG 1 finder
-	METHOD a addPickBlock (Lbca;)V
-	METHOD a canStackAddMore (Lbca;Lbca;)Z
-		ARG 1 existingStack
-		ARG 2 stack
-	METHOD a offerOrDrop (Lbhh;Lbca;)V
-		ARG 1 world
-		ARG 2 stack
-	METHOD a getBlockBreakingSpeed (Lbvj;)F
-		ARG 1 block
-	METHOD a serialize (Lii;)Lii;
-		ARG 1 tag
-	METHOD a contains (Lzb;)Z
-		ARG 1 tag
-	METHOD b getSlotWithStack (Lbca;)I
-		ARG 1 stack
-	METHOD b areItemsEqual (Lbca;Lbca;)Z
-		ARG 1 stack1
-		ARG 2 stack2
-	METHOD b isUsingEffectiveTool (Lbvj;)Z
-	METHOD b deserialize (Lii;)V
-		ARG 1 tag
-	METHOD c swapSlotWithHotbar (I)V
-		ARG 1 hotbarSlot
-	METHOD c insertStack (ILbca;)Z
-		ARG 1 slot
-		ARG 2 stack
-	METHOD d isValidHotbarIndex (I)Z
-		ARG 0 slot
-	METHOD d addStack (ILbca;)I
-		ARG 1 slot
-		ARG 2 stack
-	METHOD d getOccupiedSlotWithRoomForStack (Lbca;)I
-		ARG 1 stack
-	METHOD e getArmorStack (I)Lbca;
-		ARG 1 slot
-	METHOD e insertStack (Lbca;)Z
-		ARG 1 stack
-	METHOD f getMainHandStack ()Lbca;
-	METHOD f removeOne (Lbca;)V
-		ARG 1 stack
-	METHOD g getHotbarSize ()I
-	METHOD g setCursorStack (Lbca;)V
-		ARG 1 stack
-	METHOD h getEmptySlot ()I
-	METHOD h contains (Lbca;)Z
-		ARG 1 stack
-	METHOD i getSwappableHotbarSlot ()I
-	METHOD i addStack (Lbca;)I
-		ARG 1 stack
-	METHOD j updateItems ()V
-	METHOD k dropAll ()V
-	METHOD l getChangeCount ()I
-	METHOD m getCursorStack ()Lbca;
+	METHOD a clone (Laof;)V
+	METHOD a populateRecipeFinder (Laoi;)V
+	METHOD a addPickBlock (Late;)V
+	METHOD a canStackAddMore (Late;Late;)Z
+	METHOD a offerOrDrop (Laxy;Late;)V
+	METHOD a getBlockBreakingSpeed (Lblc;)F
+	METHOD a serialize (Lhe;)Lhe;
+	METHOD a contains (Lwz;)Z
+	METHOD b getSlotWithStack (Late;)I
+	METHOD b areItemsEqual (Late;Late;)Z
+	METHOD b isUsingEffectiveTool (Lblc;)Z
+	METHOD b deserialize (Lhe;)V
+	METHOD c insertStack (ILate;)Z
+	METHOD d swapSlotWithHotbar (I)V
+	METHOD d addStack (ILate;)I
+	METHOD d getOccupiedSlotWithRoomForStack (Late;)I
+	METHOD e isValidHotbarIndex (I)Z
+	METHOD e insertStack (Late;)Z
+	METHOD f getArmorStack (I)Late;
+	METHOD f removeOne (Late;)V
+	METHOD g setCursorStack (Late;)V
+	METHOD h contains (Late;)Z
+	METHOD i getMainHandStack ()Late;
+	METHOD i addStack (Late;)I
+	METHOD j getHotbarSize ()I
+	METHOD k getEmptySlot ()I
+	METHOD l getSwappableHotbarSlot ()I
+	METHOD p updateItems ()V
+	METHOD q dropAll ()V
+	METHOD r getChangeCount ()I
+	METHOD s getCursorStack ()Late;

@@ -1,19 +1,14 @@
-CLASS css net/minecraft/scoreboard/ScoreboardObjective
-	FIELD a scoreboard Lcsv;
+CLASS cez net/minecraft/scoreboard/ScoreboardObjective
+	FIELD a scoreboard Lcfc;
 	FIELD b name Ljava/lang/String;
-	FIELD c criterion Lcsy;
-	FIELD d displayName Ljm;
-	FIELD e renderType Lcsy$a;
-	METHOD <init> (Lcsv;Ljava/lang/String;Lcsy;Ljm;Lcsy$a;)V
-		ARG 1 scoreboard
-		ARG 2 name
-		ARG 3 criterion
-		ARG 4 displayName
-	METHOD a getScoreboard ()Lcsv;
-	METHOD a setRenderType (Lcsy$a;)V
-	METHOD a setDisplayName (Ljm;)V
+	FIELD c criterion Lcff;
+	FIELD d displayName Lij;
+	FIELD e renderType Lcff$a;
+	METHOD a getScoreboard ()Lcfc;
+	METHOD a setRenderType (Lcff$a;)V
+	METHOD a setDisplayName (Lij;)V
 	METHOD b getName ()Ljava/lang/String;
-	METHOD c getCriterion ()Lcsy;
-	METHOD d getDisplayName ()Ljm;
-	METHOD e getTextComponent ()Ljm;
-	METHOD f getRenderType ()Lcsy$a;
+	METHOD c getCriterion ()Lcff;
+	METHOD d getDisplayName ()Lij;
+	METHOD e getTextComponent ()Lij;
+	METHOD f getRenderType ()Lcff$a;

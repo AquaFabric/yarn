@@ -1,4 +1,5 @@
-CLASS asi net/minecraft/entity/boss/dragon/phase/AbstractPhase
-	FIELD a dragon Lasg;
-	METHOD <init> (Lasg;)V
-		ARG 1 dragon
+CLASS alf net/minecraft/entity/boss/dragon/phase/AbstractPhase
+	FIELD a dragon Lald;
+	METHOD <init> (Lapb;I)V
+		ARG 1 target
+		ARG 2 maxDistance

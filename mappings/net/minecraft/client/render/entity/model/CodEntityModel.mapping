@@ -1,1 +1,4 @@
-CLASS deg net/minecraft/client/render/entity/model/CodEntityModel
+CLASS coh net/minecraft/client/render/entity/model/CodEntityModel
+	METHOD <init> (IF)V
+		ARG 1 n
+		ARG 2 p

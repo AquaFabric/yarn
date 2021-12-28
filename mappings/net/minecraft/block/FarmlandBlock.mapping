@@ -1,17 +1,6 @@
-CLASS boj net/minecraft/block/FarmlandBlock
-	FIELD a MOISTURE Lbwj;
-	FIELD b SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a hasCrop (Lbgr;Lev;)Z
-		ARG 0 world
-		ARG 1 pos
-	METHOD a isWaterNearby (Lbhk;Lev;)Z
-		ARG 0 world
-		ARG 1 pos
-	METHOD d setToDirt (Lbvj;Lbhh;Lev;)V
-		ARG 0 state
-		ARG 1 world
-		ARG 2 pos
-	METHOD n (Lbvj;)Z
-		ARG 1 state
+CLASS beq net/minecraft/block/FarmlandBlock
+	FIELD a MOISTURE Lbmj;
+	FIELD b SHAPE Lcew;
+	METHOD a hasCrop (Laxk;Lel;)Z
+	METHOD a isWaterNearby (Layc;Lel;)Z
+	METHOD b setToDirt (Lblc;Laxy;Lel;)V

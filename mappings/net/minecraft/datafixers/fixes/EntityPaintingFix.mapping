@@ -1,2 +1,2 @@
-CLASS abt net/minecraft/datafixers/fixes/EntityPaintingFix
+CLASS zh net/minecraft/datafixers/fixes/EntityPaintingFix
 	FIELD a OFFSETS [[I

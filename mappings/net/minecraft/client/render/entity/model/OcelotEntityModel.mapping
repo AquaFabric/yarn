@@ -1,10 +1,11 @@
 CLASS dff net/minecraft/client/render/entity/model/OcelotEntityModel
-	FIELD a frontLegLeft Ldhb;
-	FIELD b frontLegRight Ldhb;
-	FIELD f backLegLeft Ldhb;
-	FIELD g backLegRight Ldhb;
-	FIELD h tail1 Ldhb;
-	FIELD i tail2 Ldhb;
-	FIELD j head Ldhb;
-	FIELD k body Ldhb;
-	FIELD l animationState I
+	CLASS dff$a Builder
+		FIELD a components Ljava/util/List;
+		METHOD a build ()Ldez;
+		METHOD a addComponent (Ljava/util/function/Predicate;Ldez;)V
+	FIELD a ambientOcclusion Z
+	FIELD b depthGui Z
+	FIELD c sprite Lddm;
+	FIELD d transformations Lcvk;
+	FIELD e itemPropertyOverrides Lcvi;
+	FIELD f components Ljava/util/List;

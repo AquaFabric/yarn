@@ -1,4 +1,3 @@
 CLASS ajv net/minecraft/entity/ai/brain/EntityPosWrapper
-	FIELD a entity Laio;
 	METHOD <init> (Laio;)V
 		ARG 1 entity

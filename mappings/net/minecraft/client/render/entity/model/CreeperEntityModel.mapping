@@ -1,2 +1,4 @@
-CLASS dei net/minecraft/client/render/entity/model/CreeperEntityModel
-	FIELD a head Ldhb;
+CLASS coj net/minecraft/client/render/entity/model/CreeperEntityModel
+	FIELD a head Lcqw;
+	METHOD <init> (I)V
+		ARG 1 value

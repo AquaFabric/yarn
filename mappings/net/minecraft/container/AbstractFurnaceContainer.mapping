@@ -1,16 +1,24 @@
 CLASS ayc net/minecraft/container/AbstractFurnaceContainer
-	FIELD c world Lbhh;
-	FIELD d inventory Lagt;
-	FIELD e propertyDelegate Layk;
-	FIELD f recipeType Lbel;
 	METHOD <init> (Lazc;Lbel;ILavw;)V
 		ARG 3 syncId
 	METHOD <init> (Lazc;Lbel;ILavw;Lagt;Layk;)V
 		ARG 3 syncId
-	METHOD a isSmeltable (Lbca;)Z
-		ARG 1 itemStack
-	METHOD b isFuel (Lbca;)Z
-		ARG 1 itemStack
-	METHOD j getCookProgress ()I
+	METHOD A getBrightness (Lel;)F
+	METHOD B isWaterAt (Lel;)Z
+	METHOD C getLightLevel (Lel;)I
+	METHOD D isBlockLoaded (Lel;)Z
+	METHOD a isAreaLoaded (IIIIIIZ)Z
+	METHOD a doesNotCollide (Laer;Lcea;Ljava/util/Set;)Z
+	METHOD a intersectsEntities (Laer;Lcew;)Z
+	METHOD a canPlace (Lblc;Lel;)Z
+	METHOD a getTop (Lbor$a;II)I
+	METHOD a getLightLevel (Lel;I)I
+	METHOD a getEmittedStrongRedstonePower (Lel;Leq;)I
+	METHOD a_ intersectsEntities (Laer;Lcea;)Z
+	METHOD c getAmbientDarkness ()I
+	METHOD c doesNotCollide (Laer;Lcea;)Z
+	METHOD c intersectsFluid (Lcea;)Z
+	METHOD d getWorldBorder ()Lbmv;
+	METHOD e isClient ()Z
 	METHOD k getFuelProgress ()I
-	METHOD l isBurning ()Z
+	METHOD o getDimension ()Lboc;

@@ -1,6 +1,4 @@
-CLASS nw net/minecraft/server/network/packet/ClientStatusC2SPacket
-	CLASS nw$a Mode
-	FIELD a mode Lnw$a;
-	METHOD <init> (Lnw$a;)V
-		ARG 1 mode
-	METHOD b getMode ()Lnw$a;
+CLASS mi net/minecraft/server/network/packet/ClientStatusC2SPacket
+	CLASS mi$a Mode
+	FIELD a mode Lmi$a;
+	METHOD b getMode ()Lmi$a;

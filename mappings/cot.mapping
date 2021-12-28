@@ -1,0 +1,4 @@
+CLASS cot
+	CLASS cot$a ArmPose
+	METHOD a setArmAngle (FLaez;)V
+	METHOD a setVisible (Z)V

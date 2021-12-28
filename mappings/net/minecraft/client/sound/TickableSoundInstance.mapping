@@ -1,3 +1,2 @@
-CLASS dwv net/minecraft/client/sound/TickableSoundInstance
-	METHOD n isDone ()Z
-	METHOD o tick ()V
+CLASS dfx net/minecraft/client/sound/TickableSoundInstance
+	METHOD m isDone ()Z

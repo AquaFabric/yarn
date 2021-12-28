@@ -1,2 +1,2 @@
 CLASS cep net/minecraft/structure/TaigaVillageData
-	METHOD a initialize ()V
+	FIELD a mergedList Lit/unimi/dsi/fastutil/doubles/DoubleArrayList;

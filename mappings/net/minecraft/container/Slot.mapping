@@ -1,35 +1,22 @@
-CLASS azo net/minecraft/container/Slot
+CLASS aqx net/minecraft/container/Slot
 	FIELD a invSlot I
-	FIELD c inventory Lagt;
-	FIELD d id I
-	FIELD e xPosition I
-	FIELD f yPosition I
-	METHOD <init> (Lagt;III)V
-		ARG 2 invSlot
-		ARG 3 xPosition
-		ARG 4 yPosition
+	FIELD d inventory Lade;
+	FIELD e id I
+	FIELD f xPosition I
+	FIELD g yPosition I
 	METHOD a getMaxStackAmount ()I
-	METHOD a takeStack (I)Lbca;
-		ARG 1 amount
-	METHOD a canTakeItems (Lavx;)Z
-	METHOD a onTakeItem (Lavx;Lbca;)Lbca;
-		ARG 1 player
-		ARG 2 stack
-	METHOD a canInsert (Lbca;)Z
-		ARG 1 stack
-	METHOD a onCrafted (Lbca;I)V
-		ARG 1 stack
-		ARG 2 amount
-	METHOD a onStackChanged (Lbca;Lbca;)V
-		ARG 1 originalItem
+	METHOD a takeStack (I)Late;
+	METHOD a canTakeItems (Laog;)Z
+	METHOD a onTakeItem (Laog;Late;)Late;
+	METHOD a canInsert (Late;)Z
+	METHOD a onCrafted (Late;I)V
+	METHOD a onStackChanged (Late;Late;)V
 	METHOD b doDrawHoveringEffect ()Z
 	METHOD b onTake (I)V
-		ARG 1 amount
-	METHOD b getMaxStackAmount (Lbca;)I
+	METHOD b getMaxStackAmount (Late;)I
 	METHOD c getBackgroundSprite ()Ljava/lang/String;
-	METHOD c onCrafted (Lbca;)V
-		ARG 1 stack
-	METHOD d markDirty ()V
-	METHOD d setStack (Lbca;)V
-	METHOD e getStack ()Lbca;
-	METHOD f hasStack ()Z
+	METHOD c onCrafted (Late;)V
+	METHOD d getStack ()Late;
+	METHOD d setStack (Late;)V
+	METHOD e hasStack ()Z
+	METHOD f markDirty ()V

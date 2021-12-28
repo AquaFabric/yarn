@@ -1,2 +1,2 @@
-CLASS cyd net/minecraft/client/font/BlankGlyph
-	FIELD b IMAGE Lctw;
+CLASS cim net/minecraft/client/font/BlankGlyph
+	FIELD b IMAGE Lddg;

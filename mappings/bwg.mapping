@@ -1,0 +1,3 @@
+CLASS bwg
+	CLASS bwg$a Piece
+		METHOD a isLiquid (Lblc;)Z

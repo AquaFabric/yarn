@@ -1,2 +1,2 @@
-CLASS beb net/minecraft/recipe/crafting/SpecialCraftingRecipe
-	FIELD a id Lqs;
+CLASS avd net/minecraft/recipe/crafting/SpecialCraftingRecipe
+	FIELD a id Lpc;

@@ -1,1 +1,3 @@
-CLASS abx net/minecraft/datafixers/fixes/EntityRedundantChanceTagsFix
+CLASS zk net/minecraft/datafixers/fixes/EntityRedundantChanceTagsFix
+	METHOD deserialize (Lcom/mojang/datafixers/Dynamic;)Ljava/lang/Object;
+		ARG 1 dynamic

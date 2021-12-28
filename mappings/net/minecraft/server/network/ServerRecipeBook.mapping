@@ -1,9 +1,9 @@
-CLASS yo net/minecraft/server/network/ServerRecipeBook
-	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD l manager Lbej;
-	METHOD a fromTag (Lib;)V
-	METHOD a unlockRecipes (Ljava/util/Collection;Lvh;)I
-	METHOD a sendUnlockRecipesPacket (Lmd$a;Lvh;Ljava/util/List;)V
-	METHOD a sendInitRecipesPacket (Lvh;)V
-	METHOD b lockRecipes (Ljava/util/Collection;Lvh;)I
-	METHOD i toTag ()Lib;
+CLASS wn net/minecraft/server/network/ServerRecipeBook
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h manager Lavl;
+	METHOD a fromTag (Lgy;)V
+	METHOD a unlockRecipes (Ljava/util/Collection;Ltf;)I
+	METHOD a sendUnlockRecipesPacket (Lkv$a;Ltf;Ljava/util/List;)V
+	METHOD a sendInitRecipesPacket (Ltf;)V
+	METHOD b lockRecipes (Ljava/util/Collection;Ltf;)I
+	METHOD e toTag ()Lgy;

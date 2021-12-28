@@ -1,18 +1,10 @@
-CLASS dau net/minecraft/client/gui/CommandBlockScreen
-	FIELD m blockEntity Lbtr;
-	FIELD n modeButton Lcwo;
-	FIELD o conditionalModeButton Lcwo;
-	FIELD p redstoneTriggerButton Lcwo;
-	FIELD q mode Lbtr$a;
-	FIELD r conditional Z
-	FIELD s autoActivate Z
-	METHOD <init> (Lbtr;)V
-		ARG 1 blockEntity
-	METHOD h updateMode ()V
-	METHOD i cycleType ()V
-	METHOD j updateConditionalMode ()V
-	METHOD k updateActivationMode ()V
-	METHOD resize (Lcvi;II)V
-		ARG 1 client
-		ARG 2 width
-		ARG 3 height
+CLASS cld net/minecraft/client/gui/CommandBlockScreen
+	FIELD A modeButton Lcgu;
+	FIELD B conditionalModeButton Lcgu;
+	FIELD C redstoneTriggerButton Lcgu;
+	FIELD D mode Lbjm$a;
+	FIELD E conditional Z
+	FIELD F autoActivate Z
+	FIELD z blockEntity Lbjm;
+	METHOD v updateMode ()V
+	METHOD w cycleType ()V

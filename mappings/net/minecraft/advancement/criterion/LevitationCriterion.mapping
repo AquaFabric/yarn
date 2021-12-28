@@ -1,20 +1,16 @@
-CLASS bf net/minecraft/advancement/criterion/LevitationCriterion
-	CLASS bf$a Handler
-		FIELD a manager Lrb;
+CLASS ax net/minecraft/advancement/criterion/LevitationCriterion
+	CLASS ax$a Handler
+		FIELD a manager Lpm;
 		FIELD b conditions Ljava/util/Set;
 		METHOD a isEmpty ()Z
-		METHOD a handle (Lvh;Lcrv;I)V
-			ARG 1 coord
-			ARG 2 duration
-		METHOD a addCondition (Lx$a;)V
-		METHOD b removeCondition (Lx$a;)V
-	CLASS bf$b Conditions
-		FIELD a distance Lan;
-		FIELD b duration Lbi$d;
-		METHOD a create (Lan;)Lbf$b;
-		METHOD a matches (Lvh;Lcrv;I)Z
-	FIELD a ID Lqs;
+		METHOD a addCondition (Ls$a;)V
+		METHOD a handle (Ltf;Lcee;I)V
+		METHOD b removeCondition (Ls$a;)V
+	CLASS ax$b Conditions
+		FIELD a distance Lai;
+		FIELD b duration Lba$d;
+		METHOD a create (Lai;)Lax$b;
+		METHOD a matches (Ltf;Lcee;I)Z
+	FIELD a ID Lpc;
 	FIELD b handlers Ljava/util/Map;
-	METHOD a handle (Lvh;Lcrv;I)V
-		ARG 1 player
-		ARG 2 coord
+	METHOD a handle (Ltf;Lcee;I)V

@@ -1,84 +1,66 @@
-CLASS aho net/minecraft/entity/damage/DamageSource
-	FIELD A exhaustion F
-	FIELD B fire Z
-	FIELD C projectile Z
-	FIELD D scaleWithDifficulty Z
-	FIELD E magic Z
-	FIELD F explosive Z
-	FIELD a IN_FIRE Laho;
-	FIELD b LIGHTNING_BOLT Laho;
-	FIELD c ON_FIRE Laho;
-	FIELD d LAVA Laho;
-	FIELD e HOT_FLOOR Laho;
-	FIELD f IN_WALL Laho;
-	FIELD g CRAMMING Laho;
-	FIELD h DROWN Laho;
-	FIELD i STARVE Laho;
-	FIELD j CACTUS Laho;
-	FIELD k FALL Laho;
-	FIELD l FLY_INTO_WALL Laho;
-	FIELD m OUT_OF_WORLD Laho;
-	FIELD n GENERIC Laho;
-	FIELD o MAGIC Laho;
-	FIELD p WITHER Laho;
-	FIELD q ANVIL Laho;
-	FIELD r FALLING_BLOCK Laho;
-	FIELD s DRAGON_BREATH Laho;
-	FIELD t FIREWORKS Laho;
-	FIELD u DRYOUT Laho;
-	FIELD v SWEET_BERRY_BUSH Laho;
-	FIELD w name Ljava/lang/String;
-	FIELD x bypassesArmor Z
-	FIELD y damageToCreative Z
-	FIELD z unblockable Z
-	METHOD <init> (Ljava/lang/String;)V
-		ARG 1 name
-	METHOD a netherBed ()Laho;
-	METHOD a thorns (Laif;)Laho;
-		ARG 0 attacker
-	METHOD a trident (Laif;Laif;)Laho;
-	METHOD a mobProjectile (Laif;Laio;)Laho;
-		ARG 0 projectile
-		ARG 1 attacker
-	METHOD a mob (Laio;)Laho;
-		ARG 0 attacker
-	METHOD a player (Lavx;)Laho;
-		ARG 0 attacker
-	METHOD a arrow (Lawb;Laif;)Laho;
-		ARG 0 projectile
-		ARG 1 attacker
-	METHOD a explosiveProjectile (Lawc;Laif;)Laho;
-		ARG 0 projectile
-		ARG 1 attacker
-	METHOD a explosion (Lbha;)Laho;
-		ARG 0 explosion
+CLASS aea net/minecraft/entity/damage/DamageSource
+	FIELD A fire Z
+	FIELD B projectile Z
+	FIELD C scaleWithDifficulty Z
+	FIELD D magic Z
+	FIELD E explosive Z
+	FIELD a IN_FIRE Laea;
+	FIELD b LIGHTNING_BOLT Laea;
+	FIELD c ON_FIRE Laea;
+	FIELD d LAVA Laea;
+	FIELD e HOT_FLOOR Laea;
+	FIELD f IN_WALL Laea;
+	FIELD g CRAMMING Laea;
+	FIELD h DROWN Laea;
+	FIELD i STARVE Laea;
+	FIELD j CACTUS Laea;
+	FIELD k FALL Laea;
+	FIELD l FLY_INTO_WALL Laea;
+	FIELD m OUT_OF_WORLD Laea;
+	FIELD n GENERIC Laea;
+	FIELD o MAGIC Laea;
+	FIELD p WITHER Laea;
+	FIELD q ANVIL Laea;
+	FIELD r FALLING_BLOCK Laea;
+	FIELD s DRAGON_BREATH Laea;
+	FIELD t FIREWORKS Laea;
+	FIELD u DRYOUT Laea;
+	FIELD v name Ljava/lang/String;
+	FIELD w bypassesArmor Z
+	FIELD x damageToCreative Z
+	FIELD y unblockable Z
+	FIELD z exhaustion F
+	METHOD a netherBed ()Laea;
+	METHOD a thorns (Laer;)Laea;
+	METHOD a trident (Laer;Laer;)Laea;
+	METHOD a mobProjectile (Laer;Lafa;)Laea;
+	METHOD a mob (Lafa;)Laea;
+	METHOD a player (Laog;)Laea;
+	METHOD a arrow (Laok;Laer;)Laea;
+	METHOD a explosiveProjectile (Laol;Laer;)Laea;
+	METHOD a explosion (Laxr;)Laea;
 	METHOD b isProjectile ()Z
-	METHOD b thrownProjectile (Laif;Laif;)Laho;
-		ARG 0 projectile
-		ARG 1 attacker
-	METHOD b explosion (Laio;)Laho;
-		ARG 0 attacker
-	METHOD c setProjectile ()Laho;
-	METHOD c magic (Laif;Laif;)Laho;
-		ARG 0 magic
-		ARG 1 attacker
-	METHOD c getDeathMessage (Laio;)Ljm;
+	METHOD b thrownProjectile (Laer;Laer;)Laea;
+	METHOD b explosion (Lafa;)Laea;
+	METHOD c setProjectile ()Laea;
+	METHOD c magic (Laer;Laer;)Laea;
+	METHOD c getDeathMessage (Lafa;)Lij;
 	METHOD d isExplosive ()Z
-	METHOD e setExplosive ()Laho;
+	METHOD e setExplosive ()Laea;
 	METHOD f bypassesArmor ()Z
 	METHOD g getExhaustion ()F
 	METHOD h doesDamageToCreative ()Z
 	METHOD i isUnblockable ()Z
-	METHOD j getSource ()Laif;
-	METHOD k getAttacker ()Laif;
-	METHOD l setBypassesArmor ()Laho;
-	METHOD m setDamageToCreative ()Laho;
-	METHOD n setUnblockable ()Laho;
-	METHOD o setFire ()Laho;
+	METHOD j getSource ()Laer;
+	METHOD k getAttacker ()Laer;
+	METHOD l setBypassesArmor ()Laea;
+	METHOD m setDamageToCreative ()Laea;
+	METHOD n setUnblockable ()Laea;
+	METHOD o setFire ()Laea;
 	METHOD p isFire ()Z
 	METHOD q getName ()Ljava/lang/String;
-	METHOD r setScaledWithDifficulty ()Laho;
+	METHOD r setScaledWithDifficulty ()Laea;
 	METHOD s isScaledWithDifficulty ()Z
 	METHOD t getMagic ()Z
-	METHOD u setUsesMagic ()Laho;
+	METHOD u setUsesMagic ()Laea;
 	METHOD v isSourceCreativePlayer ()Z

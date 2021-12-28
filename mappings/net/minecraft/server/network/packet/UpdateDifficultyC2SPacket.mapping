@@ -1,3 +1,7 @@
 CLASS nu net/minecraft/server/network/packet/UpdateDifficultyC2SPacket
-	FIELD a difficulty Lagx;
-	METHOD b getDifficulty ()Lagx;
+	FIELD a version I
+	FIELD b address Ljava/lang/String;
+	FIELD c port I
+	FIELD d state Lhx;
+	METHOD b getIntendedState ()Lhx;
+	METHOD c getProtocolVersion ()I

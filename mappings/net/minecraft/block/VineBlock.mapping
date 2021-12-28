@@ -1,41 +1,20 @@
-CLASS bso net/minecraft/block/VineBlock
-	FIELD a UP Lbwb;
-	FIELD b NORTH Lbwb;
-	FIELD c EAST Lbwb;
-	FIELD d SOUTH Lbwb;
-	FIELD e WEST Lbwb;
-	FIELD f FACING_PROPERTIES Ljava/util/Map;
-	FIELD g UP_SHAPE Lcsp;
-	FIELD h WEST_SHAPE Lcsp;
-	FIELD i EAST_SHAPE Lcsp;
-	FIELD j NORTH_SHAPE Lcsp;
-	FIELD k SOUTH_SHAPE Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a canGrowAt (Lbgr;Lev;)Z
-		ARG 1 world
-		ARG 2 pos
-	METHOD a shouldConnectTo (Lbgr;Lev;Lfa;)Z
-		ARG 0 world
-		ARG 1 pos
-		ARG 2 direction
-	METHOD a getGrownState (Lbvj;Lbvj;Ljava/util/Random;)Lbvj;
-		ARG 1 above
-		ARG 2 state
-		ARG 3 random
-	METHOD a getFacingProperty (Lfa;)Lbwb;
-		ARG 0 direction
-	METHOD b shouldHaveSide (Lbgr;Lev;Lfa;)Z
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 side
-	METHOD j hasAdjacentBlocks (Lbvj;)Z
-		ARG 1 state
-	METHOD m getPlacementShape (Lbvj;Lbgr;Lev;)Lbvj;
-		ARG 1 state
-		ARG 2 world
-		ARG 3 pos
-	METHOD q getAdjacentBlockCount (Lbvj;)I
-		ARG 1 state
-	METHOD r hasHorizontalSide (Lbvj;)Z
-		ARG 1 state
+CLASS biq net/minecraft/block/VineBlock
+	FIELD a UP Lbmb;
+	FIELD b NORTH Lbmb;
+	FIELD c EAST Lbmb;
+	FIELD o SOUTH Lbmb;
+	FIELD p WEST Lbmb;
+	FIELD q FACING_PROPERTIES Ljava/util/Map;
+	FIELD r UP_SHAPE Lcew;
+	FIELD s WEST_SHAPE Lcew;
+	FIELD t EAST_SHAPE Lcew;
+	FIELD u NORTH_SHAPE Lcew;
+	FIELD v SOUTH_SHAPE Lcew;
+	METHOD a canGrowAt (Laxk;Lel;)Z
+	METHOD a shouldHaveSide (Laxk;Lel;Leq;)Z
+	METHOD a getGrownState (Lblc;Lblc;Ljava/util/Random;)Lblc;
+	METHOD a getFacingProperty (Leq;)Lbmb;
+	METHOD k hasAdjacentBlocks (Lblc;)Z
+	METHOD m getPlacementShape (Lblc;Laxk;Lel;)Lblc;
+	METHOD w getAdjacentBlockCount (Lblc;)I
+	METHOD x hasHorizontalSide (Lblc;)Z

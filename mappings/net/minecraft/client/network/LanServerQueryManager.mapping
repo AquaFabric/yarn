@@ -1,9 +1,9 @@
-CLASS dxj net/minecraft/client/network/LanServerQueryManager
-	CLASS dxj$a LanServerDetector
-		FIELD a entryList Ldxj$b;
+CLASS dgj net/minecraft/client/network/LanServerQueryManager
+	CLASS dgj$a LanServerDetector
+		FIELD a entryList Ldgj$b;
 		FIELD b multicastAddress Ljava/net/InetAddress;
 		FIELD c socket Ljava/net/MulticastSocket;
-	CLASS dxj$b LanServerEntryList
+	CLASS dgj$b LanServerEntryList
 		FIELD a serverEntries Ljava/util/List;
 		FIELD b dirty Z
 		METHOD a needsUpdate ()Z

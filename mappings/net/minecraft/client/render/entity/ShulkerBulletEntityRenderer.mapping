@@ -1,3 +1,3 @@
-CLASS dqz net/minecraft/client/render/entity/ShulkerBulletEntityRenderer
-	FIELD a SKIN Lqs;
-	FIELD f model Ldfy;
+CLASS dac net/minecraft/client/render/entity/ShulkerBulletEntityRenderer
+	FIELD a SKIN Lpc;
+	FIELD f model Lcpt;

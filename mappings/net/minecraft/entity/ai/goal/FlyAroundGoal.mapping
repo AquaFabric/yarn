@@ -1,1 +1,1 @@
-CLASS aoj net/minecraft/entity/ai/goal/FlyAroundGoal
+CLASS aig net/minecraft/entity/ai/goal/FlyAroundGoal

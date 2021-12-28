@@ -1,5 +1,5 @@
-CLASS wb net/minecraft/server/network/ServerQueryNetworkHandler
-	FIELD a REQUEST_HANDLED Ljm;
+CLASS uf net/minecraft/server/network/ServerQueryNetworkHandler
+	FIELD a REQUEST_HANDLED Lij;
 	FIELD b server Lnet/minecraft/server/MinecraftServer;
-	FIELD c client Lja;
+	FIELD c client Lhw;
 	FIELD d responseSent Z

@@ -1,15 +1,19 @@
-CLASS dhf net/minecraft/client/network/ClientAdvancementManager
-	CLASS dhf$a Listener
-		METHOD a setProgress (Lq;Ls;)V
-		METHOD e selectTab (Lq;)V
+CLASS cra net/minecraft/client/network/ClientAdvancementManager
+	CLASS cra$a Listener
+		METHOD a setProgress (Ll;Ln;)V
+		METHOD e selectTab (Ll;)V
 	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD b client Lcvi;
-	FIELD c manager Lr;
+	FIELD b client Lcft;
+	FIELD c manager Lm;
 	FIELD d advancementProgresses Ljava/util/Map;
-	FIELD e listener Ldhf$a;
-	FIELD f selectedTab Lq;
-	METHOD a getManager ()Lr;
-	METHOD a setListener (Ldhf$a;)V
-		ARG 1 listener
-	METHOD a onAdvancements (Lnk;)V
-	METHOD a selectTab (Lq;Z)V
+	FIELD e listener Lcra$a;
+	FIELD f selectedTab Ll;
+	METHOD <init> (Lav;Lcol$c;)V
+		ARG 1 predicate
+		ARG 2 entity
+	METHOD a getManager ()Lm;
+	METHOD a setListener (Lcra$a;)V
+	METHOD a selectTab (Ll;Z)V
+	METHOD a onAdvancements (Llz;)V
+	METHOD test (Ljava/lang/Object;)Z
+		ARG 1 context

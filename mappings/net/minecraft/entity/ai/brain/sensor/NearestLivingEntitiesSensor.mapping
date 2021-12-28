@@ -1,2 +1,6 @@
 CLASS apq net/minecraft/entity/ai/brain/sensor/NearestLivingEntitiesSensor
-	FIELD b CLOSE_ENTITY_PREDICATE Lapz;
+	FIELD a fuseTicks I
+	METHOD c explode (D)V
+	METHOD f prime ()V
+	METHOD i getFuseTicks ()I
+	METHOD k isPrimed ()Z

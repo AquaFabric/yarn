@@ -1,1 +1,4 @@
-CLASS ddw net/minecraft/client/render/entity/model/BatEntityModel
+CLASS cnz net/minecraft/client/render/entity/model/BatEntityModel
+	METHOD <init> (Ljava/io/File;Lcom/mojang/datafixers/DataFixer;)V
+		ARG 1 directory
+		ARG 2 dataFixer

@@ -1,0 +1,9 @@
+CLASS bnj
+	CLASS bnj$a CreationType
+	METHOD a remove (Laer;I)V
+	METHOD a appendEntities (Laer;Lcea;Ljava/util/List;Ljava/util/function/Predicate;)V
+	METHOD a addBlockEntity (Lbji;)V
+	METHOD a getBlockEntity (Lel;Lbnj$a;)Lbji;
+	METHOD a appendEntities (Ljava/lang/Class;Lcea;Ljava/util/List;Ljava/util/function/Predicate;)V
+	METHOD b remove (Laer;)V
+	METHOD s isEmpty ()Z

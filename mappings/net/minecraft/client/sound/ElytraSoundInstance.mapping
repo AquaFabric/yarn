@@ -1,5 +1,3 @@
-CLASS dwl net/minecraft/client/sound/ElytraSoundInstance
-	FIELD o player Ldjv;
-	FIELD p tickCount I
-	METHOD <init> (Ldjv;)V
-		ARG 1 player
+CLASS dfo net/minecraft/client/sound/ElytraSoundInstance
+	FIELD n player Lctj;
+	FIELD o tickCount I

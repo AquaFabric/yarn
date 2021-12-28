@@ -1,31 +1,19 @@
-CLASS auz net/minecraft/entity/mob/VexEntity
-	CLASS auz$a ChargeTargetGoal
-	CLASS auz$b TrackOwnerTargetGoal
-		FIELD b TRACK_OWNER_PREDICATE Lapz;
-		METHOD <init> (Lauz;Laiv;)V
-			ARG 2 mob
-	CLASS auz$c VexMoveControl
-		METHOD <init> (Lauz;Lauz;)V
-			ARG 2 owner
-	CLASS auz$d LookAtTargetGoal
-	FIELD bA lifeTicks I
-	FIELD b VEX_FLAGS Lqh;
-	FIELD bz alive Z
-	FIELD c owner Laip;
-	FIELD d bounds Lev;
+CLASS ans net/minecraft/entity/mob/VexEntity
+	CLASS ans$a ChargeTargetGoal
+	CLASS ans$b TrackOwnerTargetGoal
+	CLASS ans$c VexMoveControl
+	CLASS ans$d LookAtTargetGoal
+	FIELD a VEX_FLAGS Lor;
+	FIELD bC alive Z
+	FIELD bD lifeTicks I
+	FIELD b owner Lafb;
+	FIELD c bounds Lel;
 	METHOD a setLifeTicks (I)V
-		ARG 1 lifeTicks
 	METHOD a setVexFlag (IZ)V
-		ARG 1 mask
-		ARG 2 value
-	METHOD a setOwner (Laip;)V
-		ARG 1 owner
+	METHOD a setOwner (Lafb;)V
+	METHOD a setCharging (Z)V
 	METHOD b areFlagsSet (I)Z
-		ARG 1 mask
-	METHOD dW getBounds ()Lev;
-	METHOD dX isCharging ()Z
-	METHOD g setBounds (Lev;)V
-		ARG 1 pos
-	METHOD l getOwner ()Laip;
-	METHOD r setCharging (Z)V
-		ARG 1 charging
+	METHOD dA isCharging ()Z
+	METHOD dz getBounds ()Lel;
+	METHOD g setBounds (Lel;)V
+	METHOD l getOwner ()Lafb;

@@ -1,21 +1,7 @@
-CLASS bns net/minecraft/block/DetectorRailBlock
-	FIELD c SHAPE Lbwh;
-	FIELD d POWERED Lbwb;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a updatePoweredStatus (Lbhh;Lev;Lbvj;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-	METHOD a getCarts (Lbhh;Lev;Ljava/lang/Class;Ljava/util/function/Predicate;)Ljava/util/List;
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 entityClass
-		ARG 4 entityPredicate
-	METHOD a getCartDetectionBox (Lev;)Lcrq;
-		ARG 1 pos
-	METHOD b updateNearbyRails (Lbhh;Lev;Lbvj;Z)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-		ARG 4 unpowering
+CLASS bdz net/minecraft/block/DetectorRailBlock
+	FIELD c SHAPE Lbmh;
+	FIELD o POWERED Lbmb;
+	METHOD a updatePoweredStatus (Laxy;Lel;Lblc;)V
+	METHOD a getCarts (Laxy;Lel;Ljava/lang/Class;Ljava/util/function/Predicate;)Ljava/util/List;
+	METHOD a getCartDetectionBox (Lel;)Lcea;
+	METHOD b updateNearbyRails (Laxy;Lel;Lblc;Z)V

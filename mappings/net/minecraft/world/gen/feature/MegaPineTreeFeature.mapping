@@ -1,11 +1,7 @@
-CLASS cci net/minecraft/world/gen/feature/MegaPineTreeFeature
-	FIELD aV LOG Lbvj;
-	FIELD aW LEAVES Lbvj;
-	FIELD aX PODZOL Lbvj;
-	METHOD a makeTopLeaves (Lbhm;IIIILjava/util/Random;)V
-	METHOD a replaceGround (Lbhm;Ljava/util/Random;Lev;)V
-		ARG 1 world
-		ARG 2 random
-		ARG 3 pos
-	METHOD b replaceGroundNear (Lbhm;Lev;)V
-	METHOD c prepareGroundColumn (Lbhm;Lev;)V
+CLASS brq net/minecraft/world/gen/feature/MegaPineTreeFeature
+	FIELD aH LOG Lblc;
+	FIELD aI LEAVES Lblc;
+	FIELD aJ PODZOL Lblc;
+	METHOD a makeTopLeaves (Laxz;IIIILjava/util/Random;)V
+	METHOD a replaceGround (Laxz;Ljava/util/Random;Lel;)V
+	METHOD b replaceGroundNear (Laxz;Lel;)V

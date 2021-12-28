@@ -1,3 +1,2 @@
-CLASS ry net/minecraft/server/command/MeCommand
+CLASS qk net/minecraft/server/command/MeCommand
 	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
-		ARG 0 dispatcher

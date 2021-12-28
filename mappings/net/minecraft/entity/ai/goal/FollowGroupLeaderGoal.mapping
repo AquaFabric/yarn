@@ -1,8 +1,7 @@
-CLASS amq net/minecraft/entity/ai/goal/FollowGroupLeaderGoal
-	FIELD a fish Laqq;
+CLASS ago net/minecraft/entity/ai/goal/FollowGroupLeaderGoal
+	FIELD a fish Lajp;
 	FIELD b moveDelay I
 	FIELD c checkSurroundingDelay I
-	METHOD <init> (Laqq;)V
-		ARG 1 fish
-	METHOD a getSurroundingSearchDelay (Laqq;)I
-		ARG 1 fish
+	METHOD <init> (Ljava/lang/String;Lcod;Lcoa;Z)V
+		ARG 4 eraseCache
+	METHOD a getSurroundingSearchDelay (Lajp;)I

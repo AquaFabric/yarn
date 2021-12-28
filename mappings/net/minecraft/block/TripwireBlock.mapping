@@ -1,25 +1,15 @@
-CLASS bsl net/minecraft/block/TripwireBlock
-	FIELD a POWERED Lbwb;
-	FIELD b ATTACHED Lbwb;
-	FIELD c DISARMED Lbwb;
-	FIELD d NORTH Lbwb;
-	FIELD e EAST Lbwb;
-	FIELD f SOUTH Lbwb;
-	FIELD g WEST Lbwb;
-	FIELD h ATTACHED_SHAPE Lcsp;
-	FIELD i DETACHED_SHAPE Lcsp;
-	FIELD j FACING_PROPERTIES Ljava/util/Map;
-	FIELD k hookBlock Lbsm;
-	METHOD <init> (Lbsm;Lbml$c;)V
-		ARG 1 hookBlock
-		ARG 2 settings
-	METHOD a updatePowered (Lbhh;Lev;)V
-		ARG 1 world
-		ARG 2 pos
-	METHOD a update (Lbhh;Lev;Lbvj;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-	METHOD a shouldConnectTo (Lbvj;Lfa;)Z
-		ARG 1 state
-		ARG 2 facing
+CLASS bin net/minecraft/block/TripwireBlock
+	FIELD a POWERED Lbmb;
+	FIELD b ATTACHED Lbmb;
+	FIELD c DISARMED Lbmb;
+	FIELD o NORTH Lbmb;
+	FIELD p EAST Lbmb;
+	FIELD q SOUTH Lbmb;
+	FIELD r WEST Lbmb;
+	FIELD s ATTACHED_SHAPE Lcew;
+	FIELD t DETACHED_SHAPE Lcew;
+	FIELD u FACING_PROPERTIES Ljava/util/Map;
+	FIELD v hookBlock Lbio;
+	METHOD a updatePowered (Laxy;Lel;)V
+	METHOD a update (Laxy;Lel;Lblc;)V
+	METHOD a shouldConnectTo (Lblc;Leq;)Z

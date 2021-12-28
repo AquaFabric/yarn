@@ -1,9 +1,7 @@
-CLASS bkf net/minecraft/world/biome/source/VanillaLayeredBiomeSourceConfig
-	FIELD a levelProperties Lcoa;
-	FIELD b generatorSettings Lbyu;
-	METHOD a getLevelProperties ()Lcoa;
-	METHOD a setGeneratorSettings (Lbyu;)Lbkf;
-		ARG 1 generatorSettings
-	METHOD a setLevelProperties (Lcoa;)Lbkf;
-		ARG 1 properties
-	METHOD b getGeneratorSettings ()Lbyu;
+CLASS bav net/minecraft/world/biome/source/VanillaLayeredBiomeSourceConfig
+	FIELD a levelProperties Lccb;
+	FIELD b generatorSettings Lbou;
+	METHOD a getLevelProperties ()Lccb;
+	METHOD a setGeneratorSettings (Lbou;)Lbav;
+	METHOD a setLevelProperties (Lccb;)Lbav;
+	METHOD b getGeneratorSettings ()Lbou;

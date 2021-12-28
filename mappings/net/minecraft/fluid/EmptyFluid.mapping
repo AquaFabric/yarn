@@ -1,1 +1,8 @@
-CLASS ckw net/minecraft/fluid/EmptyFluid
+CLASS byt net/minecraft/fluid/EmptyFluid
+	METHOD <init> (Lbhi;Lbig;IIILbyl;Z)V
+		ARG 1 world
+		ARG 2 biomeSource
+		ARG 3 verticalNoiseResolution
+		ARG 4 horizontalNoiseResolution
+		ARG 5 worldHeight
+		ARG 6 config

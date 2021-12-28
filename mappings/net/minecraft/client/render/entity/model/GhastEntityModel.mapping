@@ -1,1 +1,4 @@
-CLASS deq net/minecraft/client/render/entity/model/GhastEntityModel
+CLASS coq net/minecraft/client/render/entity/model/GhastEntityModel
+	METHOD <init> (Lcom/google/common/collect/Multimap;Ljava/util/function/Supplier;)V
+		ARG 1 messages
+		ARG 2 nameFactory

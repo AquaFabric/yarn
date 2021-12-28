@@ -1,50 +1,23 @@
-CLASS crv net/minecraft/util/math/Vec3d
-	FIELD a ZERO Lcrv;
+CLASS cee net/minecraft/util/math/Vec3d
+	FIELD a ZERO Lcee;
 	FIELD b x D
 	FIELD c y D
 	FIELD d z D
-	METHOD <init> (DDD)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD a multiply (D)Lcrv;
-		ARG 1 mult
-	METHOD a subtract (DDD)Lcrv;
-		ARG 1 x
-	METHOD a rotateX (F)Lcrv;
-	METHOD a fromPolar (FF)Lcrv;
-		ARG 0 pitch
-		ARG 1 yaw
-	METHOD a fromPolar (Lcru;)Lcrv;
-		ARG 0 polar
-	METHOD a reverseSubtract (Lcrv;)Lcrv;
-	METHOD a getComponentAlongAxis (Lfa$a;)D
-	METHOD a floorAlongAxes (Ljava/util/EnumSet;)Lcrv;
-		ARG 1 axes
-	METHOD b add (DDD)Lcrv;
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD b rotateY (F)Lcrv;
-	METHOD b dotProduct (Lcrv;)D
+	METHOD a normalize ()Lcee;
+	METHOD a subtract (DDD)Lcee;
+	METHOD a rotateX (F)Lcee;
+	METHOD a fromPolar (FF)Lcee;
+	METHOD a fromPolar (Lced;)Lcee;
+	METHOD a reverseSubtract (Lcee;)Lcee;
+	METHOD a floorAlongAxes (Ljava/util/EnumSet;)Lcee;
+	METHOD b length ()D
+	METHOD b add (DDD)Lcee;
+	METHOD b rotateY (F)Lcee;
+	METHOD b dotProduct (Lcee;)D
+	METHOD c lengthSquared ()D
 	METHOD c squaredDistanceTo (DDD)D
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD c crossProduct (Lcrv;)Lcrv;
-	METHOD d normalize ()Lcrv;
-	METHOD d multiply (DDD)Lcrv;
-		ARG 1 multX
-		ARG 3 multY
-		ARG 5 multZ
-	METHOD d subtract (Lcrv;)Lcrv;
-	METHOD e negate ()Lcrv;
-	METHOD e add (Lcrv;)Lcrv;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD f length ()D
-	METHOD f distanceTo (Lcrv;)D
-	METHOD g lengthSquared ()D
-	METHOD g squaredDistanceTo (Lcrv;)D
-	METHOD h multiply (Lcrv;)Lcrv;
-		ARG 1 mult
+	METHOD c crossProduct (Lcee;)Lcee;
+	METHOD d subtract (Lcee;)Lcee;
+	METHOD e add (Lcee;)Lcee;
+	METHOD f distanceTo (Lcee;)D
+	METHOD g squaredDistanceTo (Lcee;)D

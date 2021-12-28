@@ -1,1 +1,8 @@
-CLASS dge net/minecraft/client/render/entity/model/SlimeEntityModel
+CLASS cpz net/minecraft/client/render/entity/model/SlimeEntityModel
+	METHOD <init> ([Lcqy;Ljava/util/List;)V
+		ARG 1 conditions
+		ARG 2 entries
+	METHOD a (Lcol;Lfj;Lcpe;)V
+		ARG 2 entry
+	METHOD a (Lfj;Lcol;Lcpd;)V
+		ARG 2 choice

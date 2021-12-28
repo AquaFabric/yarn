@@ -1,9 +1,13 @@
 CLASS k net/minecraft/util/FileNameUtil
-	FIELD b RESERVED_WINDOWS_NAMES Ljava/util/regex/Pattern;
+	CLASS k$a IdentityHashStrategy
+	CLASS k$b OperatingSystem
+		FIELD c WINDOWS Lk$b;
+		FIELD d MAC Lk$b;
+		METHOD a open (Ljava/io/File;)V
+		METHOD a open (Ljava/lang/String;)V
+		METHOD a open (Ljava/net/URI;)V
+		METHOD a open (Ljava/net/URL;)V
+		METHOD b getURLOpenCommand (Ljava/net/URL;)[Ljava/lang/String;
 	METHOD a isNormal (Ljava/nio/file/Path;)Z
 		ARG 0 path
-	METHOD a getNextUniqueName (Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-		ARG 0 path
-		ARG 1 name
-		ARG 2 extension
 	METHOD b isAllowedName (Ljava/nio/file/Path;)Z

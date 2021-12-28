@@ -1,4 +1,2 @@
-CLASS bxe net/minecraft/world/chunk/EmptyChunk
-	FIELD b BIOMES [Lbie;
-	METHOD <init> (Lbhh;Lbgt;)V
-		ARG 1 world
+CLASS bnf net/minecraft/world/chunk/EmptyChunk
+	FIELD d BIOMES [Layu;

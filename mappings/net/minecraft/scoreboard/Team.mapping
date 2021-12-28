@@ -1,32 +1,29 @@
-CLASS cst net/minecraft/scoreboard/Team
-	FIELD a scoreboard Lcsv;
+CLASS cfa net/minecraft/scoreboard/Team
+	FIELD a scoreboard Lcfc;
 	FIELD b name Ljava/lang/String;
 	FIELD c playerList Ljava/util/Set;
-	FIELD d displayName Ljm;
-	FIELD e prefix Ljm;
-	FIELD f suffix Ljm;
+	FIELD d displayName Lij;
+	FIELD e prefix Lij;
+	FIELD f suffix Lij;
 	FIELD g friendlyFire Z
 	FIELD h showFriendlyInvisibles Z
-	FIELD i nameTagVisibilityRule Lcsx$b;
-	FIELD j deathMessageVisibilityRule Lcsx$b;
-	FIELD k color Lc;
-	FIELD l collisionRule Lcsx$a;
-	METHOD <init> (Lcsv;Ljava/lang/String;)V
-		ARG 1 scoreboard
-		ARG 2 name
+	FIELD i nameTagVisibilityRule Lcfe$b;
+	FIELD j deathMessageVisibilityRule Lcfe$b;
+	FIELD k color La;
+	FIELD l collisionRule Lcfe$a;
 	METHOD a setFriendlyFlagsBitwise (I)V
-	METHOD a setColor (Lc;)V
-	METHOD a setCollisionRule (Lcsx$a;)V
-	METHOD a setNameTagVisibilityRule (Lcsx$b;)V
-	METHOD a modifyText (Lcsx;Ljm;)Ljm;
-	METHOD a setDisplayName (Ljm;)V
+	METHOD a setColor (La;)V
+	METHOD a setCollisionRule (Lcfe$a;)V
+	METHOD a setNameTagVisibilityRule (Lcfe$b;)V
+	METHOD a modifyText (Lcfe;Lij;)Lij;
+	METHOD a setDisplayName (Lij;)V
 	METHOD a setFriendlyFireAllowed (Z)V
-	METHOD b setDeathMessageVisibilityRule (Lcsx$b;)V
-	METHOD b setPrefix (Ljm;)V
+	METHOD b setDeathMessageVisibilityRule (Lcfe$b;)V
+	METHOD b setPrefix (Lij;)V
 	METHOD b setShowFriendlyInvisibles (Z)V
-	METHOD c getDisplayName ()Ljm;
-	METHOD c setSuffix (Ljm;)V
-	METHOD d getFormattedName ()Ljm;
-	METHOD e getPrefix ()Ljm;
-	METHOD f getSuffix ()Ljm;
+	METHOD c getDisplayName ()Lij;
+	METHOD c setSuffix (Lij;)V
+	METHOD d getFormattedName ()Lij;
+	METHOD e getPrefix ()Lij;
+	METHOD f getSuffix ()Lij;
 	METHOD m getFriendlyFlagsBitwise ()I

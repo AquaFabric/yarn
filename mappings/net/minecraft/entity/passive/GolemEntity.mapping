@@ -1,3 +1,1 @@
-CLASS aqp net/minecraft/entity/passive/GolemEntity
-	METHOD <init> (Laij;Lbhh;)V
-		ARG 1 type
+CLASS ajo net/minecraft/entity/passive/GolemEntity

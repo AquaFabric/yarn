@@ -1,10 +1,4 @@
-CLASS bmu net/minecraft/block/CakeBlock
-	FIELD a BITES Lbwj;
-	FIELD b BITES_TO_SHAPE [Lcsp;
-	METHOD <init> (Lbml$c;)V
-		ARG 1 settings
-	METHOD a tryEat (Lbhi;Lev;Lbvj;Lavx;)Z
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state
-		ARG 4 player
+CLASS bdd net/minecraft/block/CakeBlock
+	FIELD a BITES Lbmj;
+	FIELD b BITES_TO_SHAPE [Lcew;
+	METHOD a tryEat (Laxz;Lel;Lblc;Laog;)Z

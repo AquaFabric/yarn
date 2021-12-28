@@ -1,18 +1,16 @@
-CLASS cp net/minecraft/command/arguments/MessageArgumentType
-	CLASS cp$a MessageFormat
+CLASS cf net/minecraft/command/arguments/MessageArgumentType
+	CLASS cf$a MessageFormat
 		FIELD a contents Ljava/lang/String;
-		FIELD b selectors [Lcp$b;
-		METHOD a format (Lcd;Z)Ljm;
-		METHOD a parse (Lcom/mojang/brigadier/StringReader;Z)Lcp$a;
-	CLASS cp$b MessageSelector
+		FIELD b selectors [Lcf$b;
+		METHOD a format (Lbu;Z)Lij;
+		METHOD a parse (Lcom/mojang/brigadier/StringReader;Z)Lcf$a;
+	CLASS cf$b MessageSelector
 		FIELD a start I
 		FIELD b end I
-		FIELD c selector Lec;
+		FIELD c selector Ldr;
 		METHOD a getStart ()I
-		METHOD a format (Lcd;)Ljm;
+		METHOD a format (Lbu;)Lij;
 		METHOD b getEnd ()I
 	FIELD a EXAMPLES Ljava/util/Collection;
-	METHOD a create ()Lcp;
-	METHOD a getMessage (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljm;
-		ARG 0 command
-		ARG 1 name
+	METHOD a create ()Lcf;
+	METHOD a getMessage (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lij;

@@ -1,16 +1,12 @@
-CLASS jl net/minecraft/network/chat/ClickEvent
-	CLASS jl$a Action
+CLASS ii net/minecraft/network/chat/ClickEvent
+	CLASS ii$a Action
 		FIELD f ACTIONS Ljava/util/Map;
 		FIELD g safe Z
 		FIELD h name Ljava/lang/String;
 		METHOD a isSafe ()Z
-		METHOD a get (Ljava/lang/String;)Ljl$a;
+		METHOD a get (Ljava/lang/String;)Lii$a;
 		METHOD b getName ()Ljava/lang/String;
-	FIELD a action Ljl$a;
+	FIELD a action Lii$a;
 	FIELD b value Ljava/lang/String;
-	METHOD <init> (Ljl$a;Ljava/lang/String;)V
-		ARG 1 action
-	METHOD a getAction ()Ljl$a;
+	METHOD a getAction ()Lii$a;
 	METHOD b getValue ()Ljava/lang/String;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o

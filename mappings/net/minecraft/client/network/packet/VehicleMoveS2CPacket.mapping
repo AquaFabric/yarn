@@ -1,9 +1,12 @@
-CLASS lt net/minecraft/client/network/packet/VehicleMoveS2CPacket
+CLASS km net/minecraft/client/network/packet/VehicleMoveS2CPacket
 	FIELD a x D
 	FIELD b y D
 	FIELD c z D
 	FIELD d yaw F
 	FIELD e pitch F
+	METHOD <init> (ILev;I)V
+		ARG 1 entityId
+		ARG 2 pos
 	METHOD b getX ()D
 	METHOD c getY ()D
 	METHOD d getZ ()D

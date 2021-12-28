@@ -1,2 +1,2 @@
-CLASS djf net/minecraft/client/particle/WaterSplashParticle
-	CLASS djf$a SplashFactory
+CLASS csv net/minecraft/client/particle/WaterSplashParticle
+	CLASS csv$a SplashFactory
